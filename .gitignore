@@ -5,3 +5,5 @@
 *.synctex.gza
 .DS_Store
 Thesis_Main.synctex.gz
+
+env

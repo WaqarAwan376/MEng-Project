@@ -6,7 +6,10 @@ from collections import Counter, defaultdict
 from datetime import datetime
 import re
 
-
+# Constants
+OUTPUT_DIR='outputs'
+OUTPUT_FILE='author-tracking.json'
+    
 def read_java_source_file(file_path):
     with open(file_path, 'r') as file:
         return file.read()
@@ -111,7 +114,9 @@ def get_all_authors(method_info):
 
 
 def dict_to_json_file(output_folder, dictionary):
-    with open(f"{output_folder}author-tracking.json" if output_folder else './author-tracking.json',
+    if not output_folder and not os.path.exists(f'./{OUTPUT_DIR}'):
+        os.makedirs(f'./{OUTPUT_DIR}')
+    with open(f"{output_folder}{OUTPUT_FILE}" if output_folder else f'./{OUTPUT_DIR}/{OUTPUT_FILE}',
               'w') as file:
         json.dump(dictionary, file, indent=2, ensure_ascii=False)
 
@@ -228,7 +233,7 @@ if __name__ == '__main__':
     original_directory = os.getcwd()
     os.chdir(input_directory)
     output_folder = input(
-        "Please enter output folder path for author-tracking.json (default: ./: ")
+        f"Please enter output folder path for {OUTPUT_FILE} (default: ./{OUTPUT_DIR}): ")
     # dir_path = r"./main"
 
     res= []
