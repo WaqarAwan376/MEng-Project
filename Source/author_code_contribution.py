@@ -139,7 +139,6 @@ if __name__ == '__main__':
             }]
             extractedFileData=[]
             
-    # TODO: Dump each file data separately so that it does not go heavy on the memory usage
     # Dump data into json files
     os.chdir(original_directory)
     dict_to_json_file("code_contribution",output_folder, extracted_line_info)
