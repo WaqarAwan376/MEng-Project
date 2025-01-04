@@ -1,0 +1,2353 @@
+{
+  "time": "2025-01-04 03:32:35",
+  "files": [
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/LICENSE",
+      "contributors": [
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        },
+        {
+          "author_name": "Maciej Szarliński",
+          "author_email": "mszarlinski@users.noreply.github.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/mvnw.cmd",
+      "contributors": [
+        {
+          "author_name": "René Zubcevic",
+          "author_email": "git@zubcevic.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/pom.xml",
+      "contributors": [
+        {
+          "author_name": "Costin Leau",
+          "author_email": "cleau@vmware.com"
+        },
+        {
+          "author_name": "René Zubcevic",
+          "author_email": "git@zubcevic.com"
+        },
+        {
+          "author_name": "Ankush Thakur",
+          "author_email": "aankushthakur27@gmail.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        },
+        {
+          "author_name": "Dapeng",
+          "author_email": "verydapeng@gmail.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr"
+        },
+        {
+          "author_name": "odedia",
+          "author_email": "odedia@gmail.com"
+        },
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        },
+        {
+          "author_name": "jpaszek",
+          "author_email": "julius.paszek@gmail.com"
+        },
+        {
+          "author_name": "Marcin Grzejszczak",
+          "author_email": "marcin@grzejszczak.pl"
+        },
+        {
+          "author_name": "Shobha Kamath",
+          "author_email": "shobha.s.kamath@gmail.com"
+        },
+        {
+          "author_name": "Mic",
+          "author_email": "misvy@vmware.com"
+        },
+        {
+          "author_name": "Jonatan Ivanov",
+          "author_email": "jonatan.ivanov@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/.editorconfig",
+      "contributors": [
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/README.md",
+      "contributors": [
+        {
+          "author_name": "odedia",
+          "author_email": "odedia@gmail.com"
+        },
+        {
+          "author_name": "Maciej Szarliński",
+          "author_email": "mszarlinski@users.noreply.github.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        },
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr"
+        },
+        {
+          "author_name": "Nikola Balic",
+          "author_email": "niko@daytona.io"
+        },
+        {
+          "author_name": "René Zubcevic",
+          "author_email": "git@zubcevic.com"
+        },
+        {
+          "author_name": "Ramazan Sakin",
+          "author_email": "ramazansakin63@gmail.com"
+        },
+        {
+          "author_name": "Michael Rumpf",
+          "author_email": "michael@rumpfonline.de"
+        },
+        {
+          "author_name": "Marcin Grzejszczak",
+          "author_email": "marcin@grzejszczak.pl"
+        },
+        {
+          "author_name": "Wong Jia Cin",
+          "author_email": "107848857+bryanwong69420@users.noreply.github.com"
+        },
+        {
+          "author_name": "kevin crawley",
+          "author_email": "kevin@nashdocker.io"
+        },
+        {
+          "author_name": "Andy Marks",
+          "author_email": "vampwillow@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/.gitignore",
+      "contributors": [
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        },
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        },
+        {
+          "author_name": "Mic",
+          "author_email": "misvy@vmware.com"
+        },
+        {
+          "author_name": "Cyrille Le Clerc",
+          "author_email": "cyrille@cyrilleleclerc.com"
+        },
+        {
+          "author_name": "Marcin Grzejszczak",
+          "author_email": "marcin@grzejszczak.pl"
+        },
+        {
+          "author_name": "odedia",
+          "author_email": "odedia@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/.gitattributes",
+      "contributors": [
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/docker-compose.yml",
+      "contributors": [
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr"
+        },
+        {
+          "author_name": "odedia",
+          "author_email": "odedia@gmail.com"
+        },
+        {
+          "author_name": "Michael Werner",
+          "author_email": "xaseron@googlemail.com"
+        },
+        {
+          "author_name": "kevin crawley",
+          "author_email": "kevin@nashdocker.io"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/mvnw",
+      "contributors": [
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr"
+        },
+        {
+          "author_name": "René Zubcevic",
+          "author_email": "git@zubcevic.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/docker/Dockerfile",
+      "contributors": [
+        {
+          "author_name": "odedia",
+          "author_email": "odedia@gmail.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        },
+        {
+          "author_name": "Michael Werner",
+          "author_email": "xaseron@googlemail.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr"
+        },
+        {
+          "author_name": "Lukas Forst",
+          "author_email": "lukasforst+github@gmail.com"
+        },
+        {
+          "author_name": "jpaszek",
+          "author_email": "julius.paszek@gmail.com"
+        },
+        {
+          "author_name": "9SMTM6",
+          "author_email": "44668330+9SMTM6@users.noreply.github.com"
+        },
+        {
+          "author_name": "Shobha Kamath",
+          "author_email": "shobha.s.kamath@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/docker/grafana/Dockerfile",
+      "contributors": [
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/docker/grafana/grafana.ini",
+      "contributors": [
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/docker/grafana/provisioning/datasources/all.yml",
+      "contributors": [
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/docker/grafana/provisioning/dashboards/all.yml",
+      "contributors": [
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/docker/grafana/dashboards/grafana-petclinic-dashboard.json",
+      "contributors": [
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/docker/prometheus/Dockerfile",
+      "contributors": [
+        {
+          "author_name": "kevin crawley",
+          "author_email": "kevin@nashdocker.io"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/docker/prometheus/prometheus.yml",
+      "contributors": [
+        {
+          "author_name": "kevin crawley",
+          "author_email": "kevin@nashdocker.io"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-config-server/pom.xml",
+      "contributors": [
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@bravurasolutions.com"
+        },
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr"
+        },
+        {
+          "author_name": "jpaszek",
+          "author_email": "julius.paszek@gmail.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        },
+        {
+          "author_name": "René Zubcevic",
+          "author_email": "git@zubcevic.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-config-server/src/test/resources/application.yml",
+      "contributors": [
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-config-server/src/test/java/org/springframework/samples/petclinic/config/PetclinicConfigServerApplicationTests.java",
+      "contributors": [
+        {
+          "author_name": "Maciej Szarliński",
+          "author_email": "mszarlinski@users.noreply.github.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        },
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        },
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@bravurasolutions.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-config-server/src/main/resources/application.yml",
+      "contributors": [
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@bravurasolutions.com"
+        },
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-config-server/src/main/java/org/springframework/samples/petclinic/config/ConfigServerApplication.java",
+      "contributors": [
+        {
+          "author_name": "Maciej Szarliński",
+          "author_email": "mszarlinski@users.noreply.github.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        },
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        },
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@bravurasolutions.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-discovery-server/pom.xml",
+      "contributors": [
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@bravurasolutions.com"
+        },
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr"
+        },
+        {
+          "author_name": "jpaszek",
+          "author_email": "julius.paszek@gmail.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        },
+        {
+          "author_name": "René Zubcevic",
+          "author_email": "git@zubcevic.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-discovery-server/src/test/java/org/springframework/samples/petclinic/discovery/DiscoveryServerApplicationTests.java",
+      "contributors": [
+        {
+          "author_name": "Maciej Szarliński",
+          "author_email": "mszarlinski@users.noreply.github.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        },
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@bravurasolutions.com"
+        },
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-discovery-server/src/main/resources/application.yml",
+      "contributors": [
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-discovery-server/src/main/java/org/springframework/samples/petclinic/discovery/DiscoveryServerApplication.java",
+      "contributors": [
+        {
+          "author_name": "Maciej Szarliński",
+          "author_email": "mszarlinski@users.noreply.github.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        },
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@bravurasolutions.com"
+        },
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-genai-service/pom.xml",
+      "contributors": [
+        {
+          "author_name": "odedia",
+          "author_email": "odedia@gmail.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-genai-service/.gitignore",
+      "contributors": [
+        {
+          "author_name": "odedia",
+          "author_email": "odedia@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-genai-service/src/main/resources/logback-spring.xml",
+      "contributors": [
+        {
+          "author_name": "odedia",
+          "author_email": "odedia@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-genai-service/src/main/resources/application.yml",
+      "contributors": [
+        {
+          "author_name": "odedia",
+          "author_email": "odedia@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-genai-service/src/main/resources/vectorstore.json",
+      "contributors": [
+        {
+          "author_name": "odedia",
+          "author_email": "odedia@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/AIBeanConfiguration.java",
+      "contributors": [
+        {
+          "author_name": "odedia",
+          "author_email": "odedia@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/AIDataProvider.java",
+      "contributors": [
+        {
+          "author_name": "odedia",
+          "author_email": "odedia@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/VectorStoreController.java",
+      "contributors": [
+        {
+          "author_name": "odedia",
+          "author_email": "odedia@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/GenAIServiceApplication.java",
+      "contributors": [
+        {
+          "author_name": "odedia",
+          "author_email": "odedia@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/AIFunctionConfiguration.java",
+      "contributors": [
+        {
+          "author_name": "odedia",
+          "author_email": "odedia@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/PetclinicChatClient.java",
+      "contributors": [
+        {
+          "author_name": "odedia",
+          "author_email": "odedia@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/dto/PetDetails.java",
+      "contributors": [
+        {
+          "author_name": "odedia",
+          "author_email": "odedia@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/dto/Vet.java",
+      "contributors": [
+        {
+          "author_name": "odedia",
+          "author_email": "odedia@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/dto/OwnerDetails.java",
+      "contributors": [
+        {
+          "author_name": "odedia",
+          "author_email": "odedia@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/dto/PetRequest.java",
+      "contributors": [
+        {
+          "author_name": "odedia",
+          "author_email": "odedia@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/dto/Specialty.java",
+      "contributors": [
+        {
+          "author_name": "odedia",
+          "author_email": "odedia@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/dto/VisitDetails.java",
+      "contributors": [
+        {
+          "author_name": "odedia",
+          "author_email": "odedia@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/dto/PetType.java",
+      "contributors": [
+        {
+          "author_name": "odedia",
+          "author_email": "odedia@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-admin-server/pom.xml",
+      "contributors": [
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr"
+        },
+        {
+          "author_name": "jpaszek",
+          "author_email": "julius.paszek@gmail.com"
+        },
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        },
+        {
+          "author_name": "René Zubcevic",
+          "author_email": "git@zubcevic.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-admin-server/src/main/resources/logback-spring.xml",
+      "contributors": [
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-admin-server/src/main/resources/application.yml",
+      "contributors": [
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-admin-server/src/main/java/org/springframework/samples/petclinic/admin/SpringBootAdminApplication.java",
+      "contributors": [
+        {
+          "author_name": "Maciej Szarliński",
+          "author_email": "mszarlinski@users.noreply.github.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/.devcontainer/devcontainer.json",
+      "contributors": [
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-vets-service/pom.xml",
+      "contributors": [
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@bravurasolutions.com"
+        },
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr"
+        },
+        {
+          "author_name": "jpaszek",
+          "author_email": "julius.paszek@gmail.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        },
+        {
+          "author_name": "kevin crawley",
+          "author_email": "kevin@nashdocker.io"
+        },
+        {
+          "author_name": "Marcin Grzejszczak",
+          "author_email": "marcin@grzejszczak.pl"
+        },
+        {
+          "author_name": "Marian-Constantin Marica",
+          "author_email": "91406991+MarianConstantinMarica@users.noreply.github.com"
+        },
+        {
+          "author_name": "René Zubcevic",
+          "author_email": "git@zubcevic.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-vets-service/.gitignore",
+      "contributors": [
+        {
+          "author_name": "Dave Syer",
+          "author_email": "dsyer@pivotal.io"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-vets-service/src/test/resources/application-test.yml",
+      "contributors": [
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        },
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-vets-service/src/test/java/org/springframework/samples/petclinic/vets/web/VetResourceTest.java",
+      "contributors": [
+        {
+          "author_name": "Maciej Szarliński",
+          "author_email": "mszarlinski@users.noreply.github.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        },
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        },
+        {
+          "author_name": "michaelisvy",
+          "author_email": "misvy@gopivotal,com"
+        },
+        {
+          "author_name": "Dapeng",
+          "author_email": "verydapeng@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-vets-service/src/main/resources/logback-spring.xml",
+      "contributors": [
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-vets-service/src/main/resources/application.yml",
+      "contributors": [
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-vets-service/src/main/resources/db/hsqldb/data.sql",
+      "contributors": [
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-vets-service/src/main/resources/db/hsqldb/schema.sql",
+      "contributors": [
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-vets-service/src/main/resources/db/mysql/data.sql",
+      "contributors": [
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-vets-service/src/main/resources/db/mysql/schema.sql",
+      "contributors": [
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/VetsServiceApplication.java",
+      "contributors": [
+        {
+          "author_name": "Maciej Szarliński",
+          "author_email": "mszarlinski@users.noreply.github.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        },
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@bravurasolutions.com"
+        },
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/web/VetResource.java",
+      "contributors": [
+        {
+          "author_name": "Mic",
+          "author_email": "misvy@vmware.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        },
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr"
+        },
+        {
+          "author_name": "Dapeng",
+          "author_email": "verydapeng@gmail.com"
+        },
+        {
+          "author_name": "michaelisvy",
+          "author_email": "misvy@gopivotal,com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/system/CacheConfig.java",
+      "contributors": [
+        {
+          "author_name": "Maciej Szarliński",
+          "author_email": "mszarlinski@users.noreply.github.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        },
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        },
+        {
+          "author_name": "Dave Syer",
+          "author_email": "dsyer@pivotal.io"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/system/VetsProperties.java",
+      "contributors": [
+        {
+          "author_name": "Maciej Szarliński",
+          "author_email": "mszarlinski@users.noreply.github.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        },
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/Vet.java",
+      "contributors": [
+        {
+          "author_name": "Mic",
+          "author_email": "misvy@vmware.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        },
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr"
+        },
+        {
+          "author_name": "Costin Leau",
+          "author_email": "cleau@vmware.com"
+        },
+        {
+          "author_name": "Ramazan Sakin",
+          "author_email": "ramazansakin63@gmail.com"
+        },
+        {
+          "author_name": "Gordon Dickens",
+          "author_email": "gordon@gordondickens.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/Specialty.java",
+      "contributors": [
+        {
+          "author_name": "Mic",
+          "author_email": "misvy@vmware.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        },
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        },
+        {
+          "author_name": "Costin Leau",
+          "author_email": "cleau@vmware.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr"
+        },
+        {
+          "author_name": "Ramazan Sakin",
+          "author_email": "ramazansakin63@gmail.com"
+        },
+        {
+          "author_name": "Gordon Dickens",
+          "author_email": "gordon@gordondickens.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/VetRepository.java",
+      "contributors": [
+        {
+          "author_name": "Mic",
+          "author_email": "misvy@vmware.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        },
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        },
+        {
+          "author_name": "Gordon Dickens",
+          "author_email": "gordon@gordondickens.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-api-gateway/pom.xml",
+      "contributors": [
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        },
+        {
+          "author_name": "Dave Syer",
+          "author_email": "dsyer@pivotal.io"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr"
+        },
+        {
+          "author_name": "odedia",
+          "author_email": "odedia@gmail.com"
+        },
+        {
+          "author_name": "jpaszek",
+          "author_email": "julius.paszek@gmail.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        },
+        {
+          "author_name": "kevin crawley",
+          "author_email": "kevin@nashdocker.io"
+        },
+        {
+          "author_name": "Marian-Constantin Marica",
+          "author_email": "91406991+MarianConstantinMarica@users.noreply.github.com"
+        },
+        {
+          "author_name": "René Zubcevic",
+          "author_email": "git@zubcevic.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-api-gateway/.gitignore",
+      "contributors": [
+        {
+          "author_name": "Dave Syer",
+          "author_email": "dsyer@pivotal.io"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-api-gateway/src/test/resources/application-test.yml",
+      "contributors": [
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-api-gateway/src/test/jmeter/petclinic_test_plan.jmx",
+      "contributors": [
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-api-gateway/src/test/java/org/springframework/samples/petclinic/api/ApiGatewayApplicationTests.java",
+      "contributors": [
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-api-gateway/src/test/java/org/springframework/samples/petclinic/api/boundary/web/CircuitBreakerConfiguration.java",
+      "contributors": [
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        },
+        {
+          "author_name": "Shobha Kamath",
+          "author_email": "shobha.s.kamath@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-api-gateway/src/test/java/org/springframework/samples/petclinic/api/boundary/web/ApiGatewayControllerTest.java",
+      "contributors": [
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-api-gateway/src/test/java/org/springframework/samples/petclinic/api/application/VisitsServiceClientIntegrationTest.java",
+      "contributors": [
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/logback-spring.xml",
+      "contributors": [
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/application.yml",
+      "contributors": [
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        },
+        {
+          "author_name": "odedia",
+          "author_email": "odedia@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/messages/messages_de.properties",
+      "contributors": [
+        {
+          "author_name": "Costin Leau",
+          "author_email": "cleau@vmware.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/messages/messages_en.properties",
+      "contributors": [
+        {
+          "author_name": "Costin Leau",
+          "author_email": "cleau@vmware.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/resources/messages/messages.properties",
+      "contributors": [
+        {
+          "author_name": "Costin Leau",
+          "author_email": "cleau@vmware.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/ApiGatewayApplication.java",
+      "contributors": [
+        {
+          "author_name": "Maciej Szarliński",
+          "author_email": "mszarlinski@users.noreply.github.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        },
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        },
+        {
+          "author_name": "odedia",
+          "author_email": "odedia@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/PetDetails.java",
+      "contributors": [
+        {
+          "author_name": "Maciej Szarliński",
+          "author_email": "mszarlinski@users.noreply.github.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        },
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/Visits.java",
+      "contributors": [
+        {
+          "author_name": "Maciej Szarliński",
+          "author_email": "mszarlinski@users.noreply.github.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        },
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/OwnerDetails.java",
+      "contributors": [
+        {
+          "author_name": "Maciej Szarliński",
+          "author_email": "mszarlinski@users.noreply.github.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        },
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/VisitDetails.java",
+      "contributors": [
+        {
+          "author_name": "Maciej Szarliński",
+          "author_email": "mszarlinski@users.noreply.github.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        },
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/PetType.java",
+      "contributors": [
+        {
+          "author_name": "Maciej Szarliński",
+          "author_email": "mszarlinski@users.noreply.github.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        },
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/boundary/web/ApiGatewayController.java",
+      "contributors": [
+        {
+          "author_name": "Maciej Szarliński",
+          "author_email": "mszarlinski@users.noreply.github.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        },
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/boundary/web/FallbackController.java",
+      "contributors": [
+        {
+          "author_name": "odedia",
+          "author_email": "odedia@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/application/CustomersServiceClient.java",
+      "contributors": [
+        {
+          "author_name": "Maciej Szarliński",
+          "author_email": "mszarlinski@users.noreply.github.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        },
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/application/VisitsServiceClient.java",
+      "contributors": [
+        {
+          "author_name": "Maciej Szarliński",
+          "author_email": "mszarlinski@users.noreply.github.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        },
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/scripts/pushImages.sh",
+      "contributors": [
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/scripts/run_all.sh",
+      "contributors": [
+        {
+          "author_name": "Marcin Grzejszczak",
+          "author_email": "marcin@grzejszczak.pl"
+        },
+        {
+          "author_name": "odedia",
+          "author_email": "odedia@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/scripts/tagImages.sh",
+      "contributors": [
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/scripts/chaos/watcher_disable.json",
+      "contributors": [
+        {
+          "author_name": "Marcin Grzejszczak",
+          "author_email": "marcin@grzejszczak.pl"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/scripts/chaos/watcher_enable_restcontroller.json",
+      "contributors": [
+        {
+          "author_name": "Marcin Grzejszczak",
+          "author_email": "marcin@grzejszczak.pl"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/scripts/chaos/call_chaos.sh",
+      "contributors": [
+        {
+          "author_name": "Marcin Grzejszczak",
+          "author_email": "marcin@grzejszczak.pl"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/scripts/chaos/watcher_enable_component.json",
+      "contributors": [
+        {
+          "author_name": "Marcin Grzejszczak",
+          "author_email": "marcin@grzejszczak.pl"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/scripts/chaos/README.md",
+      "contributors": [
+        {
+          "author_name": "Marcin Grzejszczak",
+          "author_email": "marcin@grzejszczak.pl"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/scripts/chaos/attacks_disable.json",
+      "contributors": [
+        {
+          "author_name": "Marcin Grzejszczak",
+          "author_email": "marcin@grzejszczak.pl"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/scripts/chaos/attacks_enable_killapplication.json",
+      "contributors": [
+        {
+          "author_name": "Marcin Grzejszczak",
+          "author_email": "marcin@grzejszczak.pl"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/scripts/chaos/attacks_enable_memory.json",
+      "contributors": [
+        {
+          "author_name": "Marcin Grzejszczak",
+          "author_email": "marcin@grzejszczak.pl"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/scripts/chaos/watcher_enable_repository.json",
+      "contributors": [
+        {
+          "author_name": "Marcin Grzejszczak",
+          "author_email": "marcin@grzejszczak.pl"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/scripts/chaos/watcher_enable_service.json",
+      "contributors": [
+        {
+          "author_name": "Marcin Grzejszczak",
+          "author_email": "marcin@grzejszczak.pl"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/scripts/chaos/attacks_enable_exception.json",
+      "contributors": [
+        {
+          "author_name": "Marcin Grzejszczak",
+          "author_email": "marcin@grzejszczak.pl"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/scripts/chaos/attacks_enable_latency.json",
+      "contributors": [
+        {
+          "author_name": "Marcin Grzejszczak",
+          "author_email": "marcin@grzejszczak.pl"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/scripts/chaos/watcher_enable_controller.json",
+      "contributors": [
+        {
+          "author_name": "Marcin Grzejszczak",
+          "author_email": "marcin@grzejszczak.pl"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/.github/workflows/maven-build.yml",
+      "contributors": [
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-customers-service/pom.xml",
+      "contributors": [
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@bravurasolutions.com"
+        },
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr"
+        },
+        {
+          "author_name": "jpaszek",
+          "author_email": "julius.paszek@gmail.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        },
+        {
+          "author_name": "kevin crawley",
+          "author_email": "kevin@nashdocker.io"
+        },
+        {
+          "author_name": "Marcin Grzejszczak",
+          "author_email": "marcin@grzejszczak.pl"
+        },
+        {
+          "author_name": "Marian-Constantin Marica",
+          "author_email": "91406991+MarianConstantinMarica@users.noreply.github.com"
+        },
+        {
+          "author_name": "René Zubcevic",
+          "author_email": "git@zubcevic.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-customers-service/src/test/resources/application-test.yml",
+      "contributors": [
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        },
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-customers-service/src/test/java/org/springframework/samples/petclinic/customers/web/PetResourceTest.java",
+      "contributors": [
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        },
+        {
+          "author_name": "michaelisvy",
+          "author_email": "misvy@gopivotal,com"
+        },
+        {
+          "author_name": "kevin crawley",
+          "author_email": "kevin@nashdocker.io"
+        },
+        {
+          "author_name": "Dapeng",
+          "author_email": "verydapeng@gmail.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-customers-service/src/main/resources/logback-spring.xml",
+      "contributors": [
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-customers-service/src/main/resources/application.yml",
+      "contributors": [
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-customers-service/src/main/resources/db/hsqldb/data.sql",
+      "contributors": [
+        {
+          "author_name": "Costin Leau",
+          "author_email": "cleau@vmware.com"
+        },
+        {
+          "author_name": "Mic",
+          "author_email": "misvy@vmware.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-customers-service/src/main/resources/db/hsqldb/schema.sql",
+      "contributors": [
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        },
+        {
+          "author_name": "Ramazan Sakin",
+          "author_email": "ramazansakin63@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-customers-service/src/main/resources/db/mysql/data.sql",
+      "contributors": [
+        {
+          "author_name": "Costin Leau",
+          "author_email": "cleau@vmware.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-customers-service/src/main/resources/db/mysql/schema.sql",
+      "contributors": [
+        {
+          "author_name": "Costin Leau",
+          "author_email": "cleau@vmware.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/CustomersServiceApplication.java",
+      "contributors": [
+        {
+          "author_name": "Maciej Szarliński",
+          "author_email": "mszarlinski@users.noreply.github.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        },
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        },
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@bravurasolutions.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/config/MetricConfig.java",
+      "contributors": [
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetDetails.java",
+      "contributors": [
+        {
+          "author_name": "Maciej Szarliński",
+          "author_email": "mszarlinski@users.noreply.github.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        },
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        },
+        {
+          "author_name": "Shobha Kamath",
+          "author_email": "shobha.s.kamath@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/ResourceNotFoundException.java",
+      "contributors": [
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetResource.java",
+      "contributors": [
+        {
+          "author_name": "Mic",
+          "author_email": "misvy@vmware.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        },
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        },
+        {
+          "author_name": "Costin Leau",
+          "author_email": "cleau@vmware.com"
+        },
+        {
+          "author_name": "Shobha Kamath",
+          "author_email": "shobha.s.kamath@gmail.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr"
+        },
+        {
+          "author_name": "Dapeng",
+          "author_email": "verydapeng@gmail.com"
+        },
+        {
+          "author_name": "Ramazan Sakin",
+          "author_email": "ramazansakin63@gmail.com"
+        },
+        {
+          "author_name": "michaelisvy",
+          "author_email": "misvy@gopivotal,com"
+        },
+        {
+          "author_name": "kevin crawley",
+          "author_email": "kevin@nashdocker.io"
+        },
+        {
+          "author_name": "Gordon Dickens",
+          "author_email": "gordon@gordondickens.com"
+        },
+        {
+          "author_name": "Rossen Stoyanchev",
+          "author_email": "rstoyanchev@vmware.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/OwnerResource.java",
+      "contributors": [
+        {
+          "author_name": "Mic",
+          "author_email": "misvy@vmware.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        },
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        },
+        {
+          "author_name": "michaelisvy",
+          "author_email": "misvy@gopivotal,com"
+        },
+        {
+          "author_name": "Shobha Kamath",
+          "author_email": "shobha.s.kamath@gmail.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr"
+        },
+        {
+          "author_name": "Dapeng",
+          "author_email": "verydapeng@gmail.com"
+        },
+        {
+          "author_name": "Costin Leau",
+          "author_email": "cleau@vmware.com"
+        },
+        {
+          "author_name": "Gordon Dickens",
+          "author_email": "gordon@gordondickens.com"
+        },
+        {
+          "author_name": "Ramazan Sakin",
+          "author_email": "ramazansakin63@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetRequest.java",
+      "contributors": [
+        {
+          "author_name": "Maciej Szarliński",
+          "author_email": "mszarlinski@users.noreply.github.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        },
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        },
+        {
+          "author_name": "Shobha Kamath",
+          "author_email": "shobha.s.kamath@gmail.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/OwnerRequest.java",
+      "contributors": [
+        {
+          "author_name": "Shobha Kamath",
+          "author_email": "shobha.s.kamath@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/mapper/Mapper.java",
+      "contributors": [
+        {
+          "author_name": "Shobha Kamath",
+          "author_email": "shobha.s.kamath@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/mapper/OwnerEntityMapper.java",
+      "contributors": [
+        {
+          "author_name": "Shobha Kamath",
+          "author_email": "shobha.s.kamath@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Pet.java",
+      "contributors": [
+        {
+          "author_name": "Mic",
+          "author_email": "misvy@vmware.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        },
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        },
+        {
+          "author_name": "Costin Leau",
+          "author_email": "cleau@vmware.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr"
+        },
+        {
+          "author_name": "Ramazan Sakin",
+          "author_email": "ramazansakin63@gmail.com"
+        },
+        {
+          "author_name": "Gordon Dickens",
+          "author_email": "gordon@gordondickens.com"
+        },
+        {
+          "author_name": "Dapeng",
+          "author_email": "verydapeng@gmail.com"
+        },
+        {
+          "author_name": "michaelisvy",
+          "author_email": "misvy@gopivotal,com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/PetRepository.java",
+      "contributors": [
+        {
+          "author_name": "Mic",
+          "author_email": "misvy@vmware.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        },
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        },
+        {
+          "author_name": "Gordon Dickens",
+          "author_email": "gordon@gordondickens.com"
+        },
+        {
+          "author_name": "Dapeng",
+          "author_email": "verydapeng@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/OwnerRepository.java",
+      "contributors": [
+        {
+          "author_name": "Mic",
+          "author_email": "misvy@vmware.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        },
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        },
+        {
+          "author_name": "Dapeng",
+          "author_email": "verydapeng@gmail.com"
+        },
+        {
+          "author_name": "Gordon Dickens",
+          "author_email": "gordon@gordondickens.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Owner.java",
+      "contributors": [
+        {
+          "author_name": "Mic",
+          "author_email": "misvy@vmware.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        },
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr"
+        },
+        {
+          "author_name": "Costin Leau",
+          "author_email": "cleau@vmware.com"
+        },
+        {
+          "author_name": "Ramazan Sakin",
+          "author_email": "ramazansakin63@gmail.com"
+        },
+        {
+          "author_name": "Gordon Dickens",
+          "author_email": "gordon@gordondickens.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/PetType.java",
+      "contributors": [
+        {
+          "author_name": "Mic",
+          "author_email": "misvy@vmware.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        },
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        },
+        {
+          "author_name": "Costin Leau",
+          "author_email": "cleau@vmware.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr"
+        },
+        {
+          "author_name": "Ramazan Sakin",
+          "author_email": "ramazansakin63@gmail.com"
+        },
+        {
+          "author_name": "Gordon Dickens",
+          "author_email": "gordon@gordondickens.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-visits-service/pom.xml",
+      "contributors": [
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@bravurasolutions.com"
+        },
+        {
+          "author_name": "René Zubcevic",
+          "author_email": "git@zubcevic.com"
+        },
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr"
+        },
+        {
+          "author_name": "jpaszek",
+          "author_email": "julius.paszek@gmail.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        },
+        {
+          "author_name": "kevin crawley",
+          "author_email": "kevin@nashdocker.io"
+        },
+        {
+          "author_name": "Marcin Grzejszczak",
+          "author_email": "marcin@grzejszczak.pl"
+        },
+        {
+          "author_name": "Marian-Constantin Marica",
+          "author_email": "91406991+MarianConstantinMarica@users.noreply.github.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-visits-service/src/test/resources/application-test.yml",
+      "contributors": [
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        },
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-visits-service/src/test/java/org/springframework/samples/petclinic/visits/web/VisitResourceTest.java",
+      "contributors": [
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-visits-service/src/main/resources/logback-spring.xml",
+      "contributors": [
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-visits-service/src/main/resources/application.yml",
+      "contributors": [
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-visits-service/src/main/resources/db/hsqldb/data.sql",
+      "contributors": [
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-visits-service/src/main/resources/db/hsqldb/schema.sql",
+      "contributors": [
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-visits-service/src/main/resources/db/mysql/data.sql",
+      "contributors": [
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-visits-service/src/main/resources/db/mysql/schema.sql",
+      "contributors": [
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/VisitsServiceApplication.java",
+      "contributors": [
+        {
+          "author_name": "Maciej Szarliński",
+          "author_email": "mszarlinski@users.noreply.github.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        },
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@bravurasolutions.com"
+        },
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/config/MetricConfig.java",
+      "contributors": [
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/web/VisitResource.java",
+      "contributors": [
+        {
+          "author_name": "Dapeng",
+          "author_email": "verydapeng@gmail.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        },
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr"
+        },
+        {
+          "author_name": "kevin crawley",
+          "author_email": "kevin@nashdocker.io"
+        },
+        {
+          "author_name": "Ramazan Sakin",
+          "author_email": "ramazansakin63@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/model/VisitRepository.java",
+      "contributors": [
+        {
+          "author_name": "Mic",
+          "author_email": "misvy@vmware.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        },
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        }
+      ]
+    },
+    {
+      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/model/Visit.java",
+      "contributors": [
+        {
+          "author_name": "Mic",
+          "author_email": "misvy@vmware.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com"
+        },
+        {
+          "author_name": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com"
+        },
+        {
+          "author_name": "Costin Leau",
+          "author_email": "cleau@vmware.com"
+        },
+        {
+          "author_name": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr"
+        },
+        {
+          "author_name": "Ramazan Sakin",
+          "author_email": "ramazansakin63@gmail.com"
+        },
+        {
+          "author_name": "michaelisvy",
+          "author_email": "misvy@gopivotal,com"
+        },
+        {
+          "author_name": "Gordon Dickens",
+          "author_email": "gordon@gordondickens.com"
+        },
+        {
+          "author_name": "Dapeng",
+          "author_email": "verydapeng@gmail.com"
+        }
+      ]
+    }
+  ]
+}

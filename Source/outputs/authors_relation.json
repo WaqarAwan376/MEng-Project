@@ -1,0 +1,3184 @@
+{
+  "time": "2025-01-04 03:32:35",
+  "author_relations": [
+    {
+      "author_1": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@gmail.com"
+      },
+      "author_2": {
+        "name": "Maciej Szarlinski",
+        "email": "mszarlinski@gmail.com"
+      },
+      "strength": 42
+    },
+    {
+      "author_1": {
+        "name": "Maciej Szarlinski",
+        "email": "mszarlinski@gmail.com"
+      },
+      "author_2": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@free.fr"
+      },
+      "strength": 30
+    },
+    {
+      "author_1": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@gmail.com"
+      },
+      "author_2": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@free.fr"
+      },
+      "strength": 29
+    },
+    {
+      "author_1": {
+        "name": "Maciej Szarliński",
+        "email": "mszarlinski@users.noreply.github.com"
+      },
+      "author_2": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@gmail.com"
+      },
+      "strength": 23
+    },
+    {
+      "author_1": {
+        "name": "Maciej Szarliński",
+        "email": "mszarlinski@users.noreply.github.com"
+      },
+      "author_2": {
+        "name": "Maciej Szarlinski",
+        "email": "mszarlinski@gmail.com"
+      },
+      "strength": 22
+    },
+    {
+      "author_1": {
+        "name": "Mic",
+        "email": "misvy@vmware.com"
+      },
+      "author_2": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@gmail.com"
+      },
+      "strength": 13
+    },
+    {
+      "author_1": {
+        "name": "Mic",
+        "email": "misvy@vmware.com"
+      },
+      "author_2": {
+        "name": "Maciej Szarlinski",
+        "email": "mszarlinski@gmail.com"
+      },
+      "strength": 13
+    },
+    {
+      "author_1": {
+        "name": "Maciej Szarliński",
+        "email": "mszarlinski@users.noreply.github.com"
+      },
+      "author_2": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@free.fr"
+      },
+      "strength": 11
+    },
+    {
+      "author_1": {
+        "name": "Maciej Szarlinski",
+        "email": "mszarlinski@gmail.com"
+      },
+      "author_2": {
+        "name": "Ramazan Sakin",
+        "email": "ramazansakin63@gmail.com"
+      },
+      "strength": 11
+    },
+    {
+      "author_1": {
+        "name": "Maciej Szarlinski",
+        "email": "mszarlinski@gmail.com"
+      },
+      "author_2": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@gmail.com"
+      },
+      "strength": 11
+    },
+    {
+      "author_1": {
+        "name": "Mic",
+        "email": "misvy@vmware.com"
+      },
+      "author_2": {
+        "name": "Gordon Dickens",
+        "email": "gordon@gordondickens.com"
+      },
+      "strength": 11
+    },
+    {
+      "author_1": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@gmail.com"
+      },
+      "author_2": {
+        "name": "Gordon Dickens",
+        "email": "gordon@gordondickens.com"
+      },
+      "strength": 11
+    },
+    {
+      "author_1": {
+        "name": "Maciej Szarlinski",
+        "email": "mszarlinski@gmail.com"
+      },
+      "author_2": {
+        "name": "Gordon Dickens",
+        "email": "gordon@gordondickens.com"
+      },
+      "strength": 11
+    },
+    {
+      "author_1": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@gmail.com"
+      },
+      "author_2": {
+        "name": "Ramazan Sakin",
+        "email": "ramazansakin63@gmail.com"
+      },
+      "strength": 10
+    },
+    {
+      "author_1": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@free.fr"
+      },
+      "author_2": {
+        "name": "Ramazan Sakin",
+        "email": "ramazansakin63@gmail.com"
+      },
+      "strength": 10
+    },
+    {
+      "author_1": {
+        "name": "Maciej Szarlinski",
+        "email": "mszarlinski@bravurasolutions.com"
+      },
+      "author_2": {
+        "name": "Maciej Szarlinski",
+        "email": "mszarlinski@gmail.com"
+      },
+      "strength": 10
+    },
+    {
+      "author_1": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@gmail.com"
+      },
+      "author_2": {
+        "name": "Dapeng",
+        "email": "verydapeng@gmail.com"
+      },
+      "strength": 9
+    },
+    {
+      "author_1": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@free.fr"
+      },
+      "author_2": {
+        "name": "jpaszek",
+        "email": "julius.paszek@gmail.com"
+      },
+      "strength": 9
+    },
+    {
+      "author_1": {
+        "name": "Maciej Szarlinski",
+        "email": "mszarlinski@gmail.com"
+      },
+      "author_2": {
+        "name": "kevin crawley",
+        "email": "kevin@nashdocker.io"
+      },
+      "strength": 9
+    },
+    {
+      "author_1": {
+        "name": "Maciej Szarlinski",
+        "email": "mszarlinski@gmail.com"
+      },
+      "author_2": {
+        "name": "Dapeng",
+        "email": "verydapeng@gmail.com"
+      },
+      "strength": 9
+    },
+    {
+      "author_1": {
+        "name": "Mic",
+        "email": "misvy@vmware.com"
+      },
+      "author_2": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@free.fr"
+      },
+      "strength": 9
+    },
+    {
+      "author_1": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@gmail.com"
+      },
+      "author_2": {
+        "name": "kevin crawley",
+        "email": "kevin@nashdocker.io"
+      },
+      "strength": 8
+    },
+    {
+      "author_1": {
+        "name": "Maciej Szarlinski",
+        "email": "mszarlinski@gmail.com"
+      },
+      "author_2": {
+        "name": "René Zubcevic",
+        "email": "git@zubcevic.com"
+      },
+      "strength": 8
+    },
+    {
+      "author_1": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@free.fr"
+      },
+      "author_2": {
+        "name": "René Zubcevic",
+        "email": "git@zubcevic.com"
+      },
+      "strength": 8
+    },
+    {
+      "author_1": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@free.fr"
+      },
+      "author_2": {
+        "name": "kevin crawley",
+        "email": "kevin@nashdocker.io"
+      },
+      "strength": 8
+    },
+    {
+      "author_1": {
+        "name": "Mic",
+        "email": "misvy@vmware.com"
+      },
+      "author_2": {
+        "name": "Costin Leau",
+        "email": "cleau@vmware.com"
+      },
+      "strength": 8
+    },
+    {
+      "author_1": {
+        "name": "Mic",
+        "email": "misvy@vmware.com"
+      },
+      "author_2": {
+        "name": "Ramazan Sakin",
+        "email": "ramazansakin63@gmail.com"
+      },
+      "strength": 8
+    },
+    {
+      "author_1": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@gmail.com"
+      },
+      "author_2": {
+        "name": "Costin Leau",
+        "email": "cleau@vmware.com"
+      },
+      "strength": 8
+    },
+    {
+      "author_1": {
+        "name": "Maciej Szarlinski",
+        "email": "mszarlinski@gmail.com"
+      },
+      "author_2": {
+        "name": "Costin Leau",
+        "email": "cleau@vmware.com"
+      },
+      "strength": 8
+    },
+    {
+      "author_1": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@free.fr"
+      },
+      "author_2": {
+        "name": "Gordon Dickens",
+        "email": "gordon@gordondickens.com"
+      },
+      "strength": 8
+    },
+    {
+      "author_1": {
+        "name": "Costin Leau",
+        "email": "cleau@vmware.com"
+      },
+      "author_2": {
+        "name": "Ramazan Sakin",
+        "email": "ramazansakin63@gmail.com"
+      },
+      "strength": 8
+    },
+    {
+      "author_1": {
+        "name": "Costin Leau",
+        "email": "cleau@vmware.com"
+      },
+      "author_2": {
+        "name": "Gordon Dickens",
+        "email": "gordon@gordondickens.com"
+      },
+      "strength": 8
+    },
+    {
+      "author_1": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@gmail.com"
+      },
+      "author_2": {
+        "name": "Shobha Kamath",
+        "email": "shobha.s.kamath@gmail.com"
+      },
+      "strength": 7
+    },
+    {
+      "author_1": {
+        "name": "Maciej Szarlinski",
+        "email": "mszarlinski@gmail.com"
+      },
+      "author_2": {
+        "name": "jpaszek",
+        "email": "julius.paszek@gmail.com"
+      },
+      "strength": 7
+    },
+    {
+      "author_1": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@gmail.com"
+      },
+      "author_2": {
+        "name": "René Zubcevic",
+        "email": "git@zubcevic.com"
+      },
+      "strength": 7
+    },
+    {
+      "author_1": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@free.fr"
+      },
+      "author_2": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@gmail.com"
+      },
+      "strength": 7
+    },
+    {
+      "author_1": {
+        "name": "Maciej Szarliński",
+        "email": "mszarlinski@users.noreply.github.com"
+      },
+      "author_2": {
+        "name": "Maciej Szarlinski",
+        "email": "mszarlinski@bravurasolutions.com"
+      },
+      "strength": 7
+    },
+    {
+      "author_1": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@gmail.com"
+      },
+      "author_2": {
+        "name": "Maciej Szarlinski",
+        "email": "mszarlinski@bravurasolutions.com"
+      },
+      "strength": 7
+    },
+    {
+      "author_1": {
+        "name": "Maciej Szarlinski",
+        "email": "mszarlinski@gmail.com"
+      },
+      "author_2": {
+        "name": "michaelisvy",
+        "email": "misvy@gopivotal,com"
+      },
+      "strength": 7
+    },
+    {
+      "author_1": {
+        "name": "Mic",
+        "email": "misvy@vmware.com"
+      },
+      "author_2": {
+        "name": "Dapeng",
+        "email": "verydapeng@gmail.com"
+      },
+      "strength": 7
+    },
+    {
+      "author_1": {
+        "name": "Ramazan Sakin",
+        "email": "ramazansakin63@gmail.com"
+      },
+      "author_2": {
+        "name": "Gordon Dickens",
+        "email": "gordon@gordondickens.com"
+      },
+      "strength": 7
+    },
+    {
+      "author_1": {
+        "name": "Costin Leau",
+        "email": "cleau@vmware.com"
+      },
+      "author_2": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@free.fr"
+      },
+      "strength": 6
+    },
+    {
+      "author_1": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@gmail.com"
+      },
+      "author_2": {
+        "name": "Marcin Grzejszczak",
+        "email": "marcin@grzejszczak.pl"
+      },
+      "strength": 6
+    },
+    {
+      "author_1": {
+        "name": "Maciej Szarlinski",
+        "email": "mszarlinski@gmail.com"
+      },
+      "author_2": {
+        "name": "Marcin Grzejszczak",
+        "email": "marcin@grzejszczak.pl"
+      },
+      "strength": 6
+    },
+    {
+      "author_1": {
+        "name": "Maciej Szarlinski",
+        "email": "mszarlinski@bravurasolutions.com"
+      },
+      "author_2": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@gmail.com"
+      },
+      "strength": 6
+    },
+    {
+      "author_1": {
+        "name": "jpaszek",
+        "email": "julius.paszek@gmail.com"
+      },
+      "author_2": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@gmail.com"
+      },
+      "strength": 6
+    },
+    {
+      "author_1": {
+        "name": "jpaszek",
+        "email": "julius.paszek@gmail.com"
+      },
+      "author_2": {
+        "name": "René Zubcevic",
+        "email": "git@zubcevic.com"
+      },
+      "strength": 6
+    },
+    {
+      "author_1": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@gmail.com"
+      },
+      "author_2": {
+        "name": "michaelisvy",
+        "email": "misvy@gopivotal,com"
+      },
+      "strength": 6
+    },
+    {
+      "author_1": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@gmail.com"
+      },
+      "author_2": {
+        "name": "odedia",
+        "email": "odedia@gmail.com"
+      },
+      "strength": 5
+    },
+    {
+      "author_1": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@free.fr"
+      },
+      "author_2": {
+        "name": "Marcin Grzejszczak",
+        "email": "marcin@grzejszczak.pl"
+      },
+      "strength": 5
+    },
+    {
+      "author_1": {
+        "name": "Maciej Szarlinski",
+        "email": "mszarlinski@gmail.com"
+      },
+      "author_2": {
+        "name": "Shobha Kamath",
+        "email": "shobha.s.kamath@gmail.com"
+      },
+      "strength": 5
+    },
+    {
+      "author_1": {
+        "name": "Maciej Szarlinski",
+        "email": "mszarlinski@bravurasolutions.com"
+      },
+      "author_2": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@free.fr"
+      },
+      "strength": 5
+    },
+    {
+      "author_1": {
+        "name": "Maciej Szarlinski",
+        "email": "mszarlinski@bravurasolutions.com"
+      },
+      "author_2": {
+        "name": "jpaszek",
+        "email": "julius.paszek@gmail.com"
+      },
+      "strength": 5
+    },
+    {
+      "author_1": {
+        "name": "Maciej Szarlinski",
+        "email": "mszarlinski@bravurasolutions.com"
+      },
+      "author_2": {
+        "name": "René Zubcevic",
+        "email": "git@zubcevic.com"
+      },
+      "strength": 5
+    },
+    {
+      "author_1": {
+        "name": "Mic",
+        "email": "misvy@vmware.com"
+      },
+      "author_2": {
+        "name": "michaelisvy",
+        "email": "misvy@gopivotal,com"
+      },
+      "strength": 5
+    },
+    {
+      "author_1": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@free.fr"
+      },
+      "author_2": {
+        "name": "Dapeng",
+        "email": "verydapeng@gmail.com"
+      },
+      "strength": 5
+    },
+    {
+      "author_1": {
+        "name": "Costin Leau",
+        "email": "cleau@vmware.com"
+      },
+      "author_2": {
+        "name": "Dapeng",
+        "email": "verydapeng@gmail.com"
+      },
+      "strength": 4
+    },
+    {
+      "author_1": {
+        "name": "jpaszek",
+        "email": "julius.paszek@gmail.com"
+      },
+      "author_2": {
+        "name": "Marcin Grzejszczak",
+        "email": "marcin@grzejszczak.pl"
+      },
+      "strength": 4
+    },
+    {
+      "author_1": {
+        "name": "Maciej Szarlinski",
+        "email": "mszarlinski@gmail.com"
+      },
+      "author_2": {
+        "name": "odedia",
+        "email": "odedia@gmail.com"
+      },
+      "strength": 4
+    },
+    {
+      "author_1": {
+        "name": "Maciej Szarlinski",
+        "email": "mszarlinski@gmail.com"
+      },
+      "author_2": {
+        "name": "Marian-Constantin Marica",
+        "email": "91406991+MarianConstantinMarica@users.noreply.github.com"
+      },
+      "strength": 4
+    },
+    {
+      "author_1": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@free.fr"
+      },
+      "author_2": {
+        "name": "Marian-Constantin Marica",
+        "email": "91406991+MarianConstantinMarica@users.noreply.github.com"
+      },
+      "strength": 4
+    },
+    {
+      "author_1": {
+        "name": "jpaszek",
+        "email": "julius.paszek@gmail.com"
+      },
+      "author_2": {
+        "name": "kevin crawley",
+        "email": "kevin@nashdocker.io"
+      },
+      "strength": 4
+    },
+    {
+      "author_1": {
+        "name": "jpaszek",
+        "email": "julius.paszek@gmail.com"
+      },
+      "author_2": {
+        "name": "Marian-Constantin Marica",
+        "email": "91406991+MarianConstantinMarica@users.noreply.github.com"
+      },
+      "strength": 4
+    },
+    {
+      "author_1": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@gmail.com"
+      },
+      "author_2": {
+        "name": "Marian-Constantin Marica",
+        "email": "91406991+MarianConstantinMarica@users.noreply.github.com"
+      },
+      "strength": 4
+    },
+    {
+      "author_1": {
+        "name": "kevin crawley",
+        "email": "kevin@nashdocker.io"
+      },
+      "author_2": {
+        "name": "Marian-Constantin Marica",
+        "email": "91406991+MarianConstantinMarica@users.noreply.github.com"
+      },
+      "strength": 4
+    },
+    {
+      "author_1": {
+        "name": "michaelisvy",
+        "email": "misvy@gopivotal,com"
+      },
+      "author_2": {
+        "name": "Dapeng",
+        "email": "verydapeng@gmail.com"
+      },
+      "strength": 4
+    },
+    {
+      "author_1": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@free.fr"
+      },
+      "author_2": {
+        "name": "michaelisvy",
+        "email": "misvy@gopivotal,com"
+      },
+      "strength": 4
+    },
+    {
+      "author_1": {
+        "name": "René Zubcevic",
+        "email": "git@zubcevic.com"
+      },
+      "author_2": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@free.fr"
+      },
+      "strength": 3
+    },
+    {
+      "author_1": {
+        "name": "René Zubcevic",
+        "email": "git@zubcevic.com"
+      },
+      "author_2": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@gmail.com"
+      },
+      "strength": 3
+    },
+    {
+      "author_1": {
+        "name": "René Zubcevic",
+        "email": "git@zubcevic.com"
+      },
+      "author_2": {
+        "name": "Marcin Grzejszczak",
+        "email": "marcin@grzejszczak.pl"
+      },
+      "strength": 3
+    },
+    {
+      "author_1": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@gmail.com"
+      },
+      "author_2": {
+        "name": "jpaszek",
+        "email": "julius.paszek@gmail.com"
+      },
+      "strength": 3
+    },
+    {
+      "author_1": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@free.fr"
+      },
+      "author_2": {
+        "name": "odedia",
+        "email": "odedia@gmail.com"
+      },
+      "strength": 3
+    },
+    {
+      "author_1": {
+        "name": "odedia",
+        "email": "odedia@gmail.com"
+      },
+      "author_2": {
+        "name": "jpaszek",
+        "email": "julius.paszek@gmail.com"
+      },
+      "strength": 3
+    },
+    {
+      "author_1": {
+        "name": "odedia",
+        "email": "odedia@gmail.com"
+      },
+      "author_2": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@gmail.com"
+      },
+      "strength": 3
+    },
+    {
+      "author_1": {
+        "name": "odedia",
+        "email": "odedia@gmail.com"
+      },
+      "author_2": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@free.fr"
+      },
+      "strength": 3
+    },
+    {
+      "author_1": {
+        "name": "odedia",
+        "email": "odedia@gmail.com"
+      },
+      "author_2": {
+        "name": "kevin crawley",
+        "email": "kevin@nashdocker.io"
+      },
+      "strength": 3
+    },
+    {
+      "author_1": {
+        "name": "Maciej Szarlinski",
+        "email": "mszarlinski@gmail.com"
+      },
+      "author_2": {
+        "name": "Maciej Szarlinski",
+        "email": "mszarlinski@bravurasolutions.com"
+      },
+      "strength": 3
+    },
+    {
+      "author_1": {
+        "name": "Maciej Szarlinski",
+        "email": "mszarlinski@bravurasolutions.com"
+      },
+      "author_2": {
+        "name": "kevin crawley",
+        "email": "kevin@nashdocker.io"
+      },
+      "strength": 3
+    },
+    {
+      "author_1": {
+        "name": "Maciej Szarlinski",
+        "email": "mszarlinski@bravurasolutions.com"
+      },
+      "author_2": {
+        "name": "Marcin Grzejszczak",
+        "email": "marcin@grzejszczak.pl"
+      },
+      "strength": 3
+    },
+    {
+      "author_1": {
+        "name": "Maciej Szarlinski",
+        "email": "mszarlinski@bravurasolutions.com"
+      },
+      "author_2": {
+        "name": "Marian-Constantin Marica",
+        "email": "91406991+MarianConstantinMarica@users.noreply.github.com"
+      },
+      "strength": 3
+    },
+    {
+      "author_1": {
+        "name": "kevin crawley",
+        "email": "kevin@nashdocker.io"
+      },
+      "author_2": {
+        "name": "Marcin Grzejszczak",
+        "email": "marcin@grzejszczak.pl"
+      },
+      "strength": 3
+    },
+    {
+      "author_1": {
+        "name": "kevin crawley",
+        "email": "kevin@nashdocker.io"
+      },
+      "author_2": {
+        "name": "René Zubcevic",
+        "email": "git@zubcevic.com"
+      },
+      "strength": 3
+    },
+    {
+      "author_1": {
+        "name": "Marcin Grzejszczak",
+        "email": "marcin@grzejszczak.pl"
+      },
+      "author_2": {
+        "name": "Marian-Constantin Marica",
+        "email": "91406991+MarianConstantinMarica@users.noreply.github.com"
+      },
+      "strength": 3
+    },
+    {
+      "author_1": {
+        "name": "Marian-Constantin Marica",
+        "email": "91406991+MarianConstantinMarica@users.noreply.github.com"
+      },
+      "author_2": {
+        "name": "René Zubcevic",
+        "email": "git@zubcevic.com"
+      },
+      "strength": 3
+    },
+    {
+      "author_1": {
+        "name": "Dapeng",
+        "email": "verydapeng@gmail.com"
+      },
+      "author_2": {
+        "name": "michaelisvy",
+        "email": "misvy@gopivotal,com"
+      },
+      "strength": 3
+    },
+    {
+      "author_1": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@free.fr"
+      },
+      "author_2": {
+        "name": "Costin Leau",
+        "email": "cleau@vmware.com"
+      },
+      "strength": 3
+    },
+    {
+      "author_1": {
+        "name": "Costin Leau",
+        "email": "cleau@vmware.com"
+      },
+      "author_2": {
+        "name": "michaelisvy",
+        "email": "misvy@gopivotal,com"
+      },
+      "strength": 3
+    },
+    {
+      "author_1": {
+        "name": "Shobha Kamath",
+        "email": "shobha.s.kamath@gmail.com"
+      },
+      "author_2": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@free.fr"
+      },
+      "strength": 3
+    },
+    {
+      "author_1": {
+        "name": "Dapeng",
+        "email": "verydapeng@gmail.com"
+      },
+      "author_2": {
+        "name": "Ramazan Sakin",
+        "email": "ramazansakin63@gmail.com"
+      },
+      "strength": 3
+    },
+    {
+      "author_1": {
+        "name": "Dapeng",
+        "email": "verydapeng@gmail.com"
+      },
+      "author_2": {
+        "name": "Gordon Dickens",
+        "email": "gordon@gordondickens.com"
+      },
+      "strength": 3
+    },
+    {
+      "author_1": {
+        "name": "Ramazan Sakin",
+        "email": "ramazansakin63@gmail.com"
+      },
+      "author_2": {
+        "name": "michaelisvy",
+        "email": "misvy@gopivotal,com"
+      },
+      "strength": 3
+    },
+    {
+      "author_1": {
+        "name": "michaelisvy",
+        "email": "misvy@gopivotal,com"
+      },
+      "author_2": {
+        "name": "Gordon Dickens",
+        "email": "gordon@gordondickens.com"
+      },
+      "strength": 3
+    },
+    {
+      "author_1": {
+        "name": "Gordon Dickens",
+        "email": "gordon@gordondickens.com"
+      },
+      "author_2": {
+        "name": "Dapeng",
+        "email": "verydapeng@gmail.com"
+      },
+      "strength": 3
+    },
+    {
+      "author_1": {
+        "name": "Costin Leau",
+        "email": "cleau@vmware.com"
+      },
+      "author_2": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@gmail.com"
+      },
+      "strength": 2
+    },
+    {
+      "author_1": {
+        "name": "Costin Leau",
+        "email": "cleau@vmware.com"
+      },
+      "author_2": {
+        "name": "Shobha Kamath",
+        "email": "shobha.s.kamath@gmail.com"
+      },
+      "strength": 2
+    },
+    {
+      "author_1": {
+        "name": "Costin Leau",
+        "email": "cleau@vmware.com"
+      },
+      "author_2": {
+        "name": "Mic",
+        "email": "misvy@vmware.com"
+      },
+      "strength": 2
+    },
+    {
+      "author_1": {
+        "name": "René Zubcevic",
+        "email": "git@zubcevic.com"
+      },
+      "author_2": {
+        "name": "Maciej Szarlinski",
+        "email": "mszarlinski@gmail.com"
+      },
+      "strength": 2
+    },
+    {
+      "author_1": {
+        "name": "René Zubcevic",
+        "email": "git@zubcevic.com"
+      },
+      "author_2": {
+        "name": "jpaszek",
+        "email": "julius.paszek@gmail.com"
+      },
+      "strength": 2
+    },
+    {
+      "author_1": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@gmail.com"
+      },
+      "author_2": {
+        "name": "Mic",
+        "email": "misvy@vmware.com"
+      },
+      "strength": 2
+    },
+    {
+      "author_1": {
+        "name": "Dapeng",
+        "email": "verydapeng@gmail.com"
+      },
+      "author_2": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@free.fr"
+      },
+      "strength": 2
+    },
+    {
+      "author_1": {
+        "name": "Dapeng",
+        "email": "verydapeng@gmail.com"
+      },
+      "author_2": {
+        "name": "Maciej Szarlinski",
+        "email": "mszarlinski@gmail.com"
+      },
+      "strength": 2
+    },
+    {
+      "author_1": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@free.fr"
+      },
+      "author_2": {
+        "name": "Maciej Szarlinski",
+        "email": "mszarlinski@gmail.com"
+      },
+      "strength": 2
+    },
+    {
+      "author_1": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@free.fr"
+      },
+      "author_2": {
+        "name": "Shobha Kamath",
+        "email": "shobha.s.kamath@gmail.com"
+      },
+      "strength": 2
+    },
+    {
+      "author_1": {
+        "name": "odedia",
+        "email": "odedia@gmail.com"
+      },
+      "author_2": {
+        "name": "Maciej Szarlinski",
+        "email": "mszarlinski@gmail.com"
+      },
+      "strength": 2
+    },
+    {
+      "author_1": {
+        "name": "odedia",
+        "email": "odedia@gmail.com"
+      },
+      "author_2": {
+        "name": "Marcin Grzejszczak",
+        "email": "marcin@grzejszczak.pl"
+      },
+      "strength": 2
+    },
+    {
+      "author_1": {
+        "name": "odedia",
+        "email": "odedia@gmail.com"
+      },
+      "author_2": {
+        "name": "Shobha Kamath",
+        "email": "shobha.s.kamath@gmail.com"
+      },
+      "strength": 2
+    },
+    {
+      "author_1": {
+        "name": "Maciej Szarlinski",
+        "email": "mszarlinski@gmail.com"
+      },
+      "author_2": {
+        "name": "Mic",
+        "email": "misvy@vmware.com"
+      },
+      "strength": 2
+    },
+    {
+      "author_1": {
+        "name": "jpaszek",
+        "email": "julius.paszek@gmail.com"
+      },
+      "author_2": {
+        "name": "Shobha Kamath",
+        "email": "shobha.s.kamath@gmail.com"
+      },
+      "strength": 2
+    },
+    {
+      "author_1": {
+        "name": "odedia",
+        "email": "odedia@gmail.com"
+      },
+      "author_2": {
+        "name": "René Zubcevic",
+        "email": "git@zubcevic.com"
+      },
+      "strength": 2
+    },
+    {
+      "author_1": {
+        "name": "René Zubcevic",
+        "email": "git@zubcevic.com"
+      },
+      "author_2": {
+        "name": "kevin crawley",
+        "email": "kevin@nashdocker.io"
+      },
+      "strength": 2
+    },
+    {
+      "author_1": {
+        "name": "Ramazan Sakin",
+        "email": "ramazansakin63@gmail.com"
+      },
+      "author_2": {
+        "name": "kevin crawley",
+        "email": "kevin@nashdocker.io"
+      },
+      "strength": 2
+    },
+    {
+      "author_1": {
+        "name": "Marcin Grzejszczak",
+        "email": "marcin@grzejszczak.pl"
+      },
+      "author_2": {
+        "name": "odedia",
+        "email": "odedia@gmail.com"
+      },
+      "strength": 2
+    },
+    {
+      "author_1": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@gmail.com"
+      },
+      "author_2": {
+        "name": "Michael Werner",
+        "email": "xaseron@googlemail.com"
+      },
+      "strength": 2
+    },
+    {
+      "author_1": {
+        "name": "odedia",
+        "email": "odedia@gmail.com"
+      },
+      "author_2": {
+        "name": "Michael Werner",
+        "email": "xaseron@googlemail.com"
+      },
+      "strength": 2
+    },
+    {
+      "author_1": {
+        "name": "Marcin Grzejszczak",
+        "email": "marcin@grzejszczak.pl"
+      },
+      "author_2": {
+        "name": "René Zubcevic",
+        "email": "git@zubcevic.com"
+      },
+      "strength": 2
+    },
+    {
+      "author_1": {
+        "name": "Maciej Szarlinski",
+        "email": "mszarlinski@gmail.com"
+      },
+      "author_2": {
+        "name": "Dave Syer",
+        "email": "dsyer@pivotal.io"
+      },
+      "strength": 2
+    },
+    {
+      "author_1": {
+        "name": "michaelisvy",
+        "email": "misvy@gopivotal,com"
+      },
+      "author_2": {
+        "name": "kevin crawley",
+        "email": "kevin@nashdocker.io"
+      },
+      "strength": 2
+    },
+    {
+      "author_1": {
+        "name": "Dapeng",
+        "email": "verydapeng@gmail.com"
+      },
+      "author_2": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@gmail.com"
+      },
+      "strength": 2
+    },
+    {
+      "author_1": {
+        "name": "Maciej Szarliński",
+        "email": "mszarlinski@users.noreply.github.com"
+      },
+      "author_2": {
+        "name": "Shobha Kamath",
+        "email": "shobha.s.kamath@gmail.com"
+      },
+      "strength": 2
+    },
+    {
+      "author_1": {
+        "name": "Mic",
+        "email": "misvy@vmware.com"
+      },
+      "author_2": {
+        "name": "Shobha Kamath",
+        "email": "shobha.s.kamath@gmail.com"
+      },
+      "strength": 2
+    },
+    {
+      "author_1": {
+        "name": "Shobha Kamath",
+        "email": "shobha.s.kamath@gmail.com"
+      },
+      "author_2": {
+        "name": "Dapeng",
+        "email": "verydapeng@gmail.com"
+      },
+      "strength": 2
+    },
+    {
+      "author_1": {
+        "name": "Shobha Kamath",
+        "email": "shobha.s.kamath@gmail.com"
+      },
+      "author_2": {
+        "name": "Ramazan Sakin",
+        "email": "ramazansakin63@gmail.com"
+      },
+      "strength": 2
+    },
+    {
+      "author_1": {
+        "name": "Shobha Kamath",
+        "email": "shobha.s.kamath@gmail.com"
+      },
+      "author_2": {
+        "name": "Gordon Dickens",
+        "email": "gordon@gordondickens.com"
+      },
+      "strength": 2
+    },
+    {
+      "author_1": {
+        "name": "Dapeng",
+        "email": "verydapeng@gmail.com"
+      },
+      "author_2": {
+        "name": "kevin crawley",
+        "email": "kevin@nashdocker.io"
+      },
+      "strength": 2
+    },
+    {
+      "author_1": {
+        "name": "Ramazan Sakin",
+        "email": "ramazansakin63@gmail.com"
+      },
+      "author_2": {
+        "name": "Dapeng",
+        "email": "verydapeng@gmail.com"
+      },
+      "strength": 2
+    },
+    {
+      "author_1": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@gmail.com"
+      },
+      "author_2": {
+        "name": "Maciej Szarliński",
+        "email": "mszarlinski@users.noreply.github.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Costin Leau",
+        "email": "cleau@vmware.com"
+      },
+      "author_2": {
+        "name": "René Zubcevic",
+        "email": "git@zubcevic.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Costin Leau",
+        "email": "cleau@vmware.com"
+      },
+      "author_2": {
+        "name": "Ankush Thakur",
+        "email": "aankushthakur27@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Costin Leau",
+        "email": "cleau@vmware.com"
+      },
+      "author_2": {
+        "name": "odedia",
+        "email": "odedia@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Costin Leau",
+        "email": "cleau@vmware.com"
+      },
+      "author_2": {
+        "name": "Maciej Szarlinski",
+        "email": "mszarlinski@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Costin Leau",
+        "email": "cleau@vmware.com"
+      },
+      "author_2": {
+        "name": "jpaszek",
+        "email": "julius.paszek@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Costin Leau",
+        "email": "cleau@vmware.com"
+      },
+      "author_2": {
+        "name": "Marcin Grzejszczak",
+        "email": "marcin@grzejszczak.pl"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Costin Leau",
+        "email": "cleau@vmware.com"
+      },
+      "author_2": {
+        "name": "Jonatan Ivanov",
+        "email": "jonatan.ivanov@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "René Zubcevic",
+        "email": "git@zubcevic.com"
+      },
+      "author_2": {
+        "name": "Ankush Thakur",
+        "email": "aankushthakur27@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "René Zubcevic",
+        "email": "git@zubcevic.com"
+      },
+      "author_2": {
+        "name": "Dapeng",
+        "email": "verydapeng@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "René Zubcevic",
+        "email": "git@zubcevic.com"
+      },
+      "author_2": {
+        "name": "odedia",
+        "email": "odedia@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "René Zubcevic",
+        "email": "git@zubcevic.com"
+      },
+      "author_2": {
+        "name": "Shobha Kamath",
+        "email": "shobha.s.kamath@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "René Zubcevic",
+        "email": "git@zubcevic.com"
+      },
+      "author_2": {
+        "name": "Mic",
+        "email": "misvy@vmware.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "René Zubcevic",
+        "email": "git@zubcevic.com"
+      },
+      "author_2": {
+        "name": "Jonatan Ivanov",
+        "email": "jonatan.ivanov@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Ankush Thakur",
+        "email": "aankushthakur27@gmail.com"
+      },
+      "author_2": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Ankush Thakur",
+        "email": "aankushthakur27@gmail.com"
+      },
+      "author_2": {
+        "name": "Dapeng",
+        "email": "verydapeng@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Ankush Thakur",
+        "email": "aankushthakur27@gmail.com"
+      },
+      "author_2": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@free.fr"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Ankush Thakur",
+        "email": "aankushthakur27@gmail.com"
+      },
+      "author_2": {
+        "name": "odedia",
+        "email": "odedia@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Ankush Thakur",
+        "email": "aankushthakur27@gmail.com"
+      },
+      "author_2": {
+        "name": "Maciej Szarlinski",
+        "email": "mszarlinski@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Ankush Thakur",
+        "email": "aankushthakur27@gmail.com"
+      },
+      "author_2": {
+        "name": "jpaszek",
+        "email": "julius.paszek@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Ankush Thakur",
+        "email": "aankushthakur27@gmail.com"
+      },
+      "author_2": {
+        "name": "Marcin Grzejszczak",
+        "email": "marcin@grzejszczak.pl"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Ankush Thakur",
+        "email": "aankushthakur27@gmail.com"
+      },
+      "author_2": {
+        "name": "Shobha Kamath",
+        "email": "shobha.s.kamath@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Ankush Thakur",
+        "email": "aankushthakur27@gmail.com"
+      },
+      "author_2": {
+        "name": "Mic",
+        "email": "misvy@vmware.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Ankush Thakur",
+        "email": "aankushthakur27@gmail.com"
+      },
+      "author_2": {
+        "name": "Jonatan Ivanov",
+        "email": "jonatan.ivanov@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@gmail.com"
+      },
+      "author_2": {
+        "name": "Jonatan Ivanov",
+        "email": "jonatan.ivanov@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Dapeng",
+        "email": "verydapeng@gmail.com"
+      },
+      "author_2": {
+        "name": "odedia",
+        "email": "odedia@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Dapeng",
+        "email": "verydapeng@gmail.com"
+      },
+      "author_2": {
+        "name": "jpaszek",
+        "email": "julius.paszek@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Dapeng",
+        "email": "verydapeng@gmail.com"
+      },
+      "author_2": {
+        "name": "Marcin Grzejszczak",
+        "email": "marcin@grzejszczak.pl"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Dapeng",
+        "email": "verydapeng@gmail.com"
+      },
+      "author_2": {
+        "name": "Shobha Kamath",
+        "email": "shobha.s.kamath@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Dapeng",
+        "email": "verydapeng@gmail.com"
+      },
+      "author_2": {
+        "name": "Mic",
+        "email": "misvy@vmware.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Dapeng",
+        "email": "verydapeng@gmail.com"
+      },
+      "author_2": {
+        "name": "Jonatan Ivanov",
+        "email": "jonatan.ivanov@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@free.fr"
+      },
+      "author_2": {
+        "name": "Mic",
+        "email": "misvy@vmware.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@free.fr"
+      },
+      "author_2": {
+        "name": "Jonatan Ivanov",
+        "email": "jonatan.ivanov@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "odedia",
+        "email": "odedia@gmail.com"
+      },
+      "author_2": {
+        "name": "Mic",
+        "email": "misvy@vmware.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "odedia",
+        "email": "odedia@gmail.com"
+      },
+      "author_2": {
+        "name": "Jonatan Ivanov",
+        "email": "jonatan.ivanov@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Maciej Szarlinski",
+        "email": "mszarlinski@gmail.com"
+      },
+      "author_2": {
+        "name": "Jonatan Ivanov",
+        "email": "jonatan.ivanov@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "jpaszek",
+        "email": "julius.paszek@gmail.com"
+      },
+      "author_2": {
+        "name": "Mic",
+        "email": "misvy@vmware.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "jpaszek",
+        "email": "julius.paszek@gmail.com"
+      },
+      "author_2": {
+        "name": "Jonatan Ivanov",
+        "email": "jonatan.ivanov@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Marcin Grzejszczak",
+        "email": "marcin@grzejszczak.pl"
+      },
+      "author_2": {
+        "name": "Shobha Kamath",
+        "email": "shobha.s.kamath@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Marcin Grzejszczak",
+        "email": "marcin@grzejszczak.pl"
+      },
+      "author_2": {
+        "name": "Mic",
+        "email": "misvy@vmware.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Marcin Grzejszczak",
+        "email": "marcin@grzejszczak.pl"
+      },
+      "author_2": {
+        "name": "Jonatan Ivanov",
+        "email": "jonatan.ivanov@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Shobha Kamath",
+        "email": "shobha.s.kamath@gmail.com"
+      },
+      "author_2": {
+        "name": "Mic",
+        "email": "misvy@vmware.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Shobha Kamath",
+        "email": "shobha.s.kamath@gmail.com"
+      },
+      "author_2": {
+        "name": "Jonatan Ivanov",
+        "email": "jonatan.ivanov@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Mic",
+        "email": "misvy@vmware.com"
+      },
+      "author_2": {
+        "name": "Jonatan Ivanov",
+        "email": "jonatan.ivanov@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "odedia",
+        "email": "odedia@gmail.com"
+      },
+      "author_2": {
+        "name": "Maciej Szarliński",
+        "email": "mszarlinski@users.noreply.github.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "odedia",
+        "email": "odedia@gmail.com"
+      },
+      "author_2": {
+        "name": "Nikola Balic",
+        "email": "niko@daytona.io"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "odedia",
+        "email": "odedia@gmail.com"
+      },
+      "author_2": {
+        "name": "Ramazan Sakin",
+        "email": "ramazansakin63@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "odedia",
+        "email": "odedia@gmail.com"
+      },
+      "author_2": {
+        "name": "Michael Rumpf",
+        "email": "michael@rumpfonline.de"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "odedia",
+        "email": "odedia@gmail.com"
+      },
+      "author_2": {
+        "name": "Wong Jia Cin",
+        "email": "107848857+bryanwong69420@users.noreply.github.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "odedia",
+        "email": "odedia@gmail.com"
+      },
+      "author_2": {
+        "name": "Andy Marks",
+        "email": "vampwillow@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Maciej Szarliński",
+        "email": "mszarlinski@users.noreply.github.com"
+      },
+      "author_2": {
+        "name": "Nikola Balic",
+        "email": "niko@daytona.io"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Maciej Szarliński",
+        "email": "mszarlinski@users.noreply.github.com"
+      },
+      "author_2": {
+        "name": "René Zubcevic",
+        "email": "git@zubcevic.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Maciej Szarliński",
+        "email": "mszarlinski@users.noreply.github.com"
+      },
+      "author_2": {
+        "name": "Ramazan Sakin",
+        "email": "ramazansakin63@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Maciej Szarliński",
+        "email": "mszarlinski@users.noreply.github.com"
+      },
+      "author_2": {
+        "name": "Michael Rumpf",
+        "email": "michael@rumpfonline.de"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Maciej Szarliński",
+        "email": "mszarlinski@users.noreply.github.com"
+      },
+      "author_2": {
+        "name": "Marcin Grzejszczak",
+        "email": "marcin@grzejszczak.pl"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Maciej Szarliński",
+        "email": "mszarlinski@users.noreply.github.com"
+      },
+      "author_2": {
+        "name": "Wong Jia Cin",
+        "email": "107848857+bryanwong69420@users.noreply.github.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Maciej Szarliński",
+        "email": "mszarlinski@users.noreply.github.com"
+      },
+      "author_2": {
+        "name": "kevin crawley",
+        "email": "kevin@nashdocker.io"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Maciej Szarliński",
+        "email": "mszarlinski@users.noreply.github.com"
+      },
+      "author_2": {
+        "name": "Andy Marks",
+        "email": "vampwillow@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@gmail.com"
+      },
+      "author_2": {
+        "name": "Nikola Balic",
+        "email": "niko@daytona.io"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@gmail.com"
+      },
+      "author_2": {
+        "name": "Michael Rumpf",
+        "email": "michael@rumpfonline.de"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@gmail.com"
+      },
+      "author_2": {
+        "name": "Wong Jia Cin",
+        "email": "107848857+bryanwong69420@users.noreply.github.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@gmail.com"
+      },
+      "author_2": {
+        "name": "Andy Marks",
+        "email": "vampwillow@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Maciej Szarlinski",
+        "email": "mszarlinski@gmail.com"
+      },
+      "author_2": {
+        "name": "Nikola Balic",
+        "email": "niko@daytona.io"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Maciej Szarlinski",
+        "email": "mszarlinski@gmail.com"
+      },
+      "author_2": {
+        "name": "Michael Rumpf",
+        "email": "michael@rumpfonline.de"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Maciej Szarlinski",
+        "email": "mszarlinski@gmail.com"
+      },
+      "author_2": {
+        "name": "Wong Jia Cin",
+        "email": "107848857+bryanwong69420@users.noreply.github.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Maciej Szarlinski",
+        "email": "mszarlinski@gmail.com"
+      },
+      "author_2": {
+        "name": "Andy Marks",
+        "email": "vampwillow@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@free.fr"
+      },
+      "author_2": {
+        "name": "Nikola Balic",
+        "email": "niko@daytona.io"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@free.fr"
+      },
+      "author_2": {
+        "name": "Michael Rumpf",
+        "email": "michael@rumpfonline.de"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@free.fr"
+      },
+      "author_2": {
+        "name": "Wong Jia Cin",
+        "email": "107848857+bryanwong69420@users.noreply.github.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@free.fr"
+      },
+      "author_2": {
+        "name": "Andy Marks",
+        "email": "vampwillow@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Nikola Balic",
+        "email": "niko@daytona.io"
+      },
+      "author_2": {
+        "name": "René Zubcevic",
+        "email": "git@zubcevic.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Nikola Balic",
+        "email": "niko@daytona.io"
+      },
+      "author_2": {
+        "name": "Ramazan Sakin",
+        "email": "ramazansakin63@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Nikola Balic",
+        "email": "niko@daytona.io"
+      },
+      "author_2": {
+        "name": "Michael Rumpf",
+        "email": "michael@rumpfonline.de"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Nikola Balic",
+        "email": "niko@daytona.io"
+      },
+      "author_2": {
+        "name": "Marcin Grzejszczak",
+        "email": "marcin@grzejszczak.pl"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Nikola Balic",
+        "email": "niko@daytona.io"
+      },
+      "author_2": {
+        "name": "Wong Jia Cin",
+        "email": "107848857+bryanwong69420@users.noreply.github.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Nikola Balic",
+        "email": "niko@daytona.io"
+      },
+      "author_2": {
+        "name": "kevin crawley",
+        "email": "kevin@nashdocker.io"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Nikola Balic",
+        "email": "niko@daytona.io"
+      },
+      "author_2": {
+        "name": "Andy Marks",
+        "email": "vampwillow@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "René Zubcevic",
+        "email": "git@zubcevic.com"
+      },
+      "author_2": {
+        "name": "Ramazan Sakin",
+        "email": "ramazansakin63@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "René Zubcevic",
+        "email": "git@zubcevic.com"
+      },
+      "author_2": {
+        "name": "Michael Rumpf",
+        "email": "michael@rumpfonline.de"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "René Zubcevic",
+        "email": "git@zubcevic.com"
+      },
+      "author_2": {
+        "name": "Wong Jia Cin",
+        "email": "107848857+bryanwong69420@users.noreply.github.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "René Zubcevic",
+        "email": "git@zubcevic.com"
+      },
+      "author_2": {
+        "name": "Andy Marks",
+        "email": "vampwillow@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Ramazan Sakin",
+        "email": "ramazansakin63@gmail.com"
+      },
+      "author_2": {
+        "name": "Michael Rumpf",
+        "email": "michael@rumpfonline.de"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Ramazan Sakin",
+        "email": "ramazansakin63@gmail.com"
+      },
+      "author_2": {
+        "name": "Marcin Grzejszczak",
+        "email": "marcin@grzejszczak.pl"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Ramazan Sakin",
+        "email": "ramazansakin63@gmail.com"
+      },
+      "author_2": {
+        "name": "Wong Jia Cin",
+        "email": "107848857+bryanwong69420@users.noreply.github.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Ramazan Sakin",
+        "email": "ramazansakin63@gmail.com"
+      },
+      "author_2": {
+        "name": "Andy Marks",
+        "email": "vampwillow@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Michael Rumpf",
+        "email": "michael@rumpfonline.de"
+      },
+      "author_2": {
+        "name": "Marcin Grzejszczak",
+        "email": "marcin@grzejszczak.pl"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Michael Rumpf",
+        "email": "michael@rumpfonline.de"
+      },
+      "author_2": {
+        "name": "Wong Jia Cin",
+        "email": "107848857+bryanwong69420@users.noreply.github.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Michael Rumpf",
+        "email": "michael@rumpfonline.de"
+      },
+      "author_2": {
+        "name": "kevin crawley",
+        "email": "kevin@nashdocker.io"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Michael Rumpf",
+        "email": "michael@rumpfonline.de"
+      },
+      "author_2": {
+        "name": "Andy Marks",
+        "email": "vampwillow@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Marcin Grzejszczak",
+        "email": "marcin@grzejszczak.pl"
+      },
+      "author_2": {
+        "name": "Wong Jia Cin",
+        "email": "107848857+bryanwong69420@users.noreply.github.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Marcin Grzejszczak",
+        "email": "marcin@grzejszczak.pl"
+      },
+      "author_2": {
+        "name": "kevin crawley",
+        "email": "kevin@nashdocker.io"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Marcin Grzejszczak",
+        "email": "marcin@grzejszczak.pl"
+      },
+      "author_2": {
+        "name": "Andy Marks",
+        "email": "vampwillow@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Wong Jia Cin",
+        "email": "107848857+bryanwong69420@users.noreply.github.com"
+      },
+      "author_2": {
+        "name": "kevin crawley",
+        "email": "kevin@nashdocker.io"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Wong Jia Cin",
+        "email": "107848857+bryanwong69420@users.noreply.github.com"
+      },
+      "author_2": {
+        "name": "Andy Marks",
+        "email": "vampwillow@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "kevin crawley",
+        "email": "kevin@nashdocker.io"
+      },
+      "author_2": {
+        "name": "Andy Marks",
+        "email": "vampwillow@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@gmail.com"
+      },
+      "author_2": {
+        "name": "Cyrille Le Clerc",
+        "email": "cyrille@cyrilleleclerc.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Maciej Szarlinski",
+        "email": "mszarlinski@gmail.com"
+      },
+      "author_2": {
+        "name": "Cyrille Le Clerc",
+        "email": "cyrille@cyrilleleclerc.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Mic",
+        "email": "misvy@vmware.com"
+      },
+      "author_2": {
+        "name": "Cyrille Le Clerc",
+        "email": "cyrille@cyrilleleclerc.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Mic",
+        "email": "misvy@vmware.com"
+      },
+      "author_2": {
+        "name": "Marcin Grzejszczak",
+        "email": "marcin@grzejszczak.pl"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Mic",
+        "email": "misvy@vmware.com"
+      },
+      "author_2": {
+        "name": "odedia",
+        "email": "odedia@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Cyrille Le Clerc",
+        "email": "cyrille@cyrilleleclerc.com"
+      },
+      "author_2": {
+        "name": "Marcin Grzejszczak",
+        "email": "marcin@grzejszczak.pl"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Cyrille Le Clerc",
+        "email": "cyrille@cyrilleleclerc.com"
+      },
+      "author_2": {
+        "name": "odedia",
+        "email": "odedia@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Maciej Szarlinski",
+        "email": "mszarlinski@gmail.com"
+      },
+      "author_2": {
+        "name": "Michael Werner",
+        "email": "xaseron@googlemail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@free.fr"
+      },
+      "author_2": {
+        "name": "Michael Werner",
+        "email": "xaseron@googlemail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Michael Werner",
+        "email": "xaseron@googlemail.com"
+      },
+      "author_2": {
+        "name": "kevin crawley",
+        "email": "kevin@nashdocker.io"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "odedia",
+        "email": "odedia@gmail.com"
+      },
+      "author_2": {
+        "name": "Lukas Forst",
+        "email": "lukasforst+github@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "odedia",
+        "email": "odedia@gmail.com"
+      },
+      "author_2": {
+        "name": "9SMTM6",
+        "email": "44668330+9SMTM6@users.noreply.github.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@gmail.com"
+      },
+      "author_2": {
+        "name": "Lukas Forst",
+        "email": "lukasforst+github@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@gmail.com"
+      },
+      "author_2": {
+        "name": "9SMTM6",
+        "email": "44668330+9SMTM6@users.noreply.github.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Michael Werner",
+        "email": "xaseron@googlemail.com"
+      },
+      "author_2": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@free.fr"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Michael Werner",
+        "email": "xaseron@googlemail.com"
+      },
+      "author_2": {
+        "name": "Lukas Forst",
+        "email": "lukasforst+github@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Michael Werner",
+        "email": "xaseron@googlemail.com"
+      },
+      "author_2": {
+        "name": "jpaszek",
+        "email": "julius.paszek@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Michael Werner",
+        "email": "xaseron@googlemail.com"
+      },
+      "author_2": {
+        "name": "9SMTM6",
+        "email": "44668330+9SMTM6@users.noreply.github.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Michael Werner",
+        "email": "xaseron@googlemail.com"
+      },
+      "author_2": {
+        "name": "Shobha Kamath",
+        "email": "shobha.s.kamath@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@free.fr"
+      },
+      "author_2": {
+        "name": "Lukas Forst",
+        "email": "lukasforst+github@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@free.fr"
+      },
+      "author_2": {
+        "name": "9SMTM6",
+        "email": "44668330+9SMTM6@users.noreply.github.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Lukas Forst",
+        "email": "lukasforst+github@gmail.com"
+      },
+      "author_2": {
+        "name": "jpaszek",
+        "email": "julius.paszek@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Lukas Forst",
+        "email": "lukasforst+github@gmail.com"
+      },
+      "author_2": {
+        "name": "9SMTM6",
+        "email": "44668330+9SMTM6@users.noreply.github.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Lukas Forst",
+        "email": "lukasforst+github@gmail.com"
+      },
+      "author_2": {
+        "name": "Shobha Kamath",
+        "email": "shobha.s.kamath@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "jpaszek",
+        "email": "julius.paszek@gmail.com"
+      },
+      "author_2": {
+        "name": "9SMTM6",
+        "email": "44668330+9SMTM6@users.noreply.github.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "9SMTM6",
+        "email": "44668330+9SMTM6@users.noreply.github.com"
+      },
+      "author_2": {
+        "name": "Shobha Kamath",
+        "email": "shobha.s.kamath@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "jpaszek",
+        "email": "julius.paszek@gmail.com"
+      },
+      "author_2": {
+        "name": "Maciej Szarlinski",
+        "email": "mszarlinski@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Maciej Szarliński",
+        "email": "mszarlinski@users.noreply.github.com"
+      },
+      "author_2": {
+        "name": "michaelisvy",
+        "email": "misvy@gopivotal,com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Maciej Szarliński",
+        "email": "mszarlinski@users.noreply.github.com"
+      },
+      "author_2": {
+        "name": "Dapeng",
+        "email": "verydapeng@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Maciej Szarliński",
+        "email": "mszarlinski@users.noreply.github.com"
+      },
+      "author_2": {
+        "name": "Dave Syer",
+        "email": "dsyer@pivotal.io"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@gmail.com"
+      },
+      "author_2": {
+        "name": "Dave Syer",
+        "email": "dsyer@pivotal.io"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Dave Syer",
+        "email": "dsyer@pivotal.io"
+      },
+      "author_2": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@free.fr"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Dave Syer",
+        "email": "dsyer@pivotal.io"
+      },
+      "author_2": {
+        "name": "odedia",
+        "email": "odedia@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Dave Syer",
+        "email": "dsyer@pivotal.io"
+      },
+      "author_2": {
+        "name": "jpaszek",
+        "email": "julius.paszek@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Dave Syer",
+        "email": "dsyer@pivotal.io"
+      },
+      "author_2": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Dave Syer",
+        "email": "dsyer@pivotal.io"
+      },
+      "author_2": {
+        "name": "kevin crawley",
+        "email": "kevin@nashdocker.io"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Dave Syer",
+        "email": "dsyer@pivotal.io"
+      },
+      "author_2": {
+        "name": "Marian-Constantin Marica",
+        "email": "91406991+MarianConstantinMarica@users.noreply.github.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Dave Syer",
+        "email": "dsyer@pivotal.io"
+      },
+      "author_2": {
+        "name": "René Zubcevic",
+        "email": "git@zubcevic.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "odedia",
+        "email": "odedia@gmail.com"
+      },
+      "author_2": {
+        "name": "Marian-Constantin Marica",
+        "email": "91406991+MarianConstantinMarica@users.noreply.github.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Maciej Szarliński",
+        "email": "mszarlinski@users.noreply.github.com"
+      },
+      "author_2": {
+        "name": "odedia",
+        "email": "odedia@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "michaelisvy",
+        "email": "misvy@gopivotal,com"
+      },
+      "author_2": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "kevin crawley",
+        "email": "kevin@nashdocker.io"
+      },
+      "author_2": {
+        "name": "Dapeng",
+        "email": "verydapeng@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "kevin crawley",
+        "email": "kevin@nashdocker.io"
+      },
+      "author_2": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Mic",
+        "email": "misvy@vmware.com"
+      },
+      "author_2": {
+        "name": "kevin crawley",
+        "email": "kevin@nashdocker.io"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Mic",
+        "email": "misvy@vmware.com"
+      },
+      "author_2": {
+        "name": "Rossen Stoyanchev",
+        "email": "rstoyanchev@vmware.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@gmail.com"
+      },
+      "author_2": {
+        "name": "Rossen Stoyanchev",
+        "email": "rstoyanchev@vmware.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Maciej Szarlinski",
+        "email": "mszarlinski@gmail.com"
+      },
+      "author_2": {
+        "name": "Rossen Stoyanchev",
+        "email": "rstoyanchev@vmware.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Costin Leau",
+        "email": "cleau@vmware.com"
+      },
+      "author_2": {
+        "name": "kevin crawley",
+        "email": "kevin@nashdocker.io"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Costin Leau",
+        "email": "cleau@vmware.com"
+      },
+      "author_2": {
+        "name": "Rossen Stoyanchev",
+        "email": "rstoyanchev@vmware.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Shobha Kamath",
+        "email": "shobha.s.kamath@gmail.com"
+      },
+      "author_2": {
+        "name": "michaelisvy",
+        "email": "misvy@gopivotal,com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Shobha Kamath",
+        "email": "shobha.s.kamath@gmail.com"
+      },
+      "author_2": {
+        "name": "kevin crawley",
+        "email": "kevin@nashdocker.io"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Shobha Kamath",
+        "email": "shobha.s.kamath@gmail.com"
+      },
+      "author_2": {
+        "name": "Rossen Stoyanchev",
+        "email": "rstoyanchev@vmware.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@free.fr"
+      },
+      "author_2": {
+        "name": "Rossen Stoyanchev",
+        "email": "rstoyanchev@vmware.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Dapeng",
+        "email": "verydapeng@gmail.com"
+      },
+      "author_2": {
+        "name": "Rossen Stoyanchev",
+        "email": "rstoyanchev@vmware.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Ramazan Sakin",
+        "email": "ramazansakin63@gmail.com"
+      },
+      "author_2": {
+        "name": "Rossen Stoyanchev",
+        "email": "rstoyanchev@vmware.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "michaelisvy",
+        "email": "misvy@gopivotal,com"
+      },
+      "author_2": {
+        "name": "Rossen Stoyanchev",
+        "email": "rstoyanchev@vmware.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "kevin crawley",
+        "email": "kevin@nashdocker.io"
+      },
+      "author_2": {
+        "name": "Gordon Dickens",
+        "email": "gordon@gordondickens.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "kevin crawley",
+        "email": "kevin@nashdocker.io"
+      },
+      "author_2": {
+        "name": "Rossen Stoyanchev",
+        "email": "rstoyanchev@vmware.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Gordon Dickens",
+        "email": "gordon@gordondickens.com"
+      },
+      "author_2": {
+        "name": "Rossen Stoyanchev",
+        "email": "rstoyanchev@vmware.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "michaelisvy",
+        "email": "misvy@gopivotal,com"
+      },
+      "author_2": {
+        "name": "Shobha Kamath",
+        "email": "shobha.s.kamath@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "michaelisvy",
+        "email": "misvy@gopivotal,com"
+      },
+      "author_2": {
+        "name": "Antoine Rey",
+        "email": "antoine.rey@free.fr"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "michaelisvy",
+        "email": "misvy@gopivotal,com"
+      },
+      "author_2": {
+        "name": "Costin Leau",
+        "email": "cleau@vmware.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "michaelisvy",
+        "email": "misvy@gopivotal,com"
+      },
+      "author_2": {
+        "name": "Ramazan Sakin",
+        "email": "ramazansakin63@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Shobha Kamath",
+        "email": "shobha.s.kamath@gmail.com"
+      },
+      "author_2": {
+        "name": "Costin Leau",
+        "email": "cleau@vmware.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Dapeng",
+        "email": "verydapeng@gmail.com"
+      },
+      "author_2": {
+        "name": "Costin Leau",
+        "email": "cleau@vmware.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Gordon Dickens",
+        "email": "gordon@gordondickens.com"
+      },
+      "author_2": {
+        "name": "Ramazan Sakin",
+        "email": "ramazansakin63@gmail.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "Gordon Dickens",
+        "email": "gordon@gordondickens.com"
+      },
+      "author_2": {
+        "name": "michaelisvy",
+        "email": "misvy@gopivotal,com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "René Zubcevic",
+        "email": "git@zubcevic.com"
+      },
+      "author_2": {
+        "name": "Marian-Constantin Marica",
+        "email": "91406991+MarianConstantinMarica@users.noreply.github.com"
+      },
+      "strength": 1
+    },
+    {
+      "author_1": {
+        "name": "kevin crawley",
+        "email": "kevin@nashdocker.io"
+      },
+      "author_2": {
+        "name": "Ramazan Sakin",
+        "email": "ramazansakin63@gmail.com"
+      },
+      "strength": 1
+    }
+  ]
+}
