@@ -3,6 +3,10 @@ import re
 import json
 from datetime import datetime
 
+# Constants
+OUTPUT_DIR='./outputs'
+OUTPUT_FILE='endpoints'
+
 # Class-level @RequestMapping pattern
 class_pattern = r'@RequestMapping\s*\(\s*(?:value\s*=\s*)?"([^"]+)"\s*\)'
 
@@ -33,6 +37,13 @@ method_patterns = {
         r"@DeleteMapping(?!\()",
     ],
 }
+
+
+def dict_to_json_file(file_name,output_folder, dictionary):
+    os.makedirs("./outputs/", exist_ok=True) if not output_folder else ''
+    with open(f"{output_folder}{file_name}.json" if output_folder else f'./outputs/{file_name}.json',
+              'w') as file:
+        json.dump(dictionary, file, indent=2, ensure_ascii=False)
 
 
 def find_java_files(directory):
@@ -98,13 +109,15 @@ def extract_all_paths(directory):
 
 
 if __name__ == "__main__":
+    
+    input_directory = input("Please enter the absolute path to the folder containing the 'main' directory: ")
+    original_directory = os.getcwd()
+    os.chdir(input_directory)
+    output_folder = input(
+        f"Please enter output folder path for {OUTPUT_FILE} (default: {OUTPUT_DIR}): ")
 
-    # TODO: Change it to take input from the user
-    project_directory = "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices"
-
-    paths = extract_all_paths(project_directory)
+    paths = extract_all_paths(input_directory)
 
     # Write paths to a JSON file
-    output_file = "./outputs/service_paths.json"
-    with open(output_file, "w", encoding="utf-8") as f:
-        json.dump(paths, f, indent=4)
+    os.chdir(original_directory)
+    dict_to_json_file(OUTPUT_FILE,output_folder, paths)
