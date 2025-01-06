@@ -32,7 +32,8 @@ IGNORE_FILES = {
 
 def dict_to_json_file(file_name,output_folder, dictionary):
     os.makedirs("./outputs/", exist_ok=True) if not output_folder else ''
-    with open(f"{output_folder}{file_name}.json" if output_folder else f'./outputs/{file_name}.json',
+    with open(f"{output_folder}{file_name}.json" if output_folder else \
+        f'./outputs/{file_name}.json',
               'w') as file:
         json.dump(dictionary, file, indent=2, ensure_ascii=False)
 
@@ -44,14 +45,13 @@ def get_method_info(package_name, class_name, method_name, full_method_name, aut
     return locals()
 
 def remove_duplicates(authors_list):
+    """ Remove repeating or duplicate authors from the list"""
     seen_emails=set()
     unique_authors=[]
-    
     for author in authors_list:
-        if(author['author_email'] not in seen_emails):
+        if author['author_email'] not in seen_emails:
             seen_emails.add(author['author_email'])
             unique_authors.append(author)
-    
     return unique_authors
 
 def get_line_info(file_path, line_number):
@@ -75,14 +75,13 @@ def get_author_relation_strength(files_info_list):
 
     for fileData in files_info_list['files']:
         # Extract unique authors for the current file
-        authors_list = [item for item in fileData['contributors'] if item['author_name'] != "Not Committed Yet"]
+        authors_list = [item for item in fileData['contributors'] if \
+            item['author_name'] != "Not Committed Yet"]
         authors_list = remove_duplicates(authors_list)
-        
+
         # Calculate relation strength for the current file's authors
         for pair in combinations(authors_list, 2):
-            
             pair_name = get_pair_key(pair)
-    
             # Check if the pair_name already exists in relation_strength
             if pair_name in relation_strength:
                 # Increment the strength if the pair already exists

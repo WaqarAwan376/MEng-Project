@@ -1,38 +1,22 @@
 import subprocess
 import javalang
 import os
-import json
 from collections import Counter, defaultdict
 from datetime import datetime
 import re
+from utils.helper import (
+    read_java_source_file,
+    get_file_package,
+    is_primitive_type,
+    is_wrapper_class,
+    get_method_info,
+    dict_to_json_file
+)
+
 
 # Constants
-OUTPUT_DIR='outputs'
-OUTPUT_FILE='author-tracking.json'
-    
-def read_java_source_file(file_path):
-    with open(file_path, 'r') as file:
-        return file.read()
-
-
-def get_file_package(code_tree):
-    for _, node in code_tree.filter(javalang.tree.PackageDeclaration):
-        return node.name
-
-
-def is_primitive_type(type_name):
-    primitive_types = {"boolean", "byte", "char",
-                       "short", "int", "long",
-                       "float", "double"}
-    return type_name in primitive_types
-
-
-def is_wrapper_class(type_name):
-    wrapper_classes = {"Boolean", "Byte", "Character",
-                       "Short", "Integer", "Long",
-                       "Float", "Double", "ClassLoader",
-                       "Object", "Class", "String"}
-    return type_name in wrapper_classes
+OUTPUT_DIR='./outputs'
+OUTPUT_FILE='author-tracking'
 
 
 def get_full_method(class_name, package_name, method_name, parameters, import_statements):
@@ -113,19 +97,6 @@ def get_all_authors(method_info):
     return unique_authors_with_lines
 
 
-def dict_to_json_file(output_folder, dictionary):
-    if not output_folder and not os.path.exists(f'./{OUTPUT_DIR}'):
-        os.makedirs(f'./{OUTPUT_DIR}')
-    with open(f"{output_folder}{OUTPUT_FILE}" if output_folder else f'./{OUTPUT_DIR}/{OUTPUT_FILE}',
-              'w') as file:
-        json.dump(dictionary, file, indent=2, ensure_ascii=False)
-
-
-def get_method_info(package_name, class_name, method_name, full_method_name, author_username,
-                    author_email, time, all_authors, top_contributor):
-    return locals()
-
-
 def get_line_info(file_path, line_number):
     """Get last commit author from the line number provided in the parameter."""
 
@@ -153,7 +124,6 @@ def is_record_declaration(source_code):
         re.MULTILINE | re.DOTALL
     )
     return bool(record_pattern.search(source_code))
-
 
 
 def parse_java_file(file_content):
@@ -233,15 +203,13 @@ if __name__ == '__main__':
     original_directory = os.getcwd()
     os.chdir(input_directory)
     output_folder = input(
-        f"Please enter output folder path for {OUTPUT_FILE} (default: ./{OUTPUT_DIR}): ")
-    # dir_path = r"./main"
+        f"Please enter output folder path for {OUTPUT_FILE} (default: {OUTPUT_DIR}): ")
 
     res= []
     for (dir_path, dir_names, file_names) in os.walk(input_directory):
         for fileName in file_names:
             res.append(f"{dir_path}/{fileName}")
 
-    filesData = []
     methods_data = {"time": datetime.now().strftime("%Y-%m-%d %H:%M:%S"), "edges": []}
     for fileName in res:
         if ('main' in fileName and fileName.split('.')[-1] == 'java'):
@@ -250,4 +218,5 @@ if __name__ == '__main__':
                 methods_data['edges'] = methods_data['edges'] + find_last_author_per_method(fileName,file_content)
 
     os.chdir(original_directory)
-    dict_to_json_file(output_folder, methods_data)
+    dict_to_json_file(OUTPUT_FILE,output_folder, methods_data)
+

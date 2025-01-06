@@ -1,0 +1,3235 @@
+{
+  "time": "2025-01-06 15:37:28",
+  "edges": [
+    {
+      "package_name": "org.springframework.samples.petclinic.config",
+      "class_name": "ConfigServerApplication",
+      "method_name": "main",
+      "full_method_name": "org.springframework.samples.petclinic.config.ConfigServerApplication.main(java.lang.String)",
+      "author_username": "Maciej Szarlinski",
+      "author_email": "mszarlinski@bravurasolutions.com",
+      "time": "2016-11-02 09:35:54",
+      "all_authors": [
+        {
+          "author": "Maciej Szarlinski",
+          "author_email": "mszarlinski@bravurasolutions.com",
+          "line_numbers": [
+            29,
+            30
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Maciej Szarlinski",
+        "email": "mszarlinski@bravurasolutions.com",
+        "lines_updated": [
+          29,
+          30
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.discovery",
+      "class_name": "DiscoveryServerApplication",
+      "method_name": "main",
+      "full_method_name": "org.springframework.samples.petclinic.discovery.DiscoveryServerApplication.main(java.lang.String)",
+      "author_username": "Maciej Szarlinski",
+      "author_email": "mszarlinski@bravurasolutions.com",
+      "time": "2016-11-02 09:35:54",
+      "all_authors": [
+        {
+          "author": "Maciej Szarlinski",
+          "author_email": "mszarlinski@bravurasolutions.com",
+          "line_numbers": [
+            29,
+            30
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Maciej Szarlinski",
+        "email": "mszarlinski@bravurasolutions.com",
+        "lines_updated": [
+          29,
+          30
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.genai",
+      "class_name": "AIBeanConfiguration",
+      "method_name": "chatMemory",
+      "full_method_name": "org.springframework.samples.petclinic.genai.AIBeanConfiguration.chatMemory()",
+      "author_username": "odedia",
+      "author_email": "odedia@gmail.com",
+      "time": "2024-12-27 10:47:47",
+      "all_authors": [
+        {
+          "author": "odedia",
+          "author_email": "odedia@gmail.com",
+          "line_numbers": [
+            22,
+            23
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "odedia",
+        "email": "odedia@gmail.com",
+        "lines_updated": [
+          22,
+          23
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.genai",
+      "class_name": "AIBeanConfiguration",
+      "method_name": "vectorStore",
+      "full_method_name": "org.springframework.samples.petclinic.genai.AIBeanConfiguration.vectorStore(org.springframework.ai.embedding.EmbeddingModel)",
+      "author_username": "odedia",
+      "author_email": "odedia@gmail.com",
+      "time": "2024-12-27 10:47:47",
+      "all_authors": [
+        {
+          "author": "odedia",
+          "author_email": "odedia@gmail.com",
+          "line_numbers": [
+            27,
+            28
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "odedia",
+        "email": "odedia@gmail.com",
+        "lines_updated": [
+          27,
+          28
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.genai",
+      "class_name": "AIBeanConfiguration",
+      "method_name": "loadBalancedWebClientBuilder",
+      "full_method_name": "org.springframework.samples.petclinic.genai.AIBeanConfiguration.loadBalancedWebClientBuilder()",
+      "author_username": "odedia",
+      "author_email": "odedia@gmail.com",
+      "time": "2024-12-27 10:47:47",
+      "all_authors": [
+        {
+          "author": "odedia",
+          "author_email": "odedia@gmail.com",
+          "line_numbers": [
+            33,
+            34
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "odedia",
+        "email": "odedia@gmail.com",
+        "lines_updated": [
+          33,
+          34
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.genai",
+      "class_name": "AIDataProvider",
+      "method_name": "getAllOwners",
+      "full_method_name": "org.springframework.samples.petclinic.genai.AIDataProvider.getAllOwners()",
+      "author_username": "odedia",
+      "author_email": "odedia@gmail.com",
+      "time": "2024-12-27 10:47:47",
+      "all_authors": [
+        {
+          "author": "odedia",
+          "author_email": "odedia@gmail.com",
+          "line_numbers": [
+            37,
+            38
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "odedia",
+        "email": "odedia@gmail.com",
+        "lines_updated": [
+          37,
+          38
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.genai",
+      "class_name": "AIDataProvider",
+      "method_name": "getVets",
+      "full_method_name": "org.springframework.samples.petclinic.genai.AIDataProvider.getVets(org.springframework.samples.petclinic.genai.VetRequest)",
+      "author_username": "odedia",
+      "author_email": "odedia@gmail.com",
+      "time": "2024-12-27 10:47:47",
+      "all_authors": [
+        {
+          "author": "odedia",
+          "author_email": "odedia@gmail.com",
+          "line_numbers": [
+            46,
+            47,
+            48,
+            49,
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58
+          ],
+          "total_lines": 13
+        }
+      ],
+      "top_contributor": {
+        "username": "odedia",
+        "email": "odedia@gmail.com",
+        "lines_updated": [
+          46,
+          47,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.genai",
+      "class_name": "AIDataProvider",
+      "method_name": "addPetToOwner",
+      "full_method_name": "org.springframework.samples.petclinic.genai.AIDataProvider.addPetToOwner(org.springframework.samples.petclinic.genai.AddPetRequest)",
+      "author_username": "odedia",
+      "author_email": "odedia@gmail.com",
+      "time": "2024-12-27 10:47:47",
+      "all_authors": [
+        {
+          "author": "odedia",
+          "author_email": "odedia@gmail.com",
+          "line_numbers": [
+            61,
+            62
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "odedia",
+        "email": "odedia@gmail.com",
+        "lines_updated": [
+          61,
+          62
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.genai",
+      "class_name": "AIDataProvider",
+      "method_name": "addOwnerToPetclinic",
+      "full_method_name": "org.springframework.samples.petclinic.genai.AIDataProvider.addOwnerToPetclinic(org.springframework.samples.petclinic.genai.OwnerRequest)",
+      "author_username": "odedia",
+      "author_email": "odedia@gmail.com",
+      "time": "2024-12-27 10:47:47",
+      "all_authors": [
+        {
+          "author": "odedia",
+          "author_email": "odedia@gmail.com",
+          "line_numbers": [
+            69,
+            70
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "odedia",
+        "email": "odedia@gmail.com",
+        "lines_updated": [
+          69,
+          70
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.genai",
+      "class_name": "VectorStoreController",
+      "method_name": "loadVetDataToVectorStoreOnStartup",
+      "full_method_name": "org.springframework.samples.petclinic.genai.VectorStoreController.loadVetDataToVectorStoreOnStartup(org.springframework.boot.context.event.ApplicationStartedEvent)",
+      "author_username": "odedia",
+      "author_email": "odedia@gmail.com",
+      "time": "2024-12-27 10:47:47",
+      "all_authors": [
+        {
+          "author": "odedia",
+          "author_email": "odedia@gmail.com",
+          "line_numbers": [
+            50,
+            51,
+            52,
+            53,
+            54,
+            55,
+            56,
+            57,
+            58,
+            59,
+            60,
+            61,
+            62,
+            63,
+            64,
+            65,
+            66,
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            74,
+            75,
+            76,
+            77,
+            78,
+            79,
+            80,
+            81,
+            82,
+            83,
+            84,
+            85,
+            86,
+            87,
+            88,
+            89,
+            90,
+            91
+          ],
+          "total_lines": 42
+        }
+      ],
+      "top_contributor": {
+        "username": "odedia",
+        "email": "odedia@gmail.com",
+        "lines_updated": [
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.genai",
+      "class_name": "VectorStoreController",
+      "method_name": "convertListToJsonResource",
+      "full_method_name": "org.springframework.samples.petclinic.genai.VectorStoreController.convertListToJsonResource(java.util.List)",
+      "author_username": "odedia",
+      "author_email": "odedia@gmail.com",
+      "time": "2024-12-27 10:47:47",
+      "all_authors": [
+        {
+          "author": "odedia",
+          "author_email": "odedia@gmail.com",
+          "line_numbers": [
+            94,
+            95,
+            96
+          ],
+          "total_lines": 3
+        }
+      ],
+      "top_contributor": {
+        "username": "odedia",
+        "email": "odedia@gmail.com",
+        "lines_updated": [
+          94,
+          95,
+          96
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.genai",
+      "class_name": "GenAIServiceApplication",
+      "method_name": "main",
+      "full_method_name": "org.springframework.samples.petclinic.genai.GenAIServiceApplication.main(java.lang.String)",
+      "author_username": "odedia",
+      "author_email": "odedia@gmail.com",
+      "time": "2024-12-27 10:47:47",
+      "all_authors": [
+        {
+          "author": "odedia",
+          "author_email": "odedia@gmail.com",
+          "line_numbers": [
+            29,
+            30
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "odedia",
+        "email": "odedia@gmail.com",
+        "lines_updated": [
+          29,
+          30
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.admin",
+      "class_name": "SpringBootAdminApplication",
+      "method_name": "main",
+      "full_method_name": "org.springframework.samples.petclinic.admin.SpringBootAdminApplication.main(java.lang.String)",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@gmail.com",
+      "time": "2017-01-07 13:18:50",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com",
+          "line_numbers": [
+            27,
+            28
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@gmail.com",
+        "lines_updated": [
+          27,
+          28
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.vets",
+      "class_name": "VetsServiceApplication",
+      "method_name": "main",
+      "full_method_name": "org.springframework.samples.petclinic.vets.VetsServiceApplication.main(java.lang.String)",
+      "author_username": "Maciej Szarlinski",
+      "author_email": "mszarlinski@bravurasolutions.com",
+      "time": "2016-10-31 09:50:14",
+      "all_authors": [
+        {
+          "author": "Maciej Szarlinski",
+          "author_email": "mszarlinski@bravurasolutions.com",
+          "line_numbers": [
+            32,
+            33
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Maciej Szarlinski",
+        "email": "mszarlinski@bravurasolutions.com",
+        "lines_updated": [
+          32,
+          33
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.vets.web",
+      "class_name": "VetResource",
+      "method_name": "showResourcesVetList",
+      "full_method_name": "org.springframework.samples.petclinic.vets.web.VetResource.showResourcesVetList()",
+      "author_username": "Maciej Szarlinski",
+      "author_email": "mszarlinski@gmail.com",
+      "time": "2016-11-24 09:21:50",
+      "all_authors": [
+        {
+          "author": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com",
+          "line_numbers": [
+            46,
+            47
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Maciej Szarlinski",
+        "email": "mszarlinski@gmail.com",
+        "lines_updated": [
+          46,
+          47
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.vets.model",
+      "class_name": "Vet",
+      "method_name": "getSpecialtiesInternal",
+      "full_method_name": "org.springframework.samples.petclinic.vets.model.Vet.getSpecialtiesInternal()",
+      "author_username": "Maciej Szarlinski",
+      "author_email": "mszarlinski@gmail.com",
+      "time": "2016-10-30 15:05:29",
+      "all_authors": [
+        {
+          "author": "Gordon Dickens",
+          "author_email": "gordon@gordondickens.com",
+          "line_numbers": [
+            57,
+            58,
+            60,
+            61
+          ],
+          "total_lines": 4
+        },
+        {
+          "author": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com",
+          "line_numbers": [
+            59
+          ],
+          "total_lines": 1
+        }
+      ],
+      "top_contributor": {
+        "username": "Gordon Dickens",
+        "email": "gordon@gordondickens.com",
+        "lines_updated": [
+          57,
+          58,
+          60,
+          61
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.vets.model",
+      "class_name": "Vet",
+      "method_name": "getSpecialties",
+      "full_method_name": "org.springframework.samples.petclinic.vets.model.Vet.getSpecialties()",
+      "author_username": "Maciej Szarlinski",
+      "author_email": "mszarlinski@gmail.com",
+      "time": "2016-10-30 15:05:29",
+      "all_authors": [
+        {
+          "author": "Gordon Dickens",
+          "author_email": "gordon@gordondickens.com",
+          "line_numbers": [
+            65,
+            67,
+            68
+          ],
+          "total_lines": 3
+        },
+        {
+          "author": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com",
+          "line_numbers": [
+            66
+          ],
+          "total_lines": 1
+        }
+      ],
+      "top_contributor": {
+        "username": "Gordon Dickens",
+        "email": "gordon@gordondickens.com",
+        "lines_updated": [
+          65,
+          67,
+          68
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.vets.model",
+      "class_name": "Vet",
+      "method_name": "getNrOfSpecialties",
+      "full_method_name": "org.springframework.samples.petclinic.vets.model.Vet.getNrOfSpecialties()",
+      "author_username": "Gordon Dickens",
+      "author_email": "gordon@gordondickens.com",
+      "time": "2013-02-19 10:56:21",
+      "all_authors": [
+        {
+          "author": "Gordon Dickens",
+          "author_email": "gordon@gordondickens.com",
+          "line_numbers": [
+            71,
+            72
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Gordon Dickens",
+        "email": "gordon@gordondickens.com",
+        "lines_updated": [
+          71,
+          72
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.vets.model",
+      "class_name": "Vet",
+      "method_name": "addSpecialty",
+      "full_method_name": "org.springframework.samples.petclinic.vets.model.Vet.addSpecialty(org.springframework.samples.petclinic.vets.model.Specialty)",
+      "author_username": "Gordon Dickens",
+      "author_email": "gordon@gordondickens.com",
+      "time": "2013-02-19 10:56:21",
+      "all_authors": [
+        {
+          "author": "Gordon Dickens",
+          "author_email": "gordon@gordondickens.com",
+          "line_numbers": [
+            75,
+            76
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Gordon Dickens",
+        "email": "gordon@gordondickens.com",
+        "lines_updated": [
+          75,
+          76
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.vets.model",
+      "class_name": "Vet",
+      "method_name": "getId",
+      "full_method_name": "org.springframework.samples.petclinic.vets.model.Vet.getId()",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@free.fr",
+      "time": "2024-12-27 12:32:24",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr",
+          "line_numbers": [
+            79,
+            80
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@free.fr",
+        "lines_updated": [
+          79,
+          80
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.vets.model",
+      "class_name": "Vet",
+      "method_name": "getFirstName",
+      "full_method_name": "org.springframework.samples.petclinic.vets.model.Vet.getFirstName()",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@free.fr",
+      "time": "2024-12-27 12:32:24",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr",
+          "line_numbers": [
+            83,
+            84
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@free.fr",
+        "lines_updated": [
+          83,
+          84
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.vets.model",
+      "class_name": "Vet",
+      "method_name": "getLastName",
+      "full_method_name": "org.springframework.samples.petclinic.vets.model.Vet.getLastName()",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@free.fr",
+      "time": "2024-12-27 12:32:24",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr",
+          "line_numbers": [
+            87,
+            88
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@free.fr",
+        "lines_updated": [
+          87,
+          88
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.vets.model",
+      "class_name": "Vet",
+      "method_name": "setId",
+      "full_method_name": "org.springframework.samples.petclinic.vets.model.Vet.setId(java.lang.Integer)",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@free.fr",
+      "time": "2024-12-27 12:32:24",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr",
+          "line_numbers": [
+            91,
+            92
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@free.fr",
+        "lines_updated": [
+          91,
+          92
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.vets.model",
+      "class_name": "Vet",
+      "method_name": "setFirstName",
+      "full_method_name": "org.springframework.samples.petclinic.vets.model.Vet.setFirstName(java.lang.String)",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@free.fr",
+      "time": "2024-12-27 12:32:24",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr",
+          "line_numbers": [
+            95,
+            96
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@free.fr",
+        "lines_updated": [
+          95,
+          96
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.vets.model",
+      "class_name": "Vet",
+      "method_name": "setLastName",
+      "full_method_name": "org.springframework.samples.petclinic.vets.model.Vet.setLastName(java.lang.String)",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@free.fr",
+      "time": "2024-12-27 12:32:24",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr",
+          "line_numbers": [
+            99,
+            100
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@free.fr",
+        "lines_updated": [
+          99,
+          100
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.vets.model",
+      "class_name": "Specialty",
+      "method_name": "getId",
+      "full_method_name": "org.springframework.samples.petclinic.vets.model.Specialty.getId()",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@free.fr",
+      "time": "2024-12-27 12:32:24",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr",
+          "line_numbers": [
+            37,
+            38
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@free.fr",
+        "lines_updated": [
+          37,
+          38
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.vets.model",
+      "class_name": "Specialty",
+      "method_name": "getName",
+      "full_method_name": "org.springframework.samples.petclinic.vets.model.Specialty.getName()",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@free.fr",
+      "time": "2024-12-27 12:32:24",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr",
+          "line_numbers": [
+            41,
+            42
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@free.fr",
+        "lines_updated": [
+          41,
+          42
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.vets.model",
+      "class_name": "Specialty",
+      "method_name": "setName",
+      "full_method_name": "org.springframework.samples.petclinic.vets.model.Specialty.setName(java.lang.String)",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@free.fr",
+      "time": "2024-12-27 12:32:24",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr",
+          "line_numbers": [
+            45,
+            46
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@free.fr",
+        "lines_updated": [
+          45,
+          46
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.api",
+      "class_name": "ApiGatewayApplication",
+      "method_name": "main",
+      "full_method_name": "org.springframework.samples.petclinic.api.ApiGatewayApplication.main(java.lang.String)",
+      "author_username": "Maciej Szarlinski",
+      "author_email": "mszarlinski@gmail.com",
+      "time": "2016-11-24 15:06:40",
+      "all_authors": [
+        {
+          "author": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com",
+          "line_numbers": [
+            49,
+            50
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Maciej Szarlinski",
+        "email": "mszarlinski@gmail.com",
+        "lines_updated": [
+          49,
+          50
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.api",
+      "class_name": "ApiGatewayApplication",
+      "method_name": "loadBalancedRestTemplate",
+      "full_method_name": "org.springframework.samples.petclinic.api.ApiGatewayApplication.loadBalancedRestTemplate()",
+      "author_username": "Maciej Szarlinski",
+      "author_email": "mszarlinski@gmail.com",
+      "time": "2016-11-24 15:06:40",
+      "all_authors": [
+        {
+          "author": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com",
+          "line_numbers": [
+            55,
+            56
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Maciej Szarlinski",
+        "email": "mszarlinski@gmail.com",
+        "lines_updated": [
+          55,
+          56
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.api",
+      "class_name": "ApiGatewayApplication",
+      "method_name": "loadBalancedWebClientBuilder",
+      "full_method_name": "org.springframework.samples.petclinic.api.ApiGatewayApplication.loadBalancedWebClientBuilder()",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@gmail.com",
+      "time": "2019-11-13 12:31:52",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com",
+          "line_numbers": [
+            61,
+            62
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@gmail.com",
+        "lines_updated": [
+          61,
+          62
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.api",
+      "class_name": "ApiGatewayApplication",
+      "method_name": "routerFunction",
+      "full_method_name": "org.springframework.samples.petclinic.api.ApiGatewayApplication.routerFunction()",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@gmail.com",
+      "time": "2019-11-13 12:57:46",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com",
+          "line_numbers": [
+            73,
+            74,
+            75,
+            76,
+            77
+          ],
+          "total_lines": 5
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@gmail.com",
+        "lines_updated": [
+          73,
+          74,
+          75,
+          76,
+          77
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.api",
+      "class_name": "ApiGatewayApplication",
+      "method_name": "defaultCustomizer",
+      "full_method_name": "org.springframework.samples.petclinic.api.ApiGatewayApplication.defaultCustomizer()",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@gmail.com",
+      "time": "2019-11-19 12:19:41",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com",
+          "line_numbers": [
+            84,
+            85
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@gmail.com",
+        "lines_updated": [
+          84,
+          85
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.api.boundary.web",
+      "class_name": "ApiGatewayController",
+      "method_name": "getOwnerDetails",
+      "full_method_name": "org.springframework.samples.petclinic.api.boundary.web.ApiGatewayController.getOwnerDetails(int)",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@gmail.com",
+      "time": "2019-11-13 12:31:52",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com",
+          "line_numbers": [
+            55,
+            56
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@gmail.com",
+        "lines_updated": [
+          55,
+          56
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.api.boundary.web",
+      "class_name": "ApiGatewayController",
+      "method_name": "addVisitsToOwner",
+      "full_method_name": "org.springframework.samples.petclinic.api.boundary.web.ApiGatewayController.addVisitsToOwner(org.springframework.samples.petclinic.api.dto.OwnerDetails)",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@gmail.com",
+      "time": "2019-11-13 12:31:52",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com",
+          "line_numbers": [
+            68,
+            69
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@gmail.com",
+        "lines_updated": [
+          68,
+          69
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.api.boundary.web",
+      "class_name": "ApiGatewayController",
+      "method_name": "emptyVisitsForPets",
+      "full_method_name": "org.springframework.samples.petclinic.api.boundary.web.ApiGatewayController.emptyVisitsForPets()",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@free.fr",
+      "time": "2024-12-27 12:32:24",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr",
+          "line_numbers": [
+            80,
+            81
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@free.fr",
+        "lines_updated": [
+          80,
+          81
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.api.boundary.web",
+      "class_name": "FallbackController",
+      "method_name": "fallback",
+      "full_method_name": "org.springframework.samples.petclinic.api.boundary.web.FallbackController.fallback()",
+      "author_username": "odedia",
+      "author_email": "odedia@gmail.com",
+      "time": "2024-12-27 10:47:47",
+      "all_authors": [
+        {
+          "author": "odedia",
+          "author_email": "odedia@gmail.com",
+          "line_numbers": [
+            12,
+            13
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "odedia",
+        "email": "odedia@gmail.com",
+        "lines_updated": [
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.api.application",
+      "class_name": "CustomersServiceClient",
+      "method_name": "getOwner",
+      "full_method_name": "org.springframework.samples.petclinic.api.application.CustomersServiceClient.getOwner(int)",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@gmail.com",
+      "time": "2019-11-13 12:31:52",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com",
+          "line_numbers": [
+            35,
+            36
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@gmail.com",
+        "lines_updated": [
+          35,
+          36
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.api.application",
+      "class_name": "VisitsServiceClient",
+      "method_name": "getVisitsForPets",
+      "full_method_name": "org.springframework.samples.petclinic.api.application.VisitsServiceClient.getVisitsForPets(java.util.List)",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@gmail.com",
+      "time": "2019-11-13 12:31:52",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com",
+          "line_numbers": [
+            42,
+            43
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@gmail.com",
+        "lines_updated": [
+          42,
+          43
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.api.application",
+      "class_name": "VisitsServiceClient",
+      "method_name": "joinIds",
+      "full_method_name": "org.springframework.samples.petclinic.api.application.VisitsServiceClient.joinIds(java.util.List)",
+      "author_username": "Maciej Szarlinski",
+      "author_email": "mszarlinski@gmail.com",
+      "time": "2018-09-23 12:53:54",
+      "all_authors": [
+        {
+          "author": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com",
+          "line_numbers": [
+            50,
+            51
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Maciej Szarlinski",
+        "email": "mszarlinski@gmail.com",
+        "lines_updated": [
+          50,
+          51
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.api.application",
+      "class_name": "VisitsServiceClient",
+      "method_name": "setHostname",
+      "full_method_name": "org.springframework.samples.petclinic.api.application.VisitsServiceClient.setHostname(java.lang.String)",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@gmail.com",
+      "time": "2019-11-15 02:31:51",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com",
+          "line_numbers": [
+            54,
+            55
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@gmail.com",
+        "lines_updated": [
+          54,
+          55
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.customers",
+      "class_name": "CustomersServiceApplication",
+      "method_name": "main",
+      "full_method_name": "org.springframework.samples.petclinic.customers.CustomersServiceApplication.main(java.lang.String)",
+      "author_username": "Maciej Szarlinski",
+      "author_email": "mszarlinski@gmail.com",
+      "time": "2016-11-14 13:58:21",
+      "all_authors": [
+        {
+          "author": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com",
+          "line_numbers": [
+            29,
+            30
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Maciej Szarlinski",
+        "email": "mszarlinski@gmail.com",
+        "lines_updated": [
+          29,
+          30
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.customers.config",
+      "class_name": "MetricConfig",
+      "method_name": "metricsCommonTags",
+      "full_method_name": "org.springframework.samples.petclinic.customers.config.MetricConfig.metricsCommonTags()",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@free.fr",
+      "time": "2022-12-28 04:55:23",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr",
+          "line_numbers": [
+            13,
+            14
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@free.fr",
+        "lines_updated": [
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.customers.config",
+      "class_name": "MetricConfig",
+      "method_name": "timedAspect",
+      "full_method_name": "org.springframework.samples.petclinic.customers.config.MetricConfig.timedAspect(io.micrometer.core.instrument.MeterRegistry)",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@free.fr",
+      "time": "2022-12-28 04:55:23",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr",
+          "line_numbers": [
+            18,
+            19
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@free.fr",
+        "lines_updated": [
+          18,
+          19
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.customers.web",
+      "class_name": "PetResource",
+      "method_name": "getPetTypes",
+      "full_method_name": "org.springframework.samples.petclinic.customers.web.PetResource.getPetTypes()",
+      "author_username": "Maciej Szarlinski",
+      "author_email": "mszarlinski@gmail.com",
+      "time": "2016-11-24 09:21:50",
+      "all_authors": [
+        {
+          "author": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com",
+          "line_numbers": [
+            50,
+            51
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Maciej Szarlinski",
+        "email": "mszarlinski@gmail.com",
+        "lines_updated": [
+          50,
+          51
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.customers.web",
+      "class_name": "PetResource",
+      "method_name": "processCreationForm",
+      "full_method_name": "org.springframework.samples.petclinic.customers.web.PetResource.processCreationForm(org.springframework.samples.petclinic.customers.web.PetRequest,int)",
+      "author_username": "Shobha Kamath",
+      "author_email": "shobha.s.kamath@gmail.com",
+      "time": "2024-01-05 12:32:19",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com",
+          "line_numbers": [
+            56,
+            65
+          ],
+          "total_lines": 2
+        },
+        {
+          "author": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com",
+          "line_numbers": [
+            57
+          ],
+          "total_lines": 1
+        },
+        {
+          "author": "Ramazan Sakin",
+          "author_email": "ramazansakin63@gmail.com",
+          "line_numbers": [
+            58,
+            63,
+            64
+          ],
+          "total_lines": 3
+        },
+        {
+          "author": "Dapeng",
+          "author_email": "verydapeng@gmail.com",
+          "line_numbers": [
+            59,
+            62
+          ],
+          "total_lines": 2
+        },
+        {
+          "author": "Shobha Kamath",
+          "author_email": "shobha.s.kamath@gmail.com",
+          "line_numbers": [
+            60,
+            61
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Ramazan Sakin",
+        "email": "ramazansakin63@gmail.com",
+        "lines_updated": [
+          58,
+          63,
+          64
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.customers.web",
+      "class_name": "PetResource",
+      "method_name": "processUpdateForm",
+      "full_method_name": "org.springframework.samples.petclinic.customers.web.PetResource.processUpdateForm(org.springframework.samples.petclinic.customers.web.PetRequest)",
+      "author_username": "Shobha Kamath",
+      "author_email": "shobha.s.kamath@gmail.com",
+      "time": "2024-01-05 12:32:19",
+      "all_authors": [
+        {
+          "author": "Dapeng",
+          "author_email": "verydapeng@gmail.com",
+          "line_numbers": [
+            70
+          ],
+          "total_lines": 1
+        },
+        {
+          "author": "Shobha Kamath",
+          "author_email": "shobha.s.kamath@gmail.com",
+          "line_numbers": [
+            71
+          ],
+          "total_lines": 1
+        },
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com",
+          "line_numbers": [
+            72,
+            73
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@gmail.com",
+        "lines_updated": [
+          72,
+          73
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.customers.web",
+      "class_name": "PetResource",
+      "method_name": "save",
+      "full_method_name": "org.springframework.samples.petclinic.customers.web.PetResource.save(org.springframework.samples.petclinic.customers.web.Pet,org.springframework.samples.petclinic.customers.web.PetRequest)",
+      "author_username": "Shobha Kamath",
+      "author_email": "shobha.s.kamath@gmail.com",
+      "time": "2024-01-05 12:32:19",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com",
+          "line_numbers": [
+            76,
+            84,
+            85
+          ],
+          "total_lines": 3
+        },
+        {
+          "author": "Dapeng",
+          "author_email": "verydapeng@gmail.com",
+          "line_numbers": [
+            77,
+            80,
+            83
+          ],
+          "total_lines": 3
+        },
+        {
+          "author": "Shobha Kamath",
+          "author_email": "shobha.s.kamath@gmail.com",
+          "line_numbers": [
+            78,
+            79,
+            81
+          ],
+          "total_lines": 3
+        },
+        {
+          "author": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com",
+          "line_numbers": [
+            82
+          ],
+          "total_lines": 1
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@gmail.com",
+        "lines_updated": [
+          76,
+          84,
+          85
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.customers.web",
+      "class_name": "PetResource",
+      "method_name": "findPet",
+      "full_method_name": "org.springframework.samples.petclinic.customers.web.PetResource.findPet(int)",
+      "author_username": "Shobha Kamath",
+      "author_email": "shobha.s.kamath@gmail.com",
+      "time": "2024-01-05 12:32:19",
+      "all_authors": [
+        {
+          "author": "Dapeng",
+          "author_email": "verydapeng@gmail.com",
+          "line_numbers": [
+            89
+          ],
+          "total_lines": 1
+        },
+        {
+          "author": "Shobha Kamath",
+          "author_email": "shobha.s.kamath@gmail.com",
+          "line_numbers": [
+            90,
+            91
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Shobha Kamath",
+        "email": "shobha.s.kamath@gmail.com",
+        "lines_updated": [
+          90,
+          91
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.customers.web",
+      "class_name": "PetResource",
+      "method_name": "findPetById",
+      "full_method_name": "org.springframework.samples.petclinic.customers.web.PetResource.findPetById(int)",
+      "author_username": "Shobha Kamath",
+      "author_email": "shobha.s.kamath@gmail.com",
+      "time": "2024-01-05 12:32:19",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com",
+          "line_numbers": [
+            95
+          ],
+          "total_lines": 1
+        },
+        {
+          "author": "Shobha Kamath",
+          "author_email": "shobha.s.kamath@gmail.com",
+          "line_numbers": [
+            96
+          ],
+          "total_lines": 1
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@gmail.com",
+        "lines_updated": [
+          95
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.customers.web",
+      "class_name": "OwnerResource",
+      "method_name": "createOwner",
+      "full_method_name": "org.springframework.samples.petclinic.customers.web.OwnerResource.createOwner(org.springframework.samples.petclinic.customers.web.OwnerRequest)",
+      "author_username": "Shobha Kamath",
+      "author_email": "shobha.s.kamath@gmail.com",
+      "time": "2024-01-05 12:32:19",
+      "all_authors": [
+        {
+          "author": "Shobha Kamath",
+          "author_email": "shobha.s.kamath@gmail.com",
+          "line_numbers": [
+            59,
+            60
+          ],
+          "total_lines": 2
+        },
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com",
+          "line_numbers": [
+            61
+          ],
+          "total_lines": 1
+        }
+      ],
+      "top_contributor": {
+        "username": "Shobha Kamath",
+        "email": "shobha.s.kamath@gmail.com",
+        "lines_updated": [
+          59,
+          60
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.customers.web",
+      "class_name": "OwnerResource",
+      "method_name": "findOwner",
+      "full_method_name": "org.springframework.samples.petclinic.customers.web.OwnerResource.findOwner(int)",
+      "author_username": "Ramazan Sakin",
+      "author_email": "ramazansakin63@gmail.com",
+      "time": "2022-02-27 04:52:43",
+      "all_authors": [
+        {
+          "author": "Ramazan Sakin",
+          "author_email": "ramazansakin63@gmail.com",
+          "line_numbers": [
+            68
+          ],
+          "total_lines": 1
+        },
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com",
+          "line_numbers": [
+            69
+          ],
+          "total_lines": 1
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@gmail.com",
+        "lines_updated": [
+          69
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.customers.web",
+      "class_name": "OwnerResource",
+      "method_name": "findAll",
+      "full_method_name": "org.springframework.samples.petclinic.customers.web.OwnerResource.findAll()",
+      "author_username": "Maciej Szarlinski",
+      "author_email": "mszarlinski@gmail.com",
+      "time": "2016-11-24 09:21:50",
+      "all_authors": [
+        {
+          "author": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com",
+          "line_numbers": [
+            76,
+            77
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Maciej Szarlinski",
+        "email": "mszarlinski@gmail.com",
+        "lines_updated": [
+          76,
+          77
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.customers.web",
+      "class_name": "OwnerResource",
+      "method_name": "updateOwner",
+      "full_method_name": "org.springframework.samples.petclinic.customers.web.OwnerResource.updateOwner(int,org.springframework.samples.petclinic.customers.web.OwnerRequest)",
+      "author_username": "Shobha Kamath",
+      "author_email": "shobha.s.kamath@gmail.com",
+      "time": "2024-01-05 12:32:19",
+      "all_authors": [
+        {
+          "author": "Shobha Kamath",
+          "author_email": "shobha.s.kamath@gmail.com",
+          "line_numbers": [
+            85,
+            86,
+            88
+          ],
+          "total_lines": 3
+        },
+        {
+          "author": "Ramazan Sakin",
+          "author_email": "ramazansakin63@gmail.com",
+          "line_numbers": [
+            87
+          ],
+          "total_lines": 1
+        },
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com",
+          "line_numbers": [
+            89,
+            90
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Shobha Kamath",
+        "email": "shobha.s.kamath@gmail.com",
+        "lines_updated": [
+          85,
+          86,
+          88
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.customers.web.mapper",
+      "class_name": "OwnerEntityMapper",
+      "method_name": "map",
+      "full_method_name": "org.springframework.samples.petclinic.customers.web.mapper.OwnerEntityMapper.map(org.springframework.samples.petclinic.customers.model.Owner,org.springframework.samples.petclinic.customers.web.OwnerRequest)",
+      "author_username": "Shobha Kamath",
+      "author_email": "shobha.s.kamath@gmail.com",
+      "time": "2024-01-05 12:32:19",
+      "all_authors": [
+        {
+          "author": "Shobha Kamath",
+          "author_email": "shobha.s.kamath@gmail.com",
+          "line_numbers": [
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "total_lines": 7
+        }
+      ],
+      "top_contributor": {
+        "username": "Shobha Kamath",
+        "email": "shobha.s.kamath@gmail.com",
+        "lines_updated": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.customers.model",
+      "class_name": "Pet",
+      "method_name": "toString",
+      "full_method_name": "org.springframework.samples.petclinic.customers.model.Pet.toString()",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@gmail.com",
+      "time": "2018-07-14 14:46:14",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@gmail.com",
+          "line_numbers": [
+            58,
+            59
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@gmail.com",
+        "lines_updated": [
+          58,
+          59
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.customers.model",
+      "class_name": "Pet",
+      "method_name": "getId",
+      "full_method_name": "org.springframework.samples.petclinic.customers.model.Pet.getId()",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@free.fr",
+      "time": "2024-12-27 12:32:24",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr",
+          "line_numbers": [
+            69,
+            70
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@free.fr",
+        "lines_updated": [
+          69,
+          70
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.customers.model",
+      "class_name": "Pet",
+      "method_name": "getName",
+      "full_method_name": "org.springframework.samples.petclinic.customers.model.Pet.getName()",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@free.fr",
+      "time": "2024-12-27 12:32:24",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr",
+          "line_numbers": [
+            73,
+            74
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@free.fr",
+        "lines_updated": [
+          73,
+          74
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.customers.model",
+      "class_name": "Pet",
+      "method_name": "getBirthDate",
+      "full_method_name": "org.springframework.samples.petclinic.customers.model.Pet.getBirthDate()",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@free.fr",
+      "time": "2024-12-27 12:32:24",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr",
+          "line_numbers": [
+            77,
+            78
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@free.fr",
+        "lines_updated": [
+          77,
+          78
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.customers.model",
+      "class_name": "Pet",
+      "method_name": "getType",
+      "full_method_name": "org.springframework.samples.petclinic.customers.model.Pet.getType()",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@free.fr",
+      "time": "2024-12-27 12:32:24",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr",
+          "line_numbers": [
+            81,
+            82
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@free.fr",
+        "lines_updated": [
+          81,
+          82
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.customers.model",
+      "class_name": "Pet",
+      "method_name": "getOwner",
+      "full_method_name": "org.springframework.samples.petclinic.customers.model.Pet.getOwner()",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@free.fr",
+      "time": "2024-12-27 12:32:24",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr",
+          "line_numbers": [
+            85,
+            86
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@free.fr",
+        "lines_updated": [
+          85,
+          86
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.customers.model",
+      "class_name": "Pet",
+      "method_name": "setId",
+      "full_method_name": "org.springframework.samples.petclinic.customers.model.Pet.setId(java.lang.Integer)",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@free.fr",
+      "time": "2024-12-27 12:32:24",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr",
+          "line_numbers": [
+            89,
+            90
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@free.fr",
+        "lines_updated": [
+          89,
+          90
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.customers.model",
+      "class_name": "Pet",
+      "method_name": "setName",
+      "full_method_name": "org.springframework.samples.petclinic.customers.model.Pet.setName(java.lang.String)",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@free.fr",
+      "time": "2024-12-27 12:32:24",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr",
+          "line_numbers": [
+            93,
+            94
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@free.fr",
+        "lines_updated": [
+          93,
+          94
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.customers.model",
+      "class_name": "Pet",
+      "method_name": "setBirthDate",
+      "full_method_name": "org.springframework.samples.petclinic.customers.model.Pet.setBirthDate(java.util.Date)",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@free.fr",
+      "time": "2024-12-27 12:32:24",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr",
+          "line_numbers": [
+            97,
+            98
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@free.fr",
+        "lines_updated": [
+          97,
+          98
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.customers.model",
+      "class_name": "Pet",
+      "method_name": "setType",
+      "full_method_name": "org.springframework.samples.petclinic.customers.model.Pet.setType(org.springframework.samples.petclinic.customers.model.PetType)",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@free.fr",
+      "time": "2024-12-27 12:32:24",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr",
+          "line_numbers": [
+            101,
+            102
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@free.fr",
+        "lines_updated": [
+          101,
+          102
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.customers.model",
+      "class_name": "Pet",
+      "method_name": "setOwner",
+      "full_method_name": "org.springframework.samples.petclinic.customers.model.Pet.setOwner(org.springframework.samples.petclinic.customers.model.Owner)",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@free.fr",
+      "time": "2024-12-27 12:32:24",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr",
+          "line_numbers": [
+            105,
+            106
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@free.fr",
+        "lines_updated": [
+          105,
+          106
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.customers.model",
+      "class_name": "Pet",
+      "method_name": "equals",
+      "full_method_name": "org.springframework.samples.petclinic.customers.model.Pet.equals(java.lang.Object)",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@free.fr",
+      "time": "2024-12-27 12:32:24",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr",
+          "line_numbers": [
+            110,
+            111,
+            112,
+            113
+          ],
+          "total_lines": 4
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@free.fr",
+        "lines_updated": [
+          110,
+          111,
+          112,
+          113
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.customers.model",
+      "class_name": "Pet",
+      "method_name": "hashCode",
+      "full_method_name": "org.springframework.samples.petclinic.customers.model.Pet.hashCode()",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@free.fr",
+      "time": "2024-12-27 12:32:24",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr",
+          "line_numbers": [
+            121,
+            122
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@free.fr",
+        "lines_updated": [
+          121,
+          122
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.customers.model",
+      "class_name": "Owner",
+      "method_name": "getPetsInternal",
+      "full_method_name": "org.springframework.samples.petclinic.customers.model.Owner.getPetsInternal()",
+      "author_username": "Maciej Szarlinski",
+      "author_email": "mszarlinski@gmail.com",
+      "time": "2016-11-24 09:21:50",
+      "all_authors": [
+        {
+          "author": "Gordon Dickens",
+          "author_email": "gordon@gordondickens.com",
+          "line_numbers": [
+            69,
+            70,
+            72,
+            73
+          ],
+          "total_lines": 4
+        },
+        {
+          "author": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com",
+          "line_numbers": [
+            71
+          ],
+          "total_lines": 1
+        }
+      ],
+      "top_contributor": {
+        "username": "Gordon Dickens",
+        "email": "gordon@gordondickens.com",
+        "lines_updated": [
+          69,
+          70,
+          72,
+          73
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.customers.model",
+      "class_name": "Owner",
+      "method_name": "getPets",
+      "full_method_name": "org.springframework.samples.petclinic.customers.model.Owner.getPets()",
+      "author_username": "Maciej Szarlinski",
+      "author_email": "mszarlinski@gmail.com",
+      "time": "2016-11-24 09:21:50",
+      "all_authors": [
+        {
+          "author": "Gordon Dickens",
+          "author_email": "gordon@gordondickens.com",
+          "line_numbers": [
+            76,
+            78,
+            79
+          ],
+          "total_lines": 3
+        },
+        {
+          "author": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com",
+          "line_numbers": [
+            77
+          ],
+          "total_lines": 1
+        }
+      ],
+      "top_contributor": {
+        "username": "Gordon Dickens",
+        "email": "gordon@gordondickens.com",
+        "lines_updated": [
+          76,
+          78,
+          79
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.customers.model",
+      "class_name": "Owner",
+      "method_name": "addPet",
+      "full_method_name": "org.springframework.samples.petclinic.customers.model.Owner.addPet(org.springframework.samples.petclinic.customers.model.Pet)",
+      "author_username": "Gordon Dickens",
+      "author_email": "gordon@gordondickens.com",
+      "time": "2013-02-19 10:56:21",
+      "all_authors": [
+        {
+          "author": "Gordon Dickens",
+          "author_email": "gordon@gordondickens.com",
+          "line_numbers": [
+            82,
+            83,
+            84
+          ],
+          "total_lines": 3
+        }
+      ],
+      "top_contributor": {
+        "username": "Gordon Dickens",
+        "email": "gordon@gordondickens.com",
+        "lines_updated": [
+          82,
+          83,
+          84
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.customers.model",
+      "class_name": "Owner",
+      "method_name": "toString",
+      "full_method_name": "org.springframework.samples.petclinic.customers.model.Owner.toString()",
+      "author_username": "Gordon Dickens",
+      "author_email": "gordon@gordondickens.com",
+      "time": "2013-02-19 10:56:21",
+      "all_authors": [
+        {
+          "author": "Gordon Dickens",
+          "author_email": "gordon@gordondickens.com",
+          "line_numbers": [
+            88,
+            89
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Gordon Dickens",
+        "email": "gordon@gordondickens.com",
+        "lines_updated": [
+          88,
+          89
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.customers.model",
+      "class_name": "Owner",
+      "method_name": "getId",
+      "full_method_name": "org.springframework.samples.petclinic.customers.model.Owner.getId()",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@free.fr",
+      "time": "2024-12-27 12:32:24",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr",
+          "line_numbers": [
+            99,
+            100
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@free.fr",
+        "lines_updated": [
+          99,
+          100
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.customers.model",
+      "class_name": "Owner",
+      "method_name": "getFirstName",
+      "full_method_name": "org.springframework.samples.petclinic.customers.model.Owner.getFirstName()",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@free.fr",
+      "time": "2024-12-27 12:32:24",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr",
+          "line_numbers": [
+            103,
+            104
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@free.fr",
+        "lines_updated": [
+          103,
+          104
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.customers.model",
+      "class_name": "Owner",
+      "method_name": "getLastName",
+      "full_method_name": "org.springframework.samples.petclinic.customers.model.Owner.getLastName()",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@free.fr",
+      "time": "2024-12-27 12:32:24",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr",
+          "line_numbers": [
+            107,
+            108
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@free.fr",
+        "lines_updated": [
+          107,
+          108
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.customers.model",
+      "class_name": "Owner",
+      "method_name": "getAddress",
+      "full_method_name": "org.springframework.samples.petclinic.customers.model.Owner.getAddress()",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@free.fr",
+      "time": "2024-12-27 12:32:24",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr",
+          "line_numbers": [
+            111,
+            112
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@free.fr",
+        "lines_updated": [
+          111,
+          112
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.customers.model",
+      "class_name": "Owner",
+      "method_name": "getCity",
+      "full_method_name": "org.springframework.samples.petclinic.customers.model.Owner.getCity()",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@free.fr",
+      "time": "2024-12-27 12:32:24",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr",
+          "line_numbers": [
+            115,
+            116
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@free.fr",
+        "lines_updated": [
+          115,
+          116
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.customers.model",
+      "class_name": "Owner",
+      "method_name": "getTelephone",
+      "full_method_name": "org.springframework.samples.petclinic.customers.model.Owner.getTelephone()",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@free.fr",
+      "time": "2024-12-27 12:32:24",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr",
+          "line_numbers": [
+            119,
+            120
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@free.fr",
+        "lines_updated": [
+          119,
+          120
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.customers.model",
+      "class_name": "Owner",
+      "method_name": "setFirstName",
+      "full_method_name": "org.springframework.samples.petclinic.customers.model.Owner.setFirstName(java.lang.String)",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@free.fr",
+      "time": "2024-12-27 12:32:24",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr",
+          "line_numbers": [
+            123,
+            124
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@free.fr",
+        "lines_updated": [
+          123,
+          124
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.customers.model",
+      "class_name": "Owner",
+      "method_name": "setLastName",
+      "full_method_name": "org.springframework.samples.petclinic.customers.model.Owner.setLastName(java.lang.String)",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@free.fr",
+      "time": "2024-12-27 12:32:24",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr",
+          "line_numbers": [
+            127,
+            128
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@free.fr",
+        "lines_updated": [
+          127,
+          128
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.customers.model",
+      "class_name": "Owner",
+      "method_name": "setAddress",
+      "full_method_name": "org.springframework.samples.petclinic.customers.model.Owner.setAddress(java.lang.String)",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@free.fr",
+      "time": "2024-12-27 12:32:24",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr",
+          "line_numbers": [
+            131,
+            132
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@free.fr",
+        "lines_updated": [
+          131,
+          132
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.customers.model",
+      "class_name": "Owner",
+      "method_name": "setCity",
+      "full_method_name": "org.springframework.samples.petclinic.customers.model.Owner.setCity(java.lang.String)",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@free.fr",
+      "time": "2024-12-27 12:32:24",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr",
+          "line_numbers": [
+            135,
+            136
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@free.fr",
+        "lines_updated": [
+          135,
+          136
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.customers.model",
+      "class_name": "Owner",
+      "method_name": "setTelephone",
+      "full_method_name": "org.springframework.samples.petclinic.customers.model.Owner.setTelephone(java.lang.String)",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@free.fr",
+      "time": "2024-12-27 12:32:24",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr",
+          "line_numbers": [
+            139,
+            140
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@free.fr",
+        "lines_updated": [
+          139,
+          140
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.customers.model",
+      "class_name": "PetType",
+      "method_name": "getId",
+      "full_method_name": "org.springframework.samples.petclinic.customers.model.PetType.getId()",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@free.fr",
+      "time": "2024-12-27 12:32:24",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr",
+          "line_numbers": [
+            36,
+            37
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@free.fr",
+        "lines_updated": [
+          36,
+          37
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.customers.model",
+      "class_name": "PetType",
+      "method_name": "getName",
+      "full_method_name": "org.springframework.samples.petclinic.customers.model.PetType.getName()",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@free.fr",
+      "time": "2024-12-27 12:32:24",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr",
+          "line_numbers": [
+            40,
+            41
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@free.fr",
+        "lines_updated": [
+          40,
+          41
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.customers.model",
+      "class_name": "PetType",
+      "method_name": "setId",
+      "full_method_name": "org.springframework.samples.petclinic.customers.model.PetType.setId(java.lang.Integer)",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@free.fr",
+      "time": "2024-12-27 12:32:24",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr",
+          "line_numbers": [
+            44,
+            45
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@free.fr",
+        "lines_updated": [
+          44,
+          45
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.customers.model",
+      "class_name": "PetType",
+      "method_name": "setName",
+      "full_method_name": "org.springframework.samples.petclinic.customers.model.PetType.setName(java.lang.String)",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@free.fr",
+      "time": "2024-12-27 12:32:24",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr",
+          "line_numbers": [
+            48,
+            49
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@free.fr",
+        "lines_updated": [
+          48,
+          49
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.visits",
+      "class_name": "VisitsServiceApplication",
+      "method_name": "main",
+      "full_method_name": "org.springframework.samples.petclinic.visits.VisitsServiceApplication.main(java.lang.String)",
+      "author_username": "Maciej Szarlinski",
+      "author_email": "mszarlinski@gmail.com",
+      "time": "2016-11-24 09:21:50",
+      "all_authors": [
+        {
+          "author": "Maciej Szarlinski",
+          "author_email": "mszarlinski@gmail.com",
+          "line_numbers": [
+            29,
+            30
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Maciej Szarlinski",
+        "email": "mszarlinski@gmail.com",
+        "lines_updated": [
+          29,
+          30
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.visits.config",
+      "class_name": "MetricConfig",
+      "method_name": "metricsCommonTags",
+      "full_method_name": "org.springframework.samples.petclinic.visits.config.MetricConfig.metricsCommonTags()",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@free.fr",
+      "time": "2022-12-28 04:55:23",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr",
+          "line_numbers": [
+            13,
+            14
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@free.fr",
+        "lines_updated": [
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.visits.config",
+      "class_name": "MetricConfig",
+      "method_name": "timedAspect",
+      "full_method_name": "org.springframework.samples.petclinic.visits.config.MetricConfig.timedAspect(io.micrometer.core.instrument.MeterRegistry)",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@free.fr",
+      "time": "2022-12-28 04:55:23",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr",
+          "line_numbers": [
+            18,
+            19
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@free.fr",
+        "lines_updated": [
+          18,
+          19
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.visits.model",
+      "class_name": "Visit",
+      "method_name": "getId",
+      "full_method_name": "org.springframework.samples.petclinic.visits.model.Visit.getId()",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@free.fr",
+      "time": "2024-12-27 12:32:24",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr",
+          "line_numbers": [
+            51,
+            52
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@free.fr",
+        "lines_updated": [
+          51,
+          52
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.visits.model",
+      "class_name": "Visit",
+      "method_name": "getDate",
+      "full_method_name": "org.springframework.samples.petclinic.visits.model.Visit.getDate()",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@free.fr",
+      "time": "2024-12-27 12:32:24",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr",
+          "line_numbers": [
+            55,
+            56
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@free.fr",
+        "lines_updated": [
+          55,
+          56
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.visits.model",
+      "class_name": "Visit",
+      "method_name": "getDescription",
+      "full_method_name": "org.springframework.samples.petclinic.visits.model.Visit.getDescription()",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@free.fr",
+      "time": "2024-12-27 12:32:24",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr",
+          "line_numbers": [
+            59,
+            60
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@free.fr",
+        "lines_updated": [
+          59,
+          60
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.visits.model",
+      "class_name": "Visit",
+      "method_name": "getPetId",
+      "full_method_name": "org.springframework.samples.petclinic.visits.model.Visit.getPetId()",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@free.fr",
+      "time": "2024-12-27 12:32:24",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr",
+          "line_numbers": [
+            63,
+            64
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@free.fr",
+        "lines_updated": [
+          63,
+          64
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.visits.model",
+      "class_name": "Visit",
+      "method_name": "setId",
+      "full_method_name": "org.springframework.samples.petclinic.visits.model.Visit.setId(java.lang.Integer)",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@free.fr",
+      "time": "2024-12-27 12:32:24",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr",
+          "line_numbers": [
+            67,
+            68
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@free.fr",
+        "lines_updated": [
+          67,
+          68
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.visits.model",
+      "class_name": "Visit",
+      "method_name": "setDate",
+      "full_method_name": "org.springframework.samples.petclinic.visits.model.Visit.setDate(java.util.Date)",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@free.fr",
+      "time": "2024-12-27 12:32:24",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr",
+          "line_numbers": [
+            71,
+            72
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@free.fr",
+        "lines_updated": [
+          71,
+          72
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.visits.model",
+      "class_name": "Visit",
+      "method_name": "setDescription",
+      "full_method_name": "org.springframework.samples.petclinic.visits.model.Visit.setDescription(java.lang.String)",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@free.fr",
+      "time": "2024-12-27 12:32:24",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr",
+          "line_numbers": [
+            75,
+            76
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@free.fr",
+        "lines_updated": [
+          75,
+          76
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.visits.model",
+      "class_name": "Visit",
+      "method_name": "setPetId",
+      "full_method_name": "org.springframework.samples.petclinic.visits.model.Visit.setPetId(int)",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@free.fr",
+      "time": "2024-12-27 12:32:24",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr",
+          "line_numbers": [
+            79,
+            80
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@free.fr",
+        "lines_updated": [
+          79,
+          80
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.visits.model",
+      "class_name": "VisitBuilder",
+      "method_name": "aVisit",
+      "full_method_name": "org.springframework.samples.petclinic.visits.model.VisitBuilder.aVisit()",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@free.fr",
+      "time": "2024-12-27 12:32:24",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr",
+          "line_numbers": [
+            93,
+            94
+          ],
+          "total_lines": 2
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@free.fr",
+        "lines_updated": [
+          93,
+          94
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.visits.model",
+      "class_name": "VisitBuilder",
+      "method_name": "id",
+      "full_method_name": "org.springframework.samples.petclinic.visits.model.VisitBuilder.id(java.lang.Integer)",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@free.fr",
+      "time": "2024-12-27 12:32:24",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr",
+          "line_numbers": [
+            97,
+            98,
+            99
+          ],
+          "total_lines": 3
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@free.fr",
+        "lines_updated": [
+          97,
+          98,
+          99
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.visits.model",
+      "class_name": "VisitBuilder",
+      "method_name": "date",
+      "full_method_name": "org.springframework.samples.petclinic.visits.model.VisitBuilder.date(java.util.Date)",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@free.fr",
+      "time": "2024-12-27 12:32:24",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr",
+          "line_numbers": [
+            102,
+            103,
+            104
+          ],
+          "total_lines": 3
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@free.fr",
+        "lines_updated": [
+          102,
+          103,
+          104
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.visits.model",
+      "class_name": "VisitBuilder",
+      "method_name": "description",
+      "full_method_name": "org.springframework.samples.petclinic.visits.model.VisitBuilder.description(java.lang.String)",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@free.fr",
+      "time": "2024-12-27 12:32:24",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr",
+          "line_numbers": [
+            107,
+            108,
+            109
+          ],
+          "total_lines": 3
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@free.fr",
+        "lines_updated": [
+          107,
+          108,
+          109
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.visits.model",
+      "class_name": "VisitBuilder",
+      "method_name": "petId",
+      "full_method_name": "org.springframework.samples.petclinic.visits.model.VisitBuilder.petId(int)",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@free.fr",
+      "time": "2024-12-27 12:32:24",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr",
+          "line_numbers": [
+            112,
+            113,
+            114
+          ],
+          "total_lines": 3
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@free.fr",
+        "lines_updated": [
+          112,
+          113,
+          114
+        ]
+      }
+    },
+    {
+      "package_name": "org.springframework.samples.petclinic.visits.model",
+      "class_name": "VisitBuilder",
+      "method_name": "build",
+      "full_method_name": "org.springframework.samples.petclinic.visits.model.VisitBuilder.build()",
+      "author_username": "Antoine Rey",
+      "author_email": "antoine.rey@free.fr",
+      "time": "2024-12-27 12:32:24",
+      "all_authors": [
+        {
+          "author": "Antoine Rey",
+          "author_email": "antoine.rey@free.fr",
+          "line_numbers": [
+            117,
+            118,
+            119,
+            120,
+            121,
+            122,
+            123
+          ],
+          "total_lines": 7
+        }
+      ],
+      "top_contributor": {
+        "username": "Antoine Rey",
+        "email": "antoine.rey@free.fr",
+        "lines_updated": [
+          117,
+          118,
+          119,
+          120,
+          121,
+          122,
+          123
+        ]
+      }
+    }
+  ]
+}

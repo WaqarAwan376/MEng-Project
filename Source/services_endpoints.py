@@ -1,59 +1,14 @@
 import os
 import re
-import json
 from datetime import datetime
+from utils.constants import method_patterns
+from utils.constants import class_pattern
+from utils.helper import dict_to_json_file
+from utils.helper import find_java_files
 
 # Constants
 OUTPUT_DIR='./outputs'
 OUTPUT_FILE='endpoints'
-
-# Class-level @RequestMapping pattern
-class_pattern = r'@RequestMapping\s*\(\s*(?:value\s*=\s*)?"([^"]+)"\s*\)'
-
-# Method-level mapping patterns for different HTTP methods
-method_patterns = {
-    "GET": [
-        r'@GetMapping\s*\(\s*(?:value\s*=\s*)?"([^"]*)"\s*\)',
-        r'@GetMapping\s*\(\s*path\s*=\s*\{"([^"]*)"\s*\}\)',
-        r"@GetMapping\s*\(\s*\)",
-        r"@GetMapping(?!\()",
-    ],
-    "POST": [
-        r'@PostMapping\s*\(\s*(?:value\s*=\s*)?"([^"]*)"\s*\)',
-        r'@PostMapping\s*\(\s*path\s*=\s*\{"([^"]*)"\s*\}\)',
-        r"@PostMapping\s*\(\s*\)",
-        r"@PostMapping(?!\()",
-    ],
-    "PUT": [
-        r'@PutMapping\s*\(\s*(?:value\s*=\s*)?"([^"]*)"\s*\)',
-        r'@PutMapping\s*\(\s*path\s*=\s*\{"([^"]*)"\s*\}\)',
-        r"@PutMapping\s*\(\s*\)",
-        r"@PutMapping(?!\()",
-    ],
-    "DELETE": [
-        r'@DeleteMapping\s*\(\s*(?:value\s*=\s*)?"([^"]*)"\s*\)',
-        r'@DeleteMapping\s*\(\s*path\s*=\s*\{"([^"]*)"\s*\}\)',
-        r"@DeleteMapping\s*\(\s*\)",
-        r"@DeleteMapping(?!\()",
-    ],
-}
-
-
-def dict_to_json_file(file_name,output_folder, dictionary):
-    os.makedirs("./outputs/", exist_ok=True) if not output_folder else ''
-    with open(f"{output_folder}{file_name}.json" if output_folder else f'./outputs/{file_name}.json',
-              'w') as file:
-        json.dump(dictionary, file, indent=2, ensure_ascii=False)
-
-
-def find_java_files(directory):
-    """Find all Java files in the given directory."""
-    java_files = []
-    for root, _, files in os.walk(directory):
-        for file in files:
-            if file.endswith(".java"):
-                java_files.append(os.path.join(root, file))
-    return java_files
 
 
 def extract_paths_from_file(file_path):
@@ -109,8 +64,8 @@ def extract_all_paths(directory):
 
 
 if __name__ == "__main__":
-    
-    input_directory = input("Please enter the absolute path to the folder containing the 'main' directory: ")
+    input_directory = input\
+        ("Please enter the absolute path to the folder containing the 'main' directory: ")
     original_directory = os.getcwd()
     os.chdir(input_directory)
     output_folder = input(

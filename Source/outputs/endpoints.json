@@ -1,16 +1,6 @@
 {
-  "time": "2025-01-06 13:02:28",
+  "time": "2025-01-06 15:38:47",
   "endpoints": [
-    {
-      "file_path": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/PetclinicChatClient.java",
-      "class_name": "PetclinicChatClient",
-      "paths": [
-        {
-          "type": "POST",
-          "path": "/chatclient"
-        }
-      ]
-    },
     {
       "file_path": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/web/VetResource.java",
       "class_name": "VetResource",
