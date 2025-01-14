@@ -39,20 +39,115 @@ The framework contains three main components.
 
 \subsection{Probes}\label{subsec:component-probes}
 
-The first component of the framework consists of \textbf{probes}. Probes represent distinct informational artifacts that are systematically extracted from software systems to provide insights and actionable data. In the context of this report, we have identified and extracted specific pieces of information that are detailed in the below subsections. These probes serve as the foundational elements for gathering critical data points that enable analysis and decision-making. 
+The first component of the framework consists of \textbf{probes}. Probes represent distinct informational artifacts that are systematically extracted from software systems to provide insights and actionable data. In the context of this report, we have several use cases and extracted specific pieces of information that are detailed in the below subsections. These probes serve as the foundational elements for gathering critical data points that enable analysis and decision-making. 
 
 Looking forward, this concept can be expanded to more complex and targeted informational needs. By refining the scope and nature of the probes, we can tailor the probes according to our needs and to capture more refined data, addressing evolving requirements and insights that drive meaningful outcomes. This flexibility ensures that as the systems grow or change, the framework remains relevant and capable of producing deeper, more impactful information.
 
-\begin{itemize}[leftmargin=*, label=$\bullet$]
+\begin{enumerate}[leftmargin=*, label=\arabic*.]
 
     \item \subsubsection*{Authors Contributions}
-    What it is?, why we need it, what it solved? type of data extracted... 
+    Author contribution probe extracts information about the developer who made the most recent changes to a method, list of all the developers who contributed to a method and highlights the developer with most contributions to a particular method. There are multiple use cases for this type of data.
+	\subsubsection{Use Cases}
+	\begin{itemize}[label=$\bullet$]
+		\item \textbf{Bug Fix}: When a bug is found in a method, the most recent author who updated the method would have the context of the recent changes that they have made and can help diagnose and resolve the issue faster. This will help the organization increase their productivity.
+		\item \textbf{Reviews}: Looking at the most recent developer would give an idea of who to reach for documentation, clarification and review of the changes.
+		\item \textbf{History Tracking}: Provides insights into who and why the person made the recent changes which can be used for documentation purposes.
+		\item \textbf{Identify Developers Group}: Helps identify the group of developers who worked on a particular method, which in turn enables them to share and transfer knowledge in case the top contributor of the method is unavailable.
+		\item \textbf{Ownership}: Tracks if the code has been worked on collaboratively or primarily by one individual.
+		\item \textbf{Refactoring}: Ensures that all the contributors can be consulted and their insights are taken before performing any major refactoring.
+		\item \textbf{Knowledge and Accountability}: Identifies the subject matter expert for particular methods and assigns ownership of the method to the top contributor for accountability and guidance.
+		\item \textbf{Planning}: Helps management decide who should be involved in any major changes to the method based on past contributions.
+	\end{itemize}
+	\subsubsection{Benefits}
+	\begin{itemize}[label=$\bullet$]
+		\item \textbf{Improve Communication}: Facilitates and improve communication between team members by identifying relevant stakeholders.
+		\item \textbf{Enhanced Planning}: Improves resource allocation, project planning and decision making for development tasks.
+		\item \textbf{Transparency}: Promotes accountability among team members by making contribution history transparent.
+		\item \textbf{Efficiency}: Increases team efficiency and issue resolving by involving right people for the job.
+	\end{itemize}
+	
     \item \subsubsection*{File Authors}
-    What it is?, why we need it, what it solved? type of data extracted... 
-    \item \subsubsection*{Microservices Endpoints}
-    What it is?, why we need it, what it solved? type of data extracted... 
+	This probe extracts information regarding the authors of a particular file. In software development, especially in large-scale microservices architecture, understanding the list of contributors to individual files provides significant value.
+	\subsubsection{Use Cases}
+	\begin{itemize}[label=$\bullet$]
+		\item \textbf{Ownership}: Identifying contributors of a particular file highlights the ownership and familiarity with the functionality of the file of the people associated with it.
+		\item \textbf{Collaboration}: Identifying contributors reveals whether a file has been developed collaboratively or by a single individual.
+		\item \textbf{Auditing and Compliance}: Contributor information is crucial for tracking accountability and compliance. Specially in open-source projects.
+		\item \textbf{Maintenance}: Files with multiple contributors might lead to maintenance challenges. Having list of contributors help assign the tasks to the correct people.
+		\item \textbf{Bug and Issue Assignment}: Assigning issues to contributors who are familiar with the relevant files improves resolution speed.
+	\end{itemize}
+	\subsubsection{Benefits}
+	\begin{itemize}[label=$\bullet$]
+		\item \textbf{Accountability and Quality}: Knowing who contributed to a file ensures accountability and encourages higher-quality contributions.
+		\item \textbf{Team Collaboration}: Make team collaboration easier by identifying relevant stakeholders for discussions.
+		\item \textbf{Reduces Risk}: Identifies files relying on single contributor which can help in workload distribution.
+	\end{itemize} 
 
-\end{itemize}
+	\item \subsubsection*{Author Relation}
+	This probe extracts information regarding the strength of collaboration between two authors. Greater the collaboration, great will be the strength of bond between them. The ``relation strength'' metric quantifies the level of collaboration between pairs of authors based on shared contribution to files. In collaborative software development, especially in microservices architectures, understanding the strength of relation among authors can provide valuable insights into teamwork, communication and collaboration in the development process.
+	\subsubsection{Use Cases}
+	\begin{itemize}[label=$\bullet$]
+		\item \textbf{Collaboration Analysis}: Provides a quantitative measure of collaboration between two developers in a development team. Higher strength shows frequent joint contributions.
+		\item \textbf{Planning and Resource Allocation}: Helps plan tasks and form teams for future projects by using existing strong collaboration bonds.
+		\item \textbf{Knowledge Transfer}: New developers can use relation strength data to identify key collaborators within the team.
+		\item \textbf{Shared Ownership}: Helps determine the shared ownership of the files, making it easier to assign maintenance tasks.
+		\item \textbf{Technical Debt}: Low pairwise strengths and high number of collaborators of a file represents cohesive ownership, leading to technical debt.
+	\end{itemize}
+	\subsubsection{Benefits}
+	\begin{itemize}[label=$\bullet$]
+		\item \textbf{Improved team dynamics}: Improve team dynamics and encourages better interaction in areas with weaker team collaboration.
+		\item \textbf{Fast Problem Solving}: Developers with high collaboration strength are likely to solve issues in shared files effectively.
+		\item \textbf{Transparency}: Visualizes team interactions, increasing accountability and transparency.
+		\item \textbf{Employee Evaluation}: Management can use the data to evaluate employees. Developers with higher collaboration strengths with multiple individuals shows employee value.
+	\end{itemize} 
+
+    \item \subsubsection*{Microservices Endpoints}
+    This probes extracts REST API endpoints from each service of a microservices project. Extracting such data provide valuable insights into how the application communicates and interacts with external systems or clients.
+	\subsubsection{Use Cases}
+	\begin{itemize}[label=$\bullet$]
+		\item \textbf{Documentation and Analysis}: Automatically extracts endpoints information to generate accurate and up-to-date documentation and perform analysis.
+		\item \textbf{Application Functionality}: Provides overview of the functionality exposed by each service.
+		\item \textbf{Testing}: Extracted endpoint data can be used to perform regression testing and prioritize test cases.
+		\item \textbf{Security Audits}: Endpoint extraction aids in auditing APIs for potential security vulnerabilities.
+		\item \textbf{Productivity}: Helps developers understand the microservices quicks and API offerings of each service.
+	\end{itemize}
+	\subsubsection{Benefits}
+	\begin{itemize}[label=$\bullet$]
+		\item \textbf{Debugging Issues}: Helps locating the faulty file and class, and helps developers quickly identify the method handling the request and resolve the issue.
+		\item \textbf{Documentation}: Teams can use extracted endpoint data providing clients with API documentation.
+		\item \textbf{Collaborations}: Facilitates communication between backend and frontend teams by providing endpoint insights.
+	\end{itemize} 
+
+    \item \subsubsection*{Spring Beans}
+   	This probe extracts beans from java spring framework services. In Spring, the objects that form the backbone of your application and that are managed by the Spring IoC container are called beans. A bean is an object that is instantiated, assembled, and managed by a Spring IoC container. Otherwise, a bean is simply one of many objects in your application. Beans, and the dependencies among them, are reflected in the configuration metadata used by a container~\citep{spring_beans_intro}.
+	\subsubsection{Use Cases}
+	\begin{itemize}[label=$\bullet$]
+		\item \textbf{Debugging and Maintenance}: Bean extraction provides a clear map of all components, aiding in debugging and maintenance activities.
+		\item \textbf{Debugging and Maintenance}: Extracted bean data reveals the dependencies between components, helping teams understand coupling within the application.
+		\item \textbf{Dynamic Bean Management}: Helps to enable dynamic and conditional bean registration and configuration.
+	\end{itemize}
+	\subsubsection{Benefits}
+	\begin{itemize}[label=$\bullet$]
+		\item \textbf{Improves Debugging}: Quickly locates missing or misconfigured beans, reducing the development downtime.
+		\item \textbf{Security Improvement}: Detects potential security risks and stability issues.
+	\end{itemize} 
+
+    \item \subsubsection*{Extracting Dependencies}
+   	This probe extracts dependencies from the POM (Project Object Model) files. A POM (Project Object Model) file is an XML file that serves as the fundamental building block of a Maven project. It contains information about the project and configuration details to manage dependencies, plugins, build settings, and more~\citep{pom_file_guide}.
+	\subsubsection{Use Cases}
+	\begin{itemize}[label=$\bullet$]
+		\item \textbf{Dependency Management and Version Control}: Extracting dependencies helps track the versions of libraries and frameworks used across microservices.
+		\item \textbf{Microservices Dependencies}: Analyze dependencies to understand the relationships between microservices and their shared libraries.
+		\item \textbf{Performance Optimization}: Shows performance heavy libraries or those that introduce inefficiencies.
+	\end{itemize}
+	\subsubsection{Benefits}
+	\begin{itemize}[label=$\bullet$]
+		\item \textbf{Improves Performance}: Helps to identify, update or remove unused dependencies optimizing the performance and efficiency of the services.
+		\item \textbf{Security Improvement}: Make it easy to identify those dependencies that are impacting the security of the services.
+		\item \textbf{Maintainability}: Help keep all the dependencies up-to-date and easy to maintain.
+	\end{itemize} 
+
+\end{enumerate}
 
 \subsection{Single Source of Truth (SST)}\label{subsec:component-sst}
 \subsection{Visualizer}\label{subsec:component-visualizer}
