@@ -13,7 +13,7 @@ Since an already built large software system is quite complex, so understanding 
 	\label{fig_se_maintenance}
 \end{figure}
 
-\section{Vision}
+\section{Vision}\label{sec:vision}
 
 Keeping in mind the above discussed issues, there is a need for an approach in which the software system could be analyzed, undergo processing and produce useful informations that can be used to provide enhanced insights about the project. The vision is to use a framework consisting of 3 components: 
 \nameref{subsec:component-probes}, \nameref{subsec:component-sst} and \nameref{subsec:component-visualizer}. All three components will be discussed in detail in section{ }\ref{sec:tech-strategy}.
@@ -26,6 +26,8 @@ Moreover, our approach will be mainly focused on the unified data source (UDS) a
 
 
 \section{Technical Strategy}\label{sec:tech-strategy}
+
+This section provides a detailed discussion of the components in the framework. It also includes an analysis of the probes used to prove the framework's credibility, their use cases, and their benefits. After that, it discusses the unified data source (UDS) and, finally, the visualizer component.
 
 \subsection{Framework Components}\label{subsec:framework-components}
 
@@ -42,6 +44,8 @@ The framework contains three main components.
 The first component of the framework consists of \textbf{probes}. Probes represent distinct informational artifacts that are systematically extracted from software systems to provide insights and actionable data. In the context of this report, we have several use cases and extracted specific pieces of information that are detailed in the below subsections. These probes serve as the foundational elements for gathering critical data points that enable analysis and decision-making. 
 
 Looking forward, this concept can be expanded to more complex and targeted informational needs. By refining the scope and nature of the probes, we can tailor the probes according to our needs and to capture more refined data, addressing evolving requirements and insights that drive meaningful outcomes. This flexibility ensures that as the systems grow or change, the framework remains relevant and capable of producing deeper, more impactful information.
+
+Given below are some of the probes that are implemented as part of this report in order to show the credibility of the presented framework. In later chapters, their implementation will be discussed at length followed by the validation of each scenario discussed here.
 
 \begin{enumerate}[leftmargin=*, label=\arabic*.]
 
@@ -150,6 +154,34 @@ Looking forward, this concept can be expanded to more complex and targeted infor
 \end{enumerate}
 
 \subsection{Single Source of Truth (SST)}\label{subsec:component-sst}
+
+When data is being extracted from different sources, there are high chances of it becoming inconsistent and stale. If some sort of analysis is being done on the data, the input data needs to be up-to-date and reliable. In section~\ref{sec:vision} (\nameref{sec:vision}), we mentioned the visualizer component. It is supposed to run desired analysis on the data and provide visual updates. More on the visualizer in the upcoming subsection. So, if analysis is to be done on the input data, it needs to be a trusted, accessible, credible, reliable, and consistent.
+
+Maintaining data quality is crucial for accurate insights and decision-making. Unified sources ensure that the input data remains clean and updated, regardless of its origin. Properly validated and processed data serves as the foundation for meaningful analysis and visualization.
+
+\citep{MullerUdsforSA2018} presents a scalable and extensible approach for software analysis and visualization by integrating data from diverse sources into a unified source. The paper discusses that having a unified data source provides a single access point for querying diverse data, eliminating the need to manage multiple disconnected sources. 
+
+The single source of truth (SST) component in the introduced framework does the same job a unified data source. It is working as a data warehouse that takes all the information from different artifacts and process it. The tool used as a single source of truth in this project will be discussed in chapter 4 (~\nameref{chap:implementation_report}) and the validation of the output provided will be discussed in chapter 5 (~\nameref{chap:scenario_validations}).
+
+\begin{figure}[ht]
+    \centering
+    \includegraphics[width=1\textwidth]{figures/sst_working.png}
+    \caption[Probes and SST]{Probes and SST}
+    \label{fig_probes_sst}
+\end{figure}
+
+\subsubsection{Integration and Output}
+
+The probes will extract the required data from the microservices and feed them to the SST for further processing. SST will generate output which will be used by the visualizer for further analysis and visualization.
+
+\subsubsection{Data Management}
+
+The output of the SST will be stored in a separate database to maintain and preserve historical records systematically. This approach ensures that the data is structured, organized, and easily retrievable from a centralized repository. By consolidating the data into a single repository, it not only simplifies access but also ensures a consistent format, which is critical for long-term usability and reliability. 
+
+Storing the data in a database enhances its integrity by eliminating inconsistencies and reducing complexities, such as duplicate entries. This structure allows analysts or analysis tools to focus on extracting meaningful insights without the additional work of cleaning or reorganizing raw data.
+
+Additionally, a dedicated database supports scalability, meaning it can accommodate larger datasets as the system evolves. It also offers improved data management capabilities, such as access controls and backup solutions, ensuring the data remains protected and readily available for future use.
+
 \subsection{Visualizer}\label{subsec:component-visualizer}
 
 If you need to use quotes, type it ``like this''.
