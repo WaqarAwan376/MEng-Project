@@ -5,7 +5,9 @@
 \usepackage{natbib} % Bibliography formatting
 \usepackage{setspace} % Allows double spacing but skips headers/footers
 \setcounter{tocdepth}{1} % Limits the TOC to chapter and section names
-
+\usepackage{tcolorbox}
+\usepackage{xcolor}
+\definecolor{lightgray}{gray}{0.9}
 % Additional packages
 \usepackage{graphicx} % Allows the inclusion of figures
 \usepackage{subcaption} % Allows captions to be added to subfigures
@@ -83,7 +85,7 @@
 
 % The bibliography is set up to allow for multiple bib files
 \bibliographystyle{ACM-Reference-Format}
-\bibliography{refs/references,refs/references_another,refs/articles,refs/inproceedings,refs/misc}
+\bibliography{refs/references,refs/references_another,refs/articles,refs/inproceedings,refs/misc,refs/manual}
 
 \label{NumDocumentPages}
 
