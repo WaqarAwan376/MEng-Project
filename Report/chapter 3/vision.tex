@@ -1,0 +1,69 @@
+In this chapter, we will explore the necessity of a framework for software analysis and its role in addressing critical challenges in modern software systems. We will outline the overall vision of the framework, highlighting its unique features and how it stands apart from existing solutions. Finally, we will discuss the technical strategy employed to guarantee the framework's functionality, we will delve into the use cases of probes designed for the report validation, ensuring the framework can effectively address real-world challenges.
+
+\section{Vision}\label{sec:vision}
+
+Keeping in view the discussion in the previous chapter, There is a need for an approach in which the software system could be analyzed, undergo processing and produce useful information that can be used to provide enhanced insights about the software system. There are several tools available for software analysis, each with its own strengths and weaknesses. 
+
+\subsection{Envisioning the Framework}
+The vision is to work on a framework which stands out due to some key differences. The most notable feature that we are looking for is platform and technology independence. Meaning the tool should not be tied to a specific technology. This flexibility will allow it to be written in any programming language, depending on the requirements, enabling data extraction from various software systems. Moreover, the tool should be able to run static code analysis on microservices and standalone services as well. Another distinctive feature is the integration of the extracted data with the unified data source. It should be capable of handling diverse types of data, generalizing it, and storing it in a graph-based database. This approach will eliminate the immediate need for a separate visualization to analyze the data visually. In cases where appropriate data representation is already available in the database, users can perform analyses directly without additional tools. Finally, our tool should not rely on a single visualizer for data representation. Since the data should be generalized, any compatible visualizer can be used with minimal adjustments to meet specific needs and requirements. This flexibility will enhance usability and ensures that the tool can adapt to diverse scenarios efficiently. In summary, the vision is that our tool should offers unmatched flexibility in data extraction, storage, and visualization, setting it apart from existing solutions in the field of software analysis.
+
+In this report, we will discuss, implement and validate a framework by extracting static information from a project. In the future, this can be implemented/integrated with the CI/CD pipeline and provide dynamic information from the projects. The test project used in this report is Java spring framework based project called \textbf{petclinic}. Read more about this project from \textbf{\href{https://github.com/spring-petclinic/spring-petclinic-microservices} {spring petclinic microservices github repository}~\citep{spring-petclinic}}.
+
+Moreover, our approach will be mainly focused on the unified data source (UDS) approach. It means that consistent, up-to-date and valid data will be available using the UDS technique. 
+
+\begin{tcolorbox}[colback=gray!10, colframe=gray!20]
+	``Unified Data refers to the integration and consolidation of data from various sources into a single, cohesive framework. This approach allows organizations to streamline their data management processes, ensuring that all data is accessible and usable across different departments and applications. By unifying data, businesses can eliminate silos, reduce redundancy, and enhance the overall quality of their data analytics efforts''.~\citep{unifiedData2025}
+\end{tcolorbox}
+
+\subsection{Reverse Engineering: Challenges and Insights}
+Reverse engineering comes with several challenges. Although developing a new framework is a promising idea, it does not ensure compatibility with all systems or provide solutions to every reverse engineering problem. Some of the challenges of reverse engineering are discussed in~\citep{klosch1996reverse}. The paper includes that:
+\begin{itemize}[label=$\bullet$]
+	\item \textbf{Poorly structured source code}: Legacy systems have source code that is poorly structured, making it difficult to analyze and understand.
+	\item \textbf{Extreme Complexity}: Systems are large and complex requiring significant effort and expertise to deconstruct.
+	\item \textbf{Lack of Domain Knowledge}: Maintenance engineers often lack sufficient knowledge about the original application domain, which is crucial for reverse engineering.
+	\item \textbf{Missing or Incomplete Documentation}: Documentation is often outdated or nonexistent, resulting in a lack of explicit information about the system's functionality and design.
+\end{itemize}
+
+\subsection{Validation Roadmap: Key Scenarios}
+
+In order to prove the authenticity of the work, we will propose 9 real-world scenarios and use cases that we will be used for validating. These use cases will be based on actual scenarios that can be faced in the software development life cycle. All of these scenarios will fall under the umbrella of software maintenance.
+
+\vspace{1cm} 
+\noindent
+\begin{longtable}{|p{2cm}|p{12cm}|}
+\hline
+\textbf{Number} & \textbf{Description} \\ \hline
+\endfirsthead
+\hline
+\textbf{Number} & \textbf{Description} \\ \hline
+\endhead
+\hline
+\endfoot
+\endlastfoot
+
+1 & A bug is found in a method, the most recent author who updated the method would have the context of the recent changes that they have made and can help diagnose and resolve the issue faster. This will help the organization increase their productivity. We have to find the list of authors who worked on each method in the code base.\\ \hline
+
+2 & Identify the top contributor and subject matter expert of each method so that they can share and transfer knowledge.\\ \hline
+
+3 & Assigning issues to contributors who are familiar
+with the relevant files improves resolution speed. Identify the list of all the developers who worked on a particular file.\\ \hline
+
+4 & Assigning issues to contributors who are familiar
+with the relevant files improves resolution speed. Identify the list of all the developers who worked on a particular file.\\ \hline
+
+5 & Identify quantitative measure of collaboration
+between two developers in a development team. Higher strength shows frequent joint contributions. New developers can use relation strength data to identify key collaborators within the team.\\ \hline
+
+6 & Extract all the endpoints information to generate accurate and up-to-date documentation and perform analysis. It will help developers understand the microservices and API offered by each service.\\ \hline
+
+7 & Extract bean data within the java spring framework based test project to reveal the dependencies between components, helping teams understand coupling within the application.\\ \hline
+
+8 & Extract dependencies within each service to help track the versions of libraries and frameworks used across microservices.\\ \hline
+
+9 & Store the above mentioned data in a single unified source for consistency and accuracy.\\ \hline
+
+\caption{Validation Scenarios}	
+\label{table_vision_scenarios}
+\end{longtable}
+
+The upcoming section will discuss the technical strategy for addressing the scenarios mentioned above.
