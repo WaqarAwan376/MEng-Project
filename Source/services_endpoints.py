@@ -1,10 +1,12 @@
 import os
 import re
-from datetime import datetime
 from utils.constants import method_patterns
 from utils.constants import class_pattern
 from utils.helper import dict_to_json_file
 from utils.helper import find_java_files
+from utils.nodes import FileNode, ClassNode, EndpointNode
+from utils.edges import Edge
+from utils.enums import RelationType
 
 # Constants
 OUTPUT_DIR='./outputs'
@@ -34,33 +36,56 @@ def extract_paths_from_file(file_path):
                     for sub_path in path.split(","):
                         if sub_path.strip():
                             full_path = (base_url + sub_path.strip()).replace("//", "/")
-                            paths.append({"type": request_type, "path": full_path})
+                            paths.append(EndpointNode(request_type,full_path))
                 else:
                     # No specific path, assume class-level base path
                     full_path = base_url.rstrip("/")
                     paths.append(
-                        {"type": request_type, "path": full_path if full_path else "/"}
+                        EndpointNode(request_type,full_path if full_path else "/")
                     )
 
     # Deduplicate paths
-    unique_paths = {f"{p['type']} - {p['path']}": p for p in paths}
+    if len(paths)==0:
+        return []
+    
+    unique_paths = {f"{p.full_method_id}": p for p in paths}
     return list(unique_paths.values())
 
 
 def extract_all_paths(directory):
     """Extract REST paths from all Java files in the given directory."""
     java_files = find_java_files(directory)
-    all_paths = []
+    nodes = []
+    edges=[]
     for java_file in java_files:
         paths = extract_paths_from_file(java_file)
         if paths:
             class_name = os.path.basename(java_file).replace(".java", "")
-            all_paths.append({
-                    "file_path":java_file,
-                    "class_name": class_name,
-                    "paths": paths
-                })
-    return {"time": datetime.now().strftime("%Y-%m-%d %H:%M:%S"),"endpoints": all_paths}
+            file_path=java_file.split('spring-petclinic-microservices')[1]
+            fileNode=FileNode(file_path)
+            classNode=ClassNode(class_name,f"{file_path}:{class_name}")
+            # Add Nodes
+            nodes.append(fileNode.to_dict())
+            nodes.append(classNode.to_dict())
+            
+            # Add File to Class Relation
+            edges.append(Edge(
+                RelationType.CONTAINS.value, fileNode.type, fileNode.identifier, 
+                fileNode.path, classNode.type, classNode.identifier, 
+                classNode.full_name
+            ).to_dict())
+            
+            for path in paths:
+                path_dict=path.to_dict()
+                # Add Nodes
+                nodes.append(path_dict)
+                # Add File to Endpoint Relation
+                edges.append(Edge(
+                RelationType.MAPS.value, fileNode.type, fileNode.identifier, 
+                fileNode.path, path.type, path.identifier, 
+                path.full_method_id
+                ).to_dict())
+    return {"probeName": "Endpoints","nodes": nodes, "edges":edges}
 
 
 if __name__ == "__main__":

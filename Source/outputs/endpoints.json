@@ -1,97 +1,405 @@
 {
-  "time": "2025-01-06 15:38:47",
-  "endpoints": [
+  "probeName": "Endpoints",
+  "nodes": [
     {
-      "file_path": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/web/VetResource.java",
-      "class_name": "VetResource",
-      "paths": [
-        {
-          "type": "GET",
-          "path": "/vets"
-        }
-      ]
+      "type": "File",
+      "path": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/web/VetResource.java"
     },
     {
-      "file_path": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/boundary/web/ApiGatewayController.java",
-      "class_name": "ApiGatewayController",
-      "paths": [
-        {
-          "type": "GET",
-          "path": "/api/gateway/owners/{ownerId}"
-        }
-      ]
+      "type": "Class",
+      "name": "VetResource",
+      "full_name": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/web/VetResource.java:VetResource"
     },
     {
-      "file_path": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/boundary/web/FallbackController.java",
-      "class_name": "FallbackController",
-      "paths": [
-        {
-          "type": "POST",
-          "path": "/fallback"
-        }
-      ]
+      "type": "Endpoint",
+      "full_method_id": "GET - /vets",
+      "http_method": "GET",
+      "route": "/vets"
     },
     {
-      "file_path": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetResource.java",
-      "class_name": "PetResource",
-      "paths": [
-        {
-          "type": "GET",
-          "path": "/petTypes"
-        },
-        {
-          "type": "GET",
-          "path": "/owners/*/pets/{petId}"
-        },
-        {
-          "type": "POST",
-          "path": "/owners/{ownerId}/pets"
-        },
-        {
-          "type": "PUT",
-          "path": "/owners/*/pets/{petId}"
-        }
-      ]
+      "type": "File",
+      "path": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/boundary/web/ApiGatewayController.java"
     },
     {
-      "file_path": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/OwnerResource.java",
-      "class_name": "OwnerResource",
-      "paths": [
-        {
-          "type": "GET",
-          "path": "/owners/{ownerId}"
-        },
-        {
-          "type": "GET",
-          "path": "/owners"
-        },
-        {
-          "type": "POST",
-          "path": "/owners"
-        },
-        {
-          "type": "PUT",
-          "path": "/owners/{ownerId}"
-        }
-      ]
+      "type": "Class",
+      "name": "ApiGatewayController",
+      "full_name": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/boundary/web/ApiGatewayController.java:ApiGatewayController"
     },
     {
-      "file_path": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/web/VisitResource.java",
-      "class_name": "VisitResource",
-      "paths": [
-        {
-          "type": "GET",
-          "path": "/owners/*/pets/{petId}/visits"
-        },
-        {
-          "type": "GET",
-          "path": "/pets/visits"
-        },
-        {
-          "type": "POST",
-          "path": "/owners/*/pets/{petId}/visits"
-        }
-      ]
+      "type": "Endpoint",
+      "full_method_id": "GET - /api/gateway/owners/{ownerId}",
+      "http_method": "GET",
+      "route": "/api/gateway/owners/{ownerId}"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/boundary/web/FallbackController.java"
+    },
+    {
+      "type": "Class",
+      "name": "FallbackController",
+      "full_name": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/boundary/web/FallbackController.java:FallbackController"
+    },
+    {
+      "type": "Endpoint",
+      "full_method_id": "POST - /fallback",
+      "http_method": "POST",
+      "route": "/fallback"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetResource.java"
+    },
+    {
+      "type": "Class",
+      "name": "PetResource",
+      "full_name": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetResource.java:PetResource"
+    },
+    {
+      "type": "Endpoint",
+      "full_method_id": "GET - /petTypes",
+      "http_method": "GET",
+      "route": "/petTypes"
+    },
+    {
+      "type": "Endpoint",
+      "full_method_id": "GET - /owners/*/pets/{petId}",
+      "http_method": "GET",
+      "route": "/owners/*/pets/{petId}"
+    },
+    {
+      "type": "Endpoint",
+      "full_method_id": "POST - /owners/{ownerId}/pets",
+      "http_method": "POST",
+      "route": "/owners/{ownerId}/pets"
+    },
+    {
+      "type": "Endpoint",
+      "full_method_id": "PUT - /owners/*/pets/{petId}",
+      "http_method": "PUT",
+      "route": "/owners/*/pets/{petId}"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/OwnerResource.java"
+    },
+    {
+      "type": "Class",
+      "name": "OwnerResource",
+      "full_name": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/OwnerResource.java:OwnerResource"
+    },
+    {
+      "type": "Endpoint",
+      "full_method_id": "GET - /owners/{ownerId}",
+      "http_method": "GET",
+      "route": "/owners/{ownerId}"
+    },
+    {
+      "type": "Endpoint",
+      "full_method_id": "GET - /owners",
+      "http_method": "GET",
+      "route": "/owners"
+    },
+    {
+      "type": "Endpoint",
+      "full_method_id": "POST - /owners",
+      "http_method": "POST",
+      "route": "/owners"
+    },
+    {
+      "type": "Endpoint",
+      "full_method_id": "PUT - /owners/{ownerId}",
+      "http_method": "PUT",
+      "route": "/owners/{ownerId}"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/web/VisitResource.java"
+    },
+    {
+      "type": "Class",
+      "name": "VisitResource",
+      "full_name": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/web/VisitResource.java:VisitResource"
+    },
+    {
+      "type": "Endpoint",
+      "full_method_id": "GET - /owners/*/pets/{petId}/visits",
+      "http_method": "GET",
+      "route": "/owners/*/pets/{petId}/visits"
+    },
+    {
+      "type": "Endpoint",
+      "full_method_id": "GET - /pets/visits",
+      "http_method": "GET",
+      "route": "/pets/visits"
+    },
+    {
+      "type": "Endpoint",
+      "full_method_id": "POST - /owners/*/pets/{petId}/visits",
+      "http_method": "POST",
+      "route": "/owners/*/pets/{petId}/visits"
+    }
+  ],
+  "edges": [
+    {
+      "relationName": "Contains",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "Path",
+        "propertyValue": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/web/VetResource.java"
+      },
+      "to": {
+        "nodeType": "Class",
+        "propertyName": "FullName",
+        "propertyValue": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/web/VetResource.java:VetResource"
+      }
+    },
+    {
+      "relationName": "Maps",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "Path",
+        "propertyValue": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/web/VetResource.java"
+      },
+      "to": {
+        "nodeType": "Endpoint",
+        "propertyName": "FullMethodId",
+        "propertyValue": "GET - /vets"
+      }
+    },
+    {
+      "relationName": "Contains",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "Path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/boundary/web/ApiGatewayController.java"
+      },
+      "to": {
+        "nodeType": "Class",
+        "propertyName": "FullName",
+        "propertyValue": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/boundary/web/ApiGatewayController.java:ApiGatewayController"
+      }
+    },
+    {
+      "relationName": "Maps",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "Path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/boundary/web/ApiGatewayController.java"
+      },
+      "to": {
+        "nodeType": "Endpoint",
+        "propertyName": "FullMethodId",
+        "propertyValue": "GET - /api/gateway/owners/{ownerId}"
+      }
+    },
+    {
+      "relationName": "Contains",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "Path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/boundary/web/FallbackController.java"
+      },
+      "to": {
+        "nodeType": "Class",
+        "propertyName": "FullName",
+        "propertyValue": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/boundary/web/FallbackController.java:FallbackController"
+      }
+    },
+    {
+      "relationName": "Maps",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "Path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/boundary/web/FallbackController.java"
+      },
+      "to": {
+        "nodeType": "Endpoint",
+        "propertyName": "FullMethodId",
+        "propertyValue": "POST - /fallback"
+      }
+    },
+    {
+      "relationName": "Contains",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "Path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetResource.java"
+      },
+      "to": {
+        "nodeType": "Class",
+        "propertyName": "FullName",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetResource.java:PetResource"
+      }
+    },
+    {
+      "relationName": "Maps",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "Path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetResource.java"
+      },
+      "to": {
+        "nodeType": "Endpoint",
+        "propertyName": "FullMethodId",
+        "propertyValue": "GET - /petTypes"
+      }
+    },
+    {
+      "relationName": "Maps",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "Path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetResource.java"
+      },
+      "to": {
+        "nodeType": "Endpoint",
+        "propertyName": "FullMethodId",
+        "propertyValue": "GET - /owners/*/pets/{petId}"
+      }
+    },
+    {
+      "relationName": "Maps",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "Path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetResource.java"
+      },
+      "to": {
+        "nodeType": "Endpoint",
+        "propertyName": "FullMethodId",
+        "propertyValue": "POST - /owners/{ownerId}/pets"
+      }
+    },
+    {
+      "relationName": "Maps",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "Path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetResource.java"
+      },
+      "to": {
+        "nodeType": "Endpoint",
+        "propertyName": "FullMethodId",
+        "propertyValue": "PUT - /owners/*/pets/{petId}"
+      }
+    },
+    {
+      "relationName": "Contains",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "Path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/OwnerResource.java"
+      },
+      "to": {
+        "nodeType": "Class",
+        "propertyName": "FullName",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/OwnerResource.java:OwnerResource"
+      }
+    },
+    {
+      "relationName": "Maps",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "Path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/OwnerResource.java"
+      },
+      "to": {
+        "nodeType": "Endpoint",
+        "propertyName": "FullMethodId",
+        "propertyValue": "GET - /owners/{ownerId}"
+      }
+    },
+    {
+      "relationName": "Maps",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "Path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/OwnerResource.java"
+      },
+      "to": {
+        "nodeType": "Endpoint",
+        "propertyName": "FullMethodId",
+        "propertyValue": "GET - /owners"
+      }
+    },
+    {
+      "relationName": "Maps",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "Path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/OwnerResource.java"
+      },
+      "to": {
+        "nodeType": "Endpoint",
+        "propertyName": "FullMethodId",
+        "propertyValue": "POST - /owners"
+      }
+    },
+    {
+      "relationName": "Maps",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "Path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/OwnerResource.java"
+      },
+      "to": {
+        "nodeType": "Endpoint",
+        "propertyName": "FullMethodId",
+        "propertyValue": "PUT - /owners/{ownerId}"
+      }
+    },
+    {
+      "relationName": "Contains",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "Path",
+        "propertyValue": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/web/VisitResource.java"
+      },
+      "to": {
+        "nodeType": "Class",
+        "propertyName": "FullName",
+        "propertyValue": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/web/VisitResource.java:VisitResource"
+      }
+    },
+    {
+      "relationName": "Maps",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "Path",
+        "propertyValue": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/web/VisitResource.java"
+      },
+      "to": {
+        "nodeType": "Endpoint",
+        "propertyName": "FullMethodId",
+        "propertyValue": "GET - /owners/*/pets/{petId}/visits"
+      }
+    },
+    {
+      "relationName": "Maps",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "Path",
+        "propertyValue": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/web/VisitResource.java"
+      },
+      "to": {
+        "nodeType": "Endpoint",
+        "propertyName": "FullMethodId",
+        "propertyValue": "GET - /pets/visits"
+      }
+    },
+    {
+      "relationName": "Maps",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "Path",
+        "propertyValue": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/web/VisitResource.java"
+      },
+      "to": {
+        "nodeType": "Endpoint",
+        "propertyName": "FullMethodId",
+        "propertyValue": "POST - /owners/*/pets/{petId}/visits"
+      }
     }
   ]
 }
