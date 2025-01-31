@@ -3,7 +3,6 @@ import os
 import json
 from collections import defaultdict
 from itertools import combinations
-from datetime import datetime
 
 # Define directories and files to ignore
 IGNORE_DIRS = {
@@ -102,17 +101,17 @@ def get_author_relation_strength(files_info_list):
     author_relation_data=list(relation_strength.values())        
     sorted_author_relation_data = sorted(author_relation_data, key=lambda x: x['strength'], reverse=True)
     return {
-        'time':files_info_list['time'],
         'author_relations':sorted_author_relation_data
     }
 
 
 if __name__ == '__main__':
-    input_directory = input("Please enter the absolute path to the folder containing the 'main' directory: ")
+    input_directory = "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-admin-server"
+    # input_directory = input("Please enter the absolute path to the folder containing the 'main' directory: ")
     original_directory = os.getcwd()
     os.chdir(input_directory)
-    output_folder = input(
-        "Please enter output folder path for author-tracking.json (default: ./outputs): ")
+    # output_folder = input(
+    #     "Please enter output folder path for author-tracking.json (default: ./outputs): ")
 
     # Extract all the required files from the given directory
     files_list= []
@@ -127,7 +126,7 @@ if __name__ == '__main__':
     # Extract Each line information from the files
     filesData = []
     extractedFileData=[]
-    extracted_line_info = {"time": datetime.now().strftime("%Y-%m-%d %H:%M:%S"), "files": []}
+    extracted_line_info = {"files": []}
     for fileName in files_list:
         with open(fileName, 'r') as file:
             for line_number, line in enumerate(file, start=1):
@@ -140,5 +139,5 @@ if __name__ == '__main__':
             
     # Dump data into json files
     os.chdir(original_directory)
-    dict_to_json_file("code_contribution",output_folder, extracted_line_info)
-    dict_to_json_file("authors_relation",output_folder, get_author_relation_strength(extracted_line_info))
+    dict_to_json_file("code_contribution",None, extracted_line_info)
+    dict_to_json_file("authors_relation",None, get_author_relation_strength(extracted_line_info))
