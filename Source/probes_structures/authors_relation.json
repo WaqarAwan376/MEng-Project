@@ -1,0 +1,66 @@
+{
+  "name": "Authors_Relation",
+  "types": [
+    {
+      "name": "Author",
+      "fields": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": false
+        },
+        {
+          "name": "email",
+          "type": "string",
+          "unique": true
+        }
+      ],
+      "mergeRules": [
+        {
+          "fieldName": "email"
+        }
+      ]
+    },
+    {
+      "name": "Author_Relation",
+      "fields": [
+        {
+          "name": "author1",
+          "type": "string",
+          "unique": false
+        },
+        {
+          "name": "author2",
+          "type": "string",
+          "unique": false
+        },
+        {
+          "name": "combined_emails",
+          "type": "string",
+          "unique": true
+        },
+        {
+          "name": "strength",
+          "type": "integer",
+          "unique": false
+        }
+      ],
+      "mergeRules": [
+        {
+          "fieldName": "combined_emails"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "name": "Contributed",
+      "from": {
+        "typeName": "Author"
+      },
+      "to": {
+        "typeName": "Author_Relation"
+      }
+    }
+  ]
+}
