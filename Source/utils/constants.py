@@ -25,5 +25,32 @@ method_patterns = {
     ],
 }
 
+
 # Class-level @RequestMapping pattern
 class_pattern = r'@RequestMapping\s*\(\s*(?:value\s*=\s*)?"([^"]+)"\s*\)'
+
+
+# Define directories and files to ignore
+IGNORE_DIRS = {
+    'target',
+    'build',
+    '.m2',
+    '.gradle',
+    '.idea',
+    '.settings',
+    '.git',
+    'node_modules',
+    '__pycache__',
+    'static',
+    '.mvn'
+}
+IGNORE_FILES = {
+    '.classpath',
+    '.project',
+    '.iml',
+    '.DS_Store',
+    'Thumbs.db',
+    '.png',
+    '.jpg',
+    '.jar'
+}

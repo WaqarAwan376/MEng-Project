@@ -1,6 +1,7 @@
 import os
 import json
 import javalang
+from utils.constants import IGNORE_DIRS, IGNORE_FILES
 
 def dict_to_json_file(file_name,output_folder, dictionary):
     os.makedirs("./outputs/", exist_ok=True) if not output_folder else ''
@@ -19,6 +20,19 @@ def find_java_files(directory):
     return java_files
 
     
+def find_filtered_files(directory):
+    """Find Files while ignoring specific directories and files."""
+    files_list= []
+    for root, dirs, files in os.walk(directory):
+        dirs[:] = [d for d in dirs if d not in IGNORE_DIRS]
+        for file in files:
+            if file in IGNORE_FILES or any(file.endswith(f) for f in IGNORE_FILES if f.startswith('.')):
+                continue
+            files_list.append(f"{root}/{file}")
+            
+    return files_list
+
+
 def read_java_source_file(file_path):
     with open(file_path, 'r') as file:
         return file.read()
