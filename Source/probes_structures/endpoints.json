@@ -1,0 +1,85 @@
+{
+  "name": "Endpoints",
+  "types": [
+    {
+      "name": "File",
+      "fields": [
+        {
+          "name": "path",
+          "type": "string",
+          "unique": true
+        }
+      ],
+      "mergeRules": [
+        {
+          "fieldName": "path"
+        }
+      ]
+    },
+    {
+      "name": "Class",
+      "fields": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": false
+        },
+        {
+          "name": "full_name",
+          "type": "string",
+          "unique": true
+        }
+      ],
+      "mergeRules": [
+        {
+          "fieldName": "full_name"
+        }
+      ]
+    },
+    {
+      "name": "Endpoint",
+      "fields": [
+        {
+          "name": "http_method",
+          "type": "string",
+          "unique": false
+        },
+        {
+          "name": "route",
+          "type": "string",
+          "unique": false
+        },
+        {
+          "name": "full_method_id",
+          "type": "string",
+          "unique": true
+        }
+      ],
+      "mergeRules": [
+        {
+          "fieldName": "full_method_id"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "name": "Contains",
+      "from": {
+        "typeName": "File"
+      },
+      "to": {
+        "typeName": "Class"
+      }
+    },
+    {
+      "name": "Maps",
+      "from": {
+        "typeName": "Class"
+      },
+      "to": {
+        "typeName": "Endpoint"
+      }
+    }
+  ]
+}

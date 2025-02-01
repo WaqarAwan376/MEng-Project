@@ -81,8 +81,8 @@ def extract_all_paths(directory):
                 nodes.append(path_dict)
                 # Add File to Endpoint Relation
                 edges.append(Edge(
-                RelationType.MAPS.value, fileNode.type, fileNode.identifier, 
-                fileNode.path, path.type, path.identifier, 
+                RelationType.MAPS.value, classNode.type, classNode.identifier, 
+                classNode.full_name, path.type, path.identifier, 
                 path.full_method_id
                 ).to_dict())
     return {"probeName": "Endpoints","nodes": nodes, "edges":edges}
