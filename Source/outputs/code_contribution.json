@@ -1,60 +1,6007 @@
 {
-  "files": [
+  "probeName": "FileContributors",
+  "nodes": [
     {
-      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-admin-server/pom.xml",
-      "contributors": [
-        {
-          "author_name": "Antoine Rey",
-          "author_email": "antoine.rey@gmail.com"
-        },
-        {
-          "author_name": "Antoine Rey",
-          "author_email": "antoine.rey@free.fr"
-        },
-        {
-          "author_name": "jpaszek",
-          "author_email": "julius.paszek@gmail.com"
-        },
-        {
-          "author_name": "Maciej Szarlinski",
-          "author_email": "mszarlinski@gmail.com"
-        },
-        {
-          "author_name": "René Zubcevic",
-          "author_email": "git@zubcevic.com"
-        }
-      ]
+      "type": "File",
+      "path": "/LICENSE"
     },
     {
-      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-admin-server/src/main/resources/logback-spring.xml",
-      "contributors": [
-        {
-          "author_name": "Antoine Rey",
-          "author_email": "antoine.rey@gmail.com"
-        }
-      ]
+      "type": "Author",
+      "name": "Antoine Rey",
+      "email": "antoine.rey@gmail.com"
     },
     {
-      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-admin-server/src/main/resources/application.yml",
-      "contributors": [
-        {
-          "author_name": "Antoine Rey",
-          "author_email": "antoine.rey@gmail.com"
-        }
-      ]
+      "type": "Author",
+      "name": "Maciej Szarliński",
+      "email": "mszarlinski@users.noreply.github.com"
     },
     {
-      "file": "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices/spring-petclinic-admin-server/src/main/java/org/springframework/samples/petclinic/admin/SpringBootAdminApplication.java",
-      "contributors": [
-        {
-          "author_name": "Maciej Szarliński",
-          "author_email": "mszarlinski@users.noreply.github.com"
-        },
-        {
-          "author_name": "Antoine Rey",
-          "author_email": "antoine.rey@gmail.com"
-        }
-      ]
+      "type": "File",
+      "path": "/mvnw.cmd"
+    },
+    {
+      "type": "Author",
+      "name": "René Zubcevic",
+      "email": "git@zubcevic.com"
+    },
+    {
+      "type": "Author",
+      "name": "Antoine Rey",
+      "email": "antoine.rey@free.fr"
+    },
+    {
+      "type": "File",
+      "path": "/pom.xml"
+    },
+    {
+      "type": "Author",
+      "name": "Costin Leau",
+      "email": "cleau@vmware.com"
+    },
+    {
+      "type": "Author",
+      "name": "Ankush Thakur",
+      "email": "aankushthakur27@gmail.com"
+    },
+    {
+      "type": "Author",
+      "name": "Dapeng",
+      "email": "verydapeng@gmail.com"
+    },
+    {
+      "type": "Author",
+      "name": "odedia",
+      "email": "odedia@gmail.com"
+    },
+    {
+      "type": "Author",
+      "name": "Maciej Szarlinski",
+      "email": "mszarlinski@gmail.com"
+    },
+    {
+      "type": "Author",
+      "name": "jpaszek",
+      "email": "julius.paszek@gmail.com"
+    },
+    {
+      "type": "Author",
+      "name": "Marcin Grzejszczak",
+      "email": "marcin@grzejszczak.pl"
+    },
+    {
+      "type": "Author",
+      "name": "Shobha Kamath",
+      "email": "shobha.s.kamath@gmail.com"
+    },
+    {
+      "type": "Author",
+      "name": "Mic",
+      "email": "misvy@vmware.com"
+    },
+    {
+      "type": "Author",
+      "name": "Jonatan Ivanov",
+      "email": "jonatan.ivanov@gmail.com"
+    },
+    {
+      "type": "File",
+      "path": "/.editorconfig"
+    },
+    {
+      "type": "File",
+      "path": "/README.md"
+    },
+    {
+      "type": "Author",
+      "name": "Nikola Balic",
+      "email": "niko@daytona.io"
+    },
+    {
+      "type": "Author",
+      "name": "Ramazan Sakin",
+      "email": "ramazansakin63@gmail.com"
+    },
+    {
+      "type": "Author",
+      "name": "Michael Rumpf",
+      "email": "michael@rumpfonline.de"
+    },
+    {
+      "type": "Author",
+      "name": "Wong Jia Cin",
+      "email": "107848857+bryanwong69420@users.noreply.github.com"
+    },
+    {
+      "type": "Author",
+      "name": "kevin crawley",
+      "email": "kevin@nashdocker.io"
+    },
+    {
+      "type": "Author",
+      "name": "Andy Marks",
+      "email": "vampwillow@gmail.com"
+    },
+    {
+      "type": "File",
+      "path": "/.gitignore"
+    },
+    {
+      "type": "Author",
+      "name": "Cyrille Le Clerc",
+      "email": "cyrille@cyrilleleclerc.com"
+    },
+    {
+      "type": "File",
+      "path": "/.gitattributes"
+    },
+    {
+      "type": "File",
+      "path": "/docker-compose.yml"
+    },
+    {
+      "type": "Author",
+      "name": "Michael Werner",
+      "email": "xaseron@googlemail.com"
+    },
+    {
+      "type": "File",
+      "path": "/mvnw"
+    },
+    {
+      "type": "File",
+      "path": "/docker/Dockerfile"
+    },
+    {
+      "type": "Author",
+      "name": "Lukas Forst",
+      "email": "lukasforst+github@gmail.com"
+    },
+    {
+      "type": "Author",
+      "name": "9SMTM6",
+      "email": "44668330+9SMTM6@users.noreply.github.com"
+    },
+    {
+      "type": "File",
+      "path": "/docker/grafana/Dockerfile"
+    },
+    {
+      "type": "File",
+      "path": "/docker/grafana/grafana.ini"
+    },
+    {
+      "type": "File",
+      "path": "/docker/grafana/provisioning/datasources/all.yml"
+    },
+    {
+      "type": "File",
+      "path": "/docker/grafana/provisioning/dashboards/all.yml"
+    },
+    {
+      "type": "File",
+      "path": "/docker/grafana/dashboards/grafana-petclinic-dashboard.json"
+    },
+    {
+      "type": "File",
+      "path": "/docker/prometheus/Dockerfile"
+    },
+    {
+      "type": "File",
+      "path": "/docker/prometheus/prometheus.yml"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-config-server/pom.xml"
+    },
+    {
+      "type": "Author",
+      "name": "Maciej Szarlinski",
+      "email": "mszarlinski@bravurasolutions.com"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-config-server/src/test/resources/application.yml"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-config-server/src/test/java/org/springframework/samples/petclinic/config/PetclinicConfigServerApplicationTests.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-config-server/src/main/resources/application.yml"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-config-server/src/main/java/org/springframework/samples/petclinic/config/ConfigServerApplication.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-discovery-server/pom.xml"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-discovery-server/src/test/java/org/springframework/samples/petclinic/discovery/DiscoveryServerApplicationTests.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-discovery-server/src/main/resources/application.yml"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-discovery-server/src/main/java/org/springframework/samples/petclinic/discovery/DiscoveryServerApplication.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-genai-service/pom.xml"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-genai-service/.gitignore"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-genai-service/src/main/resources/logback-spring.xml"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-genai-service/src/main/resources/application.yml"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-genai-service/src/main/resources/vectorstore.json"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/AIBeanConfiguration.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/AIDataProvider.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/VectorStoreController.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/GenAIServiceApplication.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/AIFunctionConfiguration.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/dto/PetDetails.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/dto/Vet.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/dto/OwnerDetails.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/dto/PetRequest.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/dto/Specialty.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/dto/VisitDetails.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/dto/PetType.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-admin-server/pom.xml"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-admin-server/src/main/resources/logback-spring.xml"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-admin-server/src/main/resources/application.yml"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-admin-server/src/main/java/org/springframework/samples/petclinic/admin/SpringBootAdminApplication.java"
+    },
+    {
+      "type": "File",
+      "path": "/.devcontainer/devcontainer.json"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-vets-service/pom.xml"
+    },
+    {
+      "type": "Author",
+      "name": "Marian-Constantin Marica",
+      "email": "91406991+MarianConstantinMarica@users.noreply.github.com"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-vets-service/.gitignore"
+    },
+    {
+      "type": "Author",
+      "name": "Dave Syer",
+      "email": "dsyer@pivotal.io"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-vets-service/src/test/resources/application-test.yml"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-vets-service/src/test/java/org/springframework/samples/petclinic/vets/web/VetResourceTest.java"
+    },
+    {
+      "type": "Author",
+      "name": "michaelisvy",
+      "email": "misvy@gopivotal,com"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-vets-service/src/main/resources/logback-spring.xml"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-vets-service/src/main/resources/application.yml"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-vets-service/src/main/resources/db/hsqldb/data.sql"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-vets-service/src/main/resources/db/hsqldb/schema.sql"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-vets-service/src/main/resources/db/mysql/data.sql"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-vets-service/src/main/resources/db/mysql/schema.sql"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/VetsServiceApplication.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/web/VetResource.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/system/CacheConfig.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/system/VetsProperties.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/Vet.java"
+    },
+    {
+      "type": "Author",
+      "name": "Gordon Dickens",
+      "email": "gordon@gordondickens.com"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/Specialty.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/VetRepository.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-api-gateway/pom.xml"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-api-gateway/.gitignore"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-api-gateway/src/test/resources/application-test.yml"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-api-gateway/src/test/jmeter/petclinic_test_plan.jmx"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-api-gateway/src/test/java/org/springframework/samples/petclinic/api/ApiGatewayApplicationTests.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-api-gateway/src/test/java/org/springframework/samples/petclinic/api/boundary/web/CircuitBreakerConfiguration.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-api-gateway/src/test/java/org/springframework/samples/petclinic/api/boundary/web/ApiGatewayControllerTest.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-api-gateway/src/test/java/org/springframework/samples/petclinic/api/application/VisitsServiceClientIntegrationTest.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-api-gateway/src/main/resources/logback-spring.xml"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-api-gateway/src/main/resources/application.yml"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-api-gateway/src/main/resources/messages/messages_de.properties"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-api-gateway/src/main/resources/messages/messages_en.properties"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-api-gateway/src/main/resources/messages/messages.properties"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/ApiGatewayApplication.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/PetDetails.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/Visits.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/OwnerDetails.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/VisitDetails.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/PetType.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/boundary/web/ApiGatewayController.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/boundary/web/FallbackController.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/application/CustomersServiceClient.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/application/VisitsServiceClient.java"
+    },
+    {
+      "type": "File",
+      "path": "/scripts/pushImages.sh"
+    },
+    {
+      "type": "File",
+      "path": "/scripts/run_all.sh"
+    },
+    {
+      "type": "File",
+      "path": "/scripts/tagImages.sh"
+    },
+    {
+      "type": "File",
+      "path": "/scripts/chaos/watcher_disable.json"
+    },
+    {
+      "type": "File",
+      "path": "/scripts/chaos/watcher_enable_restcontroller.json"
+    },
+    {
+      "type": "File",
+      "path": "/scripts/chaos/call_chaos.sh"
+    },
+    {
+      "type": "File",
+      "path": "/scripts/chaos/watcher_enable_component.json"
+    },
+    {
+      "type": "File",
+      "path": "/scripts/chaos/README.md"
+    },
+    {
+      "type": "File",
+      "path": "/scripts/chaos/attacks_disable.json"
+    },
+    {
+      "type": "File",
+      "path": "/scripts/chaos/attacks_enable_killapplication.json"
+    },
+    {
+      "type": "File",
+      "path": "/scripts/chaos/attacks_enable_memory.json"
+    },
+    {
+      "type": "File",
+      "path": "/scripts/chaos/watcher_enable_repository.json"
+    },
+    {
+      "type": "File",
+      "path": "/scripts/chaos/watcher_enable_service.json"
+    },
+    {
+      "type": "File",
+      "path": "/scripts/chaos/attacks_enable_exception.json"
+    },
+    {
+      "type": "File",
+      "path": "/scripts/chaos/attacks_enable_latency.json"
+    },
+    {
+      "type": "File",
+      "path": "/scripts/chaos/watcher_enable_controller.json"
+    },
+    {
+      "type": "File",
+      "path": "/.github/workflows/maven-build.yml"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-customers-service/pom.xml"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-customers-service/src/test/resources/application-test.yml"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-customers-service/src/test/java/org/springframework/samples/petclinic/customers/web/PetResourceTest.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-customers-service/src/main/resources/logback-spring.xml"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-customers-service/src/main/resources/application.yml"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-customers-service/src/main/resources/db/hsqldb/data.sql"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-customers-service/src/main/resources/db/hsqldb/schema.sql"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-customers-service/src/main/resources/db/mysql/data.sql"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-customers-service/src/main/resources/db/mysql/schema.sql"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/CustomersServiceApplication.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/config/MetricConfig.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetDetails.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/ResourceNotFoundException.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetResource.java"
+    },
+    {
+      "type": "Author",
+      "name": "Rossen Stoyanchev",
+      "email": "rstoyanchev@vmware.com"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/OwnerResource.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetRequest.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/OwnerRequest.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/mapper/Mapper.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/mapper/OwnerEntityMapper.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Pet.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/PetRepository.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/OwnerRepository.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Owner.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/PetType.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-visits-service/pom.xml"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-visits-service/src/test/resources/application-test.yml"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-visits-service/src/test/java/org/springframework/samples/petclinic/visits/web/VisitResourceTest.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-visits-service/src/main/resources/logback-spring.xml"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-visits-service/src/main/resources/application.yml"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-visits-service/src/main/resources/db/hsqldb/data.sql"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-visits-service/src/main/resources/db/hsqldb/schema.sql"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-visits-service/src/main/resources/db/mysql/data.sql"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-visits-service/src/main/resources/db/mysql/schema.sql"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/VisitsServiceApplication.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/config/MetricConfig.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/web/VisitResource.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/model/VisitRepository.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/model/Visit.java"
+    }
+  ],
+  "edges": [
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/LICENSE"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/LICENSE"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@users.noreply.github.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/mvnw.cmd"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "git@zubcevic.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/mvnw.cmd"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@free.fr"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "cleau@vmware.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "git@zubcevic.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "aankushthakur27@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "verydapeng@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@free.fr"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "odedia@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "julius.paszek@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "marcin@grzejszczak.pl"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "shobha.s.kamath@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "misvy@vmware.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "jonatan.ivanov@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/.editorconfig"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/README.md"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "odedia@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/README.md"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@users.noreply.github.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/README.md"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/README.md"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/README.md"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@free.fr"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/README.md"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "niko@daytona.io"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/README.md"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "git@zubcevic.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/README.md"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "ramazansakin63@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/README.md"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "michael@rumpfonline.de"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/README.md"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "marcin@grzejszczak.pl"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/README.md"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "107848857+bryanwong69420@users.noreply.github.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/README.md"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "kevin@nashdocker.io"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/README.md"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "vampwillow@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/.gitignore"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/.gitignore"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/.gitignore"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "misvy@vmware.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/.gitignore"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "cyrille@cyrilleleclerc.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/.gitignore"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "marcin@grzejszczak.pl"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/.gitignore"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "odedia@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/.gitattributes"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@free.fr"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/docker-compose.yml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/docker-compose.yml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/docker-compose.yml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@free.fr"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/docker-compose.yml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "odedia@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/docker-compose.yml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "xaseron@googlemail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/docker-compose.yml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "kevin@nashdocker.io"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/mvnw"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/mvnw"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@free.fr"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/mvnw"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "git@zubcevic.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/mvnw"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/docker/Dockerfile"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "odedia@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/docker/Dockerfile"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/docker/Dockerfile"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "xaseron@googlemail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/docker/Dockerfile"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@free.fr"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/docker/Dockerfile"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "lukasforst+github@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/docker/Dockerfile"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "julius.paszek@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/docker/Dockerfile"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "44668330+9SMTM6@users.noreply.github.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/docker/Dockerfile"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "shobha.s.kamath@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/docker/grafana/Dockerfile"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/docker/grafana/grafana.ini"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/docker/grafana/provisioning/datasources/all.yml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/docker/grafana/provisioning/dashboards/all.yml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/docker/grafana/dashboards/grafana-petclinic-dashboard.json"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/docker/grafana/dashboards/grafana-petclinic-dashboard.json"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@free.fr"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/docker/prometheus/Dockerfile"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "kevin@nashdocker.io"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/docker/prometheus/prometheus.yml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "kevin@nashdocker.io"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-config-server/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@bravurasolutions.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-config-server/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-config-server/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@free.fr"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-config-server/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "julius.paszek@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-config-server/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-config-server/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "git@zubcevic.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-config-server/src/test/resources/application.yml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-config-server/src/test/java/org/springframework/samples/petclinic/config/PetclinicConfigServerApplicationTests.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@users.noreply.github.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-config-server/src/test/java/org/springframework/samples/petclinic/config/PetclinicConfigServerApplicationTests.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-config-server/src/test/java/org/springframework/samples/petclinic/config/PetclinicConfigServerApplicationTests.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-config-server/src/test/java/org/springframework/samples/petclinic/config/PetclinicConfigServerApplicationTests.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@bravurasolutions.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-config-server/src/main/resources/application.yml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@bravurasolutions.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-config-server/src/main/resources/application.yml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-config-server/src/main/resources/application.yml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-config-server/src/main/java/org/springframework/samples/petclinic/config/ConfigServerApplication.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@users.noreply.github.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-config-server/src/main/java/org/springframework/samples/petclinic/config/ConfigServerApplication.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-config-server/src/main/java/org/springframework/samples/petclinic/config/ConfigServerApplication.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-config-server/src/main/java/org/springframework/samples/petclinic/config/ConfigServerApplication.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@bravurasolutions.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-discovery-server/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@bravurasolutions.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-discovery-server/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-discovery-server/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@free.fr"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-discovery-server/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "julius.paszek@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-discovery-server/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-discovery-server/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "git@zubcevic.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-discovery-server/src/test/java/org/springframework/samples/petclinic/discovery/DiscoveryServerApplicationTests.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@users.noreply.github.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-discovery-server/src/test/java/org/springframework/samples/petclinic/discovery/DiscoveryServerApplicationTests.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-discovery-server/src/test/java/org/springframework/samples/petclinic/discovery/DiscoveryServerApplicationTests.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@bravurasolutions.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-discovery-server/src/test/java/org/springframework/samples/petclinic/discovery/DiscoveryServerApplicationTests.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-discovery-server/src/main/resources/application.yml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-discovery-server/src/main/java/org/springframework/samples/petclinic/discovery/DiscoveryServerApplication.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@users.noreply.github.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-discovery-server/src/main/java/org/springframework/samples/petclinic/discovery/DiscoveryServerApplication.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-discovery-server/src/main/java/org/springframework/samples/petclinic/discovery/DiscoveryServerApplication.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@bravurasolutions.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-discovery-server/src/main/java/org/springframework/samples/petclinic/discovery/DiscoveryServerApplication.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-genai-service/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "odedia@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-genai-service/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@free.fr"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-genai-service/.gitignore"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "odedia@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-genai-service/src/main/resources/logback-spring.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "odedia@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-genai-service/src/main/resources/application.yml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "odedia@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-genai-service/src/main/resources/vectorstore.json"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "odedia@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/AIBeanConfiguration.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "odedia@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/AIDataProvider.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "odedia@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/VectorStoreController.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "odedia@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/GenAIServiceApplication.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "odedia@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/AIFunctionConfiguration.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "odedia@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/dto/PetDetails.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "odedia@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/dto/Vet.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "odedia@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/dto/OwnerDetails.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "odedia@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/dto/PetRequest.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "odedia@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/dto/Specialty.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "odedia@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/dto/VisitDetails.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "odedia@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/dto/PetType.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "odedia@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-admin-server/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-admin-server/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@free.fr"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-admin-server/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "julius.paszek@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-admin-server/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-admin-server/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "git@zubcevic.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-admin-server/src/main/resources/logback-spring.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-admin-server/src/main/resources/application.yml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-admin-server/src/main/java/org/springframework/samples/petclinic/admin/SpringBootAdminApplication.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@users.noreply.github.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-admin-server/src/main/java/org/springframework/samples/petclinic/admin/SpringBootAdminApplication.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/.devcontainer/devcontainer.json"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@free.fr"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@bravurasolutions.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@free.fr"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "julius.paszek@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "kevin@nashdocker.io"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "marcin@grzejszczak.pl"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "91406991+MarianConstantinMarica@users.noreply.github.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "git@zubcevic.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/.gitignore"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "dsyer@pivotal.io"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/src/test/resources/application-test.yml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/src/test/resources/application-test.yml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/src/test/java/org/springframework/samples/petclinic/vets/web/VetResourceTest.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@users.noreply.github.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/src/test/java/org/springframework/samples/petclinic/vets/web/VetResourceTest.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/src/test/java/org/springframework/samples/petclinic/vets/web/VetResourceTest.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/src/test/java/org/springframework/samples/petclinic/vets/web/VetResourceTest.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "misvy@gopivotal,com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/src/test/java/org/springframework/samples/petclinic/vets/web/VetResourceTest.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "verydapeng@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/src/main/resources/logback-spring.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/src/main/resources/application.yml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/src/main/resources/db/hsqldb/data.sql"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/src/main/resources/db/hsqldb/schema.sql"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/src/main/resources/db/mysql/data.sql"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/src/main/resources/db/mysql/schema.sql"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/VetsServiceApplication.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@users.noreply.github.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/VetsServiceApplication.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/VetsServiceApplication.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@bravurasolutions.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/VetsServiceApplication.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/web/VetResource.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "misvy@vmware.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/web/VetResource.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/web/VetResource.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/web/VetResource.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@free.fr"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/web/VetResource.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "verydapeng@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/web/VetResource.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "misvy@gopivotal,com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/system/CacheConfig.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@users.noreply.github.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/system/CacheConfig.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/system/CacheConfig.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/system/CacheConfig.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "dsyer@pivotal.io"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/system/VetsProperties.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@users.noreply.github.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/system/VetsProperties.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/system/VetsProperties.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/system/VetsProperties.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@free.fr"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/Vet.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "misvy@vmware.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/Vet.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/Vet.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/Vet.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@free.fr"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/Vet.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "cleau@vmware.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/Vet.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "ramazansakin63@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/Vet.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "gordon@gordondickens.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/Specialty.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "misvy@vmware.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/Specialty.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/Specialty.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/Specialty.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "cleau@vmware.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/Specialty.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@free.fr"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/Specialty.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "ramazansakin63@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/Specialty.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "gordon@gordondickens.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/VetRepository.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "misvy@vmware.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/VetRepository.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/VetRepository.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/VetRepository.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "gordon@gordondickens.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "dsyer@pivotal.io"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@free.fr"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "odedia@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "julius.paszek@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "kevin@nashdocker.io"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "91406991+MarianConstantinMarica@users.noreply.github.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "git@zubcevic.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/.gitignore"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "dsyer@pivotal.io"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/test/resources/application-test.yml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/test/jmeter/petclinic_test_plan.jmx"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/test/java/org/springframework/samples/petclinic/api/ApiGatewayApplicationTests.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/test/java/org/springframework/samples/petclinic/api/ApiGatewayApplicationTests.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/test/java/org/springframework/samples/petclinic/api/boundary/web/CircuitBreakerConfiguration.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/test/java/org/springframework/samples/petclinic/api/boundary/web/CircuitBreakerConfiguration.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "shobha.s.kamath@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/test/java/org/springframework/samples/petclinic/api/boundary/web/ApiGatewayControllerTest.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/test/java/org/springframework/samples/petclinic/api/boundary/web/ApiGatewayControllerTest.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@free.fr"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/test/java/org/springframework/samples/petclinic/api/application/VisitsServiceClientIntegrationTest.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/test/java/org/springframework/samples/petclinic/api/application/VisitsServiceClientIntegrationTest.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@free.fr"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/main/resources/logback-spring.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/main/resources/application.yml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/main/resources/application.yml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "odedia@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/main/resources/messages/messages_de.properties"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "cleau@vmware.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/main/resources/messages/messages_de.properties"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/main/resources/messages/messages_en.properties"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "cleau@vmware.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/main/resources/messages/messages.properties"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "cleau@vmware.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/ApiGatewayApplication.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@users.noreply.github.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/ApiGatewayApplication.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/ApiGatewayApplication.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/ApiGatewayApplication.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "odedia@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/PetDetails.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@users.noreply.github.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/PetDetails.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/PetDetails.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/PetDetails.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@free.fr"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/Visits.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@users.noreply.github.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/Visits.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/Visits.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/Visits.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@free.fr"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/OwnerDetails.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@users.noreply.github.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/OwnerDetails.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/OwnerDetails.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/OwnerDetails.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@free.fr"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/VisitDetails.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@users.noreply.github.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/VisitDetails.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/VisitDetails.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/VisitDetails.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@free.fr"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/PetType.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@users.noreply.github.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/PetType.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/PetType.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/PetType.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@free.fr"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/boundary/web/ApiGatewayController.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@users.noreply.github.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/boundary/web/ApiGatewayController.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/boundary/web/ApiGatewayController.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/boundary/web/ApiGatewayController.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@free.fr"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/boundary/web/FallbackController.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "odedia@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/application/CustomersServiceClient.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@users.noreply.github.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/application/CustomersServiceClient.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/application/CustomersServiceClient.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/application/CustomersServiceClient.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@free.fr"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/application/VisitsServiceClient.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@users.noreply.github.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/application/VisitsServiceClient.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/application/VisitsServiceClient.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/application/VisitsServiceClient.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@free.fr"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/scripts/pushImages.sh"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@free.fr"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/scripts/run_all.sh"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "marcin@grzejszczak.pl"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/scripts/run_all.sh"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "odedia@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/scripts/tagImages.sh"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@free.fr"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/scripts/chaos/watcher_disable.json"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "marcin@grzejszczak.pl"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/scripts/chaos/watcher_enable_restcontroller.json"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "marcin@grzejszczak.pl"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/scripts/chaos/call_chaos.sh"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "marcin@grzejszczak.pl"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/scripts/chaos/watcher_enable_component.json"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "marcin@grzejszczak.pl"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/scripts/chaos/README.md"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "marcin@grzejszczak.pl"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/scripts/chaos/attacks_disable.json"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "marcin@grzejszczak.pl"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/scripts/chaos/attacks_enable_killapplication.json"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "marcin@grzejszczak.pl"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/scripts/chaos/attacks_enable_memory.json"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "marcin@grzejszczak.pl"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/scripts/chaos/watcher_enable_repository.json"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "marcin@grzejszczak.pl"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/scripts/chaos/watcher_enable_service.json"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "marcin@grzejszczak.pl"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/scripts/chaos/attacks_enable_exception.json"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "marcin@grzejszczak.pl"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/scripts/chaos/attacks_enable_latency.json"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "marcin@grzejszczak.pl"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/scripts/chaos/watcher_enable_controller.json"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "marcin@grzejszczak.pl"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/.github/workflows/maven-build.yml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/.github/workflows/maven-build.yml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@free.fr"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@bravurasolutions.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@free.fr"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "julius.paszek@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "kevin@nashdocker.io"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "marcin@grzejszczak.pl"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "91406991+MarianConstantinMarica@users.noreply.github.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "git@zubcevic.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/test/resources/application-test.yml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/test/resources/application-test.yml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/test/java/org/springframework/samples/petclinic/customers/web/PetResourceTest.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/test/java/org/springframework/samples/petclinic/customers/web/PetResourceTest.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "misvy@gopivotal,com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/test/java/org/springframework/samples/petclinic/customers/web/PetResourceTest.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "kevin@nashdocker.io"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/test/java/org/springframework/samples/petclinic/customers/web/PetResourceTest.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "verydapeng@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/test/java/org/springframework/samples/petclinic/customers/web/PetResourceTest.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/resources/logback-spring.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/resources/application.yml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/resources/db/hsqldb/data.sql"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "cleau@vmware.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/resources/db/hsqldb/data.sql"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "misvy@vmware.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/resources/db/hsqldb/schema.sql"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/resources/db/hsqldb/schema.sql"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "ramazansakin63@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/resources/db/mysql/data.sql"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "cleau@vmware.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/resources/db/mysql/schema.sql"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "cleau@vmware.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/CustomersServiceApplication.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@users.noreply.github.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/CustomersServiceApplication.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/CustomersServiceApplication.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/CustomersServiceApplication.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@bravurasolutions.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/config/MetricConfig.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@free.fr"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetDetails.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@users.noreply.github.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetDetails.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetDetails.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetDetails.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "shobha.s.kamath@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/ResourceNotFoundException.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetResource.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "misvy@vmware.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetResource.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetResource.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetResource.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "cleau@vmware.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetResource.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "shobha.s.kamath@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetResource.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@free.fr"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetResource.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "verydapeng@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetResource.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "ramazansakin63@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetResource.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "misvy@gopivotal,com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetResource.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "kevin@nashdocker.io"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetResource.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "gordon@gordondickens.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetResource.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "rstoyanchev@vmware.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/OwnerResource.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "misvy@vmware.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/OwnerResource.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/OwnerResource.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/OwnerResource.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "misvy@gopivotal,com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/OwnerResource.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "shobha.s.kamath@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/OwnerResource.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@free.fr"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/OwnerResource.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "verydapeng@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/OwnerResource.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "cleau@vmware.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/OwnerResource.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "gordon@gordondickens.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/OwnerResource.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "ramazansakin63@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetRequest.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@users.noreply.github.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetRequest.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetRequest.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetRequest.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "shobha.s.kamath@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetRequest.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@free.fr"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/OwnerRequest.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "shobha.s.kamath@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/mapper/Mapper.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "shobha.s.kamath@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/mapper/OwnerEntityMapper.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "shobha.s.kamath@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Pet.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "misvy@vmware.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Pet.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Pet.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Pet.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "cleau@vmware.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Pet.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@free.fr"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Pet.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "ramazansakin63@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Pet.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "gordon@gordondickens.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Pet.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "verydapeng@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Pet.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "misvy@gopivotal,com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/PetRepository.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "misvy@vmware.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/PetRepository.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/PetRepository.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/PetRepository.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "gordon@gordondickens.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/PetRepository.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "verydapeng@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/OwnerRepository.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "misvy@vmware.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/OwnerRepository.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/OwnerRepository.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/OwnerRepository.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "verydapeng@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/OwnerRepository.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "gordon@gordondickens.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Owner.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "misvy@vmware.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Owner.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Owner.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Owner.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@free.fr"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Owner.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "cleau@vmware.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Owner.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "ramazansakin63@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Owner.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "gordon@gordondickens.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/PetType.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "misvy@vmware.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/PetType.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/PetType.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/PetType.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "cleau@vmware.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/PetType.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@free.fr"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/PetType.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "ramazansakin63@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/PetType.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "gordon@gordondickens.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-visits-service/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@bravurasolutions.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-visits-service/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "git@zubcevic.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-visits-service/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-visits-service/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@free.fr"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-visits-service/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "julius.paszek@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-visits-service/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-visits-service/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "kevin@nashdocker.io"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-visits-service/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "marcin@grzejszczak.pl"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-visits-service/pom.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "91406991+MarianConstantinMarica@users.noreply.github.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-visits-service/src/test/resources/application-test.yml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-visits-service/src/test/resources/application-test.yml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-visits-service/src/test/java/org/springframework/samples/petclinic/visits/web/VisitResourceTest.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-visits-service/src/test/java/org/springframework/samples/petclinic/visits/web/VisitResourceTest.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@free.fr"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-visits-service/src/main/resources/logback-spring.xml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-visits-service/src/main/resources/application.yml"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-visits-service/src/main/resources/db/hsqldb/data.sql"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-visits-service/src/main/resources/db/hsqldb/schema.sql"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-visits-service/src/main/resources/db/mysql/data.sql"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-visits-service/src/main/resources/db/mysql/schema.sql"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/VisitsServiceApplication.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@users.noreply.github.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/VisitsServiceApplication.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/VisitsServiceApplication.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@bravurasolutions.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/VisitsServiceApplication.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/config/MetricConfig.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@free.fr"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/web/VisitResource.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "verydapeng@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/web/VisitResource.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/web/VisitResource.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/web/VisitResource.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@free.fr"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/web/VisitResource.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "kevin@nashdocker.io"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/web/VisitResource.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "ramazansakin63@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/model/VisitRepository.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "misvy@vmware.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/model/VisitRepository.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/model/VisitRepository.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/model/Visit.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "misvy@vmware.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/model/Visit.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/model/Visit.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "mszarlinski@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/model/Visit.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "cleau@vmware.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/model/Visit.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "antoine.rey@free.fr"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/model/Visit.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "ramazansakin63@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/model/Visit.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "misvy@gopivotal,com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/model/Visit.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "gordon@gordondickens.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/model/Visit.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "verydapeng@gmail.com"
+      }
     }
   ]
 }

@@ -1,0 +1,51 @@
+{
+  "name": "FileContributors",
+  "types": [
+    {
+      "name": "File",
+      "fields": [
+        {
+          "name": "path",
+          "type": "string",
+          "unique": true
+        }
+      ],
+      "mergeRules": [
+        {
+          "fieldName": "path"
+        }
+      ]
+    },
+    {
+      "name": "Author",
+      "fields": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": false
+        },
+        {
+          "name": "email",
+          "type": "string",
+          "unique": true
+        }
+      ],
+      "mergeRules": [
+        {
+          "fieldName": "email"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "name": "Authored",
+      "from": {
+        "typeName": "File"
+      },
+      "to": {
+        "typeName": "Author"
+      }
+    }
+  ]
+}
