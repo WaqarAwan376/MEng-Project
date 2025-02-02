@@ -51,6 +51,17 @@ class AuthorNode(Node):
 
     def to_dict(self):
         return {"type":self.type,"name":self.name,"email":self.email}
+    
+    @staticmethod
+    def remove_duplicates(authors_list):
+        """Remove repeating or duplicate authors from the list"""
+        seen_emails=set()
+        unique_authors=[]
+        for author in authors_list:
+            if author.email not in seen_emails:
+                seen_emails.add(author.email)
+                unique_authors.append(author)
+        return unique_authors
         
 
 class AuthorRelationStrengthNode(Node):
