@@ -1,7 +1,9 @@
 import os
 import json
 import javalang
+import subprocess
 from utils.constants import IGNORE_DIRS, IGNORE_FILES
+from utils.nodes import AuthorNode
 
 def dict_to_json_file(file_name,output_folder, dictionary):
     os.makedirs("./outputs/", exist_ok=True) if not output_folder else ''
@@ -60,3 +62,28 @@ def is_wrapper_class(type_name):
 def get_method_info(package_name, class_name, method_name, full_method_name, author_username,
                     author_email, time, all_authors, top_contributor):
     return locals()
+
+
+def get_author_node(file_path, line_number):
+    """Get last commit author from the line number provided in the parameter."""
+    cmd = ['git', 'blame', '-L', f'{line_number},{line_number}', '--date=iso', '-p', \
+           file_path]
+    result = subprocess.run(cmd, capture_output=True, text=True)
+    author_info = {}
+    if result.returncode != 0:
+        return None
+    for line in result.stdout.splitlines():
+        if line.startswith('author '):
+            author_info['name'] = line.split(' ', 1)[1]
+        if line.startswith('author-mail '):
+            author_info['email'] = line.split(' ', 1)[1] \
+                .removeprefix('<').removesuffix('>')
+    return AuthorNode(author_info['email'],author_info['name'])
+
+
+def probe_data_to_dict(probeName, nodes, edges):
+    return {
+        "probeName": probeName,
+        "nodes":[node.to_dict() for node in nodes],
+        "edges":[edge.to_dict() for edge in edges]
+    }

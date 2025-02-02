@@ -12,3 +12,4 @@ class RelationType(Enum):
     CONTAINS = "Contains"
     MAPS = "Maps"
     CONTRIBUTED = "Contributed"
+    AUTHORED_BY = "Authored_by"
