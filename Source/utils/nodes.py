@@ -26,6 +26,14 @@ class ClassNode(Node):
     def to_dict(self):
         return {"type": self.type, "name": self.name, "full_name": self.full_name}
 
+    def __eq__(self, other):
+        if isinstance(other, ClassNode):
+            return self.full_name == other.full_name
+        return False
+
+    def __hash__(self):
+        return hash((self.name, self.full_name))
+
 
 class EndpointNode(Node):
     def __init__(self, http_method, route):
@@ -64,6 +72,14 @@ class AuthorNode(Node):
                 unique_authors.append(author)
         return unique_authors
 
+    def __eq__(self, other):
+        if isinstance(other, AuthorNode):
+            return self.name == other.name and self.email == other.email
+        return False
+
+    def __hash__(self):
+        return hash((self.name, self.email))
+
 
 class AuthorRelationStrengthNode(Node):
     def __init__(self, authEmail1, authEmail2):
@@ -83,4 +99,18 @@ class AuthorRelationStrengthNode(Node):
                 "author2": self.author2Email,
                 "combined_emails": self.combined_emails,
                 "strength": str(self.strength)
+                }
+
+
+class MethodNode(Node):
+    def __init__(self, name, full_method_name):
+        super().__init__(NodeType.METHOD.value)
+        self.name = name
+        self.signature = full_method_name
+        self.identifier = "signature"
+
+    def to_dict(self):
+        return {"type": self.type,
+                "name": self.name,
+                "signature": self.signature
                 }

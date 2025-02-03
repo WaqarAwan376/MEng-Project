@@ -7,6 +7,7 @@ class NodeType(Enum):
     ENDPOINT = "Endpoint"
     AUTHOR = "Author"
     AUTHOR_RELATION = "Author_Relation"
+    METHOD = "Method"
 
 
 class RelationType(Enum):

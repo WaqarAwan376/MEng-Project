@@ -65,7 +65,7 @@ def extract_all_paths(directory):
             class_name = os.path.basename(java_file).replace(".java", "")
             file_path = java_file.split('spring-petclinic-microservices')[1]
             fileNode = FileNode(file_path)
-            classNode = ClassNode(class_name, f"{file_path}:{class_name}")
+            classNode = ClassNode(class_name, file_path)
             # Add Nodes
             nodes.append(fileNode.to_dict())
             nodes.append(classNode.to_dict())
