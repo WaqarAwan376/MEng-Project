@@ -1,8 +1,8 @@
 \chapter{Background}
 
-This chapter provides the background information necessary to understand this report. It covers topics such as the development of large software systems, types of software systems, their maintenance, software analysis, and other related concepts.
+This chapter provides the background information necessary to understand this report. It covers topics such as the development of large software systems, types of software systems, their maintenance, analysis, and other related concepts.
 
-\section{Software Development}
+\section{The Software Lifecycle: From Idea to Execution}
 
 Developing a large software system is a complex and crucial process that requires careful planning and execution. A large scale software system involves many interconnected components, all of which must adhere to essential software development principles. The goal is not just to write code but to build a system that is reliable, maintainable, scalable, and efficient. Ensuring the system is free of bugs and capable of adapting to future needs is as important as the initial development itself. By following these key paradigms, developers can create software that meets high standards of quality and performance.
 
@@ -17,11 +17,9 @@ Each phase of the software development process adds an important contribution to
 
 Following the Software Development Life Cycle (SDLC) provides several key benefits. It helps in identifying clear goals, ensures all stakeholders are on the same page, and allows for thorough testing at every stage. This structured approach produces high-quality software systems and maintains a smooth and understandable development flow. By sticking to the SDLC, teams can reduce risks, avoid confusion, and create software that meets user expectations.
 
-Once the major development work is complete, the focus shifts to software maintenance. Maintaining a large project becomes a significant task in itself. Updates, bug fixes, and adapting to new requirements or technologies are ongoing responsibilities. Without proper maintenance, even the best-designed systems can become outdated or difficult to use.
+Once the major development work is complete, the focus shifts towards software maintenance. Maintaining a large project becomes a significant task in itself. Updates, bug fixes, and adapting to new requirements or technologies are ongoing responsibilities. Without proper maintenance, even the best-designed systems can become outdated or difficult to use.
 
-Another challenge that arises is understanding the system once it has been completed. Software development often requires years of effort and large amount of resources. As a result, understanding the full complexity of a system after its development can be difficult, especially for teams that were not part of the original project. Proper documentation, clear workflows, and thorough knowledge transfer are critical to addressing this issue.
-
-\section{Software Maintenance and Management}
+\section{Software Maintenance in Large Systems}
 
 Since an already built large software system is quite complex, understanding this system requires certain strategies and tools. When a problem arises in complex software architectures, such as microservices or service-oriented architectures, resolving it often demands significant resources. These architectures consist of numerous interconnected components, and identifying the root cause of an issue can be challenging. The process may involve extensive debugging, analyzing logs, coordinating between multiple teams, and sometimes even re-evaluating design decisions. This can result in considerable time, effort, and cost being spent to restore functionality and ensure the system operates smoothly.~\citep{Folmer2005} discusses the usability issues in software systems post-development and highlights that they require significant architectural changes. In order to deal with such architectural changes, an understanding of the whole system is required, and if the system is large enough, major resources are spent fixing even minor issues.
 
@@ -54,7 +52,11 @@ Microservice architecture is a software design in which a system is built as a c
 
 The figure~\ref{fig_background_monolithic_microservices} shows the difference between the monolithic and microservice architecture. In monolithic, all the components of the software system are combined in a single unit whereas in microservice architecture, the whole system is divided into smaller autonomous components. These individual components are easier to manage, scale, maintain and debug.
 
-\section{Software Reverse Engineering}  
+One of the key challenges in software development is understanding the system’s architecture after the major development process is completed or stabilized. Developing a software system often takes years of effort and significant resources. As a result, fully grasping its complexity can be difficult, especially for teams that were not involved in the original development.
+
+To overcome this challenge, proper documentation, well-defined workflows, and effective knowledge transfer are essential. However, even with these measures, there are instances where critical system insights are required to diagnose issues efficiently. In such cases, improved documentation and deeper system analysis become necessary. This is why \textbf{reverse engineering} is often applied to existing or legacy systems to gain a clear understanding of their structure and functionality.
+
+\section{Understanding Reverse Engineering}  
 \citep{digitalai_reverse_engineering} states that 
 \begin{tcolorbox}[colback=gray!10, colframe=gray!20]
 	``The goal of reverse engineering is to reveal the logic, features, and functionalities embedded within the software.''
@@ -84,3 +86,6 @@ As shown in figure~\ref{fig_background_reverse_engineering}, source code is refi
     \item The initial specification is then further refined to ensure simplicity and reducing complexity.
     \item The process concludes with a final specification, which is a clear description of the system's design, functionality, and architecture.
 \end{itemize}
+
+
+In the later chapters of this report, we will discuss a framework that uses static analysis of source code. This framework aids in reverse engineering by disassembling the system and generating valuable insights.
