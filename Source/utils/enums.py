@@ -8,6 +8,7 @@ class NodeType(Enum):
     AUTHOR = "Author"
     AUTHOR_RELATION = "Author_Relation"
     METHOD = "Method"
+    DEPENDENCY = "Dependency"
 
 
 class RelationType(Enum):
@@ -15,3 +16,8 @@ class RelationType(Enum):
     MAPS = "Maps"
     CONTRIBUTED = "Contributed"
     AUTHORED_BY = "Authored_by"
+    HAS = "Has"
+    TOP_CONTRIBUTOR = "Top_contributor"
+    MODIFIED_BY = "Modified_by"
+    LAST_MODIFIER = "Last_modifier"
+    DEPENDS_ON = "Depends_on"

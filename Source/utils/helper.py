@@ -5,12 +5,13 @@ import subprocess
 from utils.constants import IGNORE_DIRS, IGNORE_FILES
 from utils.nodes import AuthorNode
 
-def dict_to_json_file(file_name,output_folder, dictionary):
+
+def dict_to_json_file(file_name, output_folder, dictionary):
     os.makedirs("./outputs/", exist_ok=True) if not output_folder else ''
     with open(f"{output_folder}{file_name}.json" if output_folder else f'./outputs/{file_name}.json',
               'w') as file:
         json.dump(dictionary, file, indent=2, ensure_ascii=False)
-        
+
 
 def find_java_files(directory):
     """Find all Java files in the given directory."""
@@ -21,24 +22,25 @@ def find_java_files(directory):
                 java_files.append(os.path.join(root, file))
     return java_files
 
-    
+
 def find_filtered_files(directory):
     """Find Files while ignoring specific directories and files."""
-    files_list= []
+    files_list = []
     for root, dirs, files in os.walk(directory):
         dirs[:] = [d for d in dirs if d not in IGNORE_DIRS]
         for file in files:
             if file in IGNORE_FILES or any(file.endswith(f) for f in IGNORE_FILES if f.startswith('.')):
                 continue
             files_list.append(f"{root}/{file}")
-            
+
     return files_list
 
 
 def read_java_source_file(file_path):
     with open(file_path, 'r') as file:
         return file.read()
-    
+
+
 def get_file_package(code_tree):
     for _, node in code_tree.filter(javalang.tree.PackageDeclaration):
         return node.name
@@ -59,14 +61,15 @@ def is_wrapper_class(type_name):
     return type_name in wrapper_classes
 
 
-def get_method_info(package_name, class_name, method_name, full_method_name, author_username,
-                    author_email, time, all_authors, top_contributor):
+def get_method_info(class_name, method_name,
+                    full_method_name, author_username, author_email,
+                    all_authors, top_contributor):
     return locals()
 
 
 def get_author_node(file_path, line_number):
     """Get last commit author from the line number provided in the parameter."""
-    cmd = ['git', 'blame', '-L', f'{line_number},{line_number}', '--date=iso', '-p', \
+    cmd = ['git', 'blame', '-L', f'{line_number},{line_number}', '--date=iso', '-p',
            file_path]
     result = subprocess.run(cmd, capture_output=True, text=True)
     author_info = {}
@@ -78,12 +81,12 @@ def get_author_node(file_path, line_number):
         if line.startswith('author-mail '):
             author_info['email'] = line.split(' ', 1)[1] \
                 .removeprefix('<').removesuffix('>')
-    return AuthorNode(author_info['email'],author_info['name'])
+    return AuthorNode(author_info['email'], author_info['name'])
 
 
 def probe_data_to_dict(probeName, nodes, edges):
     return {
         "probeName": probeName,
-        "nodes":[node.to_dict() for node in nodes],
-        "edges":[edge.to_dict() for edge in edges]
+        "nodes": [node.to_dict() for node in nodes],
+        "edges": [edge.to_dict() for edge in edges]
     }

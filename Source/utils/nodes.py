@@ -114,3 +114,27 @@ class MethodNode(Node):
                 "name": self.name,
                 "signature": self.signature
                 }
+
+
+class DependencyNode(Node):
+    def __init__(self, group_id, artifact_id):
+        super().__init__(NodeType.DEPENDENCY.value)
+        self.group_id = group_id
+        self.artifact_id = artifact_id
+        self.combined_name = f"{group_id}:{artifact_id}"
+        self.identifier = "combined_name"
+
+    def to_dict(self):
+        return {"type": self.type,
+                "group_id": self.group_id,
+                "artifact_id": self.artifact_id,
+                "combined_name": self.combined_name,
+                }
+
+    def __eq__(self, other):
+        if isinstance(other, DependencyNode):
+            return self.combined_name == other.combined_name
+        return False
+
+    def __hash__(self):
+        return hash((self.artifact_id, self.combined_name))
