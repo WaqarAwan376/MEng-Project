@@ -2,21 +2,18 @@ import subprocess
 import javalang
 import os
 from collections import Counter, defaultdict
-from datetime import datetime
 import re
-from utils.helper import (
-    read_java_source_file,
-    get_file_package,
-    is_primitive_type,
-    is_wrapper_class,
-    get_method_info,
-    dict_to_json_file
-)
-
+from utils.helper import (read_java_source_file, get_file_package, is_primitive_type,
+                          is_wrapper_class, dict_to_json_file,
+                          probe_data_to_dict)
+from utils.nodes import (AuthorNode, ClassNode, FileNode,
+                         MethodNode)
+from utils.edges import Edge
+from utils.enums import RelationType
 
 # Constants
-OUTPUT_DIR='./outputs'
-OUTPUT_FILE='author-tracking'
+OUTPUT_DIR = './outputs'
+OUTPUT_FILE = 'author-tracking'
 
 
 def get_full_method(class_name, package_name, method_name, parameters, import_statements):
@@ -34,7 +31,8 @@ def get_full_method(class_name, package_name, method_name, parameters, import_st
         if not isImportFound and (not is_primitive_type(type) and not is_wrapper_class(type)):
             parameter_string += f"{package_name if package_name else ''}.{type}"
         elif not isImportFound and (is_primitive_type(type) or is_wrapper_class(type)):
-            parameter_string += type if is_primitive_type(type) else f'java.lang.{type}'
+            parameter_string += type if is_primitive_type(
+                type) else f'java.lang.{type}'
         isImportFound = False
 
     full_method = ''
@@ -50,47 +48,36 @@ def get_full_method(class_name, package_name, method_name, parameters, import_st
 def get_top_contributor(method_info):
     """Get the author that has contributed the most in the method."""
 
-    author_counts = Counter(obj.get('last_author', 'unknown') for obj in method_info)
-    sorted_authors = sorted(author_counts.items(), key=lambda item: (-item[1], item[0]))
+    author_counts = Counter(obj.get('last_author', 'unknown')
+                            for obj in method_info)
+    sorted_authors = sorted(author_counts.items(),
+                            key=lambda item: (-item[1], item[0]))
     most_common_author = sorted_authors[0][0]
 
     author_details = defaultdict(lambda: {'emails': set(), 'line_numbers': []})
     for obj in method_info:
         author = obj.get('last_author', 'unknown')
-        author_details[author]['emails'].add(obj.get('author_email', 'unknown'))
-        author_details[author]['line_numbers'].append(obj.get('line_number', None))
+        author_details[author]['emails'].add(
+            obj.get('author_email', 'unknown'))
+        author_details[author]['line_numbers'].append(
+            obj.get('line_number', None))
 
     most_common_author_details = author_details[most_common_author]
     emails = next(iter(most_common_author_details['emails']))
-    line_numbers = most_common_author_details['line_numbers']
 
-    return {
-        "username": most_common_author,
-        "email": emails,
-        "lines_updated": line_numbers
-    }
+    return AuthorNode(emails, most_common_author)
 
 
 def get_all_authors(method_info):
     """Get all the authors of a method and their lines of contribution"""
     author_lines = {}
     for entry in method_info:
-        if 'last_author' in entry and 'line_number' in entry:
+        if 'last_author' in entry:
             author = entry['last_author']
-            line_number = entry['line_number']
-            if author in author_lines:
-                author_lines[author]['line_numbers'].append(line_number)
-                author_lines[author]['total_lines'] += 1
-            else:
-                author_lines[author] = {'line_numbers': [line_number], 'total_lines': 1}
+            author_lines[author] = {}
             author_lines[author]['author_email'] = entry['author_email']
     unique_authors_with_lines = [
-        {
-            'author': author,
-            'author_email': info['author_email'],
-            'line_numbers': info['line_numbers'],
-            'total_lines': info['total_lines']
-        }
+        AuthorNode(info['author_email'], author)
         for author, info in author_lines.items()
     ]
 
@@ -100,7 +87,7 @@ def get_all_authors(method_info):
 def get_line_info(file_path, line_number):
     """Get last commit author from the line number provided in the parameter."""
 
-    cmd = ['git', 'blame', '-L', f'{line_number},{line_number}', '--date=iso', '-p', \
+    cmd = ['git', 'blame', '-L', f'{line_number},{line_number}', '--date=iso', '-p',
            file_path]
     result = subprocess.run(cmd, capture_output=True, text=True)
     line_info = {}
@@ -110,17 +97,17 @@ def get_line_info(file_path, line_number):
     for line in result.stdout.splitlines():
         if line.startswith('author '):
             line_info['last_author'] = line.split(' ', 1)[1]
-        if line.startswith('author-time '):
-            line_info['dateTime'] = int(line.split(' ', 1)[1])
         if line.startswith('author-mail '):
             line_info['author_email'] = line.split(' ', 1)[1] \
                 .removeprefix('<').removesuffix('>')
     return line_info
 
+
 def is_record_declaration(source_code):
     # Pattern to detect `record` or `public record`
     record_pattern = re.compile(
-        r'^\s*(?:public\s+)?record\s+\w+\s*\(.*?\)\s*\{',  # Match `record` declarations
+        # Match `record` declarations
+        r'^\s*(?:public\s+)?record\s+\w+\s*\(.*?\)\s*\{',
         re.MULTILINE | re.DOTALL
     )
     return bool(record_pattern.search(source_code))
@@ -128,10 +115,11 @@ def is_record_declaration(source_code):
 
 def parse_java_file(file_content):
     """Parsing the java file and finding the methods and their line ranges."""
-    
+
     tree = javalang.parse.parse(file_content)
     package_name = get_file_package(tree)
-    import_statements = [node.path for _, node in tree.filter(javalang.tree.Import)]
+    import_statements = [node.path for _,
+                         node in tree.filter(javalang.tree.Import)]
 
     methods = {}
 
@@ -152,71 +140,106 @@ def parse_java_file(file_content):
                     method_parameters.append((param_type, param_name))
                 full_method_name = get_full_method(classNode.name, package_name, member.name,
                                                    method_parameters, import_statements)
-                methods[member.name] = (start_line, end_line, classNode.name, package_name,
-                                        method_parameters, full_method_name)
+                methods[member.name] = (
+                    start_line, end_line, classNode.name, full_method_name)
     return methods
 
 
-def find_last_author_per_method(file_path,file_content):
-    methods = parse_java_file(file_content)
-    methods_data = []
-    method_line_info = []
+def find_last_top_all_method_contributors(res):
+    # file_path, file_content
+    nodes = set()
+    edges = []
+    for fileName in res:
+        if ('main' in fileName and fileName.split('.')[-1] == 'java'):
+            file_content = read_java_source_file(fileName)
+            if (not is_record_declaration(file_content)):
+                methods = parse_java_file(file_content)
+                method_line_info = []
 
-    for method_name, (start_line, end_line, class_name, package_name, method_parameters,
-                      full_method_name) in methods.items():
-        if (method_name):
-            last_author = None
-            last_commit_time = None
-            for line in range(start_line, end_line + 1):
-                line_info = get_line_info(file_path, line)
-                method_line_info.append({
-                    **(line_info if line_info is not None else {}),
-                    "line_number": line
-                })
-                if line_info:
-                    commit_time = line_info["dateTime"]
-                    if commit_time and (not last_commit_time or commit_time > \
-                                        last_commit_time):
-                        last_commit_time = commit_time
-                        last_author = line_info["last_author"]
-                        author_email = line_info["author_email"]
-            top_contributor = get_top_contributor(method_line_info)
-            all_authors = get_all_authors(method_line_info)
-            method_line_info = []
-            if last_author:
-                methods_data.append(get_method_info(
-                    package_name,
-                    class_name,
-                    method_name,
-                    full_method_name,
-                    last_author,
-                    author_email,
-                    datetime.fromtimestamp(last_commit_time).strftime('%Y-%m-%d %H:%M:%S'),
-                    all_authors,
-                    top_contributor
-                ))
-    return methods_data
+                fileNode = FileNode(fileName.split(
+                    'spring-petclinic-microservices')[1])
+                nodes.add(fileNode)
+                isClassEdgeAdded = False
+                for method_name, (start_line, end_line, class_name,
+                                  full_method_name) in methods.items():
+                    if (method_name):
+                        method_node = MethodNode(
+                            method_name, full_method_name)
+                        nodes.add(method_node)
+                        last_author = None
+                        for line in range(start_line, end_line + 1):
+                            line_info = get_line_info(fileName, line)
+                            method_line_info.append({
+                                **(line_info if line_info is not None else {}),
+                                "line_number": line
+                            })
+                            if line_info:
+                                last_author = line_info["last_author"]
+                                author_email = line_info["author_email"]
+                        top_contributor = get_top_contributor(method_line_info)
+                        nodes.add(top_contributor)
+                        edges.append(Edge(
+                            RelationType.TOP_CONTRIBUTOR.value, method_node.type, method_node.identifier,
+                            method_node.signature, top_contributor.type, top_contributor.identifier,
+                            top_contributor.email
+                        ))
+                        all_authors = get_all_authors(method_line_info)
+                        for author in all_authors:
+                            edges.append(Edge(
+                                RelationType.MODIFIED_BY.value, method_node.type, method_node.identifier,
+                                method_node.signature, author.type, author.identifier,
+                                author.email
+                            ))
+                        nodes = nodes | set(all_authors)
+                        # methods_data = methods_data+get_all_authors(method_line_info)
+                        method_line_info = []
+                        if last_author:
+                            lastModifier = AuthorNode(
+                                author_email, last_author)
+                            nodes.add(lastModifier)
+                            edges.append(Edge(
+                                RelationType.LAST_MODIFIER.value, method_node.type, method_node.identifier,
+                                method_node.signature, lastModifier.type, lastModifier.identifier,
+                                lastModifier.email
+                            ))
+                            if not isClassEdgeAdded:
+                                isClassEdgeAdded = True
+                                classNode = ClassNode(
+                                    class_name, fileNode.path)
+                                nodes.add(classNode)
+                                edges.append(Edge(
+                                    RelationType.CONTAINS.value, fileNode.type, fileNode.identifier,
+                                    fileNode.path, classNode.type, classNode.identifier,
+                                    classNode.full_name
+                                ))
+                                edges.append(Edge(
+                                    RelationType.HAS.value, classNode.type, classNode.identifier,
+                                    classNode.full_name, method_node.type, method_node.identifier,
+                                    method_node.signature
+                                ))
+
+    return nodes, edges
 
 
 if __name__ == '__main__':
-    input_directory = input("Please enter the absolute path to the folder containing the 'main' directory: ")
+    input_directory = "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices"
+    input_directory = input(
+        "Please enter the absolute path to the folder containing the 'main' directory: ")
     original_directory = os.getcwd()
     os.chdir(input_directory)
     output_folder = input(
         f"Please enter output folder path for {OUTPUT_FILE} (default: {OUTPUT_DIR}): ")
 
-    res= []
+    res = []
     for (dir_path, dir_names, file_names) in os.walk(input_directory):
         for fileName in file_names:
             res.append(f"{dir_path}/{fileName}")
 
-    methods_data = {"time": datetime.now().strftime("%Y-%m-%d %H:%M:%S"), "edges": []}
-    for fileName in res:
-        if ('main' in fileName and fileName.split('.')[-1] == 'java'):
-            file_content=read_java_source_file(fileName)
-            if(not is_record_declaration(file_content)):
-                methods_data['edges'] = methods_data['edges'] + find_last_author_per_method(fileName,file_content)
+    method_nodes_and_edges = find_last_top_all_method_contributors(res)
+    nodes = method_nodes_and_edges[0]
+    edges = method_nodes_and_edges[1]
 
     os.chdir(original_directory)
-    dict_to_json_file(OUTPUT_FILE,output_folder, methods_data)
-
+    # TODO: Remove none
+    dict_to_json_file(OUTPUT_FILE, None, probe_data_to_dict(
+        "MethodContributor", nodes, edges))
