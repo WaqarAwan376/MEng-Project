@@ -5,7 +5,7 @@ from collections import Counter, defaultdict
 import re
 from utils.helper import (read_java_source_file, get_file_package, is_primitive_type,
                           is_wrapper_class, dict_to_json_file,
-                          probe_data_to_dict)
+                          probe_data_to_dict, get_full_method)
 from utils.nodes import (AuthorNode, ClassNode, FileNode,
                          MethodNode)
 from utils.edges import Edge
@@ -14,35 +14,6 @@ from utils.enums import RelationType
 # Constants
 OUTPUT_DIR = './outputs'
 OUTPUT_FILE = 'author-tracking'
-
-
-def get_full_method(class_name, package_name, method_name, parameters, import_statements):
-    parameter_string = ''
-    isImportFound = False
-
-    for type, name in parameters:
-        parameter_string += '' if parameter_string == '' else ','
-        for importName in import_statements:
-            if importName.endswith(type):
-                parameter_string += f'{importName}'
-                isImportFound = True
-                break
-
-        if not isImportFound and (not is_primitive_type(type) and not is_wrapper_class(type)):
-            parameter_string += f"{package_name if package_name else ''}.{type}"
-        elif not isImportFound and (is_primitive_type(type) or is_wrapper_class(type)):
-            parameter_string += type if is_primitive_type(
-                type) else f'java.lang.{type}'
-        isImportFound = False
-
-    full_method = ''
-    if package_name:
-        full_method += package_name + '.'
-    if class_name:
-        full_method += class_name + '.'
-
-    full_method += f'{method_name}({parameter_string})'
-    return full_method
 
 
 def get_top_contributor(method_info):
@@ -223,8 +194,8 @@ def find_last_top_all_method_contributors(res):
 
 if __name__ == '__main__':
     input_directory = "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices"
-    input_directory = input(
-        "Please enter the absolute path to the folder containing the 'main' directory: ")
+    # input_directory = input(
+    #     "Please enter the absolute path to the folder containing the 'main' directory: ")
     original_directory = os.getcwd()
     os.chdir(input_directory)
     output_folder = input(
