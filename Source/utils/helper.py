@@ -2,14 +2,14 @@ import os
 import json
 import javalang
 import subprocess
+import argparse
 from utils.constants import IGNORE_DIRS, IGNORE_FILES
 from utils.nodes import AuthorNode
 
 
-def dict_to_json_file(file_name, output_folder, dictionary):
+def dict_to_json_file(output_folder, dictionary):
     os.makedirs("./outputs/", exist_ok=True) if not output_folder else ''
-    with open(f"{output_folder}{file_name}.json" if output_folder else f'./outputs/{file_name}.json',
-              'w') as file:
+    with open(output_folder, 'w') as file:
         json.dump(dictionary, file, indent=2, ensure_ascii=False)
 
 
@@ -119,3 +119,11 @@ def get_full_method(class_name, package_name, method_name, parameters, import_st
 
     full_method += f'{method_name}({parameter_string})'
     return full_method
+
+
+def get_passed_arguments(*args):
+    parser = argparse.ArgumentParser()
+    for arg in args:
+        parser.add_argument(arg)
+
+    return parser.parse_args()

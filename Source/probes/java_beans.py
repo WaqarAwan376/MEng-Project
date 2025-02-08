@@ -1,7 +1,7 @@
 import os
 import re
 import javalang
-from utils.helper import dict_to_json_file
+from utils.helper import dict_to_json_file, get_passed_arguments
 from utils.nodes import FileNode, ClassNode, MethodNode
 from utils.helper import get_file_package, get_full_method, probe_data_to_dict
 from utils.edges import Edge
@@ -118,8 +118,11 @@ def extract_spring_beans(directory):
 
 
 if __name__ == '__main__':
-    directory = '/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices'
-    spring_beans = extract_spring_beans(directory)
+    print("Processing... ", end="", flush=True)
 
-    dict_to_json_file(OUTPUT_FILE, None, probe_data_to_dict(
+    args = get_passed_arguments("--INPUT_DIR", "--OUTPUT")
+    spring_beans = extract_spring_beans(args.INPUT_DIR)
+    dict_to_json_file(args.OUTPUT, probe_data_to_dict(
         "Beans", spring_beans["nodes"], spring_beans["edges"]))
+
+    print("Done")

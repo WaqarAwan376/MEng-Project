@@ -1,7 +1,7 @@
 import xml.etree.ElementTree as ET
 import os
 import re
-from utils.helper import dict_to_json_file, probe_data_to_dict
+from utils.helper import dict_to_json_file, get_passed_arguments, probe_data_to_dict
 from utils.nodes import DependencyNode, FileNode
 from utils.edges import Edge
 from utils.enums import RelationType
@@ -91,10 +91,13 @@ def extract_dependencies(pom_files_list):
 
 
 if __name__ == '__main__':
-    input_directory = '/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices'
-    pom_files = find_pom_files(input_directory)
+    print("Processing... ", end="", flush=True)
+
+    args = get_passed_arguments("--INPUT_DIR", "--OUTPUT")
+    pom_files = find_pom_files(args.INPUT_DIR)
     dependencies_list = extract_dependencies(pom_files)
 
-    # TODO: Remove None
-    dict_to_json_file(OUTPUT_FILE, None, probe_data_to_dict(
+    dict_to_json_file(args.OUTPUT, probe_data_to_dict(
         "Dependencies", dependencies_list['nodes'], dependencies_list['edges']))
+
+    print("Done")

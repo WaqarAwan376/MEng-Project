@@ -1,11 +1,11 @@
 import subprocess
+import argparse
 import javalang
 import os
 from collections import Counter, defaultdict
 import re
-from utils.helper import (read_java_source_file, get_file_package, is_primitive_type,
-                          is_wrapper_class, dict_to_json_file,
-                          probe_data_to_dict, get_full_method)
+from utils.helper import (read_java_source_file, get_file_package, dict_to_json_file,
+                          probe_data_to_dict, get_full_method, get_passed_arguments)
 from utils.nodes import (AuthorNode, ClassNode, FileNode,
                          MethodNode)
 from utils.edges import Edge
@@ -193,24 +193,22 @@ def find_last_top_all_method_contributors(res):
 
 
 if __name__ == '__main__':
-    input_directory = "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices"
-    # input_directory = input(
-    #     "Please enter the absolute path to the folder containing the 'main' directory: ")
-    original_directory = os.getcwd()
-    os.chdir(input_directory)
-    output_folder = input(
-        f"Please enter output folder path for {OUTPUT_FILE} (default: {OUTPUT_DIR}): ")
 
+    args = get_passed_arguments("--INPUT_DIR", "--OUTPUT")
+
+    print("Processing... ", end="", flush=True)
+
+    original_directory = os.getcwd()
+    os.chdir(args.INPUT_DIR)
     res = []
-    for (dir_path, dir_names, file_names) in os.walk(input_directory):
+    for (dir_path, dir_names, file_names) in os.walk(args.INPUT_DIR):
         for fileName in file_names:
             res.append(f"{dir_path}/{fileName}")
-
     method_nodes_and_edges = find_last_top_all_method_contributors(res)
     nodes = method_nodes_and_edges[0]
     edges = method_nodes_and_edges[1]
-
     os.chdir(original_directory)
-    # TODO: Remove none
-    dict_to_json_file(OUTPUT_FILE, None, probe_data_to_dict(
+    dict_to_json_file(args.OUTPUT, probe_data_to_dict(
         "MethodContributor", nodes, edges))
+
+    print("Done")

@@ -2,7 +2,7 @@ import os
 import re
 from utils.constants import method_patterns
 from utils.constants import class_pattern
-from utils.helper import dict_to_json_file
+from utils.helper import dict_to_json_file, get_passed_arguments
 from utils.helper import find_java_files
 from utils.nodes import FileNode, ClassNode, EndpointNode
 from utils.edges import Edge
@@ -91,15 +91,14 @@ def extract_all_paths(directory):
 
 
 if __name__ == "__main__":
-    input_directory = input(
-        "Please enter the absolute path to the folder containing the 'main' directory: ")
+    print("Processing... ", end="", flush=True)
+
+    args = get_passed_arguments("--INPUT_DIR", "--OUTPUT")
     original_directory = os.getcwd()
-    os.chdir(input_directory)
-    output_folder = input(
-        f"Please enter output folder path for {OUTPUT_FILE} (default: {OUTPUT_DIR}): ")
-
-    paths = extract_all_paths(input_directory)
-
+    os.chdir(args.INPUT_DIR)
+    paths = extract_all_paths(args.INPUT_DIR)
     # Write paths to a JSON file
     os.chdir(original_directory)
-    dict_to_json_file(OUTPUT_FILE, output_folder, paths)
+    dict_to_json_file(args.OUTPUT, paths)
+
+    print("Done")

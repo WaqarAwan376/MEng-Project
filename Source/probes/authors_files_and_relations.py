@@ -2,7 +2,7 @@ import os
 from collections import defaultdict
 from itertools import combinations
 from utils.helper import (dict_to_json_file, find_filtered_files, get_author_node,
-                          probe_data_to_dict)
+                          get_passed_arguments, probe_data_to_dict)
 from utils.nodes import AuthorRelationStrengthNode, FileNode, AuthorNode
 from utils.edges import Edge
 from utils.enums import RelationType, NodeType
@@ -97,27 +97,22 @@ def get_file_contributions(files_list):
 
 
 if __name__ == '__main__':
-    input_directory = "/Users/waqarawan/Documents/University Masters Data/Program Project/spring-petclinic-microservices"
-    original_directory = os.getcwd()
-    os.chdir(input_directory)
-    output_folder = input(
-        f"Please enter output folder path for author-tracking.json (default: {OUTPUT_DIR}): ")
+    args = get_passed_arguments("--INPUT_DIR", "--OUTPUT")
 
+    original_directory = os.getcwd()
+    os.chdir(args.INPUT_DIR)
     print("Processing... ", end="", flush=True)
     # Extract all the required files from the given directory
-    files_list = find_filtered_files(input_directory)
-
+    files_list = find_filtered_files(args.INPUT_DIR)
     # Extract data
     files_contributions = get_file_contributions(files_list)
-    author_relation_nodes_edges = get_author_relation_strength(
-        files_contributions[0])
-    files_contributors_nodes_edges = probe_data_to_dict(
-        "FileContributors", files_contributions[1], files_contributions[2])
     # Dump data into json files
     os.chdir(original_directory)
+    dict_to_json_file(args.OUTPUT,
+                      probe_data_to_dict(
+                          "FileContributors", files_contributions[1], files_contributions[2]))
+    dict_to_json_file(args.OUTPUT,
+                      get_author_relation_strength(
+                          files_contributions[0]))
 
-    dict_to_json_file("code_contribution", output_folder,
-                      files_contributors_nodes_edges)
-    dict_to_json_file("authors_relation", output_folder,
-                      author_relation_nodes_edges)
     print("Done")

@@ -2,513 +2,14 @@
   "probeName": "MethodContributor",
   "nodes": [
     {
-      "type": "Author",
-      "name": "Dapeng",
-      "email": "verydapeng@gmail.com"
-    },
-    {
-      "type": "Method",
-      "name": "setId",
-      "signature": "org.springframework.samples.petclinic.vets.model.Vet.setId(java.lang.Integer)"
-    },
-    {
-      "type": "Method",
-      "name": "getNrOfSpecialties",
-      "signature": "org.springframework.samples.petclinic.vets.model.Vet.getNrOfSpecialties()"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/PetType.java"
-    },
-    {
-      "type": "Method",
-      "name": "findOwner",
-      "signature": "org.springframework.samples.petclinic.customers.web.OwnerResource.findOwner(int)"
-    },
-    {
-      "type": "Method",
-      "name": "metricsCommonTags",
-      "signature": "org.springframework.samples.petclinic.visits.config.MetricConfig.metricsCommonTags()"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/boundary/web/ApiGatewayController.java"
-    },
-    {
-      "type": "Method",
-      "name": "getOwnerDetails",
-      "signature": "org.springframework.samples.petclinic.api.boundary.web.ApiGatewayController.getOwnerDetails(int)"
-    },
-    {
-      "type": "Method",
-      "name": "setType",
-      "signature": "org.springframework.samples.petclinic.customers.model.Pet.setType(org.springframework.samples.petclinic.customers.model.PetType)"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/Vet.java"
-    },
-    {
-      "type": "Method",
-      "name": "addPet",
-      "signature": "org.springframework.samples.petclinic.customers.model.Owner.addPet(org.springframework.samples.petclinic.customers.model.Pet)"
-    },
-    {
-      "type": "Method",
-      "name": "setLastName",
-      "signature": "org.springframework.samples.petclinic.customers.model.Owner.setLastName(java.lang.String)"
-    },
-    {
-      "type": "Class",
-      "name": "GenAIServiceApplication",
-      "full_name": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/GenAIServiceApplication.java:GenAIServiceApplication"
-    },
-    {
-      "type": "Author",
-      "name": "Shobha Kamath",
-      "email": "shobha.s.kamath@gmail.com"
-    },
-    {
-      "type": "Method",
-      "name": "findPet",
-      "signature": "org.springframework.samples.petclinic.customers.web.PetResource.findPet(int)"
-    },
-    {
-      "type": "Method",
-      "name": "getAddress",
-      "signature": "org.springframework.samples.petclinic.customers.model.Owner.getAddress()"
-    },
-    {
-      "type": "Class",
-      "name": "VetsServiceApplication",
-      "full_name": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/VetsServiceApplication.java:VetsServiceApplication"
-    },
-    {
-      "type": "Method",
-      "name": "setId",
-      "signature": "org.springframework.samples.petclinic.customers.model.PetType.setId(java.lang.Integer)"
-    },
-    {
-      "type": "Method",
-      "name": "addOwnerToPetclinic",
-      "signature": "org.springframework.samples.petclinic.genai.AIDataProvider.addOwnerToPetclinic(org.springframework.samples.petclinic.genai.OwnerRequest)"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/AIDataProvider.java"
-    },
-    {
-      "type": "Method",
-      "name": "vectorStore",
-      "signature": "org.springframework.samples.petclinic.genai.AIBeanConfiguration.vectorStore(org.springframework.ai.embedding.EmbeddingModel)"
-    },
-    {
-      "type": "Method",
-      "name": "setDescription",
-      "signature": "org.springframework.samples.petclinic.visits.model.Visit.setDescription(java.lang.String)"
-    },
-    {
-      "type": "Method",
-      "name": "aVisit",
-      "signature": "org.springframework.samples.petclinic.visits.model.VisitBuilder.aVisit()"
-    },
-    {
       "type": "Method",
       "name": "getName",
       "signature": "org.springframework.samples.petclinic.vets.model.Specialty.getName()"
     },
     {
       "type": "Method",
-      "name": "getLastName",
-      "signature": "org.springframework.samples.petclinic.customers.model.Owner.getLastName()"
-    },
-    {
-      "type": "Method",
-      "name": "setFirstName",
-      "signature": "org.springframework.samples.petclinic.vets.model.Vet.setFirstName(java.lang.String)"
-    },
-    {
-      "type": "Method",
-      "name": "loadBalancedRestTemplate",
-      "signature": "org.springframework.samples.petclinic.api.ApiGatewayApplication.loadBalancedRestTemplate()"
-    },
-    {
-      "type": "Author",
-      "name": "Maciej Szarlinski",
-      "email": "mszarlinski@bravurasolutions.com"
-    },
-    {
-      "type": "Method",
-      "name": "getOwner",
-      "signature": "org.springframework.samples.petclinic.api.application.CustomersServiceClient.getOwner(int)"
-    },
-    {
-      "type": "Method",
-      "name": "addSpecialty",
-      "signature": "org.springframework.samples.petclinic.vets.model.Vet.addSpecialty(org.springframework.samples.petclinic.vets.model.Specialty)"
-    },
-    {
-      "type": "Method",
-      "name": "updateOwner",
-      "signature": "org.springframework.samples.petclinic.customers.web.OwnerResource.updateOwner(int,org.springframework.samples.petclinic.customers.web.OwnerRequest)"
-    },
-    {
-      "type": "Class",
-      "name": "Owner",
-      "full_name": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Owner.java:Owner"
-    },
-    {
-      "type": "Method",
-      "name": "createOwner",
-      "signature": "org.springframework.samples.petclinic.customers.web.OwnerResource.createOwner(org.springframework.samples.petclinic.customers.web.OwnerRequest)"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/application/CustomersServiceClient.java"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/mapper/Mapper.java"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/CustomersServiceApplication.java"
-    },
-    {
-      "type": "Method",
-      "name": "getId",
-      "signature": "org.springframework.samples.petclinic.vets.model.Vet.getId()"
-    },
-    {
-      "type": "Method",
-      "name": "getName",
-      "signature": "org.springframework.samples.petclinic.customers.model.Pet.getName()"
-    },
-    {
-      "type": "Method",
-      "name": "setAddress",
-      "signature": "org.springframework.samples.petclinic.customers.model.Owner.setAddress(java.lang.String)"
-    },
-    {
-      "type": "Method",
-      "name": "getName",
-      "signature": "org.springframework.samples.petclinic.customers.model.PetType.getName()"
-    },
-    {
-      "type": "Author",
-      "name": "Gordon Dickens",
-      "email": "gordon@gordondickens.com"
-    },
-    {
-      "type": "Method",
-      "name": "addVisitsToOwner",
-      "signature": "org.springframework.samples.petclinic.api.boundary.web.ApiGatewayController.addVisitsToOwner(org.springframework.samples.petclinic.api.dto.OwnerDetails)"
-    },
-    {
-      "type": "Method",
-      "name": "hashCode",
-      "signature": "org.springframework.samples.petclinic.customers.model.Pet.hashCode()"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-discovery-server/src/main/java/org/springframework/samples/petclinic/discovery/DiscoveryServerApplication.java"
-    },
-    {
-      "type": "Method",
-      "name": "getPetTypes",
-      "signature": "org.springframework.samples.petclinic.customers.web.PetResource.getPetTypes()"
-    },
-    {
-      "type": "Method",
-      "name": "metricsCommonTags",
-      "signature": "org.springframework.samples.petclinic.customers.config.MetricConfig.metricsCommonTags()"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetResource.java"
-    },
-    {
-      "type": "Method",
-      "name": "loadVetDataToVectorStoreOnStartup",
-      "signature": "org.springframework.samples.petclinic.genai.VectorStoreController.loadVetDataToVectorStoreOnStartup(org.springframework.boot.context.event.ApplicationStartedEvent)"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/VectorStoreController.java"
-    },
-    {
-      "type": "Author",
-      "name": "Antoine Rey",
-      "email": "antoine.rey@free.fr"
-    },
-    {
-      "type": "Method",
-      "name": "setCity",
-      "signature": "org.springframework.samples.petclinic.customers.model.Owner.setCity(java.lang.String)"
-    },
-    {
-      "type": "Method",
-      "name": "main",
-      "signature": "org.springframework.samples.petclinic.discovery.DiscoveryServerApplication.main(java.lang.String)"
-    },
-    {
-      "type": "Class",
-      "name": "SpringBootAdminApplication",
-      "full_name": "/spring-petclinic-admin-server/src/main/java/org/springframework/samples/petclinic/admin/SpringBootAdminApplication.java:SpringBootAdminApplication"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/OwnerResource.java"
-    },
-    {
-      "type": "Class",
-      "name": "OwnerEntityMapper",
-      "full_name": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/mapper/OwnerEntityMapper.java:OwnerEntityMapper"
-    },
-    {
-      "type": "Class",
-      "name": "CustomersServiceClient",
-      "full_name": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/application/CustomersServiceClient.java:CustomersServiceClient"
-    },
-    {
-      "type": "Class",
-      "name": "ApiGatewayController",
-      "full_name": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/boundary/web/ApiGatewayController.java:ApiGatewayController"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/PetRepository.java"
-    },
-    {
-      "type": "Method",
-      "name": "timedAspect",
-      "signature": "org.springframework.samples.petclinic.visits.config.MetricConfig.timedAspect(io.micrometer.core.instrument.MeterRegistry)"
-    },
-    {
-      "type": "Method",
-      "name": "getDescription",
-      "signature": "org.springframework.samples.petclinic.visits.model.Visit.getDescription()"
-    },
-    {
-      "type": "Method",
-      "name": "setTelephone",
-      "signature": "org.springframework.samples.petclinic.customers.model.Owner.setTelephone(java.lang.String)"
-    },
-    {
-      "type": "Author",
-      "name": "Antoine Rey",
-      "email": "antoine.rey@gmail.com"
-    },
-    {
-      "type": "Method",
-      "name": "getVisitsForPets",
-      "signature": "org.springframework.samples.petclinic.api.application.VisitsServiceClient.getVisitsForPets(java.util.List)"
-    },
-    {
-      "type": "Class",
-      "name": "OwnerResource",
-      "full_name": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/OwnerResource.java:OwnerResource"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/VetsServiceApplication.java"
-    },
-    {
-      "type": "Method",
       "name": "getFirstName",
-      "signature": "org.springframework.samples.petclinic.vets.model.Vet.getFirstName()"
-    },
-    {
-      "type": "Method",
-      "name": "timedAspect",
-      "signature": "org.springframework.samples.petclinic.customers.config.MetricConfig.timedAspect(io.micrometer.core.instrument.MeterRegistry)"
-    },
-    {
-      "type": "Class",
-      "name": "ConfigServerApplication",
-      "full_name": "/spring-petclinic-config-server/src/main/java/org/springframework/samples/petclinic/config/ConfigServerApplication.java:ConfigServerApplication"
-    },
-    {
-      "type": "Method",
-      "name": "getCity",
-      "signature": "org.springframework.samples.petclinic.customers.model.Owner.getCity()"
-    },
-    {
-      "type": "Class",
-      "name": "AIDataProvider",
-      "full_name": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/AIDataProvider.java:AIDataProvider"
-    },
-    {
-      "type": "Method",
-      "name": "getId",
-      "signature": "org.springframework.samples.petclinic.customers.model.Pet.getId()"
-    },
-    {
-      "type": "Method",
-      "name": "main",
-      "signature": "org.springframework.samples.petclinic.vets.VetsServiceApplication.main(java.lang.String)"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/application/VisitsServiceClient.java"
-    },
-    {
-      "type": "Method",
-      "name": "processCreationForm",
-      "signature": "org.springframework.samples.petclinic.customers.web.PetResource.processCreationForm(org.springframework.samples.petclinic.customers.web.PetRequest,int)"
-    },
-    {
-      "type": "Method",
-      "name": "getOwner",
-      "signature": "org.springframework.samples.petclinic.customers.model.Pet.getOwner()"
-    },
-    {
-      "type": "Method",
-      "name": "emptyVisitsForPets",
-      "signature": "org.springframework.samples.petclinic.api.boundary.web.ApiGatewayController.emptyVisitsForPets()"
-    },
-    {
-      "type": "Method",
-      "name": "save",
-      "signature": "org.springframework.samples.petclinic.customers.web.PetResource.save(org.springframework.samples.petclinic.customers.web.Pet,org.springframework.samples.petclinic.customers.web.PetRequest)"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/OwnerRepository.java"
-    },
-    {
-      "type": "Author",
-      "name": "Maciej Szarlinski",
-      "email": "mszarlinski@gmail.com"
-    },
-    {
-      "type": "Method",
-      "name": "getId",
-      "signature": "org.springframework.samples.petclinic.visits.model.Visit.getId()"
-    },
-    {
-      "type": "Method",
-      "name": "setLastName",
-      "signature": "org.springframework.samples.petclinic.vets.model.Vet.setLastName(java.lang.String)"
-    },
-    {
-      "type": "Method",
-      "name": "setOwner",
-      "signature": "org.springframework.samples.petclinic.customers.model.Pet.setOwner(org.springframework.samples.petclinic.customers.model.Owner)"
-    },
-    {
-      "type": "Class",
-      "name": "Visit",
-      "full_name": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/model/Visit.java:Visit"
-    },
-    {
-      "type": "Author",
-      "name": "Ramazan Sakin",
-      "email": "ramazansakin63@gmail.com"
-    },
-    {
-      "type": "Class",
-      "name": "VisitsServiceApplication",
-      "full_name": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/VisitsServiceApplication.java:VisitsServiceApplication"
-    },
-    {
-      "type": "Method",
-      "name": "fallback",
-      "signature": "org.springframework.samples.petclinic.api.boundary.web.FallbackController.fallback()"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/AIBeanConfiguration.java"
-    },
-    {
-      "type": "Method",
-      "name": "setName",
-      "signature": "org.springframework.samples.petclinic.customers.model.PetType.setName(java.lang.String)"
-    },
-    {
-      "type": "Method",
-      "name": "chatMemory",
-      "signature": "org.springframework.samples.petclinic.genai.AIBeanConfiguration.chatMemory()"
-    },
-    {
-      "type": "Method",
-      "name": "setId",
-      "signature": "org.springframework.samples.petclinic.customers.model.Pet.setId(java.lang.Integer)"
-    },
-    {
-      "type": "Method",
-      "name": "main",
-      "signature": "org.springframework.samples.petclinic.api.ApiGatewayApplication.main(java.lang.String)"
-    },
-    {
-      "type": "Method",
-      "name": "getLastName",
-      "signature": "org.springframework.samples.petclinic.vets.model.Vet.getLastName()"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/model/Visit.java"
-    },
-    {
-      "type": "Method",
-      "name": "main",
-      "signature": "org.springframework.samples.petclinic.customers.CustomersServiceApplication.main(java.lang.String)"
-    },
-    {
-      "type": "Method",
-      "name": "equals",
-      "signature": "org.springframework.samples.petclinic.customers.model.Pet.equals(java.lang.Object)"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/model/VisitRepository.java"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/boundary/web/FallbackController.java"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/ApiGatewayApplication.java"
-    },
-    {
-      "type": "Class",
-      "name": "MetricConfig",
-      "full_name": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/config/MetricConfig.java:MetricConfig"
-    },
-    {
-      "type": "Method",
-      "name": "petId",
-      "signature": "org.springframework.samples.petclinic.visits.model.VisitBuilder.petId(int)"
-    },
-    {
-      "type": "Method",
-      "name": "convertListToJsonResource",
-      "signature": "org.springframework.samples.petclinic.genai.VectorStoreController.convertListToJsonResource(java.util.List)"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/VetRepository.java"
-    },
-    {
-      "type": "Class",
-      "name": "Vet",
-      "full_name": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/Vet.java:Vet"
-    },
-    {
-      "type": "Class",
-      "name": "VisitsServiceClient",
-      "full_name": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/application/VisitsServiceClient.java:VisitsServiceClient"
-    },
-    {
-      "type": "Method",
-      "name": "getPetsInternal",
-      "signature": "org.springframework.samples.petclinic.customers.model.Owner.getPetsInternal()"
-    },
-    {
-      "type": "Class",
-      "name": "VetResource",
-      "full_name": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/web/VetResource.java:VetResource"
+      "signature": "org.springframework.samples.petclinic.customers.model.Owner.getFirstName()"
     },
     {
       "type": "Class",
@@ -517,250 +18,22 @@
     },
     {
       "type": "Method",
-      "name": "loadBalancedWebClientBuilder",
-      "signature": "org.springframework.samples.petclinic.genai.AIBeanConfiguration.loadBalancedWebClientBuilder()"
+      "name": "getNrOfSpecialties",
+      "signature": "org.springframework.samples.petclinic.vets.model.Vet.getNrOfSpecialties()"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/CustomersServiceApplication.java"
     },
     {
       "type": "Method",
-      "name": "getTelephone",
-      "signature": "org.springframework.samples.petclinic.customers.model.Owner.getTelephone()"
+      "name": "addOwnerToPetclinic",
+      "signature": "org.springframework.samples.petclinic.genai.AIDataProvider.addOwnerToPetclinic(org.springframework.samples.petclinic.genai.OwnerRequest)"
     },
     {
       "type": "Method",
       "name": "processUpdateForm",
       "signature": "org.springframework.samples.petclinic.customers.web.PetResource.processUpdateForm(org.springframework.samples.petclinic.customers.web.PetRequest)"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/ResourceNotFoundException.java"
-    },
-    {
-      "type": "Method",
-      "name": "findAll",
-      "signature": "org.springframework.samples.petclinic.customers.web.OwnerResource.findAll()"
-    },
-    {
-      "type": "Method",
-      "name": "main",
-      "signature": "org.springframework.samples.petclinic.genai.GenAIServiceApplication.main(java.lang.String)"
-    },
-    {
-      "type": "Method",
-      "name": "getId",
-      "signature": "org.springframework.samples.petclinic.customers.model.Owner.getId()"
-    },
-    {
-      "type": "Method",
-      "name": "build",
-      "signature": "org.springframework.samples.petclinic.visits.model.VisitBuilder.build()"
-    },
-    {
-      "type": "Method",
-      "name": "loadBalancedWebClientBuilder",
-      "signature": "org.springframework.samples.petclinic.api.ApiGatewayApplication.loadBalancedWebClientBuilder()"
-    },
-    {
-      "type": "Method",
-      "name": "getPets",
-      "signature": "org.springframework.samples.petclinic.customers.model.Owner.getPets()"
-    },
-    {
-      "type": "Method",
-      "name": "map",
-      "signature": "org.springframework.samples.petclinic.customers.web.mapper.OwnerEntityMapper.map(org.springframework.samples.petclinic.customers.model.Owner,org.springframework.samples.petclinic.customers.web.OwnerRequest)"
-    },
-    {
-      "type": "Class",
-      "name": "Pet",
-      "full_name": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Pet.java:Pet"
-    },
-    {
-      "type": "Method",
-      "name": "getType",
-      "signature": "org.springframework.samples.petclinic.customers.model.Pet.getType()"
-    },
-    {
-      "type": "Method",
-      "name": "setName",
-      "signature": "org.springframework.samples.petclinic.customers.model.Pet.setName(java.lang.String)"
-    },
-    {
-      "type": "Method",
-      "name": "getId",
-      "signature": "org.springframework.samples.petclinic.vets.model.Specialty.getId()"
-    },
-    {
-      "type": "Class",
-      "name": "AIBeanConfiguration",
-      "full_name": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/AIBeanConfiguration.java:AIBeanConfiguration"
-    },
-    {
-      "type": "Method",
-      "name": "getSpecialties",
-      "signature": "org.springframework.samples.petclinic.vets.model.Vet.getSpecialties()"
-    },
-    {
-      "type": "Method",
-      "name": "toString",
-      "signature": "org.springframework.samples.petclinic.customers.model.Pet.toString()"
-    },
-    {
-      "type": "Author",
-      "name": "odedia",
-      "email": "odedia@gmail.com"
-    },
-    {
-      "type": "Method",
-      "name": "getId",
-      "signature": "org.springframework.samples.petclinic.customers.model.PetType.getId()"
-    },
-    {
-      "type": "Method",
-      "name": "main",
-      "signature": "org.springframework.samples.petclinic.admin.SpringBootAdminApplication.main(java.lang.String)"
-    },
-    {
-      "type": "Method",
-      "name": "main",
-      "signature": "org.springframework.samples.petclinic.config.ConfigServerApplication.main(java.lang.String)"
-    },
-    {
-      "type": "Method",
-      "name": "getAllOwners",
-      "signature": "org.springframework.samples.petclinic.genai.AIDataProvider.getAllOwners()"
-    },
-    {
-      "type": "Method",
-      "name": "id",
-      "signature": "org.springframework.samples.petclinic.visits.model.VisitBuilder.id(java.lang.Integer)"
-    },
-    {
-      "type": "Method",
-      "name": "findPetById",
-      "signature": "org.springframework.samples.petclinic.customers.web.PetResource.findPetById(int)"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-config-server/src/main/java/org/springframework/samples/petclinic/config/ConfigServerApplication.java"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/Specialty.java"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/mapper/OwnerEntityMapper.java"
-    },
-    {
-      "type": "Method",
-      "name": "getFirstName",
-      "signature": "org.springframework.samples.petclinic.customers.model.Owner.getFirstName()"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/GenAIServiceApplication.java"
-    },
-    {
-      "type": "Method",
-      "name": "setId",
-      "signature": "org.springframework.samples.petclinic.visits.model.Visit.setId(java.lang.Integer)"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Owner.java"
-    },
-    {
-      "type": "Method",
-      "name": "setDate",
-      "signature": "org.springframework.samples.petclinic.visits.model.Visit.setDate(java.util.Date)"
-    },
-    {
-      "type": "Method",
-      "name": "description",
-      "signature": "org.springframework.samples.petclinic.visits.model.VisitBuilder.description(java.lang.String)"
-    },
-    {
-      "type": "Class",
-      "name": "PetResource",
-      "full_name": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetResource.java:PetResource"
-    },
-    {
-      "type": "Method",
-      "name": "main",
-      "signature": "org.springframework.samples.petclinic.visits.VisitsServiceApplication.main(java.lang.String)"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/web/VetResource.java"
-    },
-    {
-      "type": "Class",
-      "name": "PetType",
-      "full_name": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/PetType.java:PetType"
-    },
-    {
-      "type": "Method",
-      "name": "joinIds",
-      "signature": "org.springframework.samples.petclinic.api.application.VisitsServiceClient.joinIds(java.util.List)"
-    },
-    {
-      "type": "Class",
-      "name": "Specialty",
-      "full_name": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/Specialty.java:Specialty"
-    },
-    {
-      "type": "Method",
-      "name": "getSpecialtiesInternal",
-      "signature": "org.springframework.samples.petclinic.vets.model.Vet.getSpecialtiesInternal()"
-    },
-    {
-      "type": "Class",
-      "name": "VectorStoreController",
-      "full_name": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/VectorStoreController.java:VectorStoreController"
-    },
-    {
-      "type": "Method",
-      "name": "showResourcesVetList",
-      "signature": "org.springframework.samples.petclinic.vets.web.VetResource.showResourcesVetList()"
-    },
-    {
-      "type": "Method",
-      "name": "getBirthDate",
-      "signature": "org.springframework.samples.petclinic.customers.model.Pet.getBirthDate()"
-    },
-    {
-      "type": "Method",
-      "name": "defaultCustomizer",
-      "signature": "org.springframework.samples.petclinic.api.ApiGatewayApplication.defaultCustomizer()"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/config/MetricConfig.java"
-    },
-    {
-      "type": "Method",
-      "name": "getVets",
-      "signature": "org.springframework.samples.petclinic.genai.AIDataProvider.getVets(org.springframework.samples.petclinic.genai.VetRequest)"
-    },
-    {
-      "type": "Method",
-      "name": "getDate",
-      "signature": "org.springframework.samples.petclinic.visits.model.Visit.getDate()"
-    },
-    {
-      "type": "Class",
-      "name": "ApiGatewayApplication",
-      "full_name": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/ApiGatewayApplication.java:ApiGatewayApplication"
-    },
-    {
-      "type": "Method",
-      "name": "setPetId",
-      "signature": "org.springframework.samples.petclinic.visits.model.Visit.setPetId(int)"
-    },
-    {
-      "type": "Method",
-      "name": "date",
-      "signature": "org.springframework.samples.petclinic.visits.model.VisitBuilder.date(java.util.Date)"
     },
     {
       "type": "Method",
@@ -769,35 +42,72 @@
     },
     {
       "type": "Class",
-      "name": "CustomersServiceApplication",
-      "full_name": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/CustomersServiceApplication.java:CustomersServiceApplication"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/system/CacheConfig.java"
+      "name": "PetType",
+      "full_name": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/PetType.java:PetType"
     },
     {
       "type": "Method",
-      "name": "getPetId",
-      "signature": "org.springframework.samples.petclinic.visits.model.Visit.getPetId()"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Pet.java"
+      "name": "setId",
+      "signature": "org.springframework.samples.petclinic.visits.model.Visit.setId(java.lang.Integer)"
     },
     {
       "type": "Method",
-      "name": "setFirstName",
-      "signature": "org.springframework.samples.petclinic.customers.model.Owner.setFirstName(java.lang.String)"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/VisitsServiceApplication.java"
+      "name": "getOwner",
+      "signature": "org.springframework.samples.petclinic.api.application.CustomersServiceClient.getOwner(int)"
     },
     {
       "type": "Method",
-      "name": "setName",
-      "signature": "org.springframework.samples.petclinic.vets.model.Specialty.setName(java.lang.String)"
+      "name": "findPet",
+      "signature": "org.springframework.samples.petclinic.customers.web.PetResource.findPet(int)"
+    },
+    {
+      "type": "Method",
+      "name": "main",
+      "signature": "org.springframework.samples.petclinic.customers.CustomersServiceApplication.main(java.lang.String)"
+    },
+    {
+      "type": "Method",
+      "name": "setPetId",
+      "signature": "org.springframework.samples.petclinic.visits.model.Visit.setPetId(int)"
+    },
+    {
+      "type": "Method",
+      "name": "setLastName",
+      "signature": "org.springframework.samples.petclinic.customers.model.Owner.setLastName(java.lang.String)"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/application/CustomersServiceClient.java"
+    },
+    {
+      "type": "Method",
+      "name": "date",
+      "signature": "org.springframework.samples.petclinic.visits.model.VisitBuilder.date(java.util.Date)"
+    },
+    {
+      "type": "Method",
+      "name": "findOwner",
+      "signature": "org.springframework.samples.petclinic.customers.web.OwnerResource.findOwner(int)"
+    },
+    {
+      "type": "Class",
+      "name": "CustomersServiceClient",
+      "full_name": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/application/CustomersServiceClient.java:CustomersServiceClient"
+    },
+    {
+      "type": "Method",
+      "name": "getId",
+      "signature": "org.springframework.samples.petclinic.customers.model.Pet.getId()"
+    },
+    {
+      "type": "Method",
+      "name": "toString",
+      "signature": "org.springframework.samples.petclinic.customers.model.Owner.toString()"
+    },
+    {
+      "type": "Method",
+      "name": "addSpecialty",
+      "signature": "org.springframework.samples.petclinic.vets.model.Vet.addSpecialty(org.springframework.samples.petclinic.vets.model.Specialty)"
     },
     {
       "type": "Class",
@@ -806,8 +116,286 @@
     },
     {
       "type": "Method",
-      "name": "toString",
-      "signature": "org.springframework.samples.petclinic.customers.model.Owner.toString()"
+      "name": "setFirstName",
+      "signature": "org.springframework.samples.petclinic.vets.model.Vet.setFirstName(java.lang.String)"
+    },
+    {
+      "type": "Author",
+      "name": "Antoine Rey",
+      "email": "antoine.rey@free.fr"
+    },
+    {
+      "type": "Method",
+      "name": "description",
+      "signature": "org.springframework.samples.petclinic.visits.model.VisitBuilder.description(java.lang.String)"
+    },
+    {
+      "type": "Method",
+      "name": "id",
+      "signature": "org.springframework.samples.petclinic.visits.model.VisitBuilder.id(java.lang.Integer)"
+    },
+    {
+      "type": "Method",
+      "name": "getLastName",
+      "signature": "org.springframework.samples.petclinic.customers.model.Owner.getLastName()"
+    },
+    {
+      "type": "Method",
+      "name": "addVisitsToOwner",
+      "signature": "org.springframework.samples.petclinic.api.boundary.web.ApiGatewayController.addVisitsToOwner(org.springframework.samples.petclinic.api.dto.OwnerDetails)"
+    },
+    {
+      "type": "Method",
+      "name": "addPet",
+      "signature": "org.springframework.samples.petclinic.customers.model.Owner.addPet(org.springframework.samples.petclinic.customers.model.Pet)"
+    },
+    {
+      "type": "Method",
+      "name": "vectorStore",
+      "signature": "org.springframework.samples.petclinic.genai.AIBeanConfiguration.vectorStore(org.springframework.ai.embedding.EmbeddingModel)"
+    },
+    {
+      "type": "Class",
+      "name": "GenAIServiceApplication",
+      "full_name": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/GenAIServiceApplication.java:GenAIServiceApplication"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetResource.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/OwnerResource.java"
+    },
+    {
+      "type": "Class",
+      "name": "MetricConfig",
+      "full_name": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/config/MetricConfig.java:MetricConfig"
+    },
+    {
+      "type": "Class",
+      "name": "PetResource",
+      "full_name": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetResource.java:PetResource"
+    },
+    {
+      "type": "Method",
+      "name": "setDescription",
+      "signature": "org.springframework.samples.petclinic.visits.model.Visit.setDescription(java.lang.String)"
+    },
+    {
+      "type": "Class",
+      "name": "Visit",
+      "full_name": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/model/Visit.java:Visit"
+    },
+    {
+      "type": "Method",
+      "name": "save",
+      "signature": "org.springframework.samples.petclinic.customers.web.PetResource.save(org.springframework.samples.petclinic.customers.web.Pet,org.springframework.samples.petclinic.customers.web.PetRequest)"
+    },
+    {
+      "type": "Method",
+      "name": "updateOwner",
+      "signature": "org.springframework.samples.petclinic.customers.web.OwnerResource.updateOwner(int,org.springframework.samples.petclinic.customers.web.OwnerRequest)"
+    },
+    {
+      "type": "Method",
+      "name": "metricsCommonTags",
+      "signature": "org.springframework.samples.petclinic.customers.config.MetricConfig.metricsCommonTags()"
+    },
+    {
+      "type": "Method",
+      "name": "getPetTypes",
+      "signature": "org.springframework.samples.petclinic.customers.web.PetResource.getPetTypes()"
+    },
+    {
+      "type": "Method",
+      "name": "getId",
+      "signature": "org.springframework.samples.petclinic.vets.model.Vet.getId()"
+    },
+    {
+      "type": "Method",
+      "name": "getVisitsForPets",
+      "signature": "org.springframework.samples.petclinic.api.application.VisitsServiceClient.getVisitsForPets(java.util.List)"
+    },
+    {
+      "type": "Method",
+      "name": "timedAspect",
+      "signature": "org.springframework.samples.petclinic.visits.config.MetricConfig.timedAspect(io.micrometer.core.instrument.MeterRegistry)"
+    },
+    {
+      "type": "Method",
+      "name": "getPetId",
+      "signature": "org.springframework.samples.petclinic.visits.model.Visit.getPetId()"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-discovery-server/src/main/java/org/springframework/samples/petclinic/discovery/DiscoveryServerApplication.java"
+    },
+    {
+      "type": "Class",
+      "name": "ApiGatewayApplication",
+      "full_name": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/ApiGatewayApplication.java:ApiGatewayApplication"
+    },
+    {
+      "type": "Method",
+      "name": "getAddress",
+      "signature": "org.springframework.samples.petclinic.customers.model.Owner.getAddress()"
+    },
+    {
+      "type": "Method",
+      "name": "getId",
+      "signature": "org.springframework.samples.petclinic.customers.model.Owner.getId()"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/application/VisitsServiceClient.java"
+    },
+    {
+      "type": "Method",
+      "name": "emptyVisitsForPets",
+      "signature": "org.springframework.samples.petclinic.api.boundary.web.ApiGatewayController.emptyVisitsForPets()"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/VectorStoreController.java"
+    },
+    {
+      "type": "Method",
+      "name": "setId",
+      "signature": "org.springframework.samples.petclinic.customers.model.PetType.setId(java.lang.Integer)"
+    },
+    {
+      "type": "Method",
+      "name": "main",
+      "signature": "org.springframework.samples.petclinic.discovery.DiscoveryServerApplication.main(java.lang.String)"
+    },
+    {
+      "type": "Method",
+      "name": "getId",
+      "signature": "org.springframework.samples.petclinic.visits.model.Visit.getId()"
+    },
+    {
+      "type": "Method",
+      "name": "main",
+      "signature": "org.springframework.samples.petclinic.api.ApiGatewayApplication.main(java.lang.String)"
+    },
+    {
+      "type": "Method",
+      "name": "loadVetDataToVectorStoreOnStartup",
+      "signature": "org.springframework.samples.petclinic.genai.VectorStoreController.loadVetDataToVectorStoreOnStartup(org.springframework.boot.context.event.ApplicationStartedEvent)"
+    },
+    {
+      "type": "Method",
+      "name": "getName",
+      "signature": "org.springframework.samples.petclinic.customers.model.Pet.getName()"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/VetRepository.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/VetsServiceApplication.java"
+    },
+    {
+      "type": "Method",
+      "name": "joinIds",
+      "signature": "org.springframework.samples.petclinic.api.application.VisitsServiceClient.joinIds(java.util.List)"
+    },
+    {
+      "type": "Class",
+      "name": "ApiGatewayController",
+      "full_name": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/boundary/web/ApiGatewayController.java:ApiGatewayController"
+    },
+    {
+      "type": "Method",
+      "name": "getFirstName",
+      "signature": "org.springframework.samples.petclinic.vets.model.Vet.getFirstName()"
+    },
+    {
+      "type": "Method",
+      "name": "main",
+      "signature": "org.springframework.samples.petclinic.vets.VetsServiceApplication.main(java.lang.String)"
+    },
+    {
+      "type": "Method",
+      "name": "getOwner",
+      "signature": "org.springframework.samples.petclinic.customers.model.Pet.getOwner()"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/PetRepository.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/boundary/web/FallbackController.java"
+    },
+    {
+      "type": "Method",
+      "name": "fallback",
+      "signature": "org.springframework.samples.petclinic.api.boundary.web.FallbackController.fallback()"
+    },
+    {
+      "type": "Method",
+      "name": "setName",
+      "signature": "org.springframework.samples.petclinic.customers.model.PetType.setName(java.lang.String)"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/model/Visit.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-config-server/src/main/java/org/springframework/samples/petclinic/config/ConfigServerApplication.java"
+    },
+    {
+      "type": "Class",
+      "name": "AIDataProvider",
+      "full_name": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/AIDataProvider.java:AIDataProvider"
+    },
+    {
+      "type": "Author",
+      "name": "Antoine Rey",
+      "email": "antoine.rey@gmail.com"
+    },
+    {
+      "type": "Method",
+      "name": "hashCode",
+      "signature": "org.springframework.samples.petclinic.customers.model.Pet.hashCode()"
+    },
+    {
+      "type": "Method",
+      "name": "getCity",
+      "signature": "org.springframework.samples.petclinic.customers.model.Owner.getCity()"
+    },
+    {
+      "type": "Class",
+      "name": "VetResource",
+      "full_name": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/web/VetResource.java:VetResource"
+    },
+    {
+      "type": "Method",
+      "name": "setDate",
+      "signature": "org.springframework.samples.petclinic.visits.model.Visit.setDate(java.util.Date)"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/boundary/web/ApiGatewayController.java"
+    },
+    {
+      "type": "Method",
+      "name": "getBirthDate",
+      "signature": "org.springframework.samples.petclinic.customers.model.Pet.getBirthDate()"
+    },
+    {
+      "type": "Method",
+      "name": "setLastName",
+      "signature": "org.springframework.samples.petclinic.vets.model.Vet.setLastName(java.lang.String)"
+    },
+    {
+      "type": "Method",
+      "name": "getOwnerDetails",
+      "signature": "org.springframework.samples.petclinic.api.boundary.web.ApiGatewayController.getOwnerDetails(int)"
     },
     {
       "type": "Class",
@@ -816,7 +404,183 @@
     },
     {
       "type": "File",
-      "path": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/config/MetricConfig.java"
+      "path": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/AIBeanConfiguration.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/model/VisitRepository.java"
+    },
+    {
+      "type": "Class",
+      "name": "ConfigServerApplication",
+      "full_name": "/spring-petclinic-config-server/src/main/java/org/springframework/samples/petclinic/config/ConfigServerApplication.java:ConfigServerApplication"
+    },
+    {
+      "type": "Method",
+      "name": "chatMemory",
+      "signature": "org.springframework.samples.petclinic.genai.AIBeanConfiguration.chatMemory()"
+    },
+    {
+      "type": "Author",
+      "name": "Ramazan Sakin",
+      "email": "ramazansakin63@gmail.com"
+    },
+    {
+      "type": "Method",
+      "name": "setHostname",
+      "signature": "org.springframework.samples.petclinic.api.application.VisitsServiceClient.setHostname(java.lang.String)"
+    },
+    {
+      "type": "Class",
+      "name": "Vet",
+      "full_name": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/Vet.java:Vet"
+    },
+    {
+      "type": "Method",
+      "name": "processCreationForm",
+      "signature": "org.springframework.samples.petclinic.customers.web.PetResource.processCreationForm(org.springframework.samples.petclinic.customers.web.PetRequest,int)"
+    },
+    {
+      "type": "Method",
+      "name": "getLastName",
+      "signature": "org.springframework.samples.petclinic.vets.model.Vet.getLastName()"
+    },
+    {
+      "type": "Method",
+      "name": "setId",
+      "signature": "org.springframework.samples.petclinic.customers.model.Pet.setId(java.lang.Integer)"
+    },
+    {
+      "type": "Method",
+      "name": "setTelephone",
+      "signature": "org.springframework.samples.petclinic.customers.model.Owner.setTelephone(java.lang.String)"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/mapper/Mapper.java"
+    },
+    {
+      "type": "Author",
+      "name": "Maciej Szarlinski",
+      "email": "mszarlinski@bravurasolutions.com"
+    },
+    {
+      "type": "Method",
+      "name": "getDescription",
+      "signature": "org.springframework.samples.petclinic.visits.model.Visit.getDescription()"
+    },
+    {
+      "type": "Method",
+      "name": "getPetsInternal",
+      "signature": "org.springframework.samples.petclinic.customers.model.Owner.getPetsInternal()"
+    },
+    {
+      "type": "Method",
+      "name": "loadBalancedWebClientBuilder",
+      "signature": "org.springframework.samples.petclinic.api.ApiGatewayApplication.loadBalancedWebClientBuilder()"
+    },
+    {
+      "type": "Method",
+      "name": "loadBalancedWebClientBuilder",
+      "signature": "org.springframework.samples.petclinic.genai.AIBeanConfiguration.loadBalancedWebClientBuilder()"
+    },
+    {
+      "type": "Author",
+      "name": "odedia",
+      "email": "odedia@gmail.com"
+    },
+    {
+      "type": "Method",
+      "name": "getPets",
+      "signature": "org.springframework.samples.petclinic.customers.model.Owner.getPets()"
+    },
+    {
+      "type": "Method",
+      "name": "convertListToJsonResource",
+      "signature": "org.springframework.samples.petclinic.genai.VectorStoreController.convertListToJsonResource(java.util.List)"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/ResourceNotFoundException.java"
+    },
+    {
+      "type": "Class",
+      "name": "OwnerResource",
+      "full_name": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/OwnerResource.java:OwnerResource"
+    },
+    {
+      "type": "Method",
+      "name": "equals",
+      "signature": "org.springframework.samples.petclinic.customers.model.Pet.equals(java.lang.Object)"
+    },
+    {
+      "type": "Class",
+      "name": "VisitsServiceClient",
+      "full_name": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/application/VisitsServiceClient.java:VisitsServiceClient"
+    },
+    {
+      "type": "Method",
+      "name": "petId",
+      "signature": "org.springframework.samples.petclinic.visits.model.VisitBuilder.petId(int)"
+    },
+    {
+      "type": "Method",
+      "name": "getTelephone",
+      "signature": "org.springframework.samples.petclinic.customers.model.Owner.getTelephone()"
+    },
+    {
+      "type": "Class",
+      "name": "SpringBootAdminApplication",
+      "full_name": "/spring-petclinic-admin-server/src/main/java/org/springframework/samples/petclinic/admin/SpringBootAdminApplication.java:SpringBootAdminApplication"
+    },
+    {
+      "type": "Author",
+      "name": "Dapeng",
+      "email": "verydapeng@gmail.com"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/AIDataProvider.java"
+    },
+    {
+      "type": "Method",
+      "name": "loadBalancedRestTemplate",
+      "signature": "org.springframework.samples.petclinic.api.ApiGatewayApplication.loadBalancedRestTemplate()"
+    },
+    {
+      "type": "Method",
+      "name": "setOwner",
+      "signature": "org.springframework.samples.petclinic.customers.model.Pet.setOwner(org.springframework.samples.petclinic.customers.model.Owner)"
+    },
+    {
+      "type": "Method",
+      "name": "getType",
+      "signature": "org.springframework.samples.petclinic.customers.model.Pet.getType()"
+    },
+    {
+      "type": "Method",
+      "name": "getAllOwners",
+      "signature": "org.springframework.samples.petclinic.genai.AIDataProvider.getAllOwners()"
+    },
+    {
+      "type": "Method",
+      "name": "timedAspect",
+      "signature": "org.springframework.samples.petclinic.customers.config.MetricConfig.timedAspect(io.micrometer.core.instrument.MeterRegistry)"
+    },
+    {
+      "type": "Class",
+      "name": "OwnerEntityMapper",
+      "full_name": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/mapper/OwnerEntityMapper.java:OwnerEntityMapper"
+    },
+    {
+      "type": "Class",
+      "name": "AIBeanConfiguration",
+      "full_name": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/AIBeanConfiguration.java:AIBeanConfiguration"
+    },
+    {
+      "type": "Method",
+      "name": "main",
+      "signature": "org.springframework.samples.petclinic.genai.GenAIServiceApplication.main(java.lang.String)"
     },
     {
       "type": "Method",
@@ -824,8 +588,203 @@
       "signature": "org.springframework.samples.petclinic.api.ApiGatewayApplication.routerFunction()"
     },
     {
+      "type": "Method",
+      "name": "getName",
+      "signature": "org.springframework.samples.petclinic.customers.model.PetType.getName()"
+    },
+    {
+      "type": "Method",
+      "name": "build",
+      "signature": "org.springframework.samples.petclinic.visits.model.VisitBuilder.build()"
+    },
+    {
+      "type": "Method",
+      "name": "map",
+      "signature": "org.springframework.samples.petclinic.customers.web.mapper.OwnerEntityMapper.map(org.springframework.samples.petclinic.customers.model.Owner,org.springframework.samples.petclinic.customers.web.OwnerRequest)"
+    },
+    {
+      "type": "Method",
+      "name": "setName",
+      "signature": "org.springframework.samples.petclinic.customers.model.Pet.setName(java.lang.String)"
+    },
+    {
+      "type": "Method",
+      "name": "setName",
+      "signature": "org.springframework.samples.petclinic.vets.model.Specialty.setName(java.lang.String)"
+    },
+    {
+      "type": "Method",
+      "name": "toString",
+      "signature": "org.springframework.samples.petclinic.customers.model.Pet.toString()"
+    },
+    {
+      "type": "Class",
+      "name": "Specialty",
+      "full_name": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/Specialty.java:Specialty"
+    },
+    {
+      "type": "Method",
+      "name": "main",
+      "signature": "org.springframework.samples.petclinic.visits.VisitsServiceApplication.main(java.lang.String)"
+    },
+    {
       "type": "File",
-      "path": "/spring-petclinic-admin-server/src/main/java/org/springframework/samples/petclinic/admin/SpringBootAdminApplication.java"
+      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Owner.java"
+    },
+    {
+      "type": "Class",
+      "name": "VisitsServiceApplication",
+      "full_name": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/VisitsServiceApplication.java:VisitsServiceApplication"
+    },
+    {
+      "type": "Method",
+      "name": "findPetById",
+      "signature": "org.springframework.samples.petclinic.customers.web.PetResource.findPetById(int)"
+    },
+    {
+      "type": "Class",
+      "name": "Pet",
+      "full_name": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Pet.java:Pet"
+    },
+    {
+      "type": "Method",
+      "name": "setType",
+      "signature": "org.springframework.samples.petclinic.customers.model.Pet.setType(org.springframework.samples.petclinic.customers.model.PetType)"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/mapper/OwnerEntityMapper.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/OwnerRepository.java"
+    },
+    {
+      "type": "Method",
+      "name": "getId",
+      "signature": "org.springframework.samples.petclinic.vets.model.Specialty.getId()"
+    },
+    {
+      "type": "Author",
+      "name": "Shobha Kamath",
+      "email": "shobha.s.kamath@gmail.com"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/config/MetricConfig.java"
+    },
+    {
+      "type": "Method",
+      "name": "getDate",
+      "signature": "org.springframework.samples.petclinic.visits.model.Visit.getDate()"
+    },
+    {
+      "type": "Class",
+      "name": "CustomersServiceApplication",
+      "full_name": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/CustomersServiceApplication.java:CustomersServiceApplication"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/Specialty.java"
+    },
+    {
+      "type": "Class",
+      "name": "VetsServiceApplication",
+      "full_name": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/VetsServiceApplication.java:VetsServiceApplication"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/GenAIServiceApplication.java"
+    },
+    {
+      "type": "Method",
+      "name": "getSpecialtiesInternal",
+      "signature": "org.springframework.samples.petclinic.vets.model.Vet.getSpecialtiesInternal()"
+    },
+    {
+      "type": "Method",
+      "name": "setFirstName",
+      "signature": "org.springframework.samples.petclinic.customers.model.Owner.setFirstName(java.lang.String)"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/Vet.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/web/VetResource.java"
+    },
+    {
+      "type": "Method",
+      "name": "defaultCustomizer",
+      "signature": "org.springframework.samples.petclinic.api.ApiGatewayApplication.defaultCustomizer()"
+    },
+    {
+      "type": "Method",
+      "name": "setAddress",
+      "signature": "org.springframework.samples.petclinic.customers.model.Owner.setAddress(java.lang.String)"
+    },
+    {
+      "type": "Method",
+      "name": "aVisit",
+      "signature": "org.springframework.samples.petclinic.visits.model.VisitBuilder.aVisit()"
+    },
+    {
+      "type": "Method",
+      "name": "showResourcesVetList",
+      "signature": "org.springframework.samples.petclinic.vets.web.VetResource.showResourcesVetList()"
+    },
+    {
+      "type": "Class",
+      "name": "VectorStoreController",
+      "full_name": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/VectorStoreController.java:VectorStoreController"
+    },
+    {
+      "type": "Method",
+      "name": "getSpecialties",
+      "signature": "org.springframework.samples.petclinic.vets.model.Vet.getSpecialties()"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/VisitsServiceApplication.java"
+    },
+    {
+      "type": "Class",
+      "name": "Owner",
+      "full_name": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Owner.java:Owner"
+    },
+    {
+      "type": "Method",
+      "name": "getVets",
+      "signature": "org.springframework.samples.petclinic.genai.AIDataProvider.getVets(org.springframework.samples.petclinic.genai.VetRequest)"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Pet.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/config/MetricConfig.java"
+    },
+    {
+      "type": "Method",
+      "name": "setCity",
+      "signature": "org.springframework.samples.petclinic.customers.model.Owner.setCity(java.lang.String)"
+    },
+    {
+      "type": "Method",
+      "name": "getId",
+      "signature": "org.springframework.samples.petclinic.customers.model.PetType.getId()"
+    },
+    {
+      "type": "Method",
+      "name": "createOwner",
+      "signature": "org.springframework.samples.petclinic.customers.web.OwnerResource.createOwner(org.springframework.samples.petclinic.customers.web.OwnerRequest)"
+    },
+    {
+      "type": "Method",
+      "name": "findAll",
+      "signature": "org.springframework.samples.petclinic.customers.web.OwnerResource.findAll()"
     },
     {
       "type": "Method",
@@ -834,8 +793,49 @@
     },
     {
       "type": "Method",
-      "name": "setHostname",
-      "signature": "org.springframework.samples.petclinic.api.application.VisitsServiceClient.setHostname(java.lang.String)"
+      "name": "metricsCommonTags",
+      "signature": "org.springframework.samples.petclinic.visits.config.MetricConfig.metricsCommonTags()"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/system/CacheConfig.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/ApiGatewayApplication.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-admin-server/src/main/java/org/springframework/samples/petclinic/admin/SpringBootAdminApplication.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/PetType.java"
+    },
+    {
+      "type": "Method",
+      "name": "main",
+      "signature": "org.springframework.samples.petclinic.admin.SpringBootAdminApplication.main(java.lang.String)"
+    },
+    {
+      "type": "Method",
+      "name": "setId",
+      "signature": "org.springframework.samples.petclinic.vets.model.Vet.setId(java.lang.Integer)"
+    },
+    {
+      "type": "Method",
+      "name": "main",
+      "signature": "org.springframework.samples.petclinic.config.ConfigServerApplication.main(java.lang.String)"
+    },
+    {
+      "type": "Author",
+      "name": "Maciej Szarlinski",
+      "email": "mszarlinski@gmail.com"
+    },
+    {
+      "type": "Author",
+      "name": "Gordon Dickens",
+      "email": "gordon@gordondickens.com"
     }
   ],
   "edges": [

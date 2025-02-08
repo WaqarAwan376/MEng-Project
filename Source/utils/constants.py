@@ -65,3 +65,5 @@ CLASS_PATTERN = r"^\s*(?:public|private|protected)?\s*(class|interface)\s+(\w+)"
 
 # Pattern to match method declarations
 METHOD_PATTERN = r"\s*(?:[\w<>,\.\s]+)\s+(\w+)\s*\(.*?\)\s*\{"
+
+OUTPUT_FOLDER = './outputs/'
