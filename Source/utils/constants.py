@@ -54,3 +54,14 @@ IGNORE_FILES = {
     '.jpg',
     '.jar'
 }
+
+# List of common Spring bean annotations
+BEAN_ANNOTATIONS = [
+    "@Component", "@Service", "@Repository", "@Controller", "@Bean", "@Configuration"
+]
+
+# Pattern to match class declarations (class or interface)
+CLASS_PATTERN = r"^\s*(?:public|private|protected)?\s*(class|interface)\s+(\w+)"
+
+# Pattern to match method declarations
+METHOD_PATTERN = r"\s*(?:[\w<>,\.\s]+)\s+(\w+)\s*\(.*?\)\s*\{"

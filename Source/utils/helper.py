@@ -90,3 +90,32 @@ def probe_data_to_dict(probeName, nodes, edges):
         "nodes": [node.to_dict() for node in nodes],
         "edges": [edge.to_dict() for edge in edges]
     }
+
+
+def get_full_method(class_name, package_name, method_name, parameters, import_statements):
+    parameter_string = ''
+    isImportFound = False
+
+    for type, name in parameters:
+        parameter_string += '' if parameter_string == '' else ','
+        for importName in import_statements:
+            if importName.endswith(type):
+                parameter_string += f'{importName}'
+                isImportFound = True
+                break
+
+        if not isImportFound and (not is_primitive_type(type) and not is_wrapper_class(type)):
+            parameter_string += f"{package_name if package_name else ''}.{type}"
+        elif not isImportFound and (is_primitive_type(type) or is_wrapper_class(type)):
+            parameter_string += type if is_primitive_type(
+                type) else f'java.lang.{type}'
+        isImportFound = False
+
+    full_method = ''
+    if package_name:
+        full_method += package_name + '.'
+    if class_name:
+        full_method += class_name + '.'
+
+    full_method += f'{method_name}({parameter_string})'
+    return full_method
