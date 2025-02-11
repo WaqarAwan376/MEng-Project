@@ -1,0 +1,127 @@
+{
+  "name": "Methods_Contributions",
+  "types": [
+    {
+      "name": "Author",
+      "fields": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": false
+        },
+        {
+          "name": "email",
+          "type": "string",
+          "unique": true
+        }
+      ],
+      "mergeRules": [
+        {
+          "fieldName": "email"
+        }
+      ]
+    },
+    {
+      "name": "File",
+      "fields": [
+        {
+          "name": "path",
+          "type": "string",
+          "unique": true
+        }
+      ],
+      "mergeRules": [
+        {
+          "fieldName": "path"
+        }
+      ]
+    },
+    {
+      "name": "Method",
+      "fields": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": false
+        },
+        {
+          "name": "signature",
+          "type": "string",
+          "unique": true
+        }
+      ],
+      "mergeRules": [
+        {
+          "fieldName": "signature"
+        }
+      ]
+    },
+    {
+      "name": "Class",
+      "fields": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": false
+        },
+        {
+          "name": "full_name",
+          "type": "string",
+          "unique": true
+        }
+      ],
+      "mergeRules": [
+        {
+          "fieldName": "full_name"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "name": "Top_contributor",
+      "from": {
+        "typeName": "Method"
+      },
+      "to": {
+        "typeName": "Author"
+      }
+    },
+    {
+      "name": "Modified_by",
+      "from": {
+        "typeName": "Method"
+      },
+      "to": {
+        "typeName": "Author"
+      }
+    },
+    {
+      "name": "Last_modifier",
+      "from": {
+        "typeName": "Method"
+      },
+      "to": {
+        "typeName": "Author"
+      }
+    },
+    {
+      "name": "Contains",
+      "from": {
+        "typeName": "File"
+      },
+      "to": {
+        "typeName": "Class"
+      }
+    },
+    {
+      "name": "Has",
+      "from": {
+        "typeName": "Class"
+      },
+      "to": {
+        "typeName": "Method"
+      }
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "name": "Beans",
+  "types": [
+    {
+      "name": "File",
+      "fields": [
+        {
+          "name": "path",
+          "type": "string",
+          "unique": true
+        }
+      ],
+      "mergeRules": [
+        {
+          "fieldName": "path"
+        }
+      ]
+    },
+    {
+      "name": "Method",
+      "fields": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": false
+        },
+        {
+          "name": "signature",
+          "type": "string",
+          "unique": true
+        }
+      ],
+      "mergeRules": [
+        {
+          "fieldName": "signature"
+        }
+      ]
+    },
+    {
+      "name": "Class",
+      "fields": [
+        {
+          "name": "name",
+          "type": "string",
+          "unique": false
+        },
+        {
+          "name": "full_name",
+          "type": "string",
+          "unique": true
+        }
+      ],
+      "mergeRules": [
+        {
+          "fieldName": "full_name"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "name": "Has_bean_class",
+      "from": {
+        "typeName": "File"
+      },
+      "to": {
+        "typeName": "Class"
+      }
+    },
+    {
+      "name": "Has_bean_method",
+      "from": {
+        "typeName": "Class"
+      },
+      "to": {
+        "typeName": "Method"
+      }
+    }
+  ]
+}

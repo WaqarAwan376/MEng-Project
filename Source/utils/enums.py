@@ -23,3 +23,4 @@ class RelationType(Enum):
     DEPENDS_ON = "Depends_on"
     HAS_BEAN_CLASS = "Has_bean_class"
     HAS_BEAN_METHOD = "Has_bean_method"
+    COLLABORATED = "Collaborated"

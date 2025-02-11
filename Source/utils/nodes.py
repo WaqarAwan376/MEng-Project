@@ -98,7 +98,7 @@ class AuthorRelationStrengthNode(Node):
                 "author1": self.author1Email,
                 "author2": self.author2Email,
                 "combined_emails": self.combined_emails,
-                "strength": str(self.strength)
+                "strength": self.strength
                 }
 
 

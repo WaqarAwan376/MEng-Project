@@ -1,5 +1,5 @@
 {
-  "name": "FileContributors",
+  "name": "Dependencies",
   "types": [
     {
       "name": "File",
@@ -17,34 +17,39 @@
       ]
     },
     {
-      "name": "Author",
+      "name": "Dependency",
       "fields": [
         {
-          "name": "name",
+          "name": "group_id",
           "type": "string",
           "unique": false
         },
         {
-          "name": "email",
+          "name": "artifact_id",
+          "type": "string",
+          "unique": false
+        },
+        {
+          "name": "combined_name",
           "type": "string",
           "unique": true
         }
       ],
       "mergeRules": [
         {
-          "fieldName": "email"
+          "fieldName": "combined_name"
         }
       ]
     }
   ],
   "relations": [
     {
-      "name": "Authored_by",
+      "name": "Depends_on",
       "from": {
         "typeName": "File"
       },
       "to": {
-        "typeName": "Author"
+        "typeName": "Dependency"
       }
     }
   ]

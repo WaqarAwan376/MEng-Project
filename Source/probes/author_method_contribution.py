@@ -1,5 +1,4 @@
 import subprocess
-import argparse
 import javalang
 import os
 from collections import Counter, defaultdict

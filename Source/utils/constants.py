@@ -57,7 +57,7 @@ IGNORE_FILES = {
 
 # List of common Spring bean annotations
 BEAN_ANNOTATIONS = [
-    "@Component", "@Service", "@Repository", "@Controller", "@Bean", "@Configuration"
+    "@Component", "@Service", "@Repository", "@Controller", "@Bean", "@Configuration", "@SpringBootApplication"
 ]
 
 # Pattern to match class declarations (class or interface)
