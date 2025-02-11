@@ -2,8 +2,10 @@
   "probeName": "Dependencies",
   "nodes": [
     {
-      "type": "File",
-      "path": "/spring-petclinic-vets-service/pom.xml"
+      "type": "Dependency",
+      "group_id": "org.springframework.cloud",
+      "artifact_id": "spring-cloud-starter-gateway",
+      "combined_name": "org.springframework.cloud:spring-cloud-starter-gateway"
     },
     {
       "type": "Dependency",
@@ -12,52 +14,8 @@
       "combined_name": "org.assertj:assertj-core"
     },
     {
-      "type": "Dependency",
-      "group_id": "javax.cache",
-      "artifact_id": "cache-api",
-      "combined_name": "javax.cache:cache-api"
-    },
-    {
-      "type": "Dependency",
-      "group_id": "org.springframework.boot",
-      "artifact_id": "spring-boot-configuration-processor",
-      "combined_name": "org.springframework.boot:spring-boot-configuration-processor"
-    },
-    {
-      "type": "Dependency",
-      "group_id": "com.mysql",
-      "artifact_id": "mysql-connector-j",
-      "combined_name": "com.mysql:mysql-connector-j"
-    },
-    {
-      "type": "Dependency",
-      "group_id": "org.springframework.cloud",
-      "artifact_id": "spring-cloud-starter-circuitbreaker-reactor-resilience4j",
-      "combined_name": "org.springframework.cloud:spring-cloud-starter-circuitbreaker-reactor-resilience4j"
-    },
-    {
-      "type": "Dependency",
-      "group_id": "io.github.resilience4j",
-      "artifact_id": "resilience4j-micrometer",
-      "combined_name": "io.github.resilience4j:resilience4j-micrometer"
-    },
-    {
-      "type": "Dependency",
-      "group_id": "org.webjars.npm",
-      "artifact_id": "font-awesome",
-      "combined_name": "org.webjars.npm:font-awesome"
-    },
-    {
-      "type": "Dependency",
-      "group_id": "org.springframework.boot",
-      "artifact_id": "spring-boot-starter-web",
-      "combined_name": "org.springframework.boot:spring-boot-starter-web"
-    },
-    {
-      "type": "Dependency",
-      "group_id": "org.glassfish.jaxb",
-      "artifact_id": "jaxb-runtime",
-      "combined_name": "org.glassfish.jaxb:jaxb-runtime"
+      "type": "File",
+      "path": "/pom.xml"
     },
     {
       "type": "Dependency",
@@ -66,102 +24,12 @@
       "combined_name": "org.springframework.cloud:spring-cloud-starter-netflix-eureka-client"
     },
     {
-      "type": "Dependency",
-      "group_id": "io.micrometer",
-      "artifact_id": "micrometer-registry-prometheus",
-      "combined_name": "io.micrometer:micrometer-registry-prometheus"
-    },
-    {
-      "type": "Dependency",
-      "group_id": "net.ttddyy.observation",
-      "artifact_id": "datasource-micrometer-spring-boot",
-      "combined_name": "net.ttddyy.observation:datasource-micrometer-spring-boot"
-    },
-    {
-      "type": "Dependency",
-      "group_id": "org.springframework.boot",
-      "artifact_id": "spring-boot-devtools",
-      "combined_name": "org.springframework.boot:spring-boot-devtools"
-    },
-    {
-      "type": "Dependency",
-      "group_id": "org.springframework.cloud",
-      "artifact_id": "spring-cloud-starter-netflix-eureka-server",
-      "combined_name": "org.springframework.cloud:spring-cloud-starter-netflix-eureka-server"
-    },
-    {
-      "type": "Dependency",
-      "group_id": "org.springframework.boot",
-      "artifact_id": "spring-boot-starter-actuator",
-      "combined_name": "org.springframework.boot:spring-boot-starter-actuator"
-    },
-    {
-      "type": "Dependency",
-      "group_id": "com.squareup.okhttp3",
-      "artifact_id": "mockwebserver",
-      "combined_name": "com.squareup.okhttp3:mockwebserver"
-    },
-    {
-      "type": "Dependency",
-      "group_id": "org.hsqldb",
-      "artifact_id": "hsqldb",
-      "combined_name": "org.hsqldb:hsqldb"
-    },
-    {
-      "type": "Dependency",
-      "group_id": "io.micrometer",
-      "artifact_id": "micrometer-observation",
-      "combined_name": "io.micrometer:micrometer-observation"
-    },
-    {
       "type": "File",
       "path": "/spring-petclinic-discovery-server/pom.xml"
     },
     {
-      "type": "Dependency",
-      "group_id": "org.springframework.cloud",
-      "artifact_id": "spring-cloud-starter-config",
-      "combined_name": "org.springframework.cloud:spring-cloud-starter-config"
-    },
-    {
-      "type": "Dependency",
-      "group_id": "org.springframework.cloud",
-      "artifact_id": "spring-cloud-starter-gateway",
-      "combined_name": "org.springframework.cloud:spring-cloud-starter-gateway"
-    },
-    {
-      "type": "Dependency",
-      "group_id": "org.springframework.ai",
-      "artifact_id": "spring-ai-bom",
-      "combined_name": "org.springframework.ai:spring-ai-bom"
-    },
-    {
-      "type": "Dependency",
-      "group_id": "org.springframework.cloud",
-      "artifact_id": "spring-cloud-dependencies",
-      "combined_name": "org.springframework.cloud:spring-cloud-dependencies"
-    },
-    {
       "type": "File",
-      "path": "/spring-petclinic-config-server/pom.xml"
-    },
-    {
-      "type": "Dependency",
-      "group_id": "com.github.ben-manes.caffeine",
-      "artifact_id": "caffeine",
-      "combined_name": "com.github.ben-manes.caffeine:caffeine"
-    },
-    {
-      "type": "Dependency",
-      "group_id": "org.jolokia",
-      "artifact_id": "jolokia-core",
-      "combined_name": "org.jolokia:jolokia-core"
-    },
-    {
-      "type": "Dependency",
-      "group_id": "org.springframework.ai",
-      "artifact_id": "spring-ai-openai-spring-boot-starter",
-      "combined_name": "org.springframework.ai:spring-ai-openai-spring-boot-starter"
+      "path": "/spring-petclinic-admin-server/pom.xml"
     },
     {
       "type": "Dependency",
@@ -172,14 +40,70 @@
     {
       "type": "Dependency",
       "group_id": "org.springframework.boot",
-      "artifact_id": "spring-boot-starter",
-      "combined_name": "org.springframework.boot:spring-boot-starter"
+      "artifact_id": "spring-boot-starter-actuator",
+      "combined_name": "org.springframework.boot:spring-boot-starter-actuator"
     },
     {
       "type": "Dependency",
-      "group_id": "de.codecentric",
-      "artifact_id": "spring-boot-admin-server-ui",
-      "combined_name": "de.codecentric:spring-boot-admin-server-ui"
+      "group_id": "org.springframework.boot",
+      "artifact_id": "spring-boot-starter-test",
+      "combined_name": "org.springframework.boot:spring-boot-starter-test"
+    },
+    {
+      "type": "Dependency",
+      "group_id": "org.webjars",
+      "artifact_id": "bootstrap",
+      "combined_name": "org.webjars:bootstrap"
+    },
+    {
+      "type": "Dependency",
+      "group_id": "org.hsqldb",
+      "artifact_id": "hsqldb",
+      "combined_name": "org.hsqldb:hsqldb"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-vets-service/pom.xml"
+    },
+    {
+      "type": "Dependency",
+      "group_id": "com.squareup.okhttp3",
+      "artifact_id": "mockwebserver",
+      "combined_name": "com.squareup.okhttp3:mockwebserver"
+    },
+    {
+      "type": "Dependency",
+      "group_id": "net.ttddyy.observation",
+      "artifact_id": "datasource-micrometer-spring-boot",
+      "combined_name": "net.ttddyy.observation:datasource-micrometer-spring-boot"
+    },
+    {
+      "type": "Dependency",
+      "group_id": "org.springframework.cloud",
+      "artifact_id": "spring-cloud-starter-config",
+      "combined_name": "org.springframework.cloud:spring-cloud-starter-config"
+    },
+    {
+      "type": "Dependency",
+      "group_id": "org.springframework.boot",
+      "artifact_id": "spring-boot-starter-data-jpa",
+      "combined_name": "org.springframework.boot:spring-boot-starter-data-jpa"
+    },
+    {
+      "type": "Dependency",
+      "group_id": "org.glassfish.jaxb",
+      "artifact_id": "jaxb-runtime",
+      "combined_name": "org.glassfish.jaxb:jaxb-runtime"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-genai-service/pom.xml"
+    },
+    {
+      "type": "Dependency",
+      "group_id": "io.micrometer",
+      "artifact_id": "micrometer-observation",
+      "combined_name": "io.micrometer:micrometer-observation"
     },
     {
       "type": "Dependency",
@@ -190,46 +114,26 @@
     {
       "type": "Dependency",
       "group_id": "org.springframework.boot",
-      "artifact_id": "spring-boot-starter-data-jpa",
-      "combined_name": "org.springframework.boot:spring-boot-starter-data-jpa"
+      "artifact_id": "spring-boot-devtools",
+      "combined_name": "org.springframework.boot:spring-boot-devtools"
     },
     {
       "type": "Dependency",
-      "group_id": "io.opentelemetry",
-      "artifact_id": "opentelemetry-exporter-zipkin",
-      "combined_name": "io.opentelemetry:opentelemetry-exporter-zipkin"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-visits-service/pom.xml"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-admin-server/pom.xml"
+      "group_id": "org.webjars.npm",
+      "artifact_id": "font-awesome",
+      "combined_name": "org.webjars.npm:font-awesome"
     },
     {
       "type": "Dependency",
-      "group_id": "io.micrometer",
-      "artifact_id": "micrometer-tracing-bridge-brave",
-      "combined_name": "io.micrometer:micrometer-tracing-bridge-brave"
+      "group_id": "org.springframework.cloud",
+      "artifact_id": "spring-cloud-config-server",
+      "combined_name": "org.springframework.cloud:spring-cloud-config-server"
     },
     {
       "type": "Dependency",
-      "group_id": "org.webjars",
-      "artifact_id": "angularjs",
-      "combined_name": "org.webjars:angularjs"
-    },
-    {
-      "type": "Dependency",
-      "group_id": "org.springframework.boot",
-      "artifact_id": "spring-boot-starter-cache",
-      "combined_name": "org.springframework.boot:spring-boot-starter-cache"
-    },
-    {
-      "type": "Dependency",
-      "group_id": "io.zipkin.reporter2",
-      "artifact_id": "zipkin-reporter-brave",
-      "combined_name": "io.zipkin.reporter2:zipkin-reporter-brave"
+      "group_id": "org.jolokia",
+      "artifact_id": "jolokia-core",
+      "combined_name": "org.jolokia:jolokia-core"
     },
     {
       "type": "Dependency",
@@ -239,27 +143,43 @@
     },
     {
       "type": "Dependency",
-      "group_id": "org.springframework.boot",
-      "artifact_id": "spring-boot-starter-test",
-      "combined_name": "org.springframework.boot:spring-boot-starter-test"
-    },
-    {
-      "type": "Dependency",
       "group_id": "org.junit.jupiter",
       "artifact_id": "junit-jupiter-api",
       "combined_name": "org.junit.jupiter:junit-jupiter-api"
     },
     {
       "type": "Dependency",
-      "group_id": "jakarta.xml.bind",
-      "artifact_id": "jakarta.xml.bind-api",
-      "combined_name": "jakarta.xml.bind:jakarta.xml.bind-api"
+      "group_id": "io.opentelemetry",
+      "artifact_id": "opentelemetry-exporter-zipkin",
+      "combined_name": "io.opentelemetry:opentelemetry-exporter-zipkin"
     },
     {
       "type": "Dependency",
       "group_id": "org.webjars",
-      "artifact_id": "bootstrap",
-      "combined_name": "org.webjars:bootstrap"
+      "artifact_id": "angularjs",
+      "combined_name": "org.webjars:angularjs"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-config-server/pom.xml"
+    },
+    {
+      "type": "Dependency",
+      "group_id": "org.springframework.cloud",
+      "artifact_id": "spring-cloud-starter-circuitbreaker-reactor-resilience4j",
+      "combined_name": "org.springframework.cloud:spring-cloud-starter-circuitbreaker-reactor-resilience4j"
+    },
+    {
+      "type": "Dependency",
+      "group_id": "io.zipkin.reporter2",
+      "artifact_id": "zipkin-reporter-brave",
+      "combined_name": "io.zipkin.reporter2:zipkin-reporter-brave"
+    },
+    {
+      "type": "Dependency",
+      "group_id": "javax.cache",
+      "artifact_id": "cache-api",
+      "combined_name": "javax.cache:cache-api"
     },
     {
       "type": "Dependency",
@@ -274,14 +194,100 @@
       "combined_name": "org.webjars.npm:marked"
     },
     {
-      "type": "File",
-      "path": "/spring-petclinic-customers-service/pom.xml"
+      "type": "Dependency",
+      "group_id": "org.springframework.boot",
+      "artifact_id": "spring-boot-starter-web",
+      "combined_name": "org.springframework.boot:spring-boot-starter-web"
+    },
+    {
+      "type": "Dependency",
+      "group_id": "de.codecentric",
+      "artifact_id": "spring-boot-admin-server-ui",
+      "combined_name": "de.codecentric:spring-boot-admin-server-ui"
     },
     {
       "type": "Dependency",
       "group_id": "org.springframework.cloud",
-      "artifact_id": "spring-cloud-config-server",
-      "combined_name": "org.springframework.cloud:spring-cloud-config-server"
+      "artifact_id": "spring-cloud-starter-netflix-eureka-server",
+      "combined_name": "org.springframework.cloud:spring-cloud-starter-netflix-eureka-server"
+    },
+    {
+      "type": "Dependency",
+      "group_id": "org.springframework.ai",
+      "artifact_id": "spring-ai-openai-spring-boot-starter",
+      "combined_name": "org.springframework.ai:spring-ai-openai-spring-boot-starter"
+    },
+    {
+      "type": "Dependency",
+      "group_id": "org.springframework.boot",
+      "artifact_id": "spring-boot-starter-cache",
+      "combined_name": "org.springframework.boot:spring-boot-starter-cache"
+    },
+    {
+      "type": "Dependency",
+      "group_id": "org.springframework.cloud",
+      "artifact_id": "spring-cloud-dependencies",
+      "combined_name": "org.springframework.cloud:spring-cloud-dependencies"
+    },
+    {
+      "type": "Dependency",
+      "group_id": "jakarta.xml.bind",
+      "artifact_id": "jakarta.xml.bind-api",
+      "combined_name": "jakarta.xml.bind:jakarta.xml.bind-api"
+    },
+    {
+      "type": "Dependency",
+      "group_id": "com.github.ben-manes.caffeine",
+      "artifact_id": "caffeine",
+      "combined_name": "com.github.ben-manes.caffeine:caffeine"
+    },
+    {
+      "type": "Dependency",
+      "group_id": "io.github.resilience4j",
+      "artifact_id": "resilience4j-micrometer",
+      "combined_name": "io.github.resilience4j:resilience4j-micrometer"
+    },
+    {
+      "type": "Dependency",
+      "group_id": "org.springframework.ai",
+      "artifact_id": "spring-ai-bom",
+      "combined_name": "org.springframework.ai:spring-ai-bom"
+    },
+    {
+      "type": "Dependency",
+      "group_id": "io.micrometer",
+      "artifact_id": "micrometer-tracing-bridge-brave",
+      "combined_name": "io.micrometer:micrometer-tracing-bridge-brave"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-visits-service/pom.xml"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-customers-service/pom.xml"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-api-gateway/pom.xml"
+    },
+    {
+      "type": "Dependency",
+      "group_id": "org.springframework.boot",
+      "artifact_id": "spring-boot-starter",
+      "combined_name": "org.springframework.boot:spring-boot-starter"
+    },
+    {
+      "type": "Dependency",
+      "group_id": "com.mysql",
+      "artifact_id": "mysql-connector-j",
+      "combined_name": "com.mysql:mysql-connector-j"
+    },
+    {
+      "type": "Dependency",
+      "group_id": "io.micrometer",
+      "artifact_id": "micrometer-registry-prometheus",
+      "combined_name": "io.micrometer:micrometer-registry-prometheus"
     },
     {
       "type": "Dependency",
@@ -290,16 +296,10 @@
       "combined_name": "org.junit.jupiter:junit-jupiter-engine"
     },
     {
-      "type": "File",
-      "path": "/pom.xml"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-genai-service/pom.xml"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-api-gateway/pom.xml"
+      "type": "Dependency",
+      "group_id": "org.springframework.boot",
+      "artifact_id": "spring-boot-configuration-processor",
+      "combined_name": "org.springframework.boot:spring-boot-configuration-processor"
     }
   ],
   "edges": [

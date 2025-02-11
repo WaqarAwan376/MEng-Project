@@ -16,7 +16,7 @@
       "author1": "antoine.rey@gmail.com",
       "author2": "mszarlinski@users.noreply.github.com",
       "combined_emails": "antoine.rey@gmail.com:mszarlinski@users.noreply.github.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author",
@@ -33,7 +33,7 @@
       "author1": "git@zubcevic.com",
       "author2": "antoine.rey@free.fr",
       "combined_emails": "git@zubcevic.com:antoine.rey@free.fr",
-      "strength": "3"
+      "strength": 3
     },
     {
       "type": "Author",
@@ -45,7 +45,7 @@
       "author1": "cleau@vmware.com",
       "author2": "git@zubcevic.com",
       "combined_emails": "cleau@vmware.com:git@zubcevic.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author",
@@ -57,14 +57,14 @@
       "author1": "cleau@vmware.com",
       "author2": "aankushthakur27@gmail.com",
       "combined_emails": "cleau@vmware.com:aankushthakur27@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "cleau@vmware.com",
       "author2": "antoine.rey@gmail.com",
       "combined_emails": "cleau@vmware.com:antoine.rey@gmail.com",
-      "strength": "2"
+      "strength": 2
     },
     {
       "type": "Author",
@@ -76,14 +76,14 @@
       "author1": "cleau@vmware.com",
       "author2": "verydapeng@gmail.com",
       "combined_emails": "cleau@vmware.com:verydapeng@gmail.com",
-      "strength": "4"
+      "strength": 4
     },
     {
       "type": "Author_Relation",
       "author1": "cleau@vmware.com",
       "author2": "antoine.rey@free.fr",
       "combined_emails": "cleau@vmware.com:antoine.rey@free.fr",
-      "strength": "6"
+      "strength": 6
     },
     {
       "type": "Author",
@@ -95,7 +95,7 @@
       "author1": "cleau@vmware.com",
       "author2": "odedia@gmail.com",
       "combined_emails": "cleau@vmware.com:odedia@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author",
@@ -107,7 +107,7 @@
       "author1": "cleau@vmware.com",
       "author2": "mszarlinski@gmail.com",
       "combined_emails": "cleau@vmware.com:mszarlinski@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author",
@@ -119,7 +119,7 @@
       "author1": "cleau@vmware.com",
       "author2": "julius.paszek@gmail.com",
       "combined_emails": "cleau@vmware.com:julius.paszek@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author",
@@ -131,7 +131,7 @@
       "author1": "cleau@vmware.com",
       "author2": "marcin@grzejszczak.pl",
       "combined_emails": "cleau@vmware.com:marcin@grzejszczak.pl",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author",
@@ -143,7 +143,7 @@
       "author1": "cleau@vmware.com",
       "author2": "shobha.s.kamath@gmail.com",
       "combined_emails": "cleau@vmware.com:shobha.s.kamath@gmail.com",
-      "strength": "2"
+      "strength": 2
     },
     {
       "type": "Author",
@@ -155,7 +155,7 @@
       "author1": "cleau@vmware.com",
       "author2": "misvy@vmware.com",
       "combined_emails": "cleau@vmware.com:misvy@vmware.com",
-      "strength": "2"
+      "strength": 2
     },
     {
       "type": "Author",
@@ -167,483 +167,483 @@
       "author1": "cleau@vmware.com",
       "author2": "jonatan.ivanov@gmail.com",
       "combined_emails": "cleau@vmware.com:jonatan.ivanov@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "git@zubcevic.com",
       "author2": "aankushthakur27@gmail.com",
       "combined_emails": "git@zubcevic.com:aankushthakur27@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "git@zubcevic.com",
       "author2": "antoine.rey@gmail.com",
       "combined_emails": "git@zubcevic.com:antoine.rey@gmail.com",
-      "strength": "3"
+      "strength": 3
     },
     {
       "type": "Author_Relation",
       "author1": "git@zubcevic.com",
       "author2": "verydapeng@gmail.com",
       "combined_emails": "git@zubcevic.com:verydapeng@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "git@zubcevic.com",
       "author2": "odedia@gmail.com",
       "combined_emails": "git@zubcevic.com:odedia@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "git@zubcevic.com",
       "author2": "mszarlinski@gmail.com",
       "combined_emails": "git@zubcevic.com:mszarlinski@gmail.com",
-      "strength": "2"
+      "strength": 2
     },
     {
       "type": "Author_Relation",
       "author1": "git@zubcevic.com",
       "author2": "julius.paszek@gmail.com",
       "combined_emails": "git@zubcevic.com:julius.paszek@gmail.com",
-      "strength": "2"
+      "strength": 2
     },
     {
       "type": "Author_Relation",
       "author1": "git@zubcevic.com",
       "author2": "marcin@grzejszczak.pl",
       "combined_emails": "git@zubcevic.com:marcin@grzejszczak.pl",
-      "strength": "3"
+      "strength": 3
     },
     {
       "type": "Author_Relation",
       "author1": "git@zubcevic.com",
       "author2": "shobha.s.kamath@gmail.com",
       "combined_emails": "git@zubcevic.com:shobha.s.kamath@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "git@zubcevic.com",
       "author2": "misvy@vmware.com",
       "combined_emails": "git@zubcevic.com:misvy@vmware.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "git@zubcevic.com",
       "author2": "jonatan.ivanov@gmail.com",
       "combined_emails": "git@zubcevic.com:jonatan.ivanov@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "aankushthakur27@gmail.com",
       "author2": "antoine.rey@gmail.com",
       "combined_emails": "aankushthakur27@gmail.com:antoine.rey@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "aankushthakur27@gmail.com",
       "author2": "verydapeng@gmail.com",
       "combined_emails": "aankushthakur27@gmail.com:verydapeng@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "aankushthakur27@gmail.com",
       "author2": "antoine.rey@free.fr",
       "combined_emails": "aankushthakur27@gmail.com:antoine.rey@free.fr",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "aankushthakur27@gmail.com",
       "author2": "odedia@gmail.com",
       "combined_emails": "aankushthakur27@gmail.com:odedia@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "aankushthakur27@gmail.com",
       "author2": "mszarlinski@gmail.com",
       "combined_emails": "aankushthakur27@gmail.com:mszarlinski@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "aankushthakur27@gmail.com",
       "author2": "julius.paszek@gmail.com",
       "combined_emails": "aankushthakur27@gmail.com:julius.paszek@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "aankushthakur27@gmail.com",
       "author2": "marcin@grzejszczak.pl",
       "combined_emails": "aankushthakur27@gmail.com:marcin@grzejszczak.pl",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "aankushthakur27@gmail.com",
       "author2": "shobha.s.kamath@gmail.com",
       "combined_emails": "aankushthakur27@gmail.com:shobha.s.kamath@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "aankushthakur27@gmail.com",
       "author2": "misvy@vmware.com",
       "combined_emails": "aankushthakur27@gmail.com:misvy@vmware.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "aankushthakur27@gmail.com",
       "author2": "jonatan.ivanov@gmail.com",
       "combined_emails": "aankushthakur27@gmail.com:jonatan.ivanov@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "antoine.rey@gmail.com",
       "author2": "verydapeng@gmail.com",
       "combined_emails": "antoine.rey@gmail.com:verydapeng@gmail.com",
-      "strength": "9"
+      "strength": 9
     },
     {
       "type": "Author_Relation",
       "author1": "antoine.rey@gmail.com",
       "author2": "antoine.rey@free.fr",
       "combined_emails": "antoine.rey@gmail.com:antoine.rey@free.fr",
-      "strength": "29"
+      "strength": 29
     },
     {
       "type": "Author_Relation",
       "author1": "antoine.rey@gmail.com",
       "author2": "odedia@gmail.com",
       "combined_emails": "antoine.rey@gmail.com:odedia@gmail.com",
-      "strength": "5"
+      "strength": 5
     },
     {
       "type": "Author_Relation",
       "author1": "antoine.rey@gmail.com",
       "author2": "mszarlinski@gmail.com",
       "combined_emails": "antoine.rey@gmail.com:mszarlinski@gmail.com",
-      "strength": "42"
+      "strength": 42
     },
     {
       "type": "Author_Relation",
       "author1": "antoine.rey@gmail.com",
       "author2": "julius.paszek@gmail.com",
       "combined_emails": "antoine.rey@gmail.com:julius.paszek@gmail.com",
-      "strength": "3"
+      "strength": 3
     },
     {
       "type": "Author_Relation",
       "author1": "antoine.rey@gmail.com",
       "author2": "marcin@grzejszczak.pl",
       "combined_emails": "antoine.rey@gmail.com:marcin@grzejszczak.pl",
-      "strength": "6"
+      "strength": 6
     },
     {
       "type": "Author_Relation",
       "author1": "antoine.rey@gmail.com",
       "author2": "shobha.s.kamath@gmail.com",
       "combined_emails": "antoine.rey@gmail.com:shobha.s.kamath@gmail.com",
-      "strength": "7"
+      "strength": 7
     },
     {
       "type": "Author_Relation",
       "author1": "antoine.rey@gmail.com",
       "author2": "misvy@vmware.com",
       "combined_emails": "antoine.rey@gmail.com:misvy@vmware.com",
-      "strength": "2"
+      "strength": 2
     },
     {
       "type": "Author_Relation",
       "author1": "antoine.rey@gmail.com",
       "author2": "jonatan.ivanov@gmail.com",
       "combined_emails": "antoine.rey@gmail.com:jonatan.ivanov@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "verydapeng@gmail.com",
       "author2": "antoine.rey@free.fr",
       "combined_emails": "verydapeng@gmail.com:antoine.rey@free.fr",
-      "strength": "2"
+      "strength": 2
     },
     {
       "type": "Author_Relation",
       "author1": "verydapeng@gmail.com",
       "author2": "odedia@gmail.com",
       "combined_emails": "verydapeng@gmail.com:odedia@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "verydapeng@gmail.com",
       "author2": "mszarlinski@gmail.com",
       "combined_emails": "verydapeng@gmail.com:mszarlinski@gmail.com",
-      "strength": "2"
+      "strength": 2
     },
     {
       "type": "Author_Relation",
       "author1": "verydapeng@gmail.com",
       "author2": "julius.paszek@gmail.com",
       "combined_emails": "verydapeng@gmail.com:julius.paszek@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "verydapeng@gmail.com",
       "author2": "marcin@grzejszczak.pl",
       "combined_emails": "verydapeng@gmail.com:marcin@grzejszczak.pl",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "verydapeng@gmail.com",
       "author2": "shobha.s.kamath@gmail.com",
       "combined_emails": "verydapeng@gmail.com:shobha.s.kamath@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "verydapeng@gmail.com",
       "author2": "misvy@vmware.com",
       "combined_emails": "verydapeng@gmail.com:misvy@vmware.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "verydapeng@gmail.com",
       "author2": "jonatan.ivanov@gmail.com",
       "combined_emails": "verydapeng@gmail.com:jonatan.ivanov@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "antoine.rey@free.fr",
       "author2": "odedia@gmail.com",
       "combined_emails": "antoine.rey@free.fr:odedia@gmail.com",
-      "strength": "3"
+      "strength": 3
     },
     {
       "type": "Author_Relation",
       "author1": "antoine.rey@free.fr",
       "author2": "mszarlinski@gmail.com",
       "combined_emails": "antoine.rey@free.fr:mszarlinski@gmail.com",
-      "strength": "2"
+      "strength": 2
     },
     {
       "type": "Author_Relation",
       "author1": "antoine.rey@free.fr",
       "author2": "julius.paszek@gmail.com",
       "combined_emails": "antoine.rey@free.fr:julius.paszek@gmail.com",
-      "strength": "9"
+      "strength": 9
     },
     {
       "type": "Author_Relation",
       "author1": "antoine.rey@free.fr",
       "author2": "marcin@grzejszczak.pl",
       "combined_emails": "antoine.rey@free.fr:marcin@grzejszczak.pl",
-      "strength": "5"
+      "strength": 5
     },
     {
       "type": "Author_Relation",
       "author1": "antoine.rey@free.fr",
       "author2": "shobha.s.kamath@gmail.com",
       "combined_emails": "antoine.rey@free.fr:shobha.s.kamath@gmail.com",
-      "strength": "2"
+      "strength": 2
     },
     {
       "type": "Author_Relation",
       "author1": "antoine.rey@free.fr",
       "author2": "misvy@vmware.com",
       "combined_emails": "antoine.rey@free.fr:misvy@vmware.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "antoine.rey@free.fr",
       "author2": "jonatan.ivanov@gmail.com",
       "combined_emails": "antoine.rey@free.fr:jonatan.ivanov@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "odedia@gmail.com",
       "author2": "mszarlinski@gmail.com",
       "combined_emails": "odedia@gmail.com:mszarlinski@gmail.com",
-      "strength": "2"
+      "strength": 2
     },
     {
       "type": "Author_Relation",
       "author1": "odedia@gmail.com",
       "author2": "julius.paszek@gmail.com",
       "combined_emails": "odedia@gmail.com:julius.paszek@gmail.com",
-      "strength": "3"
+      "strength": 3
     },
     {
       "type": "Author_Relation",
       "author1": "odedia@gmail.com",
       "author2": "marcin@grzejszczak.pl",
       "combined_emails": "odedia@gmail.com:marcin@grzejszczak.pl",
-      "strength": "2"
+      "strength": 2
     },
     {
       "type": "Author_Relation",
       "author1": "odedia@gmail.com",
       "author2": "shobha.s.kamath@gmail.com",
       "combined_emails": "odedia@gmail.com:shobha.s.kamath@gmail.com",
-      "strength": "2"
+      "strength": 2
     },
     {
       "type": "Author_Relation",
       "author1": "odedia@gmail.com",
       "author2": "misvy@vmware.com",
       "combined_emails": "odedia@gmail.com:misvy@vmware.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "odedia@gmail.com",
       "author2": "jonatan.ivanov@gmail.com",
       "combined_emails": "odedia@gmail.com:jonatan.ivanov@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "mszarlinski@gmail.com",
       "author2": "julius.paszek@gmail.com",
       "combined_emails": "mszarlinski@gmail.com:julius.paszek@gmail.com",
-      "strength": "7"
+      "strength": 7
     },
     {
       "type": "Author_Relation",
       "author1": "mszarlinski@gmail.com",
       "author2": "marcin@grzejszczak.pl",
       "combined_emails": "mszarlinski@gmail.com:marcin@grzejszczak.pl",
-      "strength": "6"
+      "strength": 6
     },
     {
       "type": "Author_Relation",
       "author1": "mszarlinski@gmail.com",
       "author2": "shobha.s.kamath@gmail.com",
       "combined_emails": "mszarlinski@gmail.com:shobha.s.kamath@gmail.com",
-      "strength": "5"
+      "strength": 5
     },
     {
       "type": "Author_Relation",
       "author1": "mszarlinski@gmail.com",
       "author2": "misvy@vmware.com",
       "combined_emails": "mszarlinski@gmail.com:misvy@vmware.com",
-      "strength": "2"
+      "strength": 2
     },
     {
       "type": "Author_Relation",
       "author1": "mszarlinski@gmail.com",
       "author2": "jonatan.ivanov@gmail.com",
       "combined_emails": "mszarlinski@gmail.com:jonatan.ivanov@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "julius.paszek@gmail.com",
       "author2": "marcin@grzejszczak.pl",
       "combined_emails": "julius.paszek@gmail.com:marcin@grzejszczak.pl",
-      "strength": "4"
+      "strength": 4
     },
     {
       "type": "Author_Relation",
       "author1": "julius.paszek@gmail.com",
       "author2": "shobha.s.kamath@gmail.com",
       "combined_emails": "julius.paszek@gmail.com:shobha.s.kamath@gmail.com",
-      "strength": "2"
+      "strength": 2
     },
     {
       "type": "Author_Relation",
       "author1": "julius.paszek@gmail.com",
       "author2": "misvy@vmware.com",
       "combined_emails": "julius.paszek@gmail.com:misvy@vmware.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "julius.paszek@gmail.com",
       "author2": "jonatan.ivanov@gmail.com",
       "combined_emails": "julius.paszek@gmail.com:jonatan.ivanov@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "marcin@grzejszczak.pl",
       "author2": "shobha.s.kamath@gmail.com",
       "combined_emails": "marcin@grzejszczak.pl:shobha.s.kamath@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "marcin@grzejszczak.pl",
       "author2": "misvy@vmware.com",
       "combined_emails": "marcin@grzejszczak.pl:misvy@vmware.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "marcin@grzejszczak.pl",
       "author2": "jonatan.ivanov@gmail.com",
       "combined_emails": "marcin@grzejszczak.pl:jonatan.ivanov@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "shobha.s.kamath@gmail.com",
       "author2": "misvy@vmware.com",
       "combined_emails": "shobha.s.kamath@gmail.com:misvy@vmware.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "shobha.s.kamath@gmail.com",
       "author2": "jonatan.ivanov@gmail.com",
       "combined_emails": "shobha.s.kamath@gmail.com:jonatan.ivanov@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "misvy@vmware.com",
       "author2": "jonatan.ivanov@gmail.com",
       "combined_emails": "misvy@vmware.com:jonatan.ivanov@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "odedia@gmail.com",
       "author2": "mszarlinski@users.noreply.github.com",
       "combined_emails": "odedia@gmail.com:mszarlinski@users.noreply.github.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "odedia@gmail.com",
       "author2": "antoine.rey@gmail.com",
       "combined_emails": "odedia@gmail.com:antoine.rey@gmail.com",
-      "strength": "3"
+      "strength": 3
     },
     {
       "type": "Author_Relation",
       "author1": "odedia@gmail.com",
       "author2": "antoine.rey@free.fr",
       "combined_emails": "odedia@gmail.com:antoine.rey@free.fr",
-      "strength": "3"
+      "strength": 3
     },
     {
       "type": "Author",
@@ -655,14 +655,14 @@
       "author1": "odedia@gmail.com",
       "author2": "niko@daytona.io",
       "combined_emails": "odedia@gmail.com:niko@daytona.io",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "odedia@gmail.com",
       "author2": "git@zubcevic.com",
       "combined_emails": "odedia@gmail.com:git@zubcevic.com",
-      "strength": "2"
+      "strength": 2
     },
     {
       "type": "Author",
@@ -674,7 +674,7 @@
       "author1": "odedia@gmail.com",
       "author2": "ramazansakin63@gmail.com",
       "combined_emails": "odedia@gmail.com:ramazansakin63@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author",
@@ -686,7 +686,7 @@
       "author1": "odedia@gmail.com",
       "author2": "michael@rumpfonline.de",
       "combined_emails": "odedia@gmail.com:michael@rumpfonline.de",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author",
@@ -698,7 +698,7 @@
       "author1": "odedia@gmail.com",
       "author2": "107848857+bryanwong69420@users.noreply.github.com",
       "combined_emails": "odedia@gmail.com:107848857+bryanwong69420@users.noreply.github.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author",
@@ -710,7 +710,7 @@
       "author1": "odedia@gmail.com",
       "author2": "kevin@nashdocker.io",
       "combined_emails": "odedia@gmail.com:kevin@nashdocker.io",
-      "strength": "3"
+      "strength": 3
     },
     {
       "type": "Author",
@@ -722,427 +722,427 @@
       "author1": "odedia@gmail.com",
       "author2": "vampwillow@gmail.com",
       "combined_emails": "odedia@gmail.com:vampwillow@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "mszarlinski@users.noreply.github.com",
       "author2": "antoine.rey@gmail.com",
       "combined_emails": "mszarlinski@users.noreply.github.com:antoine.rey@gmail.com",
-      "strength": "23"
+      "strength": 23
     },
     {
       "type": "Author_Relation",
       "author1": "mszarlinski@users.noreply.github.com",
       "author2": "mszarlinski@gmail.com",
       "combined_emails": "mszarlinski@users.noreply.github.com:mszarlinski@gmail.com",
-      "strength": "22"
+      "strength": 22
     },
     {
       "type": "Author_Relation",
       "author1": "mszarlinski@users.noreply.github.com",
       "author2": "antoine.rey@free.fr",
       "combined_emails": "mszarlinski@users.noreply.github.com:antoine.rey@free.fr",
-      "strength": "11"
+      "strength": 11
     },
     {
       "type": "Author_Relation",
       "author1": "mszarlinski@users.noreply.github.com",
       "author2": "niko@daytona.io",
       "combined_emails": "mszarlinski@users.noreply.github.com:niko@daytona.io",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "mszarlinski@users.noreply.github.com",
       "author2": "git@zubcevic.com",
       "combined_emails": "mszarlinski@users.noreply.github.com:git@zubcevic.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "mszarlinski@users.noreply.github.com",
       "author2": "ramazansakin63@gmail.com",
       "combined_emails": "mszarlinski@users.noreply.github.com:ramazansakin63@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "mszarlinski@users.noreply.github.com",
       "author2": "michael@rumpfonline.de",
       "combined_emails": "mszarlinski@users.noreply.github.com:michael@rumpfonline.de",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "mszarlinski@users.noreply.github.com",
       "author2": "marcin@grzejszczak.pl",
       "combined_emails": "mszarlinski@users.noreply.github.com:marcin@grzejszczak.pl",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "mszarlinski@users.noreply.github.com",
       "author2": "107848857+bryanwong69420@users.noreply.github.com",
       "combined_emails": "mszarlinski@users.noreply.github.com:107848857+bryanwong69420@users.noreply.github.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "mszarlinski@users.noreply.github.com",
       "author2": "kevin@nashdocker.io",
       "combined_emails": "mszarlinski@users.noreply.github.com:kevin@nashdocker.io",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "mszarlinski@users.noreply.github.com",
       "author2": "vampwillow@gmail.com",
       "combined_emails": "mszarlinski@users.noreply.github.com:vampwillow@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "antoine.rey@gmail.com",
       "author2": "niko@daytona.io",
       "combined_emails": "antoine.rey@gmail.com:niko@daytona.io",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "antoine.rey@gmail.com",
       "author2": "git@zubcevic.com",
       "combined_emails": "antoine.rey@gmail.com:git@zubcevic.com",
-      "strength": "7"
+      "strength": 7
     },
     {
       "type": "Author_Relation",
       "author1": "antoine.rey@gmail.com",
       "author2": "ramazansakin63@gmail.com",
       "combined_emails": "antoine.rey@gmail.com:ramazansakin63@gmail.com",
-      "strength": "10"
+      "strength": 10
     },
     {
       "type": "Author_Relation",
       "author1": "antoine.rey@gmail.com",
       "author2": "michael@rumpfonline.de",
       "combined_emails": "antoine.rey@gmail.com:michael@rumpfonline.de",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "antoine.rey@gmail.com",
       "author2": "107848857+bryanwong69420@users.noreply.github.com",
       "combined_emails": "antoine.rey@gmail.com:107848857+bryanwong69420@users.noreply.github.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "antoine.rey@gmail.com",
       "author2": "kevin@nashdocker.io",
       "combined_emails": "antoine.rey@gmail.com:kevin@nashdocker.io",
-      "strength": "8"
+      "strength": 8
     },
     {
       "type": "Author_Relation",
       "author1": "antoine.rey@gmail.com",
       "author2": "vampwillow@gmail.com",
       "combined_emails": "antoine.rey@gmail.com:vampwillow@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "mszarlinski@gmail.com",
       "author2": "antoine.rey@free.fr",
       "combined_emails": "mszarlinski@gmail.com:antoine.rey@free.fr",
-      "strength": "30"
+      "strength": 30
     },
     {
       "type": "Author_Relation",
       "author1": "mszarlinski@gmail.com",
       "author2": "niko@daytona.io",
       "combined_emails": "mszarlinski@gmail.com:niko@daytona.io",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "mszarlinski@gmail.com",
       "author2": "git@zubcevic.com",
       "combined_emails": "mszarlinski@gmail.com:git@zubcevic.com",
-      "strength": "8"
+      "strength": 8
     },
     {
       "type": "Author_Relation",
       "author1": "mszarlinski@gmail.com",
       "author2": "ramazansakin63@gmail.com",
       "combined_emails": "mszarlinski@gmail.com:ramazansakin63@gmail.com",
-      "strength": "11"
+      "strength": 11
     },
     {
       "type": "Author_Relation",
       "author1": "mszarlinski@gmail.com",
       "author2": "michael@rumpfonline.de",
       "combined_emails": "mszarlinski@gmail.com:michael@rumpfonline.de",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "mszarlinski@gmail.com",
       "author2": "107848857+bryanwong69420@users.noreply.github.com",
       "combined_emails": "mszarlinski@gmail.com:107848857+bryanwong69420@users.noreply.github.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "mszarlinski@gmail.com",
       "author2": "kevin@nashdocker.io",
       "combined_emails": "mszarlinski@gmail.com:kevin@nashdocker.io",
-      "strength": "9"
+      "strength": 9
     },
     {
       "type": "Author_Relation",
       "author1": "mszarlinski@gmail.com",
       "author2": "vampwillow@gmail.com",
       "combined_emails": "mszarlinski@gmail.com:vampwillow@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "antoine.rey@free.fr",
       "author2": "niko@daytona.io",
       "combined_emails": "antoine.rey@free.fr:niko@daytona.io",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "antoine.rey@free.fr",
       "author2": "git@zubcevic.com",
       "combined_emails": "antoine.rey@free.fr:git@zubcevic.com",
-      "strength": "8"
+      "strength": 8
     },
     {
       "type": "Author_Relation",
       "author1": "antoine.rey@free.fr",
       "author2": "ramazansakin63@gmail.com",
       "combined_emails": "antoine.rey@free.fr:ramazansakin63@gmail.com",
-      "strength": "10"
+      "strength": 10
     },
     {
       "type": "Author_Relation",
       "author1": "antoine.rey@free.fr",
       "author2": "michael@rumpfonline.de",
       "combined_emails": "antoine.rey@free.fr:michael@rumpfonline.de",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "antoine.rey@free.fr",
       "author2": "107848857+bryanwong69420@users.noreply.github.com",
       "combined_emails": "antoine.rey@free.fr:107848857+bryanwong69420@users.noreply.github.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "antoine.rey@free.fr",
       "author2": "kevin@nashdocker.io",
       "combined_emails": "antoine.rey@free.fr:kevin@nashdocker.io",
-      "strength": "8"
+      "strength": 8
     },
     {
       "type": "Author_Relation",
       "author1": "antoine.rey@free.fr",
       "author2": "vampwillow@gmail.com",
       "combined_emails": "antoine.rey@free.fr:vampwillow@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "niko@daytona.io",
       "author2": "git@zubcevic.com",
       "combined_emails": "niko@daytona.io:git@zubcevic.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "niko@daytona.io",
       "author2": "ramazansakin63@gmail.com",
       "combined_emails": "niko@daytona.io:ramazansakin63@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "niko@daytona.io",
       "author2": "michael@rumpfonline.de",
       "combined_emails": "niko@daytona.io:michael@rumpfonline.de",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "niko@daytona.io",
       "author2": "marcin@grzejszczak.pl",
       "combined_emails": "niko@daytona.io:marcin@grzejszczak.pl",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "niko@daytona.io",
       "author2": "107848857+bryanwong69420@users.noreply.github.com",
       "combined_emails": "niko@daytona.io:107848857+bryanwong69420@users.noreply.github.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "niko@daytona.io",
       "author2": "kevin@nashdocker.io",
       "combined_emails": "niko@daytona.io:kevin@nashdocker.io",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "niko@daytona.io",
       "author2": "vampwillow@gmail.com",
       "combined_emails": "niko@daytona.io:vampwillow@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "git@zubcevic.com",
       "author2": "ramazansakin63@gmail.com",
       "combined_emails": "git@zubcevic.com:ramazansakin63@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "git@zubcevic.com",
       "author2": "michael@rumpfonline.de",
       "combined_emails": "git@zubcevic.com:michael@rumpfonline.de",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "git@zubcevic.com",
       "author2": "107848857+bryanwong69420@users.noreply.github.com",
       "combined_emails": "git@zubcevic.com:107848857+bryanwong69420@users.noreply.github.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "git@zubcevic.com",
       "author2": "kevin@nashdocker.io",
       "combined_emails": "git@zubcevic.com:kevin@nashdocker.io",
-      "strength": "2"
+      "strength": 2
     },
     {
       "type": "Author_Relation",
       "author1": "git@zubcevic.com",
       "author2": "vampwillow@gmail.com",
       "combined_emails": "git@zubcevic.com:vampwillow@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "ramazansakin63@gmail.com",
       "author2": "michael@rumpfonline.de",
       "combined_emails": "ramazansakin63@gmail.com:michael@rumpfonline.de",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "ramazansakin63@gmail.com",
       "author2": "marcin@grzejszczak.pl",
       "combined_emails": "ramazansakin63@gmail.com:marcin@grzejszczak.pl",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "ramazansakin63@gmail.com",
       "author2": "107848857+bryanwong69420@users.noreply.github.com",
       "combined_emails": "ramazansakin63@gmail.com:107848857+bryanwong69420@users.noreply.github.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "ramazansakin63@gmail.com",
       "author2": "kevin@nashdocker.io",
       "combined_emails": "ramazansakin63@gmail.com:kevin@nashdocker.io",
-      "strength": "2"
+      "strength": 2
     },
     {
       "type": "Author_Relation",
       "author1": "ramazansakin63@gmail.com",
       "author2": "vampwillow@gmail.com",
       "combined_emails": "ramazansakin63@gmail.com:vampwillow@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "michael@rumpfonline.de",
       "author2": "marcin@grzejszczak.pl",
       "combined_emails": "michael@rumpfonline.de:marcin@grzejszczak.pl",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "michael@rumpfonline.de",
       "author2": "107848857+bryanwong69420@users.noreply.github.com",
       "combined_emails": "michael@rumpfonline.de:107848857+bryanwong69420@users.noreply.github.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "michael@rumpfonline.de",
       "author2": "kevin@nashdocker.io",
       "combined_emails": "michael@rumpfonline.de:kevin@nashdocker.io",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "michael@rumpfonline.de",
       "author2": "vampwillow@gmail.com",
       "combined_emails": "michael@rumpfonline.de:vampwillow@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "marcin@grzejszczak.pl",
       "author2": "107848857+bryanwong69420@users.noreply.github.com",
       "combined_emails": "marcin@grzejszczak.pl:107848857+bryanwong69420@users.noreply.github.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "marcin@grzejszczak.pl",
       "author2": "kevin@nashdocker.io",
       "combined_emails": "marcin@grzejszczak.pl:kevin@nashdocker.io",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "marcin@grzejszczak.pl",
       "author2": "vampwillow@gmail.com",
       "combined_emails": "marcin@grzejszczak.pl:vampwillow@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "107848857+bryanwong69420@users.noreply.github.com",
       "author2": "kevin@nashdocker.io",
       "combined_emails": "107848857+bryanwong69420@users.noreply.github.com:kevin@nashdocker.io",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "107848857+bryanwong69420@users.noreply.github.com",
       "author2": "vampwillow@gmail.com",
       "combined_emails": "107848857+bryanwong69420@users.noreply.github.com:vampwillow@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "kevin@nashdocker.io",
       "author2": "vampwillow@gmail.com",
       "combined_emails": "kevin@nashdocker.io:vampwillow@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author",
@@ -1154,70 +1154,70 @@
       "author1": "antoine.rey@gmail.com",
       "author2": "cyrille@cyrilleleclerc.com",
       "combined_emails": "antoine.rey@gmail.com:cyrille@cyrilleleclerc.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "mszarlinski@gmail.com",
       "author2": "cyrille@cyrilleleclerc.com",
       "combined_emails": "mszarlinski@gmail.com:cyrille@cyrilleleclerc.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "mszarlinski@gmail.com",
       "author2": "odedia@gmail.com",
       "combined_emails": "mszarlinski@gmail.com:odedia@gmail.com",
-      "strength": "4"
+      "strength": 4
     },
     {
       "type": "Author_Relation",
       "author1": "misvy@vmware.com",
       "author2": "cyrille@cyrilleleclerc.com",
       "combined_emails": "misvy@vmware.com:cyrille@cyrilleleclerc.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "misvy@vmware.com",
       "author2": "marcin@grzejszczak.pl",
       "combined_emails": "misvy@vmware.com:marcin@grzejszczak.pl",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "misvy@vmware.com",
       "author2": "odedia@gmail.com",
       "combined_emails": "misvy@vmware.com:odedia@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "cyrille@cyrilleleclerc.com",
       "author2": "marcin@grzejszczak.pl",
       "combined_emails": "cyrille@cyrilleleclerc.com:marcin@grzejszczak.pl",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "cyrille@cyrilleleclerc.com",
       "author2": "odedia@gmail.com",
       "combined_emails": "cyrille@cyrilleleclerc.com:odedia@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "marcin@grzejszczak.pl",
       "author2": "odedia@gmail.com",
       "combined_emails": "marcin@grzejszczak.pl:odedia@gmail.com",
-      "strength": "2"
+      "strength": 2
     },
     {
       "type": "Author_Relation",
       "author1": "mszarlinski@gmail.com",
       "author2": "antoine.rey@gmail.com",
       "combined_emails": "mszarlinski@gmail.com:antoine.rey@gmail.com",
-      "strength": "11"
+      "strength": 11
     },
     {
       "type": "Author",
@@ -1229,42 +1229,42 @@
       "author1": "mszarlinski@gmail.com",
       "author2": "xaseron@googlemail.com",
       "combined_emails": "mszarlinski@gmail.com:xaseron@googlemail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "antoine.rey@gmail.com",
       "author2": "xaseron@googlemail.com",
       "combined_emails": "antoine.rey@gmail.com:xaseron@googlemail.com",
-      "strength": "2"
+      "strength": 2
     },
     {
       "type": "Author_Relation",
       "author1": "antoine.rey@free.fr",
       "author2": "xaseron@googlemail.com",
       "combined_emails": "antoine.rey@free.fr:xaseron@googlemail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "odedia@gmail.com",
       "author2": "xaseron@googlemail.com",
       "combined_emails": "odedia@gmail.com:xaseron@googlemail.com",
-      "strength": "2"
+      "strength": 2
     },
     {
       "type": "Author_Relation",
       "author1": "xaseron@googlemail.com",
       "author2": "kevin@nashdocker.io",
       "combined_emails": "xaseron@googlemail.com:kevin@nashdocker.io",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "antoine.rey@free.fr",
       "author2": "antoine.rey@gmail.com",
       "combined_emails": "antoine.rey@free.fr:antoine.rey@gmail.com",
-      "strength": "7"
+      "strength": 7
     },
     {
       "type": "Author",
@@ -1276,7 +1276,7 @@
       "author1": "odedia@gmail.com",
       "author2": "lukasforst+github@gmail.com",
       "combined_emails": "odedia@gmail.com:lukasforst+github@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author",
@@ -1288,105 +1288,105 @@
       "author1": "odedia@gmail.com",
       "author2": "44668330+9SMTM6@users.noreply.github.com",
       "combined_emails": "odedia@gmail.com:44668330+9SMTM6@users.noreply.github.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "antoine.rey@gmail.com",
       "author2": "lukasforst+github@gmail.com",
       "combined_emails": "antoine.rey@gmail.com:lukasforst+github@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "antoine.rey@gmail.com",
       "author2": "44668330+9SMTM6@users.noreply.github.com",
       "combined_emails": "antoine.rey@gmail.com:44668330+9SMTM6@users.noreply.github.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "xaseron@googlemail.com",
       "author2": "antoine.rey@free.fr",
       "combined_emails": "xaseron@googlemail.com:antoine.rey@free.fr",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "xaseron@googlemail.com",
       "author2": "lukasforst+github@gmail.com",
       "combined_emails": "xaseron@googlemail.com:lukasforst+github@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "xaseron@googlemail.com",
       "author2": "julius.paszek@gmail.com",
       "combined_emails": "xaseron@googlemail.com:julius.paszek@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "xaseron@googlemail.com",
       "author2": "44668330+9SMTM6@users.noreply.github.com",
       "combined_emails": "xaseron@googlemail.com:44668330+9SMTM6@users.noreply.github.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "xaseron@googlemail.com",
       "author2": "shobha.s.kamath@gmail.com",
       "combined_emails": "xaseron@googlemail.com:shobha.s.kamath@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "antoine.rey@free.fr",
       "author2": "lukasforst+github@gmail.com",
       "combined_emails": "antoine.rey@free.fr:lukasforst+github@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "antoine.rey@free.fr",
       "author2": "44668330+9SMTM6@users.noreply.github.com",
       "combined_emails": "antoine.rey@free.fr:44668330+9SMTM6@users.noreply.github.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "lukasforst+github@gmail.com",
       "author2": "julius.paszek@gmail.com",
       "combined_emails": "lukasforst+github@gmail.com:julius.paszek@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "lukasforst+github@gmail.com",
       "author2": "44668330+9SMTM6@users.noreply.github.com",
       "combined_emails": "lukasforst+github@gmail.com:44668330+9SMTM6@users.noreply.github.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "lukasforst+github@gmail.com",
       "author2": "shobha.s.kamath@gmail.com",
       "combined_emails": "lukasforst+github@gmail.com:shobha.s.kamath@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "julius.paszek@gmail.com",
       "author2": "44668330+9SMTM6@users.noreply.github.com",
       "combined_emails": "julius.paszek@gmail.com:44668330+9SMTM6@users.noreply.github.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "44668330+9SMTM6@users.noreply.github.com",
       "author2": "shobha.s.kamath@gmail.com",
       "combined_emails": "44668330+9SMTM6@users.noreply.github.com:shobha.s.kamath@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author",
@@ -1398,91 +1398,91 @@
       "author1": "mszarlinski@bravurasolutions.com",
       "author2": "mszarlinski@gmail.com",
       "combined_emails": "mszarlinski@bravurasolutions.com:mszarlinski@gmail.com",
-      "strength": "10"
+      "strength": 10
     },
     {
       "type": "Author_Relation",
       "author1": "mszarlinski@bravurasolutions.com",
       "author2": "antoine.rey@free.fr",
       "combined_emails": "mszarlinski@bravurasolutions.com:antoine.rey@free.fr",
-      "strength": "5"
+      "strength": 5
     },
     {
       "type": "Author_Relation",
       "author1": "mszarlinski@bravurasolutions.com",
       "author2": "julius.paszek@gmail.com",
       "combined_emails": "mszarlinski@bravurasolutions.com:julius.paszek@gmail.com",
-      "strength": "5"
+      "strength": 5
     },
     {
       "type": "Author_Relation",
       "author1": "mszarlinski@bravurasolutions.com",
       "author2": "antoine.rey@gmail.com",
       "combined_emails": "mszarlinski@bravurasolutions.com:antoine.rey@gmail.com",
-      "strength": "6"
+      "strength": 6
     },
     {
       "type": "Author_Relation",
       "author1": "mszarlinski@bravurasolutions.com",
       "author2": "git@zubcevic.com",
       "combined_emails": "mszarlinski@bravurasolutions.com:git@zubcevic.com",
-      "strength": "5"
+      "strength": 5
     },
     {
       "type": "Author_Relation",
       "author1": "julius.paszek@gmail.com",
       "author2": "antoine.rey@gmail.com",
       "combined_emails": "julius.paszek@gmail.com:antoine.rey@gmail.com",
-      "strength": "6"
+      "strength": 6
     },
     {
       "type": "Author_Relation",
       "author1": "julius.paszek@gmail.com",
       "author2": "git@zubcevic.com",
       "combined_emails": "julius.paszek@gmail.com:git@zubcevic.com",
-      "strength": "6"
+      "strength": 6
     },
     {
       "type": "Author_Relation",
       "author1": "mszarlinski@users.noreply.github.com",
       "author2": "mszarlinski@bravurasolutions.com",
       "combined_emails": "mszarlinski@users.noreply.github.com:mszarlinski@bravurasolutions.com",
-      "strength": "7"
+      "strength": 7
     },
     {
       "type": "Author_Relation",
       "author1": "antoine.rey@gmail.com",
       "author2": "mszarlinski@bravurasolutions.com",
       "combined_emails": "antoine.rey@gmail.com:mszarlinski@bravurasolutions.com",
-      "strength": "7"
+      "strength": 7
     },
     {
       "type": "Author_Relation",
       "author1": "mszarlinski@gmail.com",
       "author2": "mszarlinski@bravurasolutions.com",
       "combined_emails": "mszarlinski@gmail.com:mszarlinski@bravurasolutions.com",
-      "strength": "3"
+      "strength": 3
     },
     {
       "type": "Author_Relation",
       "author1": "julius.paszek@gmail.com",
       "author2": "mszarlinski@gmail.com",
       "combined_emails": "julius.paszek@gmail.com:mszarlinski@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "mszarlinski@bravurasolutions.com",
       "author2": "kevin@nashdocker.io",
       "combined_emails": "mszarlinski@bravurasolutions.com:kevin@nashdocker.io",
-      "strength": "3"
+      "strength": 3
     },
     {
       "type": "Author_Relation",
       "author1": "mszarlinski@bravurasolutions.com",
       "author2": "marcin@grzejszczak.pl",
       "combined_emails": "mszarlinski@bravurasolutions.com:marcin@grzejszczak.pl",
-      "strength": "3"
+      "strength": 3
     },
     {
       "type": "Author",
@@ -1494,84 +1494,84 @@
       "author1": "mszarlinski@bravurasolutions.com",
       "author2": "91406991+MarianConstantinMarica@users.noreply.github.com",
       "combined_emails": "mszarlinski@bravurasolutions.com:91406991+MarianConstantinMarica@users.noreply.github.com",
-      "strength": "3"
+      "strength": 3
     },
     {
       "type": "Author_Relation",
       "author1": "mszarlinski@gmail.com",
       "author2": "91406991+MarianConstantinMarica@users.noreply.github.com",
       "combined_emails": "mszarlinski@gmail.com:91406991+MarianConstantinMarica@users.noreply.github.com",
-      "strength": "4"
+      "strength": 4
     },
     {
       "type": "Author_Relation",
       "author1": "antoine.rey@free.fr",
       "author2": "91406991+MarianConstantinMarica@users.noreply.github.com",
       "combined_emails": "antoine.rey@free.fr:91406991+MarianConstantinMarica@users.noreply.github.com",
-      "strength": "4"
+      "strength": 4
     },
     {
       "type": "Author_Relation",
       "author1": "julius.paszek@gmail.com",
       "author2": "kevin@nashdocker.io",
       "combined_emails": "julius.paszek@gmail.com:kevin@nashdocker.io",
-      "strength": "4"
+      "strength": 4
     },
     {
       "type": "Author_Relation",
       "author1": "julius.paszek@gmail.com",
       "author2": "91406991+MarianConstantinMarica@users.noreply.github.com",
       "combined_emails": "julius.paszek@gmail.com:91406991+MarianConstantinMarica@users.noreply.github.com",
-      "strength": "4"
+      "strength": 4
     },
     {
       "type": "Author_Relation",
       "author1": "antoine.rey@gmail.com",
       "author2": "91406991+MarianConstantinMarica@users.noreply.github.com",
       "combined_emails": "antoine.rey@gmail.com:91406991+MarianConstantinMarica@users.noreply.github.com",
-      "strength": "4"
+      "strength": 4
     },
     {
       "type": "Author_Relation",
       "author1": "kevin@nashdocker.io",
       "author2": "marcin@grzejszczak.pl",
       "combined_emails": "kevin@nashdocker.io:marcin@grzejszczak.pl",
-      "strength": "3"
+      "strength": 3
     },
     {
       "type": "Author_Relation",
       "author1": "kevin@nashdocker.io",
       "author2": "91406991+MarianConstantinMarica@users.noreply.github.com",
       "combined_emails": "kevin@nashdocker.io:91406991+MarianConstantinMarica@users.noreply.github.com",
-      "strength": "4"
+      "strength": 4
     },
     {
       "type": "Author_Relation",
       "author1": "kevin@nashdocker.io",
       "author2": "git@zubcevic.com",
       "combined_emails": "kevin@nashdocker.io:git@zubcevic.com",
-      "strength": "3"
+      "strength": 3
     },
     {
       "type": "Author_Relation",
       "author1": "marcin@grzejszczak.pl",
       "author2": "91406991+MarianConstantinMarica@users.noreply.github.com",
       "combined_emails": "marcin@grzejszczak.pl:91406991+MarianConstantinMarica@users.noreply.github.com",
-      "strength": "3"
+      "strength": 3
     },
     {
       "type": "Author_Relation",
       "author1": "marcin@grzejszczak.pl",
       "author2": "git@zubcevic.com",
       "combined_emails": "marcin@grzejszczak.pl:git@zubcevic.com",
-      "strength": "2"
+      "strength": 2
     },
     {
       "type": "Author_Relation",
       "author1": "91406991+MarianConstantinMarica@users.noreply.github.com",
       "author2": "git@zubcevic.com",
       "combined_emails": "91406991+MarianConstantinMarica@users.noreply.github.com:git@zubcevic.com",
-      "strength": "3"
+      "strength": 3
     },
     {
       "type": "Author",
@@ -1583,98 +1583,98 @@
       "author1": "mszarlinski@users.noreply.github.com",
       "author2": "misvy@gopivotal,com",
       "combined_emails": "mszarlinski@users.noreply.github.com:misvy@gopivotal,com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "mszarlinski@users.noreply.github.com",
       "author2": "verydapeng@gmail.com",
       "combined_emails": "mszarlinski@users.noreply.github.com:verydapeng@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "antoine.rey@gmail.com",
       "author2": "misvy@gopivotal,com",
       "combined_emails": "antoine.rey@gmail.com:misvy@gopivotal,com",
-      "strength": "6"
+      "strength": 6
     },
     {
       "type": "Author_Relation",
       "author1": "mszarlinski@gmail.com",
       "author2": "misvy@gopivotal,com",
       "combined_emails": "mszarlinski@gmail.com:misvy@gopivotal,com",
-      "strength": "7"
+      "strength": 7
     },
     {
       "type": "Author_Relation",
       "author1": "mszarlinski@gmail.com",
       "author2": "verydapeng@gmail.com",
       "combined_emails": "mszarlinski@gmail.com:verydapeng@gmail.com",
-      "strength": "9"
+      "strength": 9
     },
     {
       "type": "Author_Relation",
       "author1": "misvy@gopivotal,com",
       "author2": "verydapeng@gmail.com",
       "combined_emails": "misvy@gopivotal,com:verydapeng@gmail.com",
-      "strength": "4"
+      "strength": 4
     },
     {
       "type": "Author_Relation",
       "author1": "misvy@vmware.com",
       "author2": "antoine.rey@gmail.com",
       "combined_emails": "misvy@vmware.com:antoine.rey@gmail.com",
-      "strength": "13"
+      "strength": 13
     },
     {
       "type": "Author_Relation",
       "author1": "misvy@vmware.com",
       "author2": "mszarlinski@gmail.com",
       "combined_emails": "misvy@vmware.com:mszarlinski@gmail.com",
-      "strength": "13"
+      "strength": 13
     },
     {
       "type": "Author_Relation",
       "author1": "misvy@vmware.com",
       "author2": "antoine.rey@free.fr",
       "combined_emails": "misvy@vmware.com:antoine.rey@free.fr",
-      "strength": "9"
+      "strength": 9
     },
     {
       "type": "Author_Relation",
       "author1": "misvy@vmware.com",
       "author2": "verydapeng@gmail.com",
       "combined_emails": "misvy@vmware.com:verydapeng@gmail.com",
-      "strength": "7"
+      "strength": 7
     },
     {
       "type": "Author_Relation",
       "author1": "misvy@vmware.com",
       "author2": "misvy@gopivotal,com",
       "combined_emails": "misvy@vmware.com:misvy@gopivotal,com",
-      "strength": "5"
+      "strength": 5
     },
     {
       "type": "Author_Relation",
       "author1": "antoine.rey@free.fr",
       "author2": "verydapeng@gmail.com",
       "combined_emails": "antoine.rey@free.fr:verydapeng@gmail.com",
-      "strength": "5"
+      "strength": 5
     },
     {
       "type": "Author_Relation",
       "author1": "antoine.rey@free.fr",
       "author2": "misvy@gopivotal,com",
       "combined_emails": "antoine.rey@free.fr:misvy@gopivotal,com",
-      "strength": "4"
+      "strength": 4
     },
     {
       "type": "Author_Relation",
       "author1": "verydapeng@gmail.com",
       "author2": "misvy@gopivotal,com",
       "combined_emails": "verydapeng@gmail.com:misvy@gopivotal,com",
-      "strength": "3"
+      "strength": 3
     },
     {
       "type": "Author",
@@ -1686,35 +1686,35 @@
       "author1": "mszarlinski@users.noreply.github.com",
       "author2": "dsyer@pivotal.io",
       "combined_emails": "mszarlinski@users.noreply.github.com:dsyer@pivotal.io",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "antoine.rey@gmail.com",
       "author2": "dsyer@pivotal.io",
       "combined_emails": "antoine.rey@gmail.com:dsyer@pivotal.io",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "mszarlinski@gmail.com",
       "author2": "dsyer@pivotal.io",
       "combined_emails": "mszarlinski@gmail.com:dsyer@pivotal.io",
-      "strength": "2"
+      "strength": 2
     },
     {
       "type": "Author_Relation",
       "author1": "misvy@vmware.com",
       "author2": "cleau@vmware.com",
       "combined_emails": "misvy@vmware.com:cleau@vmware.com",
-      "strength": "8"
+      "strength": 8
     },
     {
       "type": "Author_Relation",
       "author1": "misvy@vmware.com",
       "author2": "ramazansakin63@gmail.com",
       "combined_emails": "misvy@vmware.com:ramazansakin63@gmail.com",
-      "strength": "8"
+      "strength": 8
     },
     {
       "type": "Author",
@@ -1726,189 +1726,189 @@
       "author1": "misvy@vmware.com",
       "author2": "gordon@gordondickens.com",
       "combined_emails": "misvy@vmware.com:gordon@gordondickens.com",
-      "strength": "11"
+      "strength": 11
     },
     {
       "type": "Author_Relation",
       "author1": "antoine.rey@gmail.com",
       "author2": "cleau@vmware.com",
       "combined_emails": "antoine.rey@gmail.com:cleau@vmware.com",
-      "strength": "8"
+      "strength": 8
     },
     {
       "type": "Author_Relation",
       "author1": "antoine.rey@gmail.com",
       "author2": "gordon@gordondickens.com",
       "combined_emails": "antoine.rey@gmail.com:gordon@gordondickens.com",
-      "strength": "11"
+      "strength": 11
     },
     {
       "type": "Author_Relation",
       "author1": "mszarlinski@gmail.com",
       "author2": "cleau@vmware.com",
       "combined_emails": "mszarlinski@gmail.com:cleau@vmware.com",
-      "strength": "8"
+      "strength": 8
     },
     {
       "type": "Author_Relation",
       "author1": "mszarlinski@gmail.com",
       "author2": "gordon@gordondickens.com",
       "combined_emails": "mszarlinski@gmail.com:gordon@gordondickens.com",
-      "strength": "11"
+      "strength": 11
     },
     {
       "type": "Author_Relation",
       "author1": "antoine.rey@free.fr",
       "author2": "cleau@vmware.com",
       "combined_emails": "antoine.rey@free.fr:cleau@vmware.com",
-      "strength": "3"
+      "strength": 3
     },
     {
       "type": "Author_Relation",
       "author1": "antoine.rey@free.fr",
       "author2": "gordon@gordondickens.com",
       "combined_emails": "antoine.rey@free.fr:gordon@gordondickens.com",
-      "strength": "8"
+      "strength": 8
     },
     {
       "type": "Author_Relation",
       "author1": "cleau@vmware.com",
       "author2": "ramazansakin63@gmail.com",
       "combined_emails": "cleau@vmware.com:ramazansakin63@gmail.com",
-      "strength": "8"
+      "strength": 8
     },
     {
       "type": "Author_Relation",
       "author1": "cleau@vmware.com",
       "author2": "gordon@gordondickens.com",
       "combined_emails": "cleau@vmware.com:gordon@gordondickens.com",
-      "strength": "8"
+      "strength": 8
     },
     {
       "type": "Author_Relation",
       "author1": "ramazansakin63@gmail.com",
       "author2": "gordon@gordondickens.com",
       "combined_emails": "ramazansakin63@gmail.com:gordon@gordondickens.com",
-      "strength": "7"
+      "strength": 7
     },
     {
       "type": "Author_Relation",
       "author1": "dsyer@pivotal.io",
       "author2": "antoine.rey@free.fr",
       "combined_emails": "dsyer@pivotal.io:antoine.rey@free.fr",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "dsyer@pivotal.io",
       "author2": "odedia@gmail.com",
       "combined_emails": "dsyer@pivotal.io:odedia@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "dsyer@pivotal.io",
       "author2": "julius.paszek@gmail.com",
       "combined_emails": "dsyer@pivotal.io:julius.paszek@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "dsyer@pivotal.io",
       "author2": "antoine.rey@gmail.com",
       "combined_emails": "dsyer@pivotal.io:antoine.rey@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "dsyer@pivotal.io",
       "author2": "kevin@nashdocker.io",
       "combined_emails": "dsyer@pivotal.io:kevin@nashdocker.io",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "dsyer@pivotal.io",
       "author2": "91406991+MarianConstantinMarica@users.noreply.github.com",
       "combined_emails": "dsyer@pivotal.io:91406991+MarianConstantinMarica@users.noreply.github.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "dsyer@pivotal.io",
       "author2": "git@zubcevic.com",
       "combined_emails": "dsyer@pivotal.io:git@zubcevic.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "odedia@gmail.com",
       "author2": "91406991+MarianConstantinMarica@users.noreply.github.com",
       "combined_emails": "odedia@gmail.com:91406991+MarianConstantinMarica@users.noreply.github.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "mszarlinski@users.noreply.github.com",
       "author2": "odedia@gmail.com",
       "combined_emails": "mszarlinski@users.noreply.github.com:odedia@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "misvy@gopivotal,com",
       "author2": "kevin@nashdocker.io",
       "combined_emails": "misvy@gopivotal,com:kevin@nashdocker.io",
-      "strength": "2"
+      "strength": 2
     },
     {
       "type": "Author_Relation",
       "author1": "misvy@gopivotal,com",
       "author2": "antoine.rey@gmail.com",
       "combined_emails": "misvy@gopivotal,com:antoine.rey@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "kevin@nashdocker.io",
       "author2": "verydapeng@gmail.com",
       "combined_emails": "kevin@nashdocker.io:verydapeng@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "kevin@nashdocker.io",
       "author2": "antoine.rey@gmail.com",
       "combined_emails": "kevin@nashdocker.io:antoine.rey@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "verydapeng@gmail.com",
       "author2": "antoine.rey@gmail.com",
       "combined_emails": "verydapeng@gmail.com:antoine.rey@gmail.com",
-      "strength": "2"
+      "strength": 2
     },
     {
       "type": "Author_Relation",
       "author1": "mszarlinski@users.noreply.github.com",
       "author2": "shobha.s.kamath@gmail.com",
       "combined_emails": "mszarlinski@users.noreply.github.com:shobha.s.kamath@gmail.com",
-      "strength": "2"
+      "strength": 2
     },
     {
       "type": "Author_Relation",
       "author1": "misvy@vmware.com",
       "author2": "shobha.s.kamath@gmail.com",
       "combined_emails": "misvy@vmware.com:shobha.s.kamath@gmail.com",
-      "strength": "2"
+      "strength": 2
     },
     {
       "type": "Author_Relation",
       "author1": "misvy@vmware.com",
       "author2": "kevin@nashdocker.io",
       "combined_emails": "misvy@vmware.com:kevin@nashdocker.io",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author",
@@ -1920,259 +1920,259 @@
       "author1": "misvy@vmware.com",
       "author2": "rstoyanchev@vmware.com",
       "combined_emails": "misvy@vmware.com:rstoyanchev@vmware.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "antoine.rey@gmail.com",
       "author2": "rstoyanchev@vmware.com",
       "combined_emails": "antoine.rey@gmail.com:rstoyanchev@vmware.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "mszarlinski@gmail.com",
       "author2": "rstoyanchev@vmware.com",
       "combined_emails": "mszarlinski@gmail.com:rstoyanchev@vmware.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "cleau@vmware.com",
       "author2": "misvy@gopivotal,com",
       "combined_emails": "cleau@vmware.com:misvy@gopivotal,com",
-      "strength": "3"
+      "strength": 3
     },
     {
       "type": "Author_Relation",
       "author1": "cleau@vmware.com",
       "author2": "kevin@nashdocker.io",
       "combined_emails": "cleau@vmware.com:kevin@nashdocker.io",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "cleau@vmware.com",
       "author2": "rstoyanchev@vmware.com",
       "combined_emails": "cleau@vmware.com:rstoyanchev@vmware.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "shobha.s.kamath@gmail.com",
       "author2": "antoine.rey@free.fr",
       "combined_emails": "shobha.s.kamath@gmail.com:antoine.rey@free.fr",
-      "strength": "3"
+      "strength": 3
     },
     {
       "type": "Author_Relation",
       "author1": "shobha.s.kamath@gmail.com",
       "author2": "verydapeng@gmail.com",
       "combined_emails": "shobha.s.kamath@gmail.com:verydapeng@gmail.com",
-      "strength": "2"
+      "strength": 2
     },
     {
       "type": "Author_Relation",
       "author1": "shobha.s.kamath@gmail.com",
       "author2": "ramazansakin63@gmail.com",
       "combined_emails": "shobha.s.kamath@gmail.com:ramazansakin63@gmail.com",
-      "strength": "2"
+      "strength": 2
     },
     {
       "type": "Author_Relation",
       "author1": "shobha.s.kamath@gmail.com",
       "author2": "misvy@gopivotal,com",
       "combined_emails": "shobha.s.kamath@gmail.com:misvy@gopivotal,com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "shobha.s.kamath@gmail.com",
       "author2": "kevin@nashdocker.io",
       "combined_emails": "shobha.s.kamath@gmail.com:kevin@nashdocker.io",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "shobha.s.kamath@gmail.com",
       "author2": "gordon@gordondickens.com",
       "combined_emails": "shobha.s.kamath@gmail.com:gordon@gordondickens.com",
-      "strength": "2"
+      "strength": 2
     },
     {
       "type": "Author_Relation",
       "author1": "shobha.s.kamath@gmail.com",
       "author2": "rstoyanchev@vmware.com",
       "combined_emails": "shobha.s.kamath@gmail.com:rstoyanchev@vmware.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "antoine.rey@free.fr",
       "author2": "rstoyanchev@vmware.com",
       "combined_emails": "antoine.rey@free.fr:rstoyanchev@vmware.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "verydapeng@gmail.com",
       "author2": "ramazansakin63@gmail.com",
       "combined_emails": "verydapeng@gmail.com:ramazansakin63@gmail.com",
-      "strength": "3"
+      "strength": 3
     },
     {
       "type": "Author_Relation",
       "author1": "verydapeng@gmail.com",
       "author2": "kevin@nashdocker.io",
       "combined_emails": "verydapeng@gmail.com:kevin@nashdocker.io",
-      "strength": "2"
+      "strength": 2
     },
     {
       "type": "Author_Relation",
       "author1": "verydapeng@gmail.com",
       "author2": "gordon@gordondickens.com",
       "combined_emails": "verydapeng@gmail.com:gordon@gordondickens.com",
-      "strength": "3"
+      "strength": 3
     },
     {
       "type": "Author_Relation",
       "author1": "verydapeng@gmail.com",
       "author2": "rstoyanchev@vmware.com",
       "combined_emails": "verydapeng@gmail.com:rstoyanchev@vmware.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "ramazansakin63@gmail.com",
       "author2": "misvy@gopivotal,com",
       "combined_emails": "ramazansakin63@gmail.com:misvy@gopivotal,com",
-      "strength": "3"
+      "strength": 3
     },
     {
       "type": "Author_Relation",
       "author1": "ramazansakin63@gmail.com",
       "author2": "rstoyanchev@vmware.com",
       "combined_emails": "ramazansakin63@gmail.com:rstoyanchev@vmware.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "misvy@gopivotal,com",
       "author2": "gordon@gordondickens.com",
       "combined_emails": "misvy@gopivotal,com:gordon@gordondickens.com",
-      "strength": "3"
+      "strength": 3
     },
     {
       "type": "Author_Relation",
       "author1": "misvy@gopivotal,com",
       "author2": "rstoyanchev@vmware.com",
       "combined_emails": "misvy@gopivotal,com:rstoyanchev@vmware.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "kevin@nashdocker.io",
       "author2": "gordon@gordondickens.com",
       "combined_emails": "kevin@nashdocker.io:gordon@gordondickens.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "kevin@nashdocker.io",
       "author2": "rstoyanchev@vmware.com",
       "combined_emails": "kevin@nashdocker.io:rstoyanchev@vmware.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "gordon@gordondickens.com",
       "author2": "rstoyanchev@vmware.com",
       "combined_emails": "gordon@gordondickens.com:rstoyanchev@vmware.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "misvy@gopivotal,com",
       "author2": "shobha.s.kamath@gmail.com",
       "combined_emails": "misvy@gopivotal,com:shobha.s.kamath@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "misvy@gopivotal,com",
       "author2": "antoine.rey@free.fr",
       "combined_emails": "misvy@gopivotal,com:antoine.rey@free.fr",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "misvy@gopivotal,com",
       "author2": "cleau@vmware.com",
       "combined_emails": "misvy@gopivotal,com:cleau@vmware.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "misvy@gopivotal,com",
       "author2": "ramazansakin63@gmail.com",
       "combined_emails": "misvy@gopivotal,com:ramazansakin63@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "shobha.s.kamath@gmail.com",
       "author2": "cleau@vmware.com",
       "combined_emails": "shobha.s.kamath@gmail.com:cleau@vmware.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "verydapeng@gmail.com",
       "author2": "cleau@vmware.com",
       "combined_emails": "verydapeng@gmail.com:cleau@vmware.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "gordon@gordondickens.com",
       "author2": "ramazansakin63@gmail.com",
       "combined_emails": "gordon@gordondickens.com:ramazansakin63@gmail.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "ramazansakin63@gmail.com",
       "author2": "verydapeng@gmail.com",
       "combined_emails": "ramazansakin63@gmail.com:verydapeng@gmail.com",
-      "strength": "2"
+      "strength": 2
     },
     {
       "type": "Author_Relation",
       "author1": "gordon@gordondickens.com",
       "author2": "verydapeng@gmail.com",
       "combined_emails": "gordon@gordondickens.com:verydapeng@gmail.com",
-      "strength": "3"
+      "strength": 3
     },
     {
       "type": "Author_Relation",
       "author1": "gordon@gordondickens.com",
       "author2": "misvy@gopivotal,com",
       "combined_emails": "gordon@gordondickens.com:misvy@gopivotal,com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "git@zubcevic.com",
       "author2": "91406991+MarianConstantinMarica@users.noreply.github.com",
       "combined_emails": "git@zubcevic.com:91406991+MarianConstantinMarica@users.noreply.github.com",
-      "strength": "1"
+      "strength": 1
     },
     {
       "type": "Author_Relation",
       "author1": "kevin@nashdocker.io",
       "author2": "ramazansakin63@gmail.com",
       "combined_emails": "kevin@nashdocker.io:ramazansakin63@gmail.com",
-      "strength": "1"
+      "strength": 1
     }
   ],
   "edges": [
