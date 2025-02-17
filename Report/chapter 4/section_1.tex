@@ -1,0 +1,124 @@
+\section{Inside the SST Tool: Registration, Data Integration, and Storage}\label{sec:sst_tool}
+
+We have already discussed at length how data extracted from the probes can be plugged into the SST tool, which works as a unified data source. In this section, we will explore the SST tool, its purpose, and how it operates. We will begin by discussing how to run this tool. After that, we will examine the types of data that its endpoints accept, ensuring that we implement our probes correctly according to the REST API structure.
+
+In later subsections, we will focus on how data is collected from probes, sent to the SST tool, and stored. This step-by-step breakdown will help us understand the complete workflow, from data input to storage.
+
+\subsection{Running the SST Tool}
+
+The SST tool depends on two main services:  
+\begin{itemize}
+    \item \textbf{SST Backend Service} – This service is responsible for sending and receiving probe data.
+    \item \textbf{Neo4j Database} - This database stores the collected data in a graph-based format, making it easier to visualize and analyze relationships between data points.
+\end{itemize}
+
+To set up SST, we first need to clone the source code from the GitHub repository\footnote{\url{https://github.com/ace-design/uds}}. After cloning, we require a docker-compose file to initialize and run these services. The necessary and up-to-date docker-compose file is available on Docker Hub\footnote{\url{https://hub.docker.com/r/acedesign/sst}}. By using this setup, we ensure that all components of the SST tool are properly configured and ready for use.
+\sloppy
+Once both of the above steps are completed, run the services using \texttt{docker-compose up}. We can check the backend services running by sending a get request to \texttt{api${/}$health-check} endpoint.
+\fussy
+
+\subsection{Probe Registration}
+
+All probes must be registered first to ensure that the data remains consistent. The registration process ensures that the SST system can correctly store, process, and relate the incoming data. To register a probe, the following three elements are required:
+
+\begin{itemize}
+    \item Probe Name – The name of the probe that is being registered.
+    \item Nodes – The data elements that will be provided to the SST system.
+    \item Edges – The relationships between the nodes.
+\end{itemize}
+
+Each node represents an object that holds specific data. It is important that each node is unique and contains a value that serves as its unique identifier. This identifier is crucial because SST merges nodes based on this value. If a node with the same identifier already exists in the system, the original one will be retained, preventing duplication.
+
+Edges define how nodes are connected, establishing relationships between them. These relationships help structure the data in a meaningful way, allowing for efficient querying and retrieval within the system.
+\begin{lstlisting}[
+    language=bash, 
+    caption={Sample JSON for Probe Registration}, 
+    label={lst:sample_probe_reg},
+    basicstyle=\ttfamily\small,
+    aboveskip=2pt,
+    belowskip=2pt
+]
+{
+    "name": "Authors_Relation",
+    "types": [
+        {
+            "name": "Author",
+            "fields": [
+                {
+                    "name": "email",
+                    "type": "string",
+                    "unique": true
+                }
+            ],
+            "mergeRules": [
+                {
+                    "fieldName": "email"
+                }
+            ]
+        }
+    ],
+    "relations": [
+        {
+            "name": "Collaborated",
+            "from": {
+                "typeName": "Author"
+            },
+            "to": {
+                "typeName": "Author"
+            }
+        }
+    ]
+}
+\end{lstlisting}
+
+The above sample JSON shows the data required to register a probe. \texttt{``types''} is an array of JSON objects, where each object in this array represents a node type. Each node has a \texttt{``name''}, an array of \texttt{``fields''}, and \texttt{``mergeRules''}. The \texttt{``fields''} represent the object attributes for the node, while \texttt{``mergeRules''} define the value on the basis of which two nodes will be merged.  
+
+\texttt{``relations''} is another array of JSON objects, where each object represents a relationship between two nodes. Each relation has a \texttt{``name''}, a \texttt{``from''} field, and a \texttt{``to''} field. The \texttt{``from''} and \texttt{``to''} fields define the node types between which the relationship should be established. This structure ensures that data is correctly linked within the SST system, allowing for efficient merging and retrieval of information.
+
+This probe represents that all the nodes from this probe will be of type \textit{Author}, and each author node will have a relation between them of type \textit{Collaborated}. Each node will be connected on the basis of \texttt{``mergeRules''} key, which in this case is \textit{email}.
+
+Once the structure of the probe is defined, it must be registered using the following REST API provided by the SST tool. Use post request and send the JSON data to the SST. If the probe is registered, it will return a response status code of 201, and a status of \textit{success} will be shown in the response object.
+
+\subsection{Probe Integration}
+
+Once the probe has been registered, the next process is to extract the data from the source code for integration with SST. Make sure the data should be in the same structure as the structure that is used to register the probe.
+\newpage
+\begin{lstlisting}[
+    language=bash, 
+    caption={JSON for Author Relation Probe. This represents the same scenario as shown in snippet~\ref{lst:sample_probe_reg}}, 
+    label={lst:json_author_relation_int},
+    basicstyle=\ttfamily\small,
+    aboveskip=2pt,
+    belowskip=2pt
+]
+{
+    "probeName": "Authors_Relation",
+    "nodes": [
+        {
+            "type": "Author",
+            "name": "James Rey",
+            "email": "james@gmail.com"
+        },
+        {
+            "type": "Author",
+            "name": "Allen",
+            "email": "allen@gmail.com"
+        }
+    ],
+    "edges": [
+        {
+            "relationName": "Collaborated",
+            "from": {
+                "nodeType": "Author",
+                "propertyName": "email",
+                "propertyValue": "james@gmail.com"
+            },
+            "to": {
+                "nodeType": "Author",
+                "propertyName": "email",
+                "propertyValue": "allen@gmail.com"
+            }
+        }
+    ]
+}
+\end{lstlisting}
