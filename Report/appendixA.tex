@@ -1,4 +1,222 @@
-\chapter{Your Appendix}
-\label{appendix_a}
+\chapter{Partial Outputs}\label{appendix_a}
 
-Your appendix goes here.
+\section{Author Method Contribution}\label{appendix_sec:author_method_contributions}
+\begin{lstlisting}[
+    language=bash,
+    breaklines=true,
+    breakatwhitespace=false,
+    columns=fullflexible,
+    literate={/}{/\-}1,
+    basicstyle=\ttfamily\small,
+]
+{
+  "probeName": "Methods_Contributions",
+  "nodes": [
+    {
+      "type": "Method",
+      "name": "getPetsInternal",
+      "signature": "org.springframework.samples.petclinic.customers.model.Owner.getPetsInternal()"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Owner.java"
+    },
+    {
+      "type": "Class",
+      "name": "Owner",
+      "full_name": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Owner.java:Owner"
+    }
+  ],
+    "edges": [
+    {
+      "relationName": "Contains",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Owner.java"
+      },
+      "to": {
+        "nodeType": "Class",
+        "propertyName": "full_name",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Owner.java:Owner"
+      }
+    },
+    {
+      "relationName": "Has",
+      "from": {
+        "nodeType": "Class",
+        "propertyName": "full_name",
+        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Owner.java:Owner"
+      },
+      "to": {
+        "nodeType": "Method",
+        "propertyName": "signature",
+        "propertyValue": "org.springframework.samples.petclinic.customers.model.Owner.getPetsInternal()"
+      }
+    }
+  ]
+}
+\end{lstlisting}
+
+\section{Microservices Endpoints}\label{appendix_sec:microservices_endpoints}
+\begin{lstlisting}[
+    language=bash,
+    breaklines=true,
+    breakatwhitespace=false,
+    columns=fullflexible,
+    literate={/}{/\-}1,
+    basicstyle=\ttfamily\small,
+]
+{
+  "probeName": "Endpoints",
+  "nodes": [
+    {
+      "type": "File",
+      "path": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/web/VetResource.java"
+    },
+    {
+      "type": "Class",
+      "name": "VetResource",
+      "full_name": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/web/VetResource.java:VetResource"
+    },
+    {
+      "type": "Endpoint",
+      "full_method_id": "GET - /vets",
+      "http_method": "GET",
+      "route": "/vets"
+    }
+  ],
+    "edges": [
+    {
+      "relationName": "Contains",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/web/VetResource.java"
+      },
+      "to": {
+        "nodeType": "Class",
+        "propertyName": "full_name",
+        "propertyValue": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/web/VetResource.java:VetResource"
+      }
+    },
+    {
+      "relationName": "Maps",
+      "from": {
+        "nodeType": "Class",
+        "propertyName": "full_name",
+        "propertyValue": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/web/VetResource.java:VetResource"
+      },
+      "to": {
+        "nodeType": "Endpoint",
+        "propertyName": "full_method_id",
+        "propertyValue": "GET - /vets"
+      }
+    }
+  ]
+}
+\end{lstlisting}
+
+\section{Bean Classes and Methods}\label{appendix_sec:bean_classes_methods}
+\begin{lstlisting}[
+    language=bash,
+    breaklines=true,
+    breakatwhitespace=false,
+    columns=fullflexible,
+    literate={/}{/\-}1,
+    basicstyle=\ttfamily\small,
+]
+{
+  "probeName": "Beans",
+  "nodes": [
+    {
+      "type": "File",
+      "path": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/AIBeanConfiguration.java"
+    },
+    {
+      "type": "Class",
+      "name": "AIBeanConfiguration",
+      "full_name": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/AIBeanConfiguration.java:AIBeanConfiguration"
+    },
+    {
+      "type": "Method",
+      "name": "loadBalancedWebClientBuilder",
+      "signature": "org.springframework.samples.petclinic.api.ApiGatewayApplication.loadBalancedWebClientBuilder()"
+    }
+  ],
+    "edges": [
+    {
+      "relationName": "Has_bean_class",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/AIBeanConfiguration.java"
+      },
+      "to": {
+        "nodeType": "Class",
+        "propertyName": "full_name",
+        "propertyValue": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/AIBeanConfiguration.java:AIBeanConfiguration"
+      }
+    },
+    {
+      "relationName": "Has_bean_method",
+      "from": {
+        "nodeType": "Class",
+        "propertyName": "full_name",
+        "propertyValue": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/ApiGatewayApplication.java:ApiGatewayApplication"
+      },
+      "to": {
+        "nodeType": "Method",
+        "propertyName": "signature",
+        "propertyValue": "org.springframework.samples.petclinic.api.ApiGatewayApplication.loadBalancedWebClientBuilder()"
+      }
+    }
+  ]
+}
+\end{lstlisting}
+
+\section{Dependencies}\label{appendix_sec:dependencies}
+\begin{lstlisting}[
+    language=bash,
+    breaklines=true,
+    breakatwhitespace=false,
+    columns=fullflexible,
+    literate={/}{/\-}1,
+    basicstyle=\ttfamily\small,
+]
+{
+  "probeName": "Dependencies",
+  "nodes": [
+    {
+      "type": "File",
+      "path": "/spring-petclinic-genai-service/pom.xml"
+    },
+    {
+      "type": "Dependency",
+      "group_id": "org.springframework.ai",
+      "artifact_id": "spring-ai-bom",
+      "combined_name": "org.springframework.ai:spring-ai-bom"
+    }
+  ],
+  "edges": [
+    {
+      "relationName": "Depends_on",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-genai-service/pom.xml"
+      },
+      "to": {
+        "nodeType": "Dependency",
+        "propertyName": "combined_name",
+        "propertyValue": "org.springframework.ai:spring-ai-bom"
+      },
+      "properties": {
+        "version": "1.0.0-M4",
+        "scope": "import",
+        "type": "pom"
+      }
+    }
+  ]
+}
+\end{lstlisting}
