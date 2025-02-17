@@ -71,8 +71,8 @@
 \else
     \def\@copyrightyear{\number\the\year}
 \fi
-\newif\ifcopyright \newif\iffigurespage \newif\iftablespage \newif\ifsignature
-\copyrighttrue \figurespagetrue \tablespagetrue \signaturefalse
+\newif\ifcopyright \newif\iffigurespage \newif\iftablespage \newif\iflistingspage \newif\ifsignature
+\copyrighttrue \figurespagetrue \tablespagetrue \signaturefalse \listingspagetrue
 
 
 \def\halftitlep{
@@ -189,7 +189,18 @@ of \@degree.
         \listoftables
         \let\addvspace=\saveaddvspace}
     \fi
+
+    \iflistingspage
+        {\newpage
+        \addvspace{10pt}
+        \renewcommand{\lstlistlistingname}{Snippets}
+        \let\saveaddvspace=\addvspace
+        \def\addvspace##1{}
+        \lstlistoflistings
+        \let\addvspace=\saveaddvspace}
+    \fi
 }
+
 
 \def\academicstatement#1{
     \newpage
