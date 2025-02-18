@@ -15,3 +15,5 @@ env
 __pycache__
 
 *.gz
+
+.env
