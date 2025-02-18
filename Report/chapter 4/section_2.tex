@@ -59,3 +59,5 @@ The runner script ensures that the data sent to the SST server is always up-to-d
 \end{tcolorbox}
 
 This method ensures an efficient and automated way to extract and update data while maintaining consistency across different probes.
+
+Appendix~\ref{appendix_sec:py_runner_script} shows the implementation of the runner script. The script parses the command-line argument passed to it and runs the probe from the probes list, producing outputs. It is important to note that the \texttt{runner.py} script only sends the probe's nodes and edges data. The registration of the probes must be done manually for now. The script uses the requests\footnote{\url{https://pypi.org/project/requests/}} Python dependency to send requests to the SST server.

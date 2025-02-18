@@ -1,63 +1,44 @@
-\chapter{Long Tables}
-\label{appendix_b}
+\chapter{Python Scripts}\label{appendix_b}
 
-This appendix demonstrates the use of a long table that spans multiple pages.
+\section{Runner Script}\label{appendix_sec:py_runner_script}
+\begin{lstlisting}[language=Python]
+import subprocess
+import os
+from dotenv import load_dotenv
+from probes_list import probes_scripts
+from utils.constants import OUTPUT_FOLDER
+from utils.helper import get_passed_arguments
+import json
+import requests
 
-\begin{center}
-\begin{longtable}{P{3cm}P{3cm}P{2.5cm}P{3.5cm}}
-\toprule
-\hline
-\textbf{Col A} & \textbf{Col B} & \textbf{Col C} & \textbf{Col D} \\ \midrule
+load_dotenv()
+SST_API_URL = os.getenv("SST_API_URL")
+project_root = os.path.dirname(os.path.abspath(__file__))
 
-\endfirsthead
-\multicolumn{4}{c}{\textit{Continued from previous page}} \\ \hline
-\textbf{Col A} & \textbf{Col B} & \textbf{Col C} & \textbf{Col D} \\ \hline
-\endhead
-\hline \multicolumn{4}{r}{\textit{Continued on the next page}} \\
-\endfoot
-\hline
-\endlastfoot
+if __name__ == '__main__':
+    args = get_passed_arguments("--SOURCE_DIR")
+    original_directory = os.getcwd()
+    probes_directory = "./probes/"
 
-A & B & C & D \\ \midrule
+    for script in probes_scripts:
+        subprocess.run(
+            f"{script['runner_command']} --INPUT_DIR \"{args.SOURCE_DIR}\" --OUTPUT \
+                {OUTPUT_FOLDER}{script['output_file']}", shell=True, cwd=project_root)
 
-A & B & C & D \\ \midrule
+    for filename in os.listdir(OUTPUT_FOLDER):
+        if filename.endswith(".json"):
+            file_path = os.path.join(OUTPUT_FOLDER, filename)
 
-A & B & C & D \\ \midrule
+            try:
+                with open(file_path, "r", encoding="utf-8") as json_file:
+                    json_data = json.load(json_file)
 
-A & B & C & D \\ \midrule
+                headers = {"Content-Type": "application/json"}
+                response = requests.post(
+                    f"{SST_API_URL}/api/upload-graph", json=json_data, headers=headers)
 
-A & B & C & D \\ \midrule
+                print(f"Sent {filename}: {response.status_code}")
 
-A & B & C & D \\ \midrule
-
-A & B & C & D \\ \midrule
-
-A & B & C & D \\ \midrule
-
-A & B & C & D \\ \midrule
-
-A & B & C & D \\ \midrule
-
-A & B & C & D \\ \midrule
-
-A & B & C & D \\ \midrule
-
-A & B & C & D \\ \midrule
-
-A & B & C & D \\ \midrule
-
-A & B & C & D \\ \midrule
-
-A & B & C & D \\ \midrule
-
-A & B & C & D \\ \midrule
-
-A & B & C & D \\ \midrule
-
-A & B & C & D \\ \midrule
-
-A & B & C & D \\ \midrule
-
-\hline
-\end{longtable}
-\end{center}
+            except Exception as e:
+                print(f"Error processing {filename}: {e}")
+\end{lstlisting}
