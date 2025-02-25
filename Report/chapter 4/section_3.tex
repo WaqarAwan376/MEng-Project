@@ -1,13 +1,13 @@
 \section{Data Visualization and Insights}\label{sec:data_visualization}
 
-Now that our probe data and SST tool are integrated, we can use various visualization tools to analyze our data and present statistical insights and valuable information based on the requirements. There are numerous tools and services available for data visualization. We have already discussed some key visualization tools in ~\autoref{sec:component-visualizer}. In this section, we provide a brief summary of the visualization tools used in this report.
+Now that our probe data and SST tool are integrated, we can use various visualization tools to analyze our data and present statistical insights and valuable information based on the requirements. There are numerous tools and services available for data visualization. We have already discussed some key visualization tools in~\autoref{sec:component-visualizer}. In this section, we provide a brief summary of the visualization tools used in this report.
 
 \subsection{Neo4j Desktop}
 Neo4j provides its own application, \textit{Neo4j Desktop}\footnote{\url{https://neo4j.com/download}}, to visualize data stored in a Neo4j database. Users can connect to both local and remote Neo4j servers. The application includes several tools for visualizing different types of data.
 
 One key tool is \textit{Neo4j Browser}\footnote{\url{https://neo4j.com/docs/browser-manual/current/}}, a web-based query tool for running Cypher queries. Another is \textit{Neo4j Bloom}\footnote{\url{https://neo4j.com/product/bloom/}}, which allows users to explore graph data interactively.
 
-In addition to these, other tools include the \textit{Graph Data Science (GDS)} Library, which provides implementations of graph algorithms\footnote{\url{https://neo4j.com/docs/gds/}}, and the \textit{ETL Tool}, which migrates relational data into Neo4j\footnote{\url{https://neo4j.com/labs/etl-tool/1.5.0/}}.
+% In addition to these, other tools include the \textit{Graph Data Science (GDS)} Library, which provides implementations of graph algorithms\footnote{\url{https://neo4j.com/docs/gds/}}, and the \textit{ETL Tool}, which migrates relational data into Neo4j\footnote{\url{https://neo4j.com/labs/etl-tool/1.5.0/}}.
 
 \subsection{Tableau}
 \textit{Tableau is a leading data visualization tool used for data analysis and business intelligence}~\citep{biswal2024visualization}. It is known for its ease of use, compatibility with diverse data sources, and ability to create interactive dashboards that enhance data exploration and decision-making\footnote{\url{https://www.tableau.com/}}. One of the key reasons for choosing Tableau is its flexibility in handling various types of data while offering intuitive visualizations.
@@ -16,7 +16,7 @@ Since our SST tool stores data in a Neo4j database, Tableau provides a way to in
 
 \subsection{Tool Selection and Justification}
 
-In this report, We will be using Tableau and Neo4j Desktop to demonstrate the functionality of the probes and SST framework and to validate our scenarios. Neo4j Desktop will be used for managing and visualizing graph-based data, while Tableau will assist in creating insightful visual representations. By using these tools, we aim to illustrate the workings of the framework and ensure proper validation of the scenarios.
+In this report, we will use Tableau and Neo4j Desktop to demonstrate the functionality of the probes and SST framework and validate our scenarios. Neo4j Desktop will be used for managing and visualizing graph-based data, while Tableau, which provides a way to connect directly with the Neo4j database, will assist in creating insightful visual representations. Using these tools, we aim to illustrate the framework's workings and ensure proper scenario validation.
 
 
 % \begin{figure}[H]

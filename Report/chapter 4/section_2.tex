@@ -6,7 +6,7 @@ We will cover only the key aspects of the implementation to provide a clear unde
 
 We have implemented classes for each node and edge to keep the code consistent and ensure that all objects follow the same structure. We have also created classes to define relationships between nodes, ensuring that the data remains consistent for similar objects.
 
-\subsection{Implementation related to authors and version control}
+\subsection{Authors and Version Control}
 
 As mentioned in~\autoref{ch3-sec:technical_validation_strategy}, we have merged the discussion and implementation of probes related to authors/contributors. We have discussed that an effective way to retrieve data related to authors and their contributions is by utilizing a \textit{version control system}. Version control systems inherently track all changes made to a codebase and store this information within the \texttt{``.git''} directory, which is typically hidden. This directory contains the complete history of modifications, including details about contributors, timestamps, and commit messages, making it a reliable source for extracting author-related data.
 
@@ -18,17 +18,18 @@ After parsing the Java source code, we extract details about authors, their cont
 
 Once the author's information is extracted, it is stored in a JSON file and sent to SST for further processing and analysis.
 
+\sloppy
 Appendix \ref{appendix_sec:author_method_contributions} shows a sample JSON for the author method contribution probe. It shows that \texttt{Owner.java} file contains the \texttt{Owner} class, and this class has \texttt{getPetsInternal()} method.
 
-\subsection{Implementation related to microservices REST API endpoints}
+\subsection{Microservices REST API endpoints}
 
-In ~\autoref{ch3-sec:technical_validation_strategy}, we discussed a strategy to extract REST API endpoints from \textit{Java Spring Framework} source code. The approach involves searching for relevant annotations and decorators in the source code and using them to identify endpoints. We apply this logic to extract the required information.  
+In~\autoref{ch3-sec:technical_validation_strategy}, we discussed a strategy to extract REST API endpoints from \textit{Java Spring Framework} source code. The approach involves searching for relevant annotations and decorators in the source code and using them to identify endpoints. We apply this logic to extract the required information.  
 
 In the implemented Python script, we first extract Java files from all services. Then, we use regular expressions to check if they contain annotations such as \texttt{@RestController}, \texttt{@RequestMapping}, \texttt{@GetMapping}, \texttt{@PostMapping}, and similar decorators. If a file includes these annotations, we extract the full route information and create class and endpoint nodes. This allows us to represent how a particular class maps to an endpoint through relational edges.
 
-Appendix \ref{appendix_sec:microservices_endpoints} shows a sample JSON for endpoint mapping. The \texttt{VetResource.java} file contains \texttt{VetResource} class. This class maps \texttt{/vets} endpoint.
+Appendix~\ref{appendix_sec:microservices_endpoints} shows a sample JSON for endpoint mapping. The \texttt{VetResource.java} file contains \texttt{VetResource} class. This class maps \texttt{/vets} endpoint.
 
-\subsection{Implementation related to java beans extraction}
+\subsection{Java Beans Extraction}
 
 Using a similar approach to extracting REST API endpoints, we can also extract Java beans from the source code. Java beans are created using specific annotations placed at the top of a class. These annotations indicate that the class is a Java bean, which will be managed by the Java Spring Framework.
 
@@ -36,25 +37,26 @@ In the Python script we have implemented, we search for \texttt{@Component}, \te
 
 Once the beans are found, we also extract their methods by searching for the \texttt{@Bean} annotation. In this script, we use \textit{javalang} to parse methods when identifying bean methods and Python regular expressions to find classes in the source code. After determining the beans and their methods, we create their nodes using Python classes in our code. This allows us to establish relational edges between them.
 
-Appendix \ref{appendix_sec:bean_classes_methods} shows a sample JSON for bean classes and methods mapping. The \texttt{AIBeanConfiguration.java} file contains \texttt{AIBeanConfiguration} class. This class has a bean method \texttt{loadBalancedWebClientBuilder()}.
+Appendix~\ref{appendix_sec:bean_classes_methods} shows a sample JSON for bean classes and methods mapping. The \texttt{AIBeanConfiguration.java} file contains \texttt{AIBeanConfiguration} class. This class has a bean method \texttt{loadBalancedWebClientBuilder()}.
 
-\subsection{Implementation related to Java dependencies extraction}
+\subsection{Java Dependencies Extraction}
 
 Java services have a \textit{Project Object Model (POM)} file that contains information about the Maven project\footnote{\url{https://maven.apache.org/}} and how it is built. It is an XML file that includes a list of all project dependencies. We can use this file to extract dependencies and their versions.
 
 In the Python script we have implemented, we use a lightweight Python XML parser\footnote{\url{https://docs.python.org/3/library/xml.etree.elementtree.html}} for this purpose. We parse the XML file, extract the dependencies from each service, and create nodes and edges based on this information. When a dependency is found in the POM file, a node is made using the dependency class in our code. These nodes are then linked to each other using edges to represent relationships between dependencies.
 
-Appendix \ref{appendix_sec:dependencies} shows a sample JSON for dependencies graphs. The POM file in \texttt{spring-petclinic-genai-service} contains \texttt{spring-ai-bom} dependency. The properties key of their relation includes further information about the dependency, showing its version, scope, and type.
+\sloppy
+Appendix~\ref{appendix_sec:dependencies} shows a sample JSON for dependencies graphs. The POM file in \texttt{spring-petclinic-genai-service} contains \texttt{spring-ai-bom} dependency. The properties key of their relation includes further information about the dependency, showing its version, scope, and type.
 
 \subsection{Runner script and How it works}
 
-We have a Python runner script that is responsible for running each probe script. To manage these probes, we use a file named \texttt{``probes\_list.py''}, which contains a list of Python dictionaries. Each dictionary represents a probe and includes three key elements: \textit{runner\_command}, \textit{probe\_file}, and \textit{output\_file}. The runner script iterates through this list, executing each probe and sending a \texttt{POST} request to the SST server to update it with the latest extracted data.  
+We have a Python runner script that is responsible for running each probe script. To manage these probes, we use a \texttt{probes\_list.py} script file, which contains a list of Python dictionaries. Each dictionary represents a probe and includes three key elements: \textit{runner\_command}, \textit{probe\_file}, and \textit{output\_file}. The runner script iterates through this list, executing each probe and sending a \texttt{POST} request to the SST server to update it with the latest extracted data.  
 
 One of the key advantages of this approach is that probes do not have to be written exclusively in Python. As long as a probe is placed in the \texttt{``probes''} folder and its corresponding runner command and probe file are specified in \texttt{probes\_list.py} file, it can be executed in the same way as other probes. This flexibility allows for the integration of scripts written in different programming languages.  
 
 The runner script ensures that the data sent to the SST server is always up-to-date, consistent, and valid. It takes the source directory of the target source code as a command-line argument, allowing users to specify the location of the project they want to analyze. Below is an example of how to run the script:
 
-\begin{tcolorbox}[colback=gray!10, colframe=gray!20]
+\begin{tcolorbox}[colback=gray!5, colframe=gray!20]
     \texttt{python runner.py \newline ${--}$SOURCE\_DIR "/Projects/spring-petclinic-microservices"}
 \end{tcolorbox}
 
