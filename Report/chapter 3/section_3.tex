@@ -4,7 +4,7 @@ In this section, we will discuss the technical strategy that we will adopt to ta
 
 \subsection{Effective Methods to Identify Contributors, Top Contributors, and Recent Contributors}
 
-The scenarios starting from 1 to 5, related to the authors/contributors are merged in this section to avoid repeatition since all of them require similar type of data from the source, and hence a similar approach. There are several ways to find the contributors list, top contributors, and most recent contributors:
+The scenarios starting from 1 to 5, related to the authors/contributors, are merged in this section to avoid repetition since all of them require a similar approach. There are several ways to find the contributors list, author relation, top contributors, and most recent contributors:
 \begin{itemize}
     \item Reviewing communication records for recent discussions or code reviews about the method. However, this process is slow and often leads to inconsistent results.
     \item Checking pull request histories on GitHub, where reviewers and contributors are listed. For repositories with many pull requests, filtering relevant changes can be overwhelming.
@@ -14,7 +14,7 @@ The scenarios starting from 1 to 5, related to the authors/contributors are merg
     \item Checking project documentation and looking for change logs that might include information about recent changes and contributions. However, change logs are not always updated regularly, which can lead to inaccurate results.
 \end{itemize}
 
-One of the most effective ways to achieve this is by using a version control system. In almost every project, some form of version control is used, as it allows tracking the author of the most recent changes to specific lines of code. Each project typically includes a version control file. In our test project, a \texttt{.git} file is available, which we can parse to retrieve the required information. To achieve this, we will develop a few probes to perform static code analysis, parse the \texttt{.git} file, and extract the necessary data to feed it into the SST. The implementation of these probes will be discussed in later chapters.
+One of the most effective ways to achieve this is by using a version control system. In almost every project, some form of version control is used, as it allows tracking the author of the most recent changes to specific lines of code. Each project typically includes a version control file. In our test project, a \texttt{.git} directory is available, which we can parse to retrieve the required information. To achieve this, we will develop a few probes to perform static code analysis, parse the \texttt{.git} directory, and extract the necessary data to feed it into the SST. The implementation of these probes will be discussed in later chapters.
 
 \begin{figure}[H]
     \centering
@@ -22,10 +22,10 @@ One of the most effective ways to achieve this is by using a version control sys
     \caption{Git Parsing Process}
     \label{fig_parse_git_file}
 \end{figure}
-
+ 
 \subsection{Microservices Endpoints}
 
-\textit{REST API} endpoints for microservices can be identified in several ways from the source code. Our goal is to establish a general method for obtaining this information from your project, as real-world microservice architectures do not always use frameworks like Java Spring, as seen in the Petclinic test project referenced in this report. Below are some approaches to discover endpoints:
+For the 6th scenario, we have to determine the endpoints. \textit{REST API} endpoints for microservices can be identified in several ways from the source code. Our goal is to establish a general method for obtaining this information from your project, as real-world microservice architectures do not always use frameworks like Java Spring, as seen in the Petclinic test project referenced in this report. Below are some approaches to discovering endpoints:
 
 \begin{itemize}
     \item Integrating Swagger\footnote{\url{https://swagger.io/}} or OpenAPI\footnote{\url{https://openai.com/}} to auto-generate documentation can be effective but requires accurate configuration for all endpoints. Misconfiguration can lead to incorrect results.
@@ -37,7 +37,7 @@ The approach we will use involves static code analysis. We will write a probe to
 
 \subsection{Beans And Dependencies}
 
-There are several ways to identify the beans and dependencies in the Spring framework project under discussion, allowing us to visualize this data for better documentation and understanding:
+For the 7th and 8th scenarios, We have to extract beans and dependencies from the source code. There are several ways to identify the beans and dependencies in the Spring framework project under discussion, allowing us to visualize this data for better documentation and understanding:
 
 \begin{itemize}
     \item Spring Boot Actuator provides a \texttt{/actuator/beans} endpoint that lists all beans in the application context, along with their dependencies and initialization details. However, this can cause performance issues in large applications with many beans.
@@ -46,15 +46,8 @@ There are several ways to identify the beans and dependencies in the Spring fram
 
 The approach we will use involves static code analysis. We will develop a probe to search for annotations like \texttt{@Bean}, \texttt{@Component}, \texttt{@Service}, \texttt{@Repository}, and other dependency-related annotations. Additionally, we will parse the \texttt{POM.xml} files of the services to identify the dependencies associated with each service.
 
-\subsection{SST Integration}
+\subsection{SST and Visualizer Integration}
 
-After extracting the necessary information, we need to demonstrate the complete capabilities of our framework by applying it to the technical scenarios we have designed. To achieve this, it is essential to integrate the extracted data with the SST.
+For the 9th and 10th scenarios, integration of probes with SST and SST with visualizer is required. After extracting the necessary information, we need to demonstrate the complete capabilities of our framework by applying it to the technical scenarios we have designed. To achieve this, it is essential to integrate the extracted data with the SST with the help of REST API endpoints provided by the SST tool. Once probes and SST start exchanging data, our next task is to connect at least one visualizer tool with the SST. For that, we will connect a visualizer tool with the SST's database to obtain real-time data and information directly from the database.
 
-Details about how the probes are integrated with SST will be discussed in the following chapter.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=1\textwidth]{figures/sst_working.png}
-    \caption[Probes and SST]{Probes and SST}
-    \label{fig_probes_sst}
-\end{figure}
+The following chapter will discuss details about how the probes are integrated with SST and visualizer.
