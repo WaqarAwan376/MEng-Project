@@ -30,7 +30,7 @@ One of the most effective ways to achieve this is by using a version control sys
 For the 6th scenario, we have to determine the endpoints. \textit{REST API} endpoints for microservices can be identified in several ways from the source code. Our goal is to establish a general method for obtaining this information from your project, as real-world microservice architectures do not always use frameworks like Java Spring, as seen in the Petclinic test project referenced in this report. Below are some approaches to discovering endpoints:
 
 \begin{itemize}
-    \item Integrating Swagger\footnote{\url{https://swagger.io/}} or OpenAPI\footnote{\url{https://openai.com/}} to auto-generate documentation can be effective but requires accurate configuration for all endpoints. Misconfiguration can lead to incorrect results.
+    \item Integrating Swagger\footnote{\url{https://swagger.io/}} or OpenAPI\footnote{\url{https://swagger.io/resources/articles/documenting-apis-with-swagger/}} to auto-generate documentation can be effective but requires accurate configuration for all endpoints. Misconfiguration can lead to incorrect results.
     \item Enabling logging of all incoming requests to capture and log accessed endpoints at runtime can also work. However, this approach introduces performance overhead and may miss endpoints that are rarely accessed or currently unused.
     \item Spring Boot Actuator provides an endpoint mapping system, but it only works for services based on the Spring framework.
 \end{itemize}
