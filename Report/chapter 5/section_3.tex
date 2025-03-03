@@ -1,0 +1,13 @@
+\section{Challenges and Limitations}
+
+Even though the presented framework indeed serves the purpose of reverse engineering software systems and can be used in large codebases and distributed systems, it comes with certain challenges and limitations. While these challenges can be addressed, they require effort and improvements. Below are some of the key challenges and limitations of this framework:
+
+\begin{itemize}[before={\vspace{10pt}}, after={\vspace{10pt}}]
+    \item Currently, the probes can only perform static code analysis. This means the probes must be designed to extract data from static code, which can be challenging if the source code is not written in languages that follow strict coding principles. For example, Java Spring Framework follows \textit{object-oriented programming (OOP)} and \textit{aspect-oriented programming (AOP)} principles, whereas Python does not enforce such strict structures.
+    \vspace{10pt}
+
+    \item The probes require both domain and code knowledge to be written correctly. If someone is not familiar with the programming language used in the source code, they may struggle to write effective probes. While tools like \textit{SonarQube} can assist in performing static code analysis and extracting data, writing probes manually can be complex without prior knowledge of the codebase.
+    \vspace{10pt}
+
+    \item A visualizer is required. A visualizer plays a key role in the process, providing detailed analysis and valuable insights. However, it also comes with challenges. If a visualizer is not necessary, Neo4j can be used instead, but it requires knowledge of Cypher queries to extract useful information. Additionally, most high-quality visualizers are not free. Learning to use a visualizer becomes an extra step when working with this framework.
+\end{itemize}
