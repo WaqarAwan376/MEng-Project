@@ -16,10 +16,12 @@ The scenarios starting from 1 to 5, related to the authors/contributors, are mer
 
 One of the most effective ways to achieve this is by using a version control system. In almost every project, some form of version control is used, as it allows tracking the author of the most recent changes to specific lines of code. Each project typically includes a version control file. In our test project, a \texttt{.git} directory is available, which we can parse to retrieve the required information. To achieve this, we will develop a few probes to perform static code analysis, parse the \texttt{.git} directory, and extract the necessary data to feed it into the SST. The implementation of these probes will be discussed in later chapters.
 
+~\autoref{fig_parse_git_file} shows the process of extracting Git data. The Python script runs a Git command that returns data for each line of code. It then parses this information and extracts the required details.
+
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{figures/parse_git_file.png}
-    \caption{Git Parsing Process}
+    \includegraphics[width=0.8\textwidth]{figures/parse_git_file_2.png}
+    \caption{Parsing Git Files}
     \label{fig_parse_git_file}
 \end{figure}
  
