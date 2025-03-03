@@ -8,26 +8,24 @@ We have implemented classes for each node and edge to keep the code consistent a
 
 \subsection{Authors and Version Control}
 
-As mentioned in~\autoref{ch3-sec:technical_validation_strategy}, we have merged the discussion and implementation of probes related to authors/contributors. We have discussed that an effective way to retrieve data related to authors and their contributions is by utilizing a \textit{version control system}. Version control systems inherently track all changes made to a codebase and store this information within the \texttt{``.git''} directory, which is typically hidden. This directory contains the complete history of modifications, including details about contributors, timestamps, and commit messages, making it a reliable source for extracting author-related data.
+As mentioned in~\autoref{ch3-sec:technical_validation_strategy}, we have merged the discussion and implementation of probes related to authors/contributors. We have discussed that an effective way to retrieve data related to authors and their contributions is by using a \textit{version control system}. Version control systems inherently track all changes made to a codebase and store this information within the \texttt{.git} directory, which is typically hidden. This directory contains the complete history of modifications, including details about contributors, timestamps, and commit messages, making it a reliable source for extracting author-related data.
 
-We have several Python\footnote{\url{https://www.python.org/}} scripts to extract information from a Git repository. These scripts analyze data such as the relationship between two authors based on the number of files they have collaborated on, identifying all authors who worked on a method, determining the top contributor among them, and listing the authors of each file.
+We have several Python\footnote{\url{https://www.python.org/}} scripts to extract information from a git directory. These scripts analyze data such as the relationship between two authors based on the number of files they have collaborated on, identifying all authors who worked on a method, determining the top contributor among them, and listing the authors of each file.
 
-Each script relies on the \texttt{.git} directory and uses the \textit{Javalang library}\footnote{\url{https://pypi.org/project/javalang/}} to parse Java source code. This library helps navigate Java code structure using \textit{Abstract Syntax Tree (AST)}, making it easier to extract relevant information.
-
-After parsing the Java source code, we extract details about authors, their contributions, and line numbers using the git blame command\footnote{\url{https://git-scm.com/docs/git-blame}}. \textit{Git is a free and open-source distributed version control system}\footnote{\url{https://git-scm.com/}}.
+Each script relies on the \texttt{.git} directory and uses the \textit{Javalang library}\footnote{\url{https://pypi.org/project/javalang/}} to parse Java source code. This library helps navigate Java code structure using \textit{Abstract Syntax Tree (AST)}, making it easier to extract relevant information. After parsing the Java source code, we extract author details of each line of the source code using the git blame command\footnote{\url{https://git-scm.com/docs/git-blame}}.
 
 Once the author's information is extracted, it is stored in a JSON file and sent to SST for further processing and analysis.
 
-\sloppy
-Appendix \ref{appendix_sec:author_method_contributions} shows a sample JSON for the author method contribution probe. It shows that \texttt{Owner.java} file contains the \texttt{Owner} class, and this class has \texttt{getPetsInternal()} method.
+For the sake of demonstrating the probe structure, we can take method contribution as an example to show the JSON structure for probes related to authors. Appendix \ref{appendix_sec:author_method_contributions} provides a sample JSON representation for the author method contribution probe. This example illustrates that the \texttt{Owner.java} file contains the \texttt{Owner} class, which includes the \texttt{getPetsInternal()} method. Rest of the probes related to authors can be explored in the project repository.
 
 \subsection{Microservices REST API endpoints}
 
 In~\autoref{ch3-sec:technical_validation_strategy}, we discussed a strategy to extract REST API endpoints from \textit{Java Spring Framework} source code. The approach involves searching for relevant annotations and decorators in the source code and using them to identify endpoints. We apply this logic to extract the required information.  
 
+\sloppy
 In the implemented Python script, we first extract Java files from all services. Then, we use regular expressions to check if they contain annotations such as \texttt{@RestController}, \texttt{@RequestMapping}, \texttt{@GetMapping}, \texttt{@PostMapping}, and similar decorators. If a file includes these annotations, we extract the full route information and create class and endpoint nodes. This allows us to represent how a particular class maps to an endpoint through relational edges.
 
-Appendix~\ref{appendix_sec:microservices_endpoints} shows a sample JSON for endpoint mapping. The \texttt{VetResource.java} file contains \texttt{VetResource} class. This class maps \texttt{/vets} endpoint.
+Appendix~\ref{appendix_sec:microservices_endpoints} shows a sample JSON for endpoint mapping. The JSON shows that file \texttt{VetResource.java} contains \texttt{VetResource} class. This class maps \texttt{/vets} endpoint.
 
 \subsection{Java Beans Extraction}
 
@@ -52,7 +50,7 @@ Appendix~\ref{appendix_sec:dependencies} shows a sample JSON for dependencies gr
 
 We have a Python runner script that is responsible for running each probe script. To manage these probes, we use a \texttt{probes\_list.py} script file, which contains a list of Python dictionaries. Each dictionary represents a probe and includes three key elements: \textit{runner\_command}, \textit{probe\_file}, and \textit{output\_file}. The runner script iterates through this list, executing each probe and sending a \texttt{POST} request to the SST server to update it with the latest extracted data.  
 
-One of the key advantages of this approach is that probes do not have to be written exclusively in Python. As long as a probe is placed in the \texttt{``probes''} folder and its corresponding runner command and probe file are specified in \texttt{probes\_list.py} file, it can be executed in the same way as other probes. This flexibility allows for the integration of scripts written in different programming languages.  
+One of the key advantages of this approach is that probes do not have to be written exclusively in Python. As long as a probe is placed in the \texttt{probes} folder and its corresponding runner command and probe file are specified in \texttt{probes\_list.py} file, it can be executed in the same way as other probes. This flexibility allows for the integration of scripts written in different programming languages.  
 
 The runner script ensures that the data sent to the SST server is always up-to-date, consistent, and valid. It takes the source directory of the target source code as a command-line argument, allowing users to specify the location of the project they want to analyze. Below is an example of how to run the script:
 

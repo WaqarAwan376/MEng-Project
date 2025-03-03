@@ -69,19 +69,19 @@ Edges define how nodes are connected, establishing relationships between them. T
     ]
 }
 \end{lstlisting}
-\newpage
-The above sample JSON shows the data required to register a probe. \texttt{``types''} is an array of JSON objects, where each object in this array represents a node type. Each node has a \texttt{``name''}, an array of \texttt{``fields''}, and \texttt{``mergeRules''}. The \texttt{``fields''} represent the object attributes for the node, while \texttt{``mergeRules''} define the value on the basis of which two nodes will be merged.  
 
-\texttt{``relations''} is another array of JSON objects, where each object represents a relationship between two nodes. Each relation has a \texttt{``name''}, a \texttt{``from''} field, and a \texttt{``to''} field. The \texttt{``from''} and \texttt{``to''} fields define the node types between which the relationship should be established. This structure ensures that data is correctly linked within the SST system, allowing for efficient merging and retrieval of information.
+The above sample JSON shows the data required to register a probe. \texttt{types} is an array of JSON objects, where each object in this array represents a node type. Each node has a \texttt{name}, an array of \texttt{fields}, and \texttt{mergeRules}. The \texttt{fields} represent the object attributes for the node, while \texttt{mergeRules} define the value on the basis of which two nodes will be merged.  
 
-This probe represents that all the nodes from this probe will be of type \textit{Author}, and each author node will have a relation between them of type \textit{Collaborated}. Each node will be connected on the basis of \texttt{``mergeRules''} key, which in this case is \textit{email}.
+\texttt{relations} is another array of JSON objects, where each object represents a relationship between two nodes. Each relation has a \texttt{name}, a \texttt{from} field, and a \texttt{to} field. The \texttt{from} and \texttt{to} fields define the node types between which the relationship should be established. This structure ensures that data is correctly linked within the SST system, allowing for efficient merging and retrieval of information.
+
+This probe represents that all the nodes from this probe will be of type \textit{Author}, and each author node will have a relation between them of type \textit{Collaborated}. Each node will be connected on the basis of \texttt{mergeRules} key, which in this case is \textit{email}.
 
 Once the structure of the probe is defined, it must be registered using the following REST API provided by the SST tool. Use post request and send the JSON data to the SST. If the probe is registered, it will return a response status code of 201, and a status of \textit{success} will be shown in the response object.
 
 \subsection{Probe Integration}
 
 Once the probe has been registered, the next process is to extract the data from the source code for integration with SST. Make sure the data should be in the same structure as the structure that is used to register the probe.
-\newpage
+
 \begin{lstlisting}[
     caption={[JSON for Author Relation Probe] JSON for Author Relation Probe. This represents the same scenario as shown in snippet~\ref{lst:sample_probe_reg}}, 
     label={lst:json_author_relation_int},
