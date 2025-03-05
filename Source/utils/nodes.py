@@ -82,23 +82,28 @@ class AuthorNode(Node):
 
 
 class AuthorRelationStrengthNode(Node):
-    def __init__(self, authEmail1, authEmail2):
+    def __init__(self, authEmail1, authEmail2, filename):
         super().__init__(NodeType.AUTHOR_RELATION.value)
         self.author1Email = authEmail1
         self.author2Email = authEmail2
         self.combined_emails = f"{self.author1Email}:{self.author2Email}"
         self.strength = 1
+        self.files_list = [filename]
         self.identifier = "combined_emails"
 
     def increment_strength(self):
         self.strength += 1
+
+    def append_filename(self, filename):
+        self.files_list.append(filename)
 
     def to_dict(self):
         return {"type": self.type,
                 "author1": self.author1Email,
                 "author2": self.author2Email,
                 "combined_emails": self.combined_emails,
-                "strength": self.strength
+                "strength": self.strength,
+                "files_list": self.files_list
                 }
 
 

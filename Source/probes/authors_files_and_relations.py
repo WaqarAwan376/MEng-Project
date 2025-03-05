@@ -32,11 +32,15 @@ def get_author_relation_strength(files_and_authors):
                 # Increment the strength if the pair already exists
                 relation_strength[pair_name]['contribution_strength'].increment_strength(
                 )
+                relation_strength[pair_name]['contribution_strength'].append_filename(
+                    fileData["file"].split('spring-petclinic-microservices')[1]
+                )
             else:
                 relation_strength[pair_name] = {
                     'author_1': pair[0],
                     'author_2': pair[1],
-                    'contribution_strength': AuthorRelationStrengthNode(pair[0].email, pair[1].email)
+                    'contribution_strength': AuthorRelationStrengthNode(pair[0].email, pair[1].email,
+                                                                        fileData["file"].split('spring-petclinic-microservices')[1]),
                 }
 
     for data_val in relation_strength.values():

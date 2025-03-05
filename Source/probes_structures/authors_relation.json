@@ -41,7 +41,12 @@
         },
         {
           "name": "strength",
-          "type": "integer",
+          "type": "number",
+          "unique": false
+        },
+        {
+          "name": "files_list",
+          "type": "string[]",
           "unique": false
         }
       ],

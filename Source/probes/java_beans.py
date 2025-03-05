@@ -32,15 +32,6 @@ def get_methods_list(file_content):
                                                    method_parameters, import_statements)
                 methods[member.name] = full_method_name
 
-    # Handle top-level methods (Bean methods)
-    for _, method in tree.filter(javalang.tree.MethodDeclaration):
-        if method.position and method.body:
-            method_parameters = [(param.type.name, param.name)
-                                 for param in method.parameters]
-            full_method_name = get_full_method(None, package_name, method.name,
-                                               method_parameters, import_statements)
-            methods[method.name] = full_method_name
-
     return methods
 
 
@@ -103,7 +94,10 @@ def extract_spring_beans(directory):
                             method_match = re.search(METHOD_PATTERN, line)
                             if method_match:
                                 method_name = method_match.group(1)
-                                method_list = get_methods_list(content)
+                                try:
+                                    method_list = get_methods_list(content)
+                                except:
+                                    continue
                                 method_node = MethodNode(
                                     method_name, method_list[method_name])
                                 nodes.add(method_node)
