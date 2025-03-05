@@ -31,7 +31,24 @@
 % ********************************
 \begin{document}
 \include{definitions} % LaTeX variables for preface pages/headers
-    
+
+\lstset{
+    basicstyle=\ttfamily\small,
+    keywordstyle=\color{blue}\bfseries,
+    commentstyle=\color{gray},
+    stringstyle=\color{orange},
+    numbers=left,
+    numberstyle=\tiny\color{gray},
+    stepnumber=1,
+    frame=single,
+    rulecolor=\color{gray},
+    breaklines=true,
+    breakatwhitespace=false,
+    columns=fullflexible,
+    literate={/}{/\-}1,
+    lineskip=-0.1pt
+}
+
 \beforepreface % Half title page, title page, declaration page   
   \include{layabstr} % Lay Abstract
   \include{abstr} % Abstract
