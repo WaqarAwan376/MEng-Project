@@ -7,9 +7,6 @@ from utils.helper import get_file_package, get_full_method, probe_data_to_dict
 from utils.edges import Edge
 from utils.enums import RelationType
 from utils.constants import BEAN_ANNOTATIONS, CLASS_PATTERN, METHOD_PATTERN
-# Constants
-OUTPUT_DIR = './outputs'
-OUTPUT_FILE = 'java_beans'
 
 
 def get_methods_list(file_content):
@@ -46,7 +43,7 @@ def extract_spring_beans(directory):
                 with open(file_path, 'r', encoding='utf-8') as f:
                     content = f.read()
                     file_node = FileNode(file_path.split(
-                        'spring-petclinic-microservices')[1])
+                        args.DIR_NAME)[1])
                     nodes.add(file_node)
                     # Track whether we are in a multiline annotation
                     inside_annotation = False
@@ -111,10 +108,10 @@ def extract_spring_beans(directory):
     return {"nodes": nodes, "edges": edges}
 
 
+args = get_passed_arguments("--INPUT_DIR", "--OUTPUT", "--DIR_NAME")
 if __name__ == '__main__':
     print("Processing... ", end="", flush=True)
 
-    args = get_passed_arguments("--INPUT_DIR", "--OUTPUT")
     spring_beans = extract_spring_beans(args.INPUT_DIR)
     dict_to_json_file(args.OUTPUT, probe_data_to_dict(
         "Beans", spring_beans["nodes"], spring_beans["edges"]))
