@@ -1,44 +1,26 @@
-\chapter{Python Scripts}\label{appendix_b}
+\chapter{Scenario Validation}\label{appendix_b}
 
-\section{Runner Script}\label{appendix_sec:py_runner_script}
-\begin{lstlisting}[language=Python]
-import subprocess
-import os
-from dotenv import load_dotenv
-from probes_list import probes_scripts
-from utils.constants import OUTPUT_FOLDER
-from utils.helper import get_passed_arguments
-import json
-import requests
+\sloppy
+The images related to scenario validations can be found from the project's Google Drive\footnote {\url{https://drive.google.com/drive/u/1/folders/1uTl1b0Fq_30UqRpwzeT3SyYyPLVKFt__}}. The following table includes the brief details of each image.
 
-load_dotenv()
-SST_API_URL = os.getenv("SST_API_URL")
-project_root = os.path.dirname(os.path.abspath(__file__))
+\begin{longtable}{|p{0.3\textwidth}|p{0.6\textwidth}|}
+\hline
+Image Name & Detail \\
+\hline
+\endfirsthead
 
-if __name__ == '__main__':
-    args = get_passed_arguments("--SOURCE_DIR")
-    original_directory = os.getcwd()
-    probes_directory = "./probes/"
+\hline
+Image Name & Detail \\
+\hline
+\endhead
 
-    for script in probes_scripts:
-        subprocess.run(
-            f"{script['runner_command']} --INPUT_DIR \"{args.SOURCE_DIR}\" --OUTPUT \
-                {OUTPUT_FOLDER}{script['output_file']}", shell=True, cwd=project_root)
+\hline
+\endfoot
 
-    for filename in os.listdir(OUTPUT_FOLDER):
-        if filename.endswith(".json"):
-            file_path = os.path.join(OUTPUT_FOLDER, filename)
+\hline
+\endlastfoot
 
-            try:
-                with open(file_path, "r", encoding="utf-8") as json_file:
-                    json_data = json.load(json_file)
+% Data 1 & Data 2 \\
 
-                headers = {"Content-Type": "application/json"}
-                response = requests.post(
-                    f"{SST_API_URL}/api/upload-graph", json=json_data, headers=headers)
+\end{longtable}
 
-                print(f"Sent {filename}: {response.status_code}")
-
-            except Exception as e:
-                print(f"Error processing {filename}: {e}")
-\end{lstlisting}
