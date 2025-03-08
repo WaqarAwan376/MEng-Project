@@ -6,10 +6,6 @@ from utils.nodes import DependencyNode, FileNode
 from utils.edges import Edge
 from utils.enums import RelationType
 
-# Constants
-OUTPUT_DIR = './outputs'
-OUTPUT_FILE = 'dependencies'
-
 
 def find_pom_files(directory):
     """ Find all pom files in the given directory. """
@@ -35,7 +31,6 @@ def get_version(root, version_text):
     match = re.search(pattern, version_text)
     if match:
         inside_text = match.group(1)  # Extract the text inside ${}
-        # Output: dynamic_text
         return (properties.find(f'mvn:{inside_text}', namespaces=namespace)).text
     else:
         return 'N/A'
@@ -49,7 +44,7 @@ def extract_dependencies(pom_files_list):
         tree = ET.parse(pom_file_info['file_path'])
         root = tree.getroot()
         fileNode = FileNode(pom_file_info['file_path'].split(
-            'spring-petclinic-microservices')[1])
+            args.DIR_NAME)[1])
         nodes.add(fileNode)
         # Define the namespace (Maven uses this in the pom.xml)
         namespace = {'mvn': 'http://maven.apache.org/POM/4.0.0'}
@@ -90,13 +85,12 @@ def extract_dependencies(pom_files_list):
     return {"nodes": nodes, "edges": edges}
 
 
+args = get_passed_arguments("--INPUT_DIR", "--OUTPUT", "--DIR_NAME")
 if __name__ == '__main__':
     print("Processing... ", end="", flush=True)
 
-    args = get_passed_arguments("--INPUT_DIR", "--OUTPUT")
     pom_files = find_pom_files(args.INPUT_DIR)
     dependencies_list = extract_dependencies(pom_files)
-
     dict_to_json_file(args.OUTPUT, probe_data_to_dict(
         "Dependencies", dependencies_list['nodes'], dependencies_list['edges']))
 
