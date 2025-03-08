@@ -7,9 +7,6 @@ from utils.nodes import AuthorRelationStrengthNode, FileNode, AuthorNode
 from utils.edges import Edge
 from utils.enums import RelationType, NodeType
 
-# Constants
-OUTPUT_DIR = './outputs'
-
 
 def get_pair_key(pair):
     return (pair[0].email, pair[1].email)
@@ -33,14 +30,14 @@ def get_author_relation_strength(files_and_authors):
                 relation_strength[pair_name]['contribution_strength'].increment_strength(
                 )
                 relation_strength[pair_name]['contribution_strength'].append_filename(
-                    fileData["file"].split('spring-petclinic-microservices')[1]
+                    fileData["file"].split(args.DIR_NAME)[1]
                 )
             else:
                 relation_strength[pair_name] = {
                     'author_1': pair[0],
                     'author_2': pair[1],
                     'contribution_strength': AuthorRelationStrengthNode(pair[0].email, pair[1].email,
-                                                                        fileData["file"].split('spring-petclinic-microservices')[1]),
+                                                                        fileData["file"].split(args.DIR_NAME)[1]),
                 }
 
     for data_val in relation_strength.values():
@@ -86,7 +83,7 @@ def get_file_contributions(files_list):
                 "contributors": file_contributors_unique
             })
             fileNode = FileNode(fileName.split(
-                'spring-petclinic-microservices')[1])
+                args.DIR_NAME)[1])
             files_contributors_nodes.append(fileNode)
             for authorNode in file_contributors_unique:
                 if not any(node.type == NodeType.AUTHOR.value and node.email == authorNode.email for node in files_contributors_nodes):
@@ -100,8 +97,8 @@ def get_file_contributions(files_list):
     return files_with_unique_contributors_nodes, files_contributors_nodes, files_contributors_edges
 
 
+args = get_passed_arguments("--INPUT_DIR", "--OUTPUT", "--DIR_NAME")
 if __name__ == '__main__':
-    args = get_passed_arguments("--INPUT_DIR", "--OUTPUT")
 
     original_directory = os.getcwd()
     os.chdir(args.INPUT_DIR)
