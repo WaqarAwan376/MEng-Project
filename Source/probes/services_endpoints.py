@@ -8,10 +8,6 @@ from utils.nodes import FileNode, ClassNode, EndpointNode
 from utils.edges import Edge
 from utils.enums import RelationType
 
-# Constants
-OUTPUT_DIR = './outputs'
-OUTPUT_FILE = 'endpoints'
-
 
 def extract_paths_from_file(file_path):
     """Extract REST paths from the java file."""
@@ -63,7 +59,7 @@ def extract_all_paths(directory):
         paths = extract_paths_from_file(java_file)
         if paths:
             class_name = os.path.basename(java_file).replace(".java", "")
-            file_path = java_file.split('spring-petclinic-microservices')[1]
+            file_path = java_file.split(args.DIR_NAME)[1]
             fileNode = FileNode(file_path)
             classNode = ClassNode(class_name, file_path)
             # Add Nodes
@@ -90,10 +86,10 @@ def extract_all_paths(directory):
     return {"probeName": "Endpoints", "nodes": nodes, "edges": edges}
 
 
+args = get_passed_arguments("--INPUT_DIR", "--OUTPUT", "--DIR_NAME")
 if __name__ == "__main__":
     print("Processing... ", end="", flush=True)
 
-    args = get_passed_arguments("--INPUT_DIR", "--OUTPUT")
     original_directory = os.getcwd()
     os.chdir(args.INPUT_DIR)
     paths = extract_all_paths(args.INPUT_DIR)
