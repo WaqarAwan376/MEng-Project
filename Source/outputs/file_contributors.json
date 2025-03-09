@@ -1,5 +1,5 @@
 {
-  "probeName": "FileContributors",
+  "probeName": "File_Contributors",
   "nodes": [
     {
       "type": "File",
@@ -269,6 +269,10 @@
     {
       "type": "File",
       "path": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/AIFunctionConfiguration.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/PetclinicChatClient.java"
     },
     {
       "type": "File",
@@ -2122,6 +2126,19 @@
         "nodeType": "File",
         "propertyName": "path",
         "propertyValue": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/AIFunctionConfiguration.java"
+      },
+      "to": {
+        "nodeType": "Author",
+        "propertyName": "email",
+        "propertyValue": "odedia@gmail.com"
+      }
+    },
+    {
+      "relationName": "Authored_by",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/PetclinicChatClient.java"
       },
       "to": {
         "nodeType": "Author",

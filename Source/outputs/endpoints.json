@@ -3,6 +3,21 @@
   "nodes": [
     {
       "type": "File",
+      "path": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/PetclinicChatClient.java"
+    },
+    {
+      "type": "Class",
+      "name": "PetclinicChatClient",
+      "full_name": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/PetclinicChatClient.java:PetclinicChatClient"
+    },
+    {
+      "type": "Endpoint",
+      "full_method_id": "POST - /chatclient",
+      "http_method": "POST",
+      "route": "/chatclient"
+    },
+    {
+      "type": "File",
       "path": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/web/VetResource.java"
     },
     {
@@ -141,6 +156,32 @@
     }
   ],
   "edges": [
+    {
+      "relationName": "Contains",
+      "from": {
+        "nodeType": "File",
+        "propertyName": "path",
+        "propertyValue": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/PetclinicChatClient.java"
+      },
+      "to": {
+        "nodeType": "Class",
+        "propertyName": "full_name",
+        "propertyValue": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/PetclinicChatClient.java:PetclinicChatClient"
+      }
+    },
+    {
+      "relationName": "Maps",
+      "from": {
+        "nodeType": "Class",
+        "propertyName": "full_name",
+        "propertyValue": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/PetclinicChatClient.java:PetclinicChatClient"
+      },
+      "to": {
+        "nodeType": "Endpoint",
+        "propertyName": "full_method_id",
+        "propertyValue": "POST - /chatclient"
+      }
+    },
     {
       "relationName": "Contains",
       "from": {

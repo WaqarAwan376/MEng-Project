@@ -2,58 +2,27 @@
   "probeName": "Beans",
   "nodes": [
     {
-      "type": "File",
-      "path": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/application/CustomersServiceClient.java"
-    },
-    {
-      "type": "Class",
-      "name": "ConfigServerApplication",
-      "full_name": "/spring-petclinic-config-server/src/main/java/org/springframework/samples/petclinic/config/ConfigServerApplication.java:ConfigServerApplication"
+      "type": "Method",
+      "name": "timedAspect",
+      "signature": "org.springframework.samples.petclinic.customers.config.MetricConfig.timedAspect(io.micrometer.core.instrument.MeterRegistry)"
     },
     {
       "type": "File",
-      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/CustomersServiceApplication.java"
+      "path": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/web/VisitResource.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/AIDataProvider.java"
     },
     {
       "type": "Method",
-      "name": "vectorStore",
-      "signature": "org.springframework.samples.petclinic.genai.AIBeanConfiguration.vectorStore(org.springframework.ai.embedding.EmbeddingModel)"
-    },
-    {
-      "type": "Class",
-      "name": "VetsServiceApplication",
-      "full_name": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/VetsServiceApplication.java:VetsServiceApplication"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetDetails.java"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/config/MetricConfig.java"
-    },
-    {
-      "type": "Method",
-      "name": "chatMemory",
-      "signature": "org.springframework.samples.petclinic.genai.AIBeanConfiguration.chatMemory()"
-    },
-    {
-      "type": "Class",
-      "name": "SpringBootAdminApplication",
-      "full_name": "/spring-petclinic-admin-server/src/main/java/org/springframework/samples/petclinic/admin/SpringBootAdminApplication.java:SpringBootAdminApplication"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/web/VetResource.java"
+      "name": "loadBalancedWebClientBuilder",
+      "signature": "org.springframework.samples.petclinic.api.ApiGatewayApplication.loadBalancedWebClientBuilder()"
     },
     {
       "type": "Method",
       "name": "metricsCommonTags",
-      "signature": "org.springframework.samples.petclinic.customers.config.MetricConfig.metricsCommonTags()"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-config-server/src/main/java/org/springframework/samples/petclinic/config/ConfigServerApplication.java"
+      "signature": "org.springframework.samples.petclinic.visits.config.MetricConfig.metricsCommonTags()"
     },
     {
       "type": "Class",
@@ -62,125 +31,16 @@
     },
     {
       "type": "Method",
-      "name": "timedAspect",
-      "signature": "org.springframework.samples.petclinic.customers.config.MetricConfig.timedAspect(io.micrometer.core.instrument.MeterRegistry)"
+      "name": "routerFunction",
+      "signature": "org.springframework.samples.petclinic.api.ApiGatewayApplication.routerFunction()"
     },
     {
       "type": "File",
-      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/ResourceNotFoundException.java"
+      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetResource.java"
     },
     {
       "type": "File",
-      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/mapper/OwnerEntityMapper.java"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Pet.java"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/OwnerResource.java"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/OwnerRequest.java"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetRequest.java"
-    },
-    {
-      "type": "Method",
-      "name": "metricsCommonTags",
-      "signature": "org.springframework.samples.petclinic.visits.config.MetricConfig.metricsCommonTags()"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/VetsServiceApplication.java"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/mapper/Mapper.java"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-discovery-server/src/main/java/org/springframework/samples/petclinic/discovery/DiscoveryServerApplication.java"
-    },
-    {
-      "type": "Class",
-      "name": "MetricConfig",
-      "full_name": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/config/MetricConfig.java:MetricConfig"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/VisitsServiceApplication.java"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/PetRepository.java"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Owner.java"
-    },
-    {
-      "type": "Class",
-      "name": "AIDataProvider",
-      "full_name": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/AIDataProvider.java:AIDataProvider"
-    },
-    {
-      "type": "Class",
-      "name": "CustomersServiceApplication",
-      "full_name": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/CustomersServiceApplication.java:CustomersServiceApplication"
-    },
-    {
-      "type": "Class",
-      "name": "MetricConfig",
-      "full_name": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/config/MetricConfig.java:MetricConfig"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/AIBeanConfiguration.java"
-    },
-    {
-      "type": "Method",
-      "name": "timedAspect",
-      "signature": "org.springframework.samples.petclinic.visits.config.MetricConfig.timedAspect(io.micrometer.core.instrument.MeterRegistry)"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/model/Visit.java"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/OwnerRepository.java"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/PetType.java"
-    },
-    {
-      "type": "Class",
-      "name": "OwnerEntityMapper",
-      "full_name": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/mapper/OwnerEntityMapper.java:OwnerEntityMapper"
-    },
-    {
-      "type": "Class",
-      "name": "GenAIServiceApplication",
-      "full_name": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/GenAIServiceApplication.java:GenAIServiceApplication"
-    },
-    {
-      "type": "Method",
-      "name": "loadBalancedRestTemplate",
-      "signature": "org.springframework.samples.petclinic.api.ApiGatewayApplication.loadBalancedRestTemplate()"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/dto/Vet.java"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/config/MetricConfig.java"
+      "path": "/spring-petclinic-config-server/src/main/java/org/springframework/samples/petclinic/config/ConfigServerApplication.java"
     },
     {
       "type": "Method",
@@ -189,15 +49,147 @@
     },
     {
       "type": "File",
+      "path": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/system/CacheConfig.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/mapper/OwnerEntityMapper.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/AIBeanConfiguration.java"
+    },
+    {
+      "type": "Method",
+      "name": "vectorStore",
+      "signature": "org.springframework.samples.petclinic.genai.AIBeanConfiguration.vectorStore(org.springframework.ai.embedding.EmbeddingModel)"
+    },
+    {
+      "type": "File",
       "path": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/model/VisitRepository.java"
     },
     {
       "type": "File",
-      "path": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/web/VisitResource.java"
+      "path": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/application/VisitsServiceClient.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/model/Visit.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/ResourceNotFoundException.java"
+    },
+    {
+      "type": "Class",
+      "name": "CacheConfig",
+      "full_name": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/system/CacheConfig.java:CacheConfig"
     },
     {
       "type": "File",
       "path": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/GenAIServiceApplication.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/boundary/web/ApiGatewayController.java"
+    },
+    {
+      "type": "Class",
+      "name": "VisitsServiceClient",
+      "full_name": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/application/VisitsServiceClient.java:VisitsServiceClient"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/OwnerRepository.java"
+    },
+    {
+      "type": "Class",
+      "name": "VectorStoreController",
+      "full_name": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/VectorStoreController.java:VectorStoreController"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/VetRepository.java"
+    },
+    {
+      "type": "Method",
+      "name": "defaultCustomizer",
+      "signature": "org.springframework.samples.petclinic.api.ApiGatewayApplication.defaultCustomizer()"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/OwnerRequest.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/PetType.java"
+    },
+    {
+      "type": "Class",
+      "name": "MetricConfig",
+      "full_name": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/config/MetricConfig.java:MetricConfig"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/system/VetsProperties.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/boundary/web/FallbackController.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/dto/VisitDetails.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/Specialty.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Pet.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/PetclinicChatClient.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/config/MetricConfig.java"
+    },
+    {
+      "type": "Class",
+      "name": "OwnerEntityMapper",
+      "full_name": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/mapper/OwnerEntityMapper.java:OwnerEntityMapper"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/PetDetails.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/VectorStoreController.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/AIFunctionConfiguration.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/web/VetResource.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/application/CustomersServiceClient.java"
+    },
+    {
+      "type": "Class",
+      "name": "MetricConfig",
+      "full_name": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/config/MetricConfig.java:MetricConfig"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-admin-server/src/main/java/org/springframework/samples/petclinic/admin/SpringBootAdminApplication.java"
     },
     {
       "type": "File",
@@ -209,7 +201,19 @@
     },
     {
       "type": "File",
-      "path": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/dto/VisitDetails.java"
+      "path": "/spring-petclinic-discovery-server/src/main/java/org/springframework/samples/petclinic/discovery/DiscoveryServerApplication.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetRequest.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/dto/PetType.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/VisitDetails.java"
     },
     {
       "type": "File",
@@ -217,33 +221,7 @@
     },
     {
       "type": "File",
-      "path": "/spring-petclinic-admin-server/src/main/java/org/springframework/samples/petclinic/admin/SpringBootAdminApplication.java"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/OwnerDetails.java"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/dto/PetType.java"
-    },
-    {
-      "type": "Class",
-      "name": "ApiGatewayApplication",
-      "full_name": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/ApiGatewayApplication.java:ApiGatewayApplication"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/dto/Specialty.java"
-    },
-    {
-      "type": "Class",
-      "name": "VisitsServiceApplication",
-      "full_name": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/VisitsServiceApplication.java:VisitsServiceApplication"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/system/VetsProperties.java"
+      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/CustomersServiceApplication.java"
     },
     {
       "type": "File",
@@ -251,28 +229,16 @@
     },
     {
       "type": "File",
-      "path": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/Specialty.java"
+      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/OwnerResource.java"
     },
     {
       "type": "File",
-      "path": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/system/CacheConfig.java"
+      "path": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/VetsServiceApplication.java"
     },
     {
-      "type": "File",
-      "path": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/Visits.java"
-    },
-    {
-      "type": "Class",
-      "name": "CacheConfig",
-      "full_name": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/system/CacheConfig.java:CacheConfig"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/model/VetRepository.java"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetResource.java"
+      "type": "Method",
+      "name": "timedAspect",
+      "signature": "org.springframework.samples.petclinic.visits.config.MetricConfig.timedAspect(io.micrometer.core.instrument.MeterRegistry)"
     },
     {
       "type": "File",
@@ -280,51 +246,68 @@
     },
     {
       "type": "File",
+      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/Owner.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/mapper/Mapper.java"
+    },
+    {
+      "type": "Method",
+      "name": "loadBalancedRestTemplate",
+      "signature": "org.springframework.samples.petclinic.api.ApiGatewayApplication.loadBalancedRestTemplate()"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/config/MetricConfig.java"
+    },
+    {
+      "type": "File",
       "path": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/PetType.java"
     },
     {
-      "type": "File",
-      "path": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/PetDetails.java"
+      "type": "Class",
+      "name": "AIFunctionConfiguration",
+      "full_name": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/AIFunctionConfiguration.java:AIFunctionConfiguration"
     },
     {
       "type": "File",
-      "path": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/boundary/web/FallbackController.java"
+      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/PetDetails.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/Visits.java"
     },
     {
       "type": "Method",
-      "name": "loadBalancedWebClientBuilder",
-      "signature": "org.springframework.samples.petclinic.api.ApiGatewayApplication.loadBalancedWebClientBuilder()"
-    },
-    {
-      "type": "File",
-      "path": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/VectorStoreController.java"
+      "name": "chatMemory",
+      "signature": "org.springframework.samples.petclinic.genai.AIBeanConfiguration.chatMemory()"
     },
     {
       "type": "Class",
-      "name": "DiscoveryServerApplication",
-      "full_name": "/spring-petclinic-discovery-server/src/main/java/org/springframework/samples/petclinic/discovery/DiscoveryServerApplication.java:DiscoveryServerApplication"
+      "name": "AIDataProvider",
+      "full_name": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/AIDataProvider.java:AIDataProvider"
     },
     {
       "type": "File",
-      "path": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/AIDataProvider.java"
+      "path": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/dto/Vet.java"
     },
     {
       "type": "File",
-      "path": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/application/VisitsServiceClient.java"
+      "path": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/dto/Specialty.java"
+    },
+    {
+      "type": "File",
+      "path": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/OwnerDetails.java"
     },
     {
       "type": "Method",
-      "name": "defaultCustomizer",
-      "signature": "org.springframework.samples.petclinic.api.ApiGatewayApplication.defaultCustomizer()"
+      "name": "metricsCommonTags",
+      "signature": "org.springframework.samples.petclinic.customers.config.MetricConfig.metricsCommonTags()"
     },
     {
       "type": "File",
-      "path": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/dto/VisitDetails.java"
-    },
-    {
-      "type": "Class",
-      "name": "VectorStoreController",
-      "full_name": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/VectorStoreController.java:VectorStoreController"
+      "path": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/model/PetRepository.java"
     },
     {
       "type": "Class",
@@ -332,47 +315,11 @@
       "full_name": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/AIBeanConfiguration.java:AIBeanConfiguration"
     },
     {
-      "type": "Class",
-      "name": "VisitsServiceClient",
-      "full_name": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/application/VisitsServiceClient.java:VisitsServiceClient"
-    },
-    {
-      "type": "Method",
-      "name": "routerFunction",
-      "signature": "org.springframework.samples.petclinic.api.ApiGatewayApplication.routerFunction()"
-    },
-    {
       "type": "File",
-      "path": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/boundary/web/ApiGatewayController.java"
+      "path": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/VisitsServiceApplication.java"
     }
   ],
   "edges": [
-    {
-      "relationName": "Has_bean_class",
-      "from": {
-        "nodeType": "File",
-        "propertyName": "path",
-        "propertyValue": "/spring-petclinic-config-server/src/main/java/org/springframework/samples/petclinic/config/ConfigServerApplication.java"
-      },
-      "to": {
-        "nodeType": "Class",
-        "propertyName": "full_name",
-        "propertyValue": "/spring-petclinic-config-server/src/main/java/org/springframework/samples/petclinic/config/ConfigServerApplication.java:ConfigServerApplication"
-      }
-    },
-    {
-      "relationName": "Has_bean_class",
-      "from": {
-        "nodeType": "File",
-        "propertyName": "path",
-        "propertyValue": "/spring-petclinic-discovery-server/src/main/java/org/springframework/samples/petclinic/discovery/DiscoveryServerApplication.java"
-      },
-      "to": {
-        "nodeType": "Class",
-        "propertyName": "full_name",
-        "propertyValue": "/spring-petclinic-discovery-server/src/main/java/org/springframework/samples/petclinic/discovery/DiscoveryServerApplication.java:DiscoveryServerApplication"
-      }
-    },
     {
       "relationName": "Has_bean_class",
       "from": {
@@ -456,38 +403,12 @@
       "from": {
         "nodeType": "File",
         "propertyName": "path",
-        "propertyValue": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/GenAIServiceApplication.java"
+        "propertyValue": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/AIFunctionConfiguration.java"
       },
       "to": {
         "nodeType": "Class",
         "propertyName": "full_name",
-        "propertyValue": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/GenAIServiceApplication.java:GenAIServiceApplication"
-      }
-    },
-    {
-      "relationName": "Has_bean_class",
-      "from": {
-        "nodeType": "File",
-        "propertyName": "path",
-        "propertyValue": "/spring-petclinic-admin-server/src/main/java/org/springframework/samples/petclinic/admin/SpringBootAdminApplication.java"
-      },
-      "to": {
-        "nodeType": "Class",
-        "propertyName": "full_name",
-        "propertyValue": "/spring-petclinic-admin-server/src/main/java/org/springframework/samples/petclinic/admin/SpringBootAdminApplication.java:SpringBootAdminApplication"
-      }
-    },
-    {
-      "relationName": "Has_bean_class",
-      "from": {
-        "nodeType": "File",
-        "propertyName": "path",
-        "propertyValue": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/VetsServiceApplication.java"
-      },
-      "to": {
-        "nodeType": "Class",
-        "propertyName": "full_name",
-        "propertyValue": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/VetsServiceApplication.java:VetsServiceApplication"
+        "propertyValue": "/spring-petclinic-genai-service/src/main/java/org/springframework/samples/petclinic/genai/AIFunctionConfiguration.java:AIFunctionConfiguration"
       }
     },
     {
@@ -504,24 +425,11 @@
       }
     },
     {
-      "relationName": "Has_bean_class",
-      "from": {
-        "nodeType": "File",
-        "propertyName": "path",
-        "propertyValue": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/ApiGatewayApplication.java"
-      },
-      "to": {
-        "nodeType": "Class",
-        "propertyName": "full_name",
-        "propertyValue": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/ApiGatewayApplication.java:ApiGatewayApplication"
-      }
-    },
-    {
       "relationName": "Has_bean_method",
       "from": {
         "nodeType": "Class",
         "propertyName": "full_name",
-        "propertyValue": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/ApiGatewayApplication.java:ApiGatewayApplication"
+        "propertyValue": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/system/CacheConfig.java:CacheConfig"
       },
       "to": {
         "nodeType": "Method",
@@ -534,7 +442,7 @@
       "from": {
         "nodeType": "Class",
         "propertyName": "full_name",
-        "propertyValue": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/ApiGatewayApplication.java:ApiGatewayApplication"
+        "propertyValue": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/system/CacheConfig.java:CacheConfig"
       },
       "to": {
         "nodeType": "Method",
@@ -547,7 +455,7 @@
       "from": {
         "nodeType": "Class",
         "propertyName": "full_name",
-        "propertyValue": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/ApiGatewayApplication.java:ApiGatewayApplication"
+        "propertyValue": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/system/CacheConfig.java:CacheConfig"
       },
       "to": {
         "nodeType": "Method",
@@ -560,7 +468,7 @@
       "from": {
         "nodeType": "Class",
         "propertyName": "full_name",
-        "propertyValue": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/ApiGatewayApplication.java:ApiGatewayApplication"
+        "propertyValue": "/spring-petclinic-vets-service/src/main/java/org/springframework/samples/petclinic/vets/system/CacheConfig.java:CacheConfig"
       },
       "to": {
         "nodeType": "Method",
@@ -592,19 +500,6 @@
         "nodeType": "Class",
         "propertyName": "full_name",
         "propertyValue": "/spring-petclinic-api-gateway/src/main/java/org/springframework/samples/petclinic/api/application/VisitsServiceClient.java:VisitsServiceClient"
-      }
-    },
-    {
-      "relationName": "Has_bean_class",
-      "from": {
-        "nodeType": "File",
-        "propertyName": "path",
-        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/CustomersServiceApplication.java"
-      },
-      "to": {
-        "nodeType": "Class",
-        "propertyName": "full_name",
-        "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/CustomersServiceApplication.java:CustomersServiceApplication"
       }
     },
     {
@@ -657,19 +552,6 @@
         "nodeType": "Class",
         "propertyName": "full_name",
         "propertyValue": "/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/mapper/OwnerEntityMapper.java:OwnerEntityMapper"
-      }
-    },
-    {
-      "relationName": "Has_bean_class",
-      "from": {
-        "nodeType": "File",
-        "propertyName": "path",
-        "propertyValue": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/VisitsServiceApplication.java"
-      },
-      "to": {
-        "nodeType": "Class",
-        "propertyName": "full_name",
-        "propertyValue": "/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/VisitsServiceApplication.java:VisitsServiceApplication"
       }
     },
     {
