@@ -4,8 +4,6 @@ Some companies, including Amazon's Prime Video team, have reverted from microser
 
 There are no one-size-fits-all tools available in the market that adopt the reverse engineering approach for software maintenance. For example, \textit{Rigi}\footnote{\url{https://rigi.uvic.ca/Pages/download.html}} is a tool for software reverse engineering that visualizes legacy systems. However, Rigi has limited language support, as its built-in parsers primarily support C and COBOL. Users have also reported performance issues when analyzing large systems, particularly with graphs exceeding 500 nodes~\citep{Koschke2002}. Active development of Rigi ceased in 1999, with the last official release in 2003. 
 
-\textit{Graphviz}\footnote{\url{https://graphviz.org/}} is another tool used for reverse engineering, but it faces performance challenges when rendering large and complex graphs, especially those with numerous nodes and edges~\citep{graphviz_large_graphs}.
-
 We can present a framework that can reverse engineer large distributed systems by performing static analysis on the source code and extracting useful artifacts. This process can be integrated into the CI/CD pipeline to extract real-time information with each release and present it using a visualizer. 
 
 The primary objective of this report is to demonstrate such a framework that extracts artifacts from source code and uses the \textit{unified data source (UDS)} approach to maintain up-to-date and credible data. The extracted information is stored as nodes and edges in a graphical database, which is then connected to a visualizer for further analysis and insights based on specific requirements.
