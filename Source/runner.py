@@ -12,14 +12,15 @@ SST_API_URL = os.getenv("SST_API_URL")
 project_root = os.path.dirname(os.path.abspath(__file__))
 
 if __name__ == '__main__':
-    args = get_passed_arguments("--SOURCE_DIR")
+    args = get_passed_arguments("--SOURCE_DIR", "--DIR_NAME")
     original_directory = os.getcwd()
     probes_directory = "./probes/"
 
     for script in probes_scripts:
-        subprocess.run(
-            f"{script['runner_command']} --INPUT_DIR \"{args.SOURCE_DIR}\" --OUTPUT \
-                {OUTPUT_FOLDER}{script['output_file']}", shell=True, cwd=project_root)
+        command_str = f"{script['runner_command']} --INPUT_DIR \"{args.SOURCE_DIR}\" --DIR_NAME {args.DIR_NAME} "
+        for i in range(0, len(script['arguments']), 2):
+            command_str += f"{script['arguments'][i]} {script['arguments'][i+1]} "
+        subprocess.run(command_str, shell=True, cwd=project_root)
 
     for filename in os.listdir(OUTPUT_FOLDER):
         if filename.endswith(".json"):
