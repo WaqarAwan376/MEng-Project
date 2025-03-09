@@ -62,7 +62,7 @@ def get_author_relation_strength(files_and_authors):
             relation.combined_emails
         ))
 
-    return probe_data_to_dict("Authors_Relation", nodes, edges)
+    return probe_data_to_dict(args.PROBE_NAME_1, nodes, edges)
 
 
 def get_file_contributions(files_list):
@@ -97,7 +97,8 @@ def get_file_contributions(files_list):
     return files_with_unique_contributors_nodes, files_contributors_nodes, files_contributors_edges
 
 
-args = get_passed_arguments("--INPUT_DIR", "--OUTPUT", "--DIR_NAME")
+args = get_passed_arguments(
+    "--INPUT_DIR", "--DIR_NAME", "--OUTPUT_FILE_1", "--OUTPUT_FILE_2", "--PROBE_NAME_1", "--PROBE_NAME_2")
 if __name__ == '__main__':
 
     original_directory = os.getcwd()
@@ -109,10 +110,10 @@ if __name__ == '__main__':
     files_contributions = get_file_contributions(files_list)
     # Dump data into json files
     os.chdir(original_directory)
-    dict_to_json_file(args.OUTPUT,
+    dict_to_json_file(args.OUTPUT_FILE_2,
                       probe_data_to_dict(
-                          "FileContributors", files_contributions[1], files_contributions[2]))
-    dict_to_json_file(args.OUTPUT,
+                          args.PROBE_NAME_2, files_contributions[1], files_contributions[2]))
+    dict_to_json_file(args.OUTPUT_FILE_1,
                       get_author_relation_strength(
                           files_contributions[0]))
 

@@ -108,12 +108,13 @@ def extract_spring_beans(directory):
     return {"nodes": nodes, "edges": edges}
 
 
-args = get_passed_arguments("--INPUT_DIR", "--OUTPUT", "--DIR_NAME")
+args = get_passed_arguments(
+    "--INPUT_DIR", "--OUTPUT", "--DIR_NAME", "--PROBE_NAME")
 if __name__ == '__main__':
     print("Processing... ", end="", flush=True)
 
     spring_beans = extract_spring_beans(args.INPUT_DIR)
     dict_to_json_file(args.OUTPUT, probe_data_to_dict(
-        "Beans", spring_beans["nodes"], spring_beans["edges"]))
+        args.PROBE_NAME, spring_beans["nodes"], spring_beans["edges"]))
 
     print("Done")

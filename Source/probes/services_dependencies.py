@@ -85,13 +85,14 @@ def extract_dependencies(pom_files_list):
     return {"nodes": nodes, "edges": edges}
 
 
-args = get_passed_arguments("--INPUT_DIR", "--OUTPUT", "--DIR_NAME")
+args = get_passed_arguments(
+    "--INPUT_DIR", "--OUTPUT", "--DIR_NAME", "--PROBE_NAME")
 if __name__ == '__main__':
     print("Processing... ", end="", flush=True)
 
     pom_files = find_pom_files(args.INPUT_DIR)
     dependencies_list = extract_dependencies(pom_files)
     dict_to_json_file(args.OUTPUT, probe_data_to_dict(
-        "Dependencies", dependencies_list['nodes'], dependencies_list['edges']))
+        args.PROBE_NAME, dependencies_list['nodes'], dependencies_list['edges']))
 
     print("Done")

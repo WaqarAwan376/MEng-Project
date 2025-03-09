@@ -3,12 +3,13 @@ import json
 import javalang
 import subprocess
 import argparse
+from datetime import datetime
 from utils.constants import IGNORE_DIRS, IGNORE_FILES
 from utils.nodes import AuthorNode
 
 
 def dict_to_json_file(output_folder, dictionary):
-    os.makedirs("./outputs/", exist_ok=True) if not output_folder else ''
+    os.makedirs(os.path.dirname(output_folder), exist_ok=True)
     with open(output_folder, 'w') as file:
         json.dump(dictionary, file, indent=2, ensure_ascii=False)
 
@@ -127,3 +128,11 @@ def get_passed_arguments(*args):
         parser.add_argument(arg)
 
     return parser.parse_args()
+
+
+def convert_timestamp(time):
+    return datetime.fromtimestamp(time).strftime('%Y-%m-%d %H:%M:%S')
+
+
+def clean_array(arr):
+    return [int(x) for x in arr if x not in [None, 'None']]

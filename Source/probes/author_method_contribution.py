@@ -197,7 +197,8 @@ def find_last_top_all_method_contributors(res):
     return nodes, edges
 
 
-args = get_passed_arguments("--INPUT_DIR", "--OUTPUT", "--DIR_NAME")
+args = get_passed_arguments(
+    "--INPUT_DIR", "--OUTPUT", "--DIR_NAME", "--PROBE_NAME")
 if __name__ == '__main__':
     print("Processing... ", end="", flush=True)
 
@@ -212,6 +213,6 @@ if __name__ == '__main__':
     edges = method_nodes_and_edges[1]
     os.chdir(original_directory)
     dict_to_json_file(args.OUTPUT, probe_data_to_dict(
-        "MethodContributor", nodes, edges))
+        args.PROBE_NAME, nodes, edges))
 
     print("Done")

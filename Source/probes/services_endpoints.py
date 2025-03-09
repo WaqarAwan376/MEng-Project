@@ -2,7 +2,7 @@ import os
 import re
 from utils.constants import method_patterns
 from utils.constants import class_pattern
-from utils.helper import dict_to_json_file, get_passed_arguments
+from utils.helper import dict_to_json_file, get_passed_arguments, probe_data_to_dict
 from utils.helper import find_java_files
 from utils.nodes import FileNode, ClassNode, EndpointNode
 from utils.edges import Edge
@@ -63,30 +63,30 @@ def extract_all_paths(directory):
             fileNode = FileNode(file_path)
             classNode = ClassNode(class_name, file_path)
             # Add Nodes
-            nodes.append(fileNode.to_dict())
-            nodes.append(classNode.to_dict())
+            nodes.append(fileNode)
+            nodes.append(classNode)
 
             # Add File to Class Relation
             edges.append(Edge(
                 RelationType.CONTAINS.value, fileNode.type, fileNode.identifier,
                 fileNode.path, classNode.type, classNode.identifier,
                 classNode.full_name
-            ).to_dict())
+            ))
 
             for path in paths:
-                path_dict = path.to_dict()
                 # Add Nodes
-                nodes.append(path_dict)
+                nodes.append(path)
                 # Add File to Endpoint Relation
                 edges.append(Edge(
                     RelationType.MAPS.value, classNode.type, classNode.identifier,
                     classNode.full_name, path.type, path.identifier,
                     path.full_method_id
-                ).to_dict())
-    return {"probeName": "Endpoints", "nodes": nodes, "edges": edges}
+                ))
+    return probe_data_to_dict(args.PROBE_NAME, nodes, edges)
 
 
-args = get_passed_arguments("--INPUT_DIR", "--OUTPUT", "--DIR_NAME")
+args = get_passed_arguments(
+    "--INPUT_DIR", "--OUTPUT", "--DIR_NAME", "--PROBE_NAME")
 if __name__ == "__main__":
     print("Processing... ", end="", flush=True)
 
