@@ -1,0 +1,11 @@
+\section{Summary}
+
+In conclusion, this report has presented a framework for effectively reverse engineering a software system. The approach involves collecting useful information artifacts using probes, integrating the SST server with the collected data through the UDS approach, and utilizing visualizers to transform static source code into a visual format. This process provides valuable insights and analysis, helping in the maintenance of software systems.
+
+Our report began by providing essential background information to help readers understand the purpose and importance of the proposed framework, particularly in the maintenance phase of the software development lifecycle. We highlighted why such a framework is needed and how it can improve software system maintenance.
+
+In Chapter 3, we discussed the overall goal of the framework, detailing its core components and defining validation scenarios to assess its effectiveness. Chapter 4 focused on the implementation process. We started by cloning the Petclinic test project from its official GitHub repository for analysis. Next, we developed probe scripts to extract relevant information based on our predefined validation scenarios. 
+
+Following this, we integrated the SST tool as our Unified Data Source (UDS) by setting up its server using Docker and following its documentation. We then connected our probes to the SST tool, registering the structure of probe nodes and edges. Finally, in Chapter 5, we used Neo4j Visualizer and Tableau to present the extracted data, transforming static source code into a visual format for better insights and analysis.
+
+For anyone interested in seeing the entire process in action, a video demonstrating the framework is available on YouTube.
