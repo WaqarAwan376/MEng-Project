@@ -72,7 +72,7 @@
     \def\@copyrightyear{\number\the\year}
 \fi
 \newif\ifcopyright \newif\iffigurespage \newif\iftablespage \newif\iflistingspage \newif\ifsignature
-\copyrighttrue \figurespagetrue \tablespagetrue \signaturefalse \listingspagetrue
+\copyrighttrue \figurespagetrue \tablespagefalse \signaturefalse \listingspagetrue
 
 
 \def\halftitlep{
@@ -201,11 +201,10 @@ of \@degree.
     \fi
 }
 
-
 \def\academicstatement#1{
-    \newpage
-    \input{#1}
-    \label{NumPrefacePages}
+    % \newpage
+    % \input{#3}
+    % \label{NumPrefacePages}
 }
 
 \def\afterpreface{
