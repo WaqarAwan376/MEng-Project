@@ -1,26 +1,120 @@
-\chapter{Scenario Validation}\label{appendix_b}
+\chapter{Neo4j Browser Visualization Images}\label{appendix_b}
 
 \sloppy
-The images related to scenario validations can be found from the project's Google Drive\footnote {\url{https://drive.google.com/drive/u/1/folders/1uTl1b0Fq_30UqRpwzeT3SyYyPLVKFt__}}. The following table includes the brief details of each image.
+The images related to scenario validations can be found on the project's GitHub Repository\footnote {\url{https://github.com/WaqarAwan376/MEng-Project/tree/master/Report/Visualization_Images}}. The following list includes the brief details of each image.
 
-\begin{longtable}{|p{0.3\textwidth}|p{0.6\textwidth}|}
-\hline
-Image Name & Detail \\
-\hline
-\endfirsthead
+\begin{enumerate}[before={\vspace{10pt}}, after={\vspace{10pt}}, itemsep=10pt, nosep, leftmargin=\parindent, labelindent=0pt]
+\item \textbf{method\_modifiers.png\footnote{\url{https://github.com/WaqarAwan376/MEng-Project/blob/master/Report/Visualization_Images/method_modifiers.png}}:} Displaying the most recent and top contributors among all contributors of the method. The \texttt{Top\_contributor} and \texttt{Last\_modifier} relations contain additional data, such as the number of lines updated by the top contributor and the date of the last modification, respectively. 
+\begin{lstlisting}[language=SQL]
+MATCH (a)-[r]-(b)
+WHERE type(r)="Maps"
+AND a.name="PetResource"
+RETURN a, r, b
+\end{lstlisting}
+\vspace{10pt}
 
-\hline
-Image Name & Detail \\
-\hline
-\endhead
+\item \textbf{method\_authors.png\footnote{\url{https://github.com/WaqarAwan376/MEng-Project/blob/master/Report/Visualization_Images/method_authors.png}}:} Displays all methods along with their authors and modifiers. Each method also includes a relation indicating the last modifier and the top contributor. In this example, type nodes are excluded for clarity. The total number of methods, authors, and relations is also shown.
+\begin{lstlisting}[language=SQL]
+MATCH (a)-[r]->(b)
+WHERE type(r) IN ["Last_modifier","Modified_by","Top_contributor"]
+AND NOT a:Type AND NOT b:Type
+RETURN a, r, b
+\end{lstlisting}
+\vspace{10pt}
 
-\hline
-\endfoot
+\item \textbf{files\_authors.png\footnote{\url{https://github.com/WaqarAwan376/MEng-Project/blob/master/Report/Visualization_Images/files_authors.png}}:} Displays the authors of each file. The relationship is represented by the \texttt{Authored\_by} edge. The total number of files, authors, and relations is also shown. Clicking on any node or edge reveals its information.
+\begin{lstlisting}[language=SQL]
+MATCH (a)-[r]->(b)
+WHERE type(r)="Authored_by"
+AND NOT a:Type AND NOT b:Type
+RETURN a, r, b
+\end{lstlisting}
+\vspace{10pt}
 
-\hline
-\endlastfoot
+\item \textbf{file\_contributors.png\footnote{\url{https://github.com/WaqarAwan376/MEng-Project/blob/master/Report/Visualization_Images/file_contributors.png}}:} Displays the contributors of a specific file. In this example, the file \texttt{VisitRepository.java} has three authors.
+\begin{lstlisting}[language=SQL]
+MATCH (a)-[r]->(b)
+WHERE type(r)="Authored_by"
+AND a.path="/spring-petclinic-visits-service/src/main/java/org/springframework/samples/petclinic/visits/model/VisitRepository.java"
+AND NOT a:Type AND NOT b:Type
+RETURN a, r, b
+\end{lstlisting}
+\vspace{10pt}
 
-% Data 1 & Data 2 \\
+\item \textbf{author\_relation.png\footnote{\url{https://github.com/WaqarAwan376/MEng-Project/blob/master/Report/Visualization_Images/author_relation.png}}:} Displays the joint collaboration between two authors. The two author nodes are connected to an \texttt{Author\_Relation} node through a collaborated relationship. The \texttt{Author\_Relation} node contains a summary of the collaboration, including its strength and a list of files the two authors have worked on together.
+\begin{lstlisting}[language=SQL]
+MATCH (a)-[r]->(b)
+WHERE type(r)="Contributed"
+AND b.combined_emails="antoine.rey@gmail.com:marcin@grzejszczak.pl"
+AND NOT a:Type AND NOT b:Type
+RETURN a, r, b
+\end{lstlisting}
+\vspace{10pt}
 
-\end{longtable}
+\item \textbf{endpoints\_map.png\footnote{\url{https://github.com/WaqarAwan376/MEng-Project/blob/master/Report/Visualization_Images/endpoints_map.png}}:} Displays the classes that map REST API endpoints. The green nodes represent endpoints, each containing additional information, such as the request type.
+\begin{lstlisting}[language=SQL]
+MATCH (a)-[r]->(b)
+WHERE type(r)="Maps"
+AND NOT a:Type AND NOT b:Type
+RETURN a, r, b
+\end{lstlisting}
+\vspace{10pt}
+
+\item \textbf{classes\_files\_ep.png\footnote{\url{https://github.com/WaqarAwan376/MEng-Project/blob/master/Report/Visualization_Images/classes_files_ep.png}}:} Shows that files ``contain'' classes, and the classes ``map'' REST API endpoints.
+\begin{lstlisting}[language=SQL]
+MATCH (a)-[r1:Contains]->(b)-[r2:Maps]->(c)
+WHERE NOT a:Type AND NOT b:Type
+RETURN a, r1, b, r2, c
+\end{lstlisting}
+\vspace{10pt}
+
+\item \textbf{ownerResource\_endpoints.png\footnote{\url{https://github.com/WaqarAwan376/MEng-Project/blob/master/Report/Visualization_Images/ownerResource_endpoints.png}}:} Shows that the \texttt{ownerResource.java} file ``contains'' the OwnerResource class, which ``maps'' four REST API endpoints.
+\begin{lstlisting}[language=SQL]
+MATCH (a)-[r1:Contains]->(b)-[r2:Maps]->(c)
+WHERE NOT a:Type AND NOT b:Type
+AND a.path="/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/web/OwnerResource.java"
+RETURN a, r1, b, r2, c
+\end{lstlisting}
+\vspace{10pt}
+
+\item \textbf{bean\_classes\_methods.png\footnote{\url{https://github.com/WaqarAwan376/MEng-Project/blob/master/Report/Visualization_Images/bean_classes_methods.png}}:} Displays the files that contain bean classes and the bean classes that contain bean methods.
+\begin{lstlisting}[language=SQL]
+MATCH (a)-[r]->(b)
+WHERE type(r) IN ["Has_bean_class","Has_bean_method"]
+AND NOT a:Type AND NOT b:Type
+RETURN a, r, b
+\end{lstlisting}
+\vspace{10pt}
+
+\item \textbf{metricConfig\_beans.png\footnote{\url{https://github.com/WaqarAwan376/MEng-Project/blob/master/Report/Visualization_Images/metricConfig_beans.png}}:} Displays the \texttt{MetricConfig.java} file, which contains a class configured as a bean class. This class has two bean methods: \texttt{timedAspect} and \texttt{metricsCommonTags}. Note: The ``Contains'' relation between the file and class, and the ``Has'' relation between the class and methods, come from another relation.
+\begin{lstlisting}[language=SQL]
+MATCH (a)-[r]->(b)
+WHERE type(r) IN ["Has_bean_class", "Has_bean_method"]
+AND NOT a:Type AND NOT b:Type
+AND b.full_name="/spring-petclinic-customers-service/src/main/java/org/springframework/samples/petclinic/customers/config/MetricConfig.java:MetricConfig"
+OPTIONAL MATCH (b)-[r2]-(c)
+RETURN a, r, b, r2, c
+\end{lstlisting}
+\vspace{10pt}
+
+\item \textbf{pom\_dependencies.png\footnote{\url{https://github.com/WaqarAwan376/MEng-Project/blob/master/Report/Visualization_Images/pom_dependencies.png}}:} Displays all dependencies related to POM files. Dependencies are uniquely identified using a combination of \textit{artifactId} and \textit{groupId}. Each dependency node includes additional details, such as version and scope.
+\begin{lstlisting}[language=SQL]
+MATCH (a)-[r]->(b)
+WHERE type(r)="Depends_on"
+AND NOT a:Type AND NOT b:Type
+RETURN a, r, b
+\end{lstlisting}
+\vspace{10pt}
+
+\item \textbf{dependency\_data.png\footnote{\url{https://github.com/WaqarAwan376/MEng-Project/blob/master/Report/Visualization_Images/dependency_data.png}}:} Displays that four POM files depend on the dependency \texttt{org.hsqldb:hsqldb}. On the right side, the relationship between the POM file and the dependency also includes the scope as part of the metadata.
+\begin{lstlisting}[language=SQL]
+MATCH (a)-[r]->(b)
+WHERE type(r)="Depends_on"
+AND NOT a:Type AND NOT b:Type
+AND b.combined_name="org.hsqldb:hsqldb"
+RETURN a, r, b
+\end{lstlisting}
+\vspace{10pt}
+
+\end{enumerate}
 
