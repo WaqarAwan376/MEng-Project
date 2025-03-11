@@ -55,7 +55,7 @@ One of the key advantages of this approach is that probes do not have to be writ
 The runner script ensures that the data sent to the SST server is always up-to-date, consistent, and valid. It takes the source directory of the target source code as a command-line argument, allowing users to specify the location of the project they want to analyze. Below is an example of how to run the script:
 
 \begin{tcolorbox}[colback=gray!5, colframe=gray!20]
-    \texttt{python runner.py \newline ${--}$SOURCE\_DIR "/Projects/spring-petclinic-microservices"}
+    \texttt{python runner.py \newline ${--}$SOURCE\_DIR "/Projects/spring-petclinic-microservices" \newline ${--}$DIR\_NAME "spring-petclinic-microservices"}
 \end{tcolorbox}
 
 This method ensures an efficient and automated way to extract and update data while maintaining consistency across different probes.
