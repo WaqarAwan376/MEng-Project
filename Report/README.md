@@ -1,0 +1,3 @@
+# Project Report
+
+Report here contains the motivation and overall detail of the project. Report starts with the basic information required to understand the project. Chapter 2 provides background information and key points essential for understanding the overall concept of this project. Chapter 3 discusses the envisioning of the framework and its three key components. Chapter 4 covers the implementation of probes and their integration with the unified data source. Chapter 5 validates the scenarios discussed in Chapter 3 by generating graphical information and insights using the data stored in the UDS. Lastly, Chapter 6 concludes this report and explores future work that could enhance the framework's usability and practical applications.

@@ -1,7 +1,5 @@
 # Source Code
 
-## Project Overview
-
 Source code here contains the implementation of the "Probes" component of the framework. It includes the probes script, which serves as the core executable for extracting data, and defines the overall structure of each probe. Additionally, the expected output of each probe is also defined here.
 
 ## Folder Structure
