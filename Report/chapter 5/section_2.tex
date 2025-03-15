@@ -11,7 +11,7 @@ Instead of displaying all methods and their authors (which can be viewed in the 
 
 We can use Neo4j Cypher queries\footnote{\url{https://neo4j.com/docs/cypher-manual/current/queries/}} to filter and retrieve the required data.
 
-\begin{lstlisting}[language=SQL]
+\begin{lstlisting}[language=SQL,,caption={Most recent contributor cypher query}]
 MATCH (n)-[r]-(m)
 WHERE n.signature = "org.springframework.samples.petclinic.customers.web.OwnerResource.createOwner(org.springframework.samples.petclinic.customers.web.OwnerRequest)"
 RETURN n, r, m
@@ -63,7 +63,7 @@ Since this analysis is more statistical, we can visualize it using \textit{Table
 \subsection{REST API Endpoints}
 It displays all the REST API endpoints in the project. Methods and endpoints were extracted as nodes using a Cypher query.
 
-\begin{lstlisting}[language=SQL]
+\begin{lstlisting}[language=SQL,caption={PetResource class endpoints cypher query}]
 MATCH (a)-[r]-(b)
 WHERE type(r)="Maps"
 AND a.name="PetResource"
