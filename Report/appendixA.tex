@@ -1,5 +1,98 @@
 \chapter{Scripts and Outputs}\label{appendix_a}
 
+\section{Probes List}\label{appendix_sec:probes_list}
+\begin{lstlisting}[language=Python]
+from utils.constants import OUTPUT_FOLDER
+
+probes_scripts = [
+    {
+        "runner_command": "python3 -m probes.author_method_contribution",
+        "probe_file": "author_method_contribution",
+        "arguments": [
+            "--PROBE_NAME", "Method_Contributor",
+            "--OUTPUT", f"{OUTPUT_FOLDER}{'author_tracking.json'}"
+        ]
+    },
+    {
+        "runner_command": "python3 -m probes.authors_files_and_relations",
+        "probe_file": "authors_files_and_relations",
+        "arguments": [
+            "--PROBE_NAME_1", "Authors_Relation",
+            "--OUTPUT_FILE_1", f"{OUTPUT_FOLDER}{'author_relation.json'}",
+            "--PROBE_NAME_2", "File_Contributors",
+            "--OUTPUT_FILE_2", f"{OUTPUT_FOLDER}{'file_contributors.json'}",
+        ]
+    },
+    {
+        "runner_command": "python3 -m probes.java_beans",
+        "probe_file": "java_beans",
+        "arguments": [
+            "--PROBE_NAME", "Beans",
+            "--OUTPUT", f"{OUTPUT_FOLDER}{'beans.json'}"
+        ]
+    },
+    {
+        "runner_command": "python3 -m probes.services_dependencies",
+        "probe_file": "services_dependencies",
+        "arguments": [
+            "--PROBE_NAME", "Dependencies",
+            "--OUTPUT", f"{OUTPUT_FOLDER}{'dependencies.json'}"
+        ]
+    },
+    {
+        "runner_command": "python3 -m probes.services_endpoints",
+        "probe_file": "services_endpoints",
+        "arguments": [
+            "--PROBE_NAME", "Endpoints",
+            "--OUTPUT", f"{OUTPUT_FOLDER}{'endpoints.json'}"
+        ]
+    },
+]
+\end{lstlisting}
+
+\section{Runner Script}\label{appendix_sec:py_runner_script}
+\begin{lstlisting}[language=Python]
+import subprocess
+import os
+from dotenv import load_dotenv
+from probes_list import probes_scripts
+from utils.constants import OUTPUT_FOLDER
+from utils.helper import get_passed_arguments
+import json
+import requests
+
+load_dotenv()
+SST_API_URL = os.getenv("SST_API_URL")
+project_root = os.path.dirname(os.path.abspath(__file__))
+
+if __name__ == '__main__':
+    args = get_passed_arguments("--SOURCE_DIR")
+    original_directory = os.getcwd()
+    probes_directory = "./probes/"
+
+    for script in probes_scripts:
+        subprocess.run(
+            f"{script['runner_command']} --INPUT_DIR \"{args.SOURCE_DIR}\" --OUTPUT \
+                {OUTPUT_FOLDER}{script['output_file']}", shell=True, cwd=project_root)
+
+    for filename in os.listdir(OUTPUT_FOLDER):
+        if filename.endswith(".json"):
+            file_path = os.path.join(OUTPUT_FOLDER, filename)
+
+            try:
+                with open(file_path, "r", encoding="utf-8") as json_file:
+                    json_data = json.load(json_file)
+
+                headers = {"Content-Type": "application/json"}
+                response = requests.post(
+                    f"{SST_API_URL}/api/upload-graph", json=json_data, headers=headers)
+
+                print(f"Sent {filename}: {response.status_code}")
+
+            except Exception as e:
+                print(f"Error processing {filename}: {e}")
+\end{lstlisting}
+
 \section{Author Method Contribution}\label{appendix_sec:author_method_contributions}
 \begin{lstlisting}[language=java]
 {
@@ -191,47 +284,4 @@
     }
   ]
 }
-\end{lstlisting}
-
-\section{Runner Script}\label{appendix_sec:py_runner_script}
-\begin{lstlisting}[language=Python]
-import subprocess
-import os
-from dotenv import load_dotenv
-from probes_list import probes_scripts
-from utils.constants import OUTPUT_FOLDER
-from utils.helper import get_passed_arguments
-import json
-import requests
-
-load_dotenv()
-SST_API_URL = os.getenv("SST_API_URL")
-project_root = os.path.dirname(os.path.abspath(__file__))
-
-if __name__ == '__main__':
-    args = get_passed_arguments("--SOURCE_DIR")
-    original_directory = os.getcwd()
-    probes_directory = "./probes/"
-
-    for script in probes_scripts:
-        subprocess.run(
-            f"{script['runner_command']} --INPUT_DIR \"{args.SOURCE_DIR}\" --OUTPUT \
-                {OUTPUT_FOLDER}{script['output_file']}", shell=True, cwd=project_root)
-
-    for filename in os.listdir(OUTPUT_FOLDER):
-        if filename.endswith(".json"):
-            file_path = os.path.join(OUTPUT_FOLDER, filename)
-
-            try:
-                with open(file_path, "r", encoding="utf-8") as json_file:
-                    json_data = json.load(json_file)
-
-                headers = {"Content-Type": "application/json"}
-                response = requests.post(
-                    f"{SST_API_URL}/api/upload-graph", json=json_data, headers=headers)
-
-                print(f"Sent {filename}: {response.status_code}")
-
-            except Exception as e:
-                print(f"Error processing {filename}: {e}")
 \end{lstlisting}
